@@ -24,5 +24,6 @@ The custom designed keyboard has many facets to decide. These are:
 
 For these I have marked the ones I want to look into more with an astrix (*)
 
+Ensure the use of a trackpoint module
 
 The keyboard should be hotswappable if at all possible however this will be removed if time is of the essence
