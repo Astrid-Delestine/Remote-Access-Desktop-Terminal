@@ -1,0 +1,11 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "63d0c3b9-18c2-4c47-991b-fb5ab0bb9d2e")
+	(paper "USLetter" portrait)
+	(title_block
+		(rev "0")
+	)
+	(lib_symbols)
+)
