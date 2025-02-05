@@ -8,4 +8,23 @@
 		(rev "0")
 	)
 	(lib_symbols)
+	(text_box "Volages needed:\n9~20v\n3V3\n5V"
+		(exclude_from_sim no)
+		(at 15.24 15.24 0)
+		(size 17.78 10.16)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "c89a33b8-43e1-4052-b023-746de9e20ebd")
+	)
 )

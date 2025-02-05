@@ -6,3 +6,5 @@ The R-DAT will use a Latte pana MU 8gb [here](https://www.lattepanda.com/lattepa
 It can operate at anywhere from 9-20v.
 
 All project requirements are listed in ./proj_req.md
+
+For the midterm review please look [here](./MidtermReview.md)
