@@ -16,3 +16,5 @@ The current capacity has been determined by real life load testing in dearborn 2
 you can see more notes about my thoughts [here](./General_Notes/note3.md)
 
 Additionally the layout for the keyboard has been decided as the acheron projects sagittarius layout, with the addition of a numpad, function row, and mouse buttons. 
+
+I will be working on finalizing the schematic and layout of the pcb, then ordering and manufacturing from JLCPCB. While I am waiting on the manufacture I will be designing the enclosure. Once it arrives I will be assembling all the parts together hopefully in time for the end of wk 10.
