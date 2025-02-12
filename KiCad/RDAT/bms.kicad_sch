@@ -5905,10 +5905,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "85843d42-f55f-4c9c-95f5-faf527e346b0")
+			(uuid "85843d42-f55f-4c9c-95f5-faf527e346b1")
 		)
 		(pin "1"
-			(uuid "ca736620-9a02-4d63-aa20-d36443d14e06")
+			(uuid "ca736620-9a02-4d63-aa20-d36443d14e07")
 		)
 		(instances
 			(project ""

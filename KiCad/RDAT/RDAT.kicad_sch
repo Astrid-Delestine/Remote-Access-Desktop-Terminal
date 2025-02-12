@@ -4573,7 +4573,7 @@
 		)
 	)
 	(sheet
-		(at 125.73 55.88)
+		(at 29.21 163.83)
 		(size 48.26 15.24)
 		(fields_autoplaced yes)
 		(stroke
@@ -4585,7 +4585,7 @@
 		)
 		(uuid "54b1957b-bb7d-4fff-b2e4-109cfbcf15fe")
 		(property "Sheetname" "usbC_Switcher"
-			(at 125.73 55.1684 0)
+			(at 29.21 163.1184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4594,7 +4594,7 @@
 			)
 		)
 		(property "Sheetfile" "C_switcher.kicad_sch"
-			(at 125.73 71.7046 0)
+			(at 29.21 179.6546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4649,7 +4649,7 @@
 		)
 	)
 	(sheet
-		(at 73.66 128.27)
+		(at 106.68 95.25)
 		(size 12.7 5.08)
 		(fields_autoplaced yes)
 		(stroke
@@ -4661,7 +4661,7 @@
 		)
 		(uuid "64601ab1-4b63-421f-a3b9-e484b74e1409")
 		(property "Sheetname" "VRM"
-			(at 73.66 127.5584 0)
+			(at 106.68 94.5384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4670,7 +4670,7 @@
 			)
 		)
 		(property "Sheetfile" "vrm.kicad_sch"
-			(at 73.66 133.9346 0)
+			(at 106.68 100.9146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
