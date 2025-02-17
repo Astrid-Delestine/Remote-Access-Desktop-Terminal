@@ -598,6 +598,14 @@
     [
       "64601ab1-4b63-421f-a3b9-e484b74e1409",
       "VRM"
+    ],
+    [
+      "1c5bf5b1-9492-49dd-8f92-f05f98e4f9ac",
+      "m.2_E_Key"
+    ],
+    [
+      "55ec8a2f-3960-4a3a-93a6-0eefb6fdb74b",
+      "m.2_B_Key"
     ]
   ],
   "text_variables": {}

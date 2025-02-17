@@ -1138,6 +1138,25 @@
 		)
 		(uuid "38a75e01-dbb5-4abe-a10a-41695c9488d6")
 	)
+	(text_box "power output can be 5v 9v 15v or 20v"
+		(exclude_from_sim no)
+		(at 60.96 153.67 0)
+		(size 25.4 7.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "599823b5-6720-4090-90a6-023ef94a376c")
+	)
 	(text_box "Battery Set 3\n"
 		(exclude_from_sim no)
 		(at 184.15 134.62 0)
@@ -4515,7 +4534,45 @@
 		)
 	)
 	(sheet
-		(at 34.29 66.04)
+		(at 64.77 29.21)
+		(size 22.86 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1c5bf5b1-9492-49dd-8f92-f05f98e4f9ac")
+		(property "Sheetname" "m.2_E_Key"
+			(at 64.77 28.4984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "E_Key.kicad_sch"
+			(at 64.77 45.0346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "RDAT"
+				(path "/0db9370a-8a21-4fd2-83a9-f207c3725dc9"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 102.87 91.44)
 		(size 19.05 7.62)
 		(fields_autoplaced yes)
 		(stroke
@@ -4527,7 +4584,7 @@
 		)
 		(uuid "46851a1d-4cfb-4cea-9716-b2c986edaf3a")
 		(property "Sheetname" "Keyboard"
-			(at 34.29 65.3284 0)
+			(at 102.87 90.7284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4536,7 +4593,7 @@
 			)
 		)
 		(property "Sheetfile" "keyboard.kicad_sch"
-			(at 34.29 74.2446 0)
+			(at 102.87 99.6446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4545,7 +4602,7 @@
 			)
 		)
 		(pin "KB_USB_D-" input
-			(at 53.34 71.12 0)
+			(at 121.92 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4555,7 +4612,7 @@
 			(uuid "7bda4cf8-91aa-4d61-8510-a380b3542254")
 		)
 		(pin "KB_USB_D+" input
-			(at 53.34 68.58 0)
+			(at 121.92 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4573,8 +4630,8 @@
 		)
 	)
 	(sheet
-		(at 29.21 163.83)
-		(size 48.26 15.24)
+		(at 17.78 120.65)
+		(size 26.67 19.05)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -4585,7 +4642,7 @@
 		)
 		(uuid "54b1957b-bb7d-4fff-b2e4-109cfbcf15fe")
 		(property "Sheetname" "usbC_Switcher"
-			(at 29.21 163.1184 0)
+			(at 17.78 119.9384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4594,13 +4651,33 @@
 			)
 		)
 		(property "Sheetfile" "C_switcher.kicad_sch"
-			(at 29.21 179.6546 0)
+			(at 17.78 140.2846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "POWER CHARGER OUTPUT" output
+			(at 44.45 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8bd65265-901a-4579-8a1b-e870d3ebac02")
+		)
+		(pin "VIN_3V3" input
+			(at 44.45 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f93d8f4d-93b4-4e60-84a7-d5afc28c76d1")
 		)
 		(instances
 			(project "RDAT"
@@ -4611,7 +4688,45 @@
 		)
 	)
 	(sheet
-		(at 81.28 48.26)
+		(at 87.63 29.21)
+		(size 20.32 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "55ec8a2f-3960-4a3a-93a6-0eefb6fdb74b")
+		(property "Sheetname" "m.2_B_Key"
+			(at 87.63 28.4984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "B_key.kicad_sch"
+			(at 87.63 45.0346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "RDAT"
+				(path "/0db9370a-8a21-4fd2-83a9-f207c3725dc9"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 55.88 81.28)
 		(size 30.48 25.4)
 		(fields_autoplaced yes)
 		(stroke
@@ -4623,7 +4738,7 @@
 		)
 		(uuid "5b2d2e6c-036c-404a-b71b-c732d724c5c0")
 		(property "Sheetname" "LattePanda_mu"
-			(at 81.28 47.5484 0)
+			(at 55.88 80.5684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4632,7 +4747,7 @@
 			)
 		)
 		(property "Sheetfile" "mu_cm.kicad_sch"
-			(at 81.28 74.2446 0)
+			(at 55.88 107.2646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4649,7 +4764,7 @@
 		)
 	)
 	(sheet
-		(at 106.68 95.25)
+		(at 66.04 128.27)
 		(size 12.7 5.08)
 		(fields_autoplaced yes)
 		(stroke
@@ -4661,7 +4776,7 @@
 		)
 		(uuid "64601ab1-4b63-421f-a3b9-e484b74e1409")
 		(property "Sheetname" "VRM"
-			(at 106.68 94.5384 0)
+			(at 66.04 127.5584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4670,7 +4785,7 @@
 			)
 		)
 		(property "Sheetfile" "vrm.kicad_sch"
-			(at 106.68 100.9146 0)
+			(at 66.04 133.9346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
