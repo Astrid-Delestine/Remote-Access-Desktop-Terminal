@@ -1,0 +1,30 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "b87d8bdc-5f12-4f84-91af-f53c5e0dc55a")
+	(paper "USLetter" portrait)
+	(title_block
+		(rev "0")
+	)
+	(lib_symbols)
+	(text_box "Volages needed:\n9~20v\n3V3\n5V"
+		(exclude_from_sim no)
+		(at 15.24 15.24 0)
+		(size 17.78 10.16)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "e37a1d56-980a-4e5a-b965-1af80767373b")
+	)
+)

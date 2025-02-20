@@ -331,6 +331,238 @@
 				)
 			)
 		)
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "GND_1"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_1_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -469,6 +701,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4f7e2e77-1a49-4ffe-bb3b-441d28e0bbc0")
+	)
+	(junction
+		(at 46.99 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "59104831-fe90-4e23-9121-b34c3d6703d0")
 	)
 	(junction
 		(at 140.97 144.78)
@@ -668,6 +906,26 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 137.16) (xy 53.34 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53e218f6-8f41-4f32-b0d0-3274276026b0")
+	)
+	(wire
+		(pts
+			(xy 46.99 147.32) (xy 46.99 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f781b57-3944-450e-a3f2-d4cead1eb4a9")
+	)
+	(wire
+		(pts
 			(xy 185.42 156.21) (xy 185.42 153.67)
 		)
 		(stroke
@@ -685,6 +943,16 @@
 			(type default)
 		)
 		(uuid "6d4e3669-6e5a-4616-bd05-3c092e9ed1e0")
+	)
+	(wire
+		(pts
+			(xy 87.63 137.16) (xy 99.06 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73efa385-7bc3-43ba-ba36-d53e0f841784")
 	)
 	(wire
 		(pts
@@ -925,6 +1193,16 @@
 			(type default)
 		)
 		(uuid "e12fec83-88a7-4dac-b341-ab4d6842b002")
+	)
+	(wire
+		(pts
+			(xy 44.45 137.16) (xy 46.99 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6f799c1-78bf-4f6d-a080-c08c42b37213")
 	)
 	(wire
 		(pts
@@ -1206,7 +1484,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "18b69d3a-209c-44be-bf18-1daab197cd0c")
-		(property "Reference" "BT14"
+		(property "Reference" "BT10"
 			(at 167.64 143.5099 0)
 			(effects
 				(font
@@ -1394,7 +1672,144 @@
 		(instances
 			(project "RDAT"
 				(path "/0db9370a-8a21-4fd2-83a9-f207c3725dc9"
-					(reference "BT14")
+					(reference "BT10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 46.99 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1fdc2ec8-a95a-491c-9870-e3d194461109")
+		(property "Reference" "C50"
+			(at 50.8 149.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 50.8 152.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 47.9552 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.99 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 46.99 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c10126ed-cd1c-4432-bac3-6162a0dc801d")
+		)
+		(pin "2"
+			(uuid "16b5d827-2b75-4a5f-875b-b287589aa14f")
+		)
+		(instances
+			(project ""
+				(path "/0db9370a-8a21-4fd2-83a9-f207c3725dc9"
+					(reference "C50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 46.99 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "240c7d7b-4401-4d6e-b196-35a02917047f")
+		(property "Reference" "#PWR067"
+			(at 46.99 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 46.99 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 46.99 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "853de60b-b9a2-484a-9040-352f5dc2b61f")
+		)
+		(instances
+			(project ""
+				(path "/0db9370a-8a21-4fd2-83a9-f207c3725dc9"
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -1615,7 +2030,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31fe7327-61f0-42dc-8328-2b64691b3cbe")
-		(property "Reference" "BT10"
+		(property "Reference" "BT2"
 			(at 167.64 120.6499 0)
 			(effects
 				(font
@@ -1803,7 +2218,7 @@
 		(instances
 			(project "RDAT"
 				(path "/0db9370a-8a21-4fd2-83a9-f207c3725dc9"
-					(reference "BT10")
+					(reference "BT2")
 					(unit 1)
 				)
 			)
@@ -1820,7 +2235,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "33068c7d-a141-47a5-ad3b-aead995f5496")
-		(property "Reference" "BT17"
+		(property "Reference" "BT16"
 			(at 167.64 161.2899 0)
 			(effects
 				(font
@@ -2008,7 +2423,7 @@
 		(instances
 			(project "RDAT"
 				(path "/0db9370a-8a21-4fd2-83a9-f207c3725dc9"
-					(reference "BT17")
+					(reference "BT16")
 					(unit 1)
 				)
 			)
@@ -2024,7 +2439,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4de9eab0-1b69-449c-8cda-01a249368b26")
-		(property "Reference" "BT4"
+		(property "Reference" "BT5"
 			(at 158.75 132.0799 0)
 			(effects
 				(font
@@ -2212,7 +2627,7 @@
 		(instances
 			(project "RDAT"
 				(path "/0db9370a-8a21-4fd2-83a9-f207c3725dc9"
-					(reference "BT4")
+					(reference "BT5")
 					(unit 1)
 				)
 			)
@@ -2229,7 +2644,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e24fd37-f878-4b21-8bd2-726127182de5")
-		(property "Reference" "BT12"
+		(property "Reference" "BT6"
 			(at 167.64 132.0799 0)
 			(effects
 				(font
@@ -2417,7 +2832,7 @@
 		(instances
 			(project "RDAT"
 				(path "/0db9370a-8a21-4fd2-83a9-f207c3725dc9"
-					(reference "BT12")
+					(reference "BT6")
 					(unit 1)
 				)
 			)
@@ -2433,7 +2848,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5fc9e4b7-216b-4d12-afae-77b682f69d45")
-		(property "Reference" "BT9"
+		(property "Reference" "BT15"
 			(at 158.75 161.2899 0)
 			(effects
 				(font
@@ -2621,7 +3036,7 @@
 		(instances
 			(project "RDAT"
 				(path "/0db9370a-8a21-4fd2-83a9-f207c3725dc9"
-					(reference "BT9")
+					(reference "BT15")
 					(unit 1)
 				)
 			)
@@ -2637,7 +3052,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f8d58eb-6955-4d20-a45c-a563ab5dd2f1")
-		(property "Reference" "BT5"
+		(property "Reference" "BT7"
 			(at 158.75 138.4299 0)
 			(effects
 				(font
@@ -2825,7 +3240,7 @@
 		(instances
 			(project "RDAT"
 				(path "/0db9370a-8a21-4fd2-83a9-f207c3725dc9"
-					(reference "BT5")
+					(reference "BT7")
 					(unit 1)
 				)
 			)
@@ -2841,7 +3256,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82e2c554-f9fa-46fb-bd6a-663207543ac9")
-		(property "Reference" "BT6"
+		(property "Reference" "BT9"
 			(at 158.75 143.5099 0)
 			(effects
 				(font
@@ -3029,7 +3444,7 @@
 		(instances
 			(project "RDAT"
 				(path "/0db9370a-8a21-4fd2-83a9-f207c3725dc9"
-					(reference "BT6")
+					(reference "BT9")
 					(unit 1)
 				)
 			)
@@ -3046,7 +3461,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "855d156c-747b-4c7a-89b7-508f94f622bd")
-		(property "Reference" "BT13"
+		(property "Reference" "BT8"
 			(at 167.64 138.4299 0)
 			(effects
 				(font
@@ -3234,7 +3649,7 @@
 		(instances
 			(project "RDAT"
 				(path "/0db9370a-8a21-4fd2-83a9-f207c3725dc9"
-					(reference "BT13")
+					(reference "BT8")
 					(unit 1)
 				)
 			)
@@ -3250,7 +3665,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "86946e29-6245-445d-a623-1c11e86e45b5")
-		(property "Reference" "BT7"
+		(property "Reference" "BT11"
 			(at 158.75 149.8599 0)
 			(effects
 				(font
@@ -3438,7 +3853,7 @@
 		(instances
 			(project "RDAT"
 				(path "/0db9370a-8a21-4fd2-83a9-f207c3725dc9"
-					(reference "BT7")
+					(reference "BT11")
 					(unit 1)
 				)
 			)
@@ -3659,7 +4074,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a1f21f2d-a389-46cf-8b67-feddf9129c12")
-		(property "Reference" "BT16"
+		(property "Reference" "BT14"
 			(at 167.64 154.9399 0)
 			(effects
 				(font
@@ -3847,7 +4262,7 @@
 		(instances
 			(project "RDAT"
 				(path "/0db9370a-8a21-4fd2-83a9-f207c3725dc9"
-					(reference "BT16")
+					(reference "BT14")
 					(unit 1)
 				)
 			)
@@ -3863,7 +4278,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aca46fa2-5fea-4da3-8f14-d39416e07fe3")
-		(property "Reference" "BT8"
+		(property "Reference" "BT13"
 			(at 158.75 154.9399 0)
 			(effects
 				(font
@@ -4051,7 +4466,7 @@
 		(instances
 			(project "RDAT"
 				(path "/0db9370a-8a21-4fd2-83a9-f207c3725dc9"
-					(reference "BT8")
+					(reference "BT13")
 					(unit 1)
 				)
 			)
@@ -4067,7 +4482,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce7e5a9e-e9ef-4c95-8e64-d1dd32eeb683")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR01"
 			(at 185.42 173.99 0)
 			(effects
 				(font
@@ -4117,7 +4532,7 @@
 		(instances
 			(project ""
 				(path "/0db9370a-8a21-4fd2-83a9-f207c3725dc9"
-					(reference "#PWR031")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -4134,7 +4549,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d0f0f4d6-0e13-46ba-8d5f-b86571837774")
-		(property "Reference" "BT15"
+		(property "Reference" "BT12"
 			(at 167.64 149.8599 0)
 			(effects
 				(font
@@ -4322,7 +4737,7 @@
 		(instances
 			(project "RDAT"
 				(path "/0db9370a-8a21-4fd2-83a9-f207c3725dc9"
-					(reference "BT15")
+					(reference "BT12")
 					(unit 1)
 				)
 			)
@@ -4339,7 +4754,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f8d7b0d7-c406-452b-b98c-f839c66541f5")
-		(property "Reference" "BT11"
+		(property "Reference" "BT4"
 			(at 167.64 126.9999 0)
 			(effects
 				(font
@@ -4527,7 +4942,7 @@
 		(instances
 			(project "RDAT"
 				(path "/0db9370a-8a21-4fd2-83a9-f207c3725dc9"
-					(reference "BT11")
+					(reference "BT4")
 					(unit 1)
 				)
 			)
@@ -4572,7 +4987,7 @@
 		)
 	)
 	(sheet
-		(at 102.87 91.44)
+		(at 105.41 50.8)
 		(size 19.05 7.62)
 		(fields_autoplaced yes)
 		(stroke
@@ -4584,7 +4999,7 @@
 		)
 		(uuid "46851a1d-4cfb-4cea-9716-b2c986edaf3a")
 		(property "Sheetname" "Keyboard"
-			(at 102.87 90.7284 0)
+			(at 105.41 50.0884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4593,7 +5008,7 @@
 			)
 		)
 		(property "Sheetfile" "keyboard.kicad_sch"
-			(at 102.87 99.6446 0)
+			(at 105.41 59.0046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4602,7 +5017,7 @@
 			)
 		)
 		(pin "KB_USB_D-" input
-			(at 121.92 96.52 0)
+			(at 124.46 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4612,7 +5027,7 @@
 			(uuid "7bda4cf8-91aa-4d61-8510-a380b3542254")
 		)
 		(pin "KB_USB_D+" input
-			(at 121.92 93.98 0)
+			(at 124.46 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4726,7 +5141,7 @@
 		)
 	)
 	(sheet
-		(at 55.88 81.28)
+		(at 38.1 50.8)
 		(size 30.48 25.4)
 		(fields_autoplaced yes)
 		(stroke
@@ -4738,7 +5153,7 @@
 		)
 		(uuid "5b2d2e6c-036c-404a-b71b-c732d724c5c0")
 		(property "Sheetname" "LattePanda_mu"
-			(at 55.88 80.5684 0)
+			(at 38.1 50.0884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4747,7 +5162,7 @@
 			)
 		)
 		(property "Sheetfile" "mu_cm.kicad_sch"
-			(at 55.88 107.2646 0)
+			(at 38.1 76.7846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4764,8 +5179,45 @@
 		)
 	)
 	(sheet
-		(at 66.04 128.27)
-		(size 12.7 5.08)
+		(at 73.66 96.52)
+		(size 35.56 13.97)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5f0e9cd9-64da-46d2-87be-d1281cc3d7f6")
+		(property "Sheetname" "VRM"
+			(at 73.66 95.8084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "VRM.kicad_sch"
+			(at 77.724 94.234 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "RDAT"
+				(path "/0db9370a-8a21-4fd2-83a9-f207c3725dc9"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 53.34 118.11)
+		(size 34.29 25.4)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -4775,8 +5227,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "64601ab1-4b63-421f-a3b9-e484b74e1409")
-		(property "Sheetname" "VRM"
-			(at 66.04 127.5584 0)
+		(property "Sheetname" "Charging IC"
+			(at 53.34 117.3984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4784,14 +5236,44 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "vrm.kicad_sch"
-			(at 66.04 133.9346 0)
+		(property "Sheetfile" "Charger.kicad_sch"
+			(at 53.34 144.0946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "PACK+" output
+			(at 87.63 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "887bd85f-7c48-45d1-b42b-a5e4da9b02f2")
+		)
+		(pin "SYSTEM+" output
+			(at 81.28 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2688b21e-cf2f-4fed-85b2-f8a4d5615110")
+		)
+		(pin "ADAPTER+" input
+			(at 53.34 137.16 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c440e96b-a5c9-43b3-b225-ac30e62310c5")
 		)
 		(instances
 			(project "RDAT"
@@ -4872,7 +5354,7 @@
 			(uuid "f6128482-128e-43db-98f9-648a459aed05")
 		)
 		(pin "CHG" input
-			(at 99.06 138.43 180)
+			(at 99.06 137.16 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4882,12 +5364,12 @@
 			(uuid "bd7517fc-a91d-4a05-ab9b-6e5273fdc376")
 		)
 		(pin "LOAD+" output
-			(at 99.06 129.54 180)
+			(at 105.41 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 			(uuid "9553764d-9dd2-420d-868f-324d10187dad")
 		)

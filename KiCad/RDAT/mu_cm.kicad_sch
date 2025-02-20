@@ -6667,7 +6667,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0edf1f30-7ded-443d-94d7-67f1e2297c85")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR021"
 			(at 180.34 58.42 0)
 			(effects
 				(font
@@ -6717,7 +6717,7 @@
 		(instances
 			(project "RDAT"
 				(path "/0db9370a-8a21-4fd2-83a9-f207c3725dc9/5b2d2e6c-036c-404a-b71b-c732d724c5c0"
-					(reference "#PWR020")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -6798,7 +6798,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "53296cb9-a5cb-45da-a8dc-908737d2bd32")
-		(property "Reference" "BT2"
+		(property "Reference" "BT17"
 			(at 172.72 45.72 90)
 			(effects
 				(font
@@ -6888,7 +6888,7 @@
 		(instances
 			(project "RDAT"
 				(path "/0db9370a-8a21-4fd2-83a9-f207c3725dc9/5b2d2e6c-036c-404a-b71b-c732d724c5c0"
-					(reference "BT2")
+					(reference "BT17")
 					(unit 1)
 				)
 			)
@@ -6903,7 +6903,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5f4c34ea-21d3-4be7-8395-940c29544567")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR018"
 			(at 125.73 50.8 0)
 			(effects
 				(font
@@ -6953,7 +6953,7 @@
 		(instances
 			(project ""
 				(path "/0db9370a-8a21-4fd2-83a9-f207c3725dc9/5b2d2e6c-036c-404a-b71b-c732d724c5c0"
-					(reference "#PWR016")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -7050,7 +7050,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b5381660-b608-4245-969a-16156be9cfe2")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR019"
 			(at 128.27 50.8 0)
 			(effects
 				(font
@@ -7100,7 +7100,7 @@
 		(instances
 			(project ""
 				(path "/0db9370a-8a21-4fd2-83a9-f207c3725dc9/5b2d2e6c-036c-404a-b71b-c732d724c5c0"
-					(reference "#PWR017")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -7116,7 +7116,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c435ed9d-586a-49d9-b878-813cd5b12829")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR017"
 			(at 138.43 49.53 0)
 			(effects
 				(font
@@ -7166,7 +7166,7 @@
 		(instances
 			(project "RDAT"
 				(path "/0db9370a-8a21-4fd2-83a9-f207c3725dc9/5b2d2e6c-036c-404a-b71b-c732d724c5c0"
-					(reference "#PWR021")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -7181,7 +7181,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cb830ad0-da21-42c6-b95d-4cdf4d1d74ec")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR020"
 			(at 130.81 50.8 0)
 			(effects
 				(font
@@ -7231,7 +7231,7 @@
 		(instances
 			(project ""
 				(path "/0db9370a-8a21-4fd2-83a9-f207c3725dc9/5b2d2e6c-036c-404a-b71b-c732d724c5c0"
-					(reference "#PWR018")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -8103,7 +8103,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e821af1f-f04e-4a1e-9991-5cab0d862f1c")
-		(property "Reference" "R8"
+		(property "Reference" "R7"
 			(at 161.29 43.18 90)
 			(effects
 				(font
@@ -8155,7 +8155,7 @@
 		(instances
 			(project ""
 				(path "/0db9370a-8a21-4fd2-83a9-f207c3725dc9/5b2d2e6c-036c-404a-b71b-c732d724c5c0"
-					(reference "R8")
+					(reference "R7")
 					(unit 1)
 				)
 			)
