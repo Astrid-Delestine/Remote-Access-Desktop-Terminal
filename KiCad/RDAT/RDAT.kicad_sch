@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "0db9370a-8a21-4fd2-83a9-f207c3725dc9")
 	(paper "USLetter" portrait)
 	(title_block
@@ -205,6 +205,18 @@
 				)
 				(polyline
 					(pts
+						(xy -1.27 1.27) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy -1.27 0) (xy -2.54 0)
 					)
 					(stroke
@@ -229,7 +241,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 1.27) (xy -1.27 0)
+						(xy 1.27 0.635) (xy 1.27 0)
 					)
 					(stroke
 						(width 0.254)
@@ -254,18 +266,6 @@
 				(polyline
 					(pts
 						(xy 1.27 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0.635) (xy 1.27 0)
 					)
 					(stroke
 						(width 0.254)
@@ -330,9 +330,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -405,7 +408,7 @@
 			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -417,7 +420,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -466,6 +469,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "GND_1"
 			(power)
@@ -545,7 +549,8 @@
 			(symbol "GND_1_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "GND"
 						(effects
 							(font
@@ -562,12 +567,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -658,7 +668,252 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(rectangle
+		(start 147.32 119.38)
+		(end 157.48 130.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 05938223-df1f-4785-92bc-3754aad2faaa)
+	)
+	(rectangle
+		(start 168.91 119.38)
+		(end 179.07 130.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 1a0d58fc-57b2-4016-b30d-dc409bd02903)
+	)
+	(rectangle
+		(start 147.32 142.24)
+		(end 157.48 153.67)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 294ee5ae-37f4-4947-867c-b2b9ca6aa6e5)
+	)
+	(rectangle
+		(start 142.24 130.81)
+		(end 184.15 142.24)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2a8fa785-95ab-4cf9-b451-a7f7b3667e14)
+	)
+	(rectangle
+		(start 168.91 130.81)
+		(end 179.07 142.24)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3506682f-f5d7-410b-b2c1-922b552df6cb)
+	)
+	(rectangle
+		(start 168.91 153.67)
+		(end 179.07 165.1)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 474c4f33-355e-4ebc-9070-446306000db5)
+	)
+	(rectangle
+		(start 147.32 153.67)
+		(end 157.48 165.1)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 482b1e70-7e82-4e84-93f5-7dd8f8d27011)
+	)
+	(rectangle
+		(start 147.32 130.81)
+		(end 157.48 142.24)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 54ada046-dd40-47db-b3f8-5404f30b364f)
+	)
+	(rectangle
+		(start 142.24 142.24)
+		(end 184.15 153.67)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6062f849-f70c-41ad-bd07-2d5235d1dea3)
+	)
+	(rectangle
+		(start 168.91 142.24)
+		(end 179.07 153.67)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 674740a1-981c-430c-bdd5-2d144fa1c8d5)
+	)
+	(rectangle
+		(start 142.24 153.67)
+		(end 184.15 166.37)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b750325b-dbc5-4ea3-9c24-6508ec3b2bdd)
+	)
+	(rectangle
+		(start 142.24 118.11)
+		(end 184.15 130.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c039b291-ae94-4fa5-9261-49eeb7aff309)
+	)
+	(text_box "Battery Set 2\n"
+		(exclude_from_sim no)
+		(at 184.15 146.05 0)
+		(size 15.24 3.81)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "2294e1f1-043a-43cb-ac1f-f99066a69869")
+	)
+	(text_box "Battery Set 1"
+		(exclude_from_sim no)
+		(at 184.15 157.48 0)
+		(size 15.24 3.81)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "38a75e01-dbb5-4abe-a10a-41695c9488d6")
+	)
+	(text_box "power output can be 5v 9v 15v or 20v"
+		(exclude_from_sim no)
+		(at 60.96 153.67 0)
+		(size 25.4 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "599823b5-6720-4090-90a6-023ef94a376c")
+	)
+	(text_box "Battery Set 3\n"
+		(exclude_from_sim no)
+		(at 184.15 134.62 0)
+		(size 15.24 3.81)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "7ba31314-09c8-4b37-be6e-dad3b410b60f")
+	)
+	(text_box "Battery Set 4"
+		(exclude_from_sim no)
+		(at 184.15 123.19 0)
+		(size 15.24 3.81)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "ef8b7cd8-0a7a-4d83-a886-6b628c107169")
 	)
 	(junction
 		(at 140.97 121.92)
@@ -1233,245 +1488,6 @@
 			(type default)
 		)
 		(uuid "fc6825c1-ae54-4796-9e50-f276d1a141bb")
-	)
-	(rectangle
-		(start 147.32 119.38)
-		(end 157.48 130.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 05938223-df1f-4785-92bc-3754aad2faaa)
-	)
-	(rectangle
-		(start 168.91 119.38)
-		(end 179.07 130.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 1a0d58fc-57b2-4016-b30d-dc409bd02903)
-	)
-	(rectangle
-		(start 147.32 142.24)
-		(end 157.48 153.67)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 294ee5ae-37f4-4947-867c-b2b9ca6aa6e5)
-	)
-	(rectangle
-		(start 142.24 130.81)
-		(end 184.15 142.24)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 2a8fa785-95ab-4cf9-b451-a7f7b3667e14)
-	)
-	(rectangle
-		(start 168.91 130.81)
-		(end 179.07 142.24)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 3506682f-f5d7-410b-b2c1-922b552df6cb)
-	)
-	(rectangle
-		(start 168.91 153.67)
-		(end 179.07 165.1)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 474c4f33-355e-4ebc-9070-446306000db5)
-	)
-	(rectangle
-		(start 147.32 153.67)
-		(end 157.48 165.1)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 482b1e70-7e82-4e84-93f5-7dd8f8d27011)
-	)
-	(rectangle
-		(start 147.32 130.81)
-		(end 157.48 142.24)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 54ada046-dd40-47db-b3f8-5404f30b364f)
-	)
-	(rectangle
-		(start 142.24 142.24)
-		(end 184.15 153.67)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 6062f849-f70c-41ad-bd07-2d5235d1dea3)
-	)
-	(rectangle
-		(start 168.91 142.24)
-		(end 179.07 153.67)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 674740a1-981c-430c-bdd5-2d144fa1c8d5)
-	)
-	(rectangle
-		(start 142.24 153.67)
-		(end 184.15 166.37)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid b750325b-dbc5-4ea3-9c24-6508ec3b2bdd)
-	)
-	(rectangle
-		(start 142.24 118.11)
-		(end 184.15 130.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid c039b291-ae94-4fa5-9261-49eeb7aff309)
-	)
-	(text_box "Battery Set 2\n"
-		(exclude_from_sim no)
-		(at 184.15 146.05 0)
-		(size 15.24 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "2294e1f1-043a-43cb-ac1f-f99066a69869")
-	)
-	(text_box "Battery Set 1"
-		(exclude_from_sim no)
-		(at 184.15 157.48 0)
-		(size 15.24 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "38a75e01-dbb5-4abe-a10a-41695c9488d6")
-	)
-	(text_box "power output can be 5v 9v 15v or 20v"
-		(exclude_from_sim no)
-		(at 60.96 153.67 0)
-		(size 25.4 7.62)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "599823b5-6720-4090-90a6-023ef94a376c")
-	)
-	(text_box "Battery Set 3\n"
-		(exclude_from_sim no)
-		(at 184.15 134.62 0)
-		(size 15.24 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "7ba31314-09c8-4b37-be6e-dad3b410b60f")
-	)
-	(text_box "Battery Set 4"
-		(exclude_from_sim no)
-		(at 184.15 123.19 0)
-		(size 15.24 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "ef8b7cd8-0a7a-4d83-a886-6b628c107169")
 	)
 	(symbol
 		(lib_id "54:54")
@@ -4951,6 +4967,10 @@
 	(sheet
 		(at 64.77 29.21)
 		(size 22.86 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -4989,6 +5009,10 @@
 	(sheet
 		(at 105.41 50.8)
 		(size 19.05 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -5018,23 +5042,23 @@
 		)
 		(pin "KB_USB_D-" input
 			(at 124.46 55.88 0)
+			(uuid "7bda4cf8-91aa-4d61-8510-a380b3542254")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "7bda4cf8-91aa-4d61-8510-a380b3542254")
 		)
 		(pin "KB_USB_D+" input
 			(at 124.46 53.34 0)
+			(uuid "404340ae-4e50-4601-861c-593921a5fc88")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "404340ae-4e50-4601-861c-593921a5fc88")
 		)
 		(instances
 			(project "RDAT"
@@ -5047,6 +5071,10 @@
 	(sheet
 		(at 17.78 120.65)
 		(size 26.67 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -5076,23 +5104,23 @@
 		)
 		(pin "POWER CHARGER OUTPUT" output
 			(at 44.45 137.16 0)
+			(uuid "8bd65265-901a-4579-8a1b-e870d3ebac02")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "8bd65265-901a-4579-8a1b-e870d3ebac02")
 		)
 		(pin "VIN_3V3" input
 			(at 44.45 125.73 0)
+			(uuid "f93d8f4d-93b4-4e60-84a7-d5afc28c76d1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "f93d8f4d-93b4-4e60-84a7-d5afc28c76d1")
 		)
 		(instances
 			(project "RDAT"
@@ -5105,6 +5133,10 @@
 	(sheet
 		(at 87.63 29.21)
 		(size 20.32 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -5143,6 +5175,10 @@
 	(sheet
 		(at 38.1 50.8)
 		(size 30.48 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -5181,6 +5217,10 @@
 	(sheet
 		(at 73.66 96.52)
 		(size 35.56 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -5218,6 +5258,10 @@
 	(sheet
 		(at 53.34 118.11)
 		(size 34.29 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -5247,33 +5291,33 @@
 		)
 		(pin "PACK+" output
 			(at 87.63 137.16 0)
+			(uuid "887bd85f-7c48-45d1-b42b-a5e4da9b02f2")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "887bd85f-7c48-45d1-b42b-a5e4da9b02f2")
 		)
 		(pin "SYSTEM+" output
 			(at 81.28 118.11 90)
+			(uuid "2688b21e-cf2f-4fed-85b2-f8a4d5615110")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "2688b21e-cf2f-4fed-85b2-f8a4d5615110")
 		)
 		(pin "ADAPTER+" input
 			(at 53.34 137.16 180)
+			(uuid "c440e96b-a5c9-43b3-b225-ac30e62310c5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "c440e96b-a5c9-43b3-b225-ac30e62310c5")
 		)
 		(instances
 			(project "RDAT"
@@ -5286,6 +5330,10 @@
 	(sheet
 		(at 99.06 118.11)
 		(size 29.21 48.26)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -5315,83 +5363,83 @@
 		)
 		(pin "Cell1+" output
 			(at 128.27 156.21 0)
+			(uuid "6b8b80fa-588d-4f9a-b63e-f2eb0ea43304")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "6b8b80fa-588d-4f9a-b63e-f2eb0ea43304")
 		)
 		(pin "Cell2+" output
 			(at 128.27 144.78 0)
+			(uuid "8a3eab19-2c88-491e-8ce0-0e8a82b3c9ed")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "8a3eab19-2c88-491e-8ce0-0e8a82b3c9ed")
 		)
 		(pin "Cell3+" output
 			(at 128.27 133.35 0)
+			(uuid "3e17975d-c773-4527-acef-51e6df8d6378")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "3e17975d-c773-4527-acef-51e6df8d6378")
 		)
 		(pin "Cell4+" output
 			(at 128.27 121.92 0)
+			(uuid "f6128482-128e-43db-98f9-648a459aed05")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "f6128482-128e-43db-98f9-648a459aed05")
 		)
 		(pin "CHG" input
 			(at 99.06 137.16 180)
+			(uuid "bd7517fc-a91d-4a05-ab9b-6e5273fdc376")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "bd7517fc-a91d-4a05-ab9b-6e5273fdc376")
 		)
 		(pin "LOAD+" output
 			(at 105.41 118.11 90)
+			(uuid "9553764d-9dd2-420d-868f-324d10187dad")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "9553764d-9dd2-420d-868f-324d10187dad")
 		)
 		(pin "PACK-" input
 			(at 118.11 166.37 270)
+			(uuid "9fec226b-588f-4c52-afe6-bc65513120fe")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "9fec226b-588f-4c52-afe6-bc65513120fe")
 		)
 		(pin "PACK+" input
 			(at 118.11 118.11 90)
+			(uuid "6a1f302a-6389-40a8-a1ff-8124b7699f3a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "6a1f302a-6389-40a8-a1ff-8124b7699f3a")
 		)
 		(instances
 			(project "RDAT"
@@ -5406,4 +5454,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
