@@ -815,6 +815,17 @@
 		)
 		(uuid c039b291-ae94-4fa5-9261-49eeb7aff309)
 	)
+	(text "BQ7791500"
+		(exclude_from_sim no)
+		(at 99.314 166.116 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3fe17199-ec41-49bb-a4de-25387d5c7a1a")
+	)
 	(text "Both of these outputs are at 16.8v max.\nif on battery the voltage will drop to MIN VOLTAGE\nbefore shutting down the system\n"
 		(exclude_from_sim no)
 		(at 140.462 104.394 0)
@@ -824,6 +835,17 @@
 			)
 		)
 		(uuid "b710945b-2544-49fd-833c-3de85505514b")
+	)
+	(text "BQ24617"
+		(exclude_from_sim no)
+		(at 53.848 143.002 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f8f2e2f8-a407-4dad-b1f9-436cec81fadd")
 	)
 	(text_box "Battery Set 2\n"
 		(exclude_from_sim no)
@@ -867,8 +889,8 @@
 	)
 	(text_box "5 -> 24 v in\n\n16.8v out!\n"
 		(exclude_from_sim no)
-		(at 55.88 148.59 0)
-		(size 34.29 15.24)
+		(at 53.34 127 0)
+		(size 34.29 7.62)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -970,12 +992,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0ad1bed3-2682-4d57-9437-3cee13c9bc33")
-	)
-	(junction
-		(at 140.97 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2673e5ed-a467-4959-a1f9-b5788d733907")
 	)
 	(junction
 		(at 140.97 167.64)
@@ -1131,16 +1147,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 116.84) (xy 118.11 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23d38077-9bdb-4628-ad7c-b8d7f502bd55")
-	)
-	(wire
-		(pts
 			(xy 140.97 167.64) (xy 140.97 162.56)
 		)
 		(stroke
@@ -1248,16 +1254,6 @@
 			(type default)
 		)
 		(uuid "6d4e3669-6e5a-4616-bd05-3c092e9ed1e0")
-	)
-	(wire
-		(pts
-			(xy 87.63 137.16) (xy 99.06 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73efa385-7bc3-43ba-ba36-d53e0f841784")
 	)
 	(wire
 		(pts
@@ -1491,16 +1487,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 116.84) (xy 140.97 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e12fec83-88a7-4dac-b341-ab4d6842b002")
-	)
-	(wire
-		(pts
 			(xy 44.45 137.16) (xy 46.99 137.16)
 		)
 		(stroke
@@ -1508,6 +1494,16 @@
 			(type default)
 		)
 		(uuid "e6f799c1-78bf-4f6d-a080-c08c42b37213")
+	)
+	(wire
+		(pts
+			(xy 87.63 137.16) (xy 99.06 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e799d1b2-6a89-464b-b946-134d74d5c25f")
 	)
 	(wire
 		(pts
@@ -5057,7 +5053,7 @@
 		)
 	)
 	(sheet
-		(at 105.41 50.8)
+		(at 26.67 55.88)
 		(size 19.05 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5073,7 +5069,7 @@
 		)
 		(uuid "46851a1d-4cfb-4cea-9716-b2c986edaf3a")
 		(property "Sheetname" "Keyboard"
-			(at 105.41 50.0884 0)
+			(at 26.67 55.1684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5082,7 +5078,7 @@
 			)
 		)
 		(property "Sheetfile" "keyboard.kicad_sch"
-			(at 105.41 59.0046 0)
+			(at 26.67 64.0846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5091,7 +5087,7 @@
 			)
 		)
 		(pin "KB_USB_D-" input
-			(at 124.46 55.88 0)
+			(at 45.72 60.96 0)
 			(uuid "7bda4cf8-91aa-4d61-8510-a380b3542254")
 			(effects
 				(font
@@ -5101,7 +5097,7 @@
 			)
 		)
 		(pin "KB_USB_D+" input
-			(at 124.46 53.34 0)
+			(at 45.72 58.42 0)
 			(uuid "404340ae-4e50-4601-861c-593921a5fc88")
 			(effects
 				(font
@@ -5152,19 +5148,9 @@
 				(justify left top)
 			)
 		)
-		(pin "POWER CHARGER OUTPUT" output
+		(pin "USB_PD_OUT" output
 			(at 44.45 137.16 0)
-			(uuid "8bd65265-901a-4579-8a1b-e870d3ebac02")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "VIN_3V3" input
-			(at 44.45 125.73 0)
-			(uuid "f93d8f4d-93b4-4e60-84a7-d5afc28c76d1")
+			(uuid "57565a0b-7382-48be-871d-0cb4e21a22c8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5223,7 +5209,7 @@
 		)
 	)
 	(sheet
-		(at 38.1 50.8)
+		(at 58.42 52.07)
 		(size 30.48 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5239,7 +5225,7 @@
 		)
 		(uuid "5b2d2e6c-036c-404a-b71b-c732d724c5c0")
 		(property "Sheetname" "LattePanda_mu"
-			(at 38.1 50.0884 0)
+			(at 58.42 51.3584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5248,7 +5234,7 @@
 			)
 		)
 		(property "Sheetfile" "mu_cm.kicad_sch"
-			(at 38.1 76.7846 0)
+			(at 58.42 78.0546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5265,7 +5251,7 @@
 		)
 	)
 	(sheet
-		(at 77.47 82.55)
+		(at 52.07 92.71)
 		(size 35.56 13.97)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5280,7 +5266,7 @@
 		)
 		(uuid "5f0e9cd9-64da-46d2-87be-d1281cc3d7f6")
 		(property "Sheetname" "VRM"
-			(at 77.47 81.8384 0)
+			(at 52.07 91.9984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5289,7 +5275,7 @@
 			)
 		)
 		(property "Sheetfile" "VRM.kicad_sch"
-			(at 81.534 80.264 0)
+			(at 56.134 90.424 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5479,16 +5465,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(pin "PACK+" input
-			(at 118.11 118.11 90)
-			(uuid "6a1f302a-6389-40a8-a1ff-8124b7699f3a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(instances
