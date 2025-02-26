@@ -815,6 +815,16 @@
 		)
 		(uuid c039b291-ae94-4fa5-9261-49eeb7aff309)
 	)
+	(text "Both of these outputs are at 16.8v max.\nif on battery the voltage will drop to MIN VOLTAGE\nbefore shutting down the system\n"
+		(exclude_from_sim no)
+		(at 140.462 104.394 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b710945b-2544-49fd-833c-3de85505514b")
+	)
 	(text_box "Battery Set 2\n"
 		(exclude_from_sim no)
 		(at 184.15 146.05 0)
@@ -855,7 +865,27 @@
 		)
 		(uuid "38a75e01-dbb5-4abe-a10a-41695c9488d6")
 	)
-	(text_box "4S2P\nV_{nominal} = 14.4V\nV_{charged} = 16.8V\nV_{discharged} = 10V"
+	(text_box "5 -> 24 v in\n\n16.8v out!\n"
+		(exclude_from_sim no)
+		(at 55.88 148.59 0)
+		(size 34.29 15.24)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "3d99c9b2-7d89-4101-8aa1-8ba7fd4ca8ac")
+	)
+	(text_box "4S2P\nV_{nominal} = 14.4V\nV_{charged} = 16.8V\nV_{discharged} = 12V"
 		(exclude_from_sim no)
 		(at 100.33 171.45 0)
 		(size 64.77 13.97)
@@ -877,7 +907,7 @@
 	)
 	(text_box "power output can be \n5v 9v 15v or 20v /3A\nwith 100W:\n20v /3A\nwith 240W:\n28v 36v 48v /5A"
 		(exclude_from_sim no)
-		(at 60.96 153.67 0)
+		(at 16.51 148.59 0)
 		(size 25.4 13.97)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -5235,7 +5265,7 @@
 		)
 	)
 	(sheet
-		(at 73.66 96.52)
+		(at 77.47 82.55)
 		(size 35.56 13.97)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5250,7 +5280,7 @@
 		)
 		(uuid "5f0e9cd9-64da-46d2-87be-d1281cc3d7f6")
 		(property "Sheetname" "VRM"
-			(at 73.66 95.8084 0)
+			(at 77.47 81.8384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5259,7 +5289,7 @@
 			)
 		)
 		(property "Sheetfile" "VRM.kicad_sch"
-			(at 77.724 94.234 0)
+			(at 81.534 80.264 0)
 			(effects
 				(font
 					(size 1.27 1.27)
