@@ -765,6 +765,10 @@
     [
       "5f0e9cd9-64da-46d2-87be-d1281cc3d7f6",
       "VRM"
+    ],
+    [
+      "2f5ffc1e-d25d-4ef5-8610-5326cc58210f",
+      "CPU_FAN"
     ]
   ],
   "text_variables": {}
