@@ -9815,10 +9815,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "8e2c2c36-bb36-4db1-8f10-3263cad94524")
+			(uuid "8e2c2c36-bb36-4db1-8f10-3263cad94525")
 		)
 		(pin "2"
-			(uuid "23698ffa-4213-48ef-851f-d15c30b90510")
+			(uuid "23698ffa-4213-48ef-851f-d15c30b90511")
 		)
 		(instances
 			(project ""

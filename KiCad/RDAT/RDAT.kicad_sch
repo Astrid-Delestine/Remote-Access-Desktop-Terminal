@@ -8,33 +8,33 @@
 		(rev "0")
 	)
 	(lib_symbols
-		(symbol "54:54"
+		(symbol "54_1"
 			(pin_names
 				(offset 1.016)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "BT"
-				(at -5.08 3.302 0)
+			(property "Reference" "BT1"
+				(at 6.35 1.2701 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify left)
 				)
 			)
 			(property "Value" "54"
-				(at -5.08 -5.08 0)
+				(at 6.35 -1.2699 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify left)
 				)
 			)
 			(property "Footprint" "54:BAT_54"
-				(at 0 0 0)
+				(at -20.32 -8.382 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -62,7 +62,7 @@
 				)
 			)
 			(property "MF" "Keystone Electronics"
-				(at 0 0 0)
+				(at 2.286 -7.112 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -72,7 +72,7 @@
 				)
 			)
 			(property "MAXIMUM_PACKAGE_HEIGHT" "18.3mm"
-				(at 0 0 0)
+				(at -25.654 3.048 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -82,7 +82,7 @@
 				)
 			)
 			(property "Package" "NON-STANDARD Keystone"
-				(at 0 0 0)
+				(at -24.892 -4.318 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -92,7 +92,7 @@
 				)
 			)
 			(property "Price" "None"
-				(at 0 0 0)
+				(at -4.826 5.588 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -102,7 +102,7 @@
 				)
 			)
 			(property "Check_prices" "https://www.snapeda.com/parts/54/Keystone/view-part/?ref=eda"
-				(at 0 0 0)
+				(at -1.524 -13.97 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -112,7 +112,7 @@
 				)
 			)
 			(property "STANDARD" "Manufacturer Recommendations"
-				(at 0 0 0)
+				(at -18.542 -11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -122,7 +122,7 @@
 				)
 			)
 			(property "PARTREV" "E"
-				(at 0 0 0)
+				(at 0 5.334 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -132,7 +132,7 @@
 				)
 			)
 			(property "SnapEDA_Link" "https://www.snapeda.com/parts/54/Keystone/view-part/?ref=snap"
-				(at 0 0 0)
+				(at -0.762 -16.256 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -142,7 +142,7 @@
 				)
 			)
 			(property "MP" "54"
-				(at 0 0 0)
+				(at 2.54 4.064 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -152,7 +152,7 @@
 				)
 			)
 			(property "Description_1" "\n                        \n                            Battery Clip, THM, 1 Cell, 17mm-19mm, CR123A, 2/3A, 17350, 18350, 18650 | Keystone Electronics 54\n                        \n"
-				(at 0 0 0)
+				(at 4.064 -20.066 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -162,7 +162,7 @@
 				)
 			)
 			(property "MANUFACTURER" "Keystone Electronics"
-				(at 0 0 0)
+				(at -39.116 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -172,7 +172,7 @@
 				)
 			)
 			(property "Availability" "In Stock"
-				(at 0 0 0)
+				(at -34.798 1.524 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -182,7 +182,7 @@
 				)
 			)
 			(property "SNAPEDA_PN" "54"
-				(at 0 0 0)
+				(at -0.508 3.048 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -191,10 +191,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "54_0_0"
+			(symbol "54_1_0_0"
 				(rectangle
-					(start -5.08 -2.54)
-					(end 5.08 2.54)
+					(start -5.08 2.54)
+					(end 5.08 -2.54)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -285,16 +285,16 @@
 							)
 						)
 					)
-					(number "1_1"
+					(number "1_2"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 0.762 0.762)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at -10.16 0 0)
+					(at -10.16 -1.27 0)
 					(length 5.08)
 					(name "~"
 						(effects
@@ -303,16 +303,44 @@
 							)
 						)
 					)
-					(number "1_2"
+					(number "1_1"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 0.762 0.762)
 							)
 						)
 					)
 				)
+			)
+			(symbol "54_1_0_1"
+				(polyline
+					(pts
+						(xy -5.08 1.27) (xy -3.81 1.27) (xy -3.81 0) (xy -5.08 0) (xy -3.81 0) (xy -3.81 -1.27) (xy -5.08 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "54_1_1_0"
 				(pin passive line
-					(at -10.16 0 0)
+					(at -10.16 1.27 0)
 					(length 5.08)
 					(name "~"
 						(effects
@@ -324,7 +352,7 @@
 					(number "1_3"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 0.762 0.762)
 							)
 						)
 					)
@@ -671,153 +699,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(rectangle
-		(start 147.32 119.38)
-		(end 157.48 130.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 05938223-df1f-4785-92bc-3754aad2faaa)
-	)
-	(rectangle
-		(start 168.91 119.38)
-		(end 179.07 130.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 1a0d58fc-57b2-4016-b30d-dc409bd02903)
-	)
-	(rectangle
-		(start 147.32 142.24)
-		(end 157.48 153.67)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 294ee5ae-37f4-4947-867c-b2b9ca6aa6e5)
-	)
-	(rectangle
-		(start 142.24 130.81)
-		(end 184.15 142.24)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 2a8fa785-95ab-4cf9-b451-a7f7b3667e14)
-	)
-	(rectangle
-		(start 168.91 130.81)
-		(end 179.07 142.24)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 3506682f-f5d7-410b-b2c1-922b552df6cb)
-	)
-	(rectangle
-		(start 168.91 153.67)
-		(end 179.07 165.1)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 474c4f33-355e-4ebc-9070-446306000db5)
-	)
-	(rectangle
-		(start 147.32 153.67)
-		(end 157.48 165.1)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 482b1e70-7e82-4e84-93f5-7dd8f8d27011)
-	)
-	(rectangle
-		(start 147.32 130.81)
-		(end 157.48 142.24)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 54ada046-dd40-47db-b3f8-5404f30b364f)
-	)
-	(rectangle
-		(start 142.24 142.24)
-		(end 184.15 153.67)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 6062f849-f70c-41ad-bd07-2d5235d1dea3)
-	)
-	(rectangle
-		(start 168.91 142.24)
-		(end 179.07 153.67)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 674740a1-981c-430c-bdd5-2d144fa1c8d5)
-	)
-	(rectangle
-		(start 142.24 153.67)
-		(end 184.15 166.37)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid b750325b-dbc5-4ea3-9c24-6508ec3b2bdd)
-	)
-	(rectangle
-		(start 142.24 118.11)
-		(end 184.15 130.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid c039b291-ae94-4fa5-9261-49eeb7aff309)
-	)
 	(text "BQ7791500"
 		(exclude_from_sim no)
-		(at 99.314 166.116 0)
+		(at 99.568 165.608 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -825,6 +709,16 @@
 			(justify left)
 		)
 		(uuid "3fe17199-ec41-49bb-a4de-25387d5c7a1a")
+	)
+	(text "Built with the Samsung 35E 18650 cells in mind. Please pick cells similar to these\n"
+		(exclude_from_sim no)
+		(at 155.702 178.816 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b5d79bde-67f0-46e7-9741-7ff59e59e9d8")
 	)
 	(text "Both of these outputs are at 16.8v max.\nif on battery the voltage will drop to MIN VOLTAGE\nbefore shutting down the system\n"
 		(exclude_from_sim no)
@@ -849,7 +743,7 @@
 	)
 	(text_box "Battery Set 2\n"
 		(exclude_from_sim no)
-		(at 184.15 146.05 0)
+		(at 185.42 146.05 0)
 		(size 15.24 3.81)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -869,7 +763,7 @@
 	)
 	(text_box "Battery Set 1"
 		(exclude_from_sim no)
-		(at 184.15 157.48 0)
+		(at 185.42 160.02 0)
 		(size 15.24 3.81)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -909,7 +803,7 @@
 	)
 	(text_box "4S2P\nV_{nominal} = 14.4V\nV_{charged} = 16.8V\nV_{discharged} = 12V"
 		(exclude_from_sim no)
-		(at 100.33 171.45 0)
+		(at 38.1 191.77 0)
 		(size 64.77 13.97)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -949,7 +843,7 @@
 	)
 	(text_box "Battery Set 3\n"
 		(exclude_from_sim no)
-		(at 184.15 134.62 0)
+		(at 185.42 132.08 0)
 		(size 15.24 3.81)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -969,7 +863,7 @@
 	)
 	(text_box "Battery Set 4"
 		(exclude_from_sim no)
-		(at 184.15 123.19 0)
+		(at 185.42 118.11 0)
 		(size 15.24 3.81)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -988,40 +882,64 @@
 		(uuid "ef8b7cd8-0a7a-4d83-a886-6b628c107169")
 	)
 	(junction
-		(at 140.97 121.92)
+		(at 142.24 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0ad1bed3-2682-4d57-9437-3cee13c9bc33")
+		(uuid "014dd3c8-68d2-4490-b8da-51bbcc672af4")
 	)
 	(junction
-		(at 140.97 167.64)
+		(at 142.24 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3a6e6984-e545-48cb-be45-9ef2e912de08")
+		(uuid "0b247402-cf1a-4b64-955a-1db8fd0aa1f4")
 	)
 	(junction
-		(at 185.42 153.67)
+		(at 185.42 127)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "40bdfe21-e061-4c86-8b8d-dc2cd04a92bf")
+		(uuid "139881ca-d1d6-4993-a25d-9ef2733e1484")
 	)
 	(junction
-		(at 140.97 133.35)
+		(at 142.24 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "42a6dd83-b966-4413-9696-54515d643c9a")
+		(uuid "14feafc8-93ae-459e-80a1-348eaa62963c")
 	)
 	(junction
-		(at 140.97 130.81)
+		(at 185.42 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4f1d6827-b269-4031-9bce-e68ca2b6dda0")
+		(uuid "15df99d0-4d7a-4f33-a717-d6ce2194921f")
 	)
 	(junction
-		(at 185.42 142.24)
+		(at 184.15 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4f7e2e77-1a49-4ffe-bb3b-441d28e0bbc0")
+		(uuid "17b287db-f4f4-47f3-bad6-921970eec017")
+	)
+	(junction
+		(at 140.97 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "18a5b022-0839-4cb4-b70b-937eba0ae092")
+	)
+	(junction
+		(at 140.97 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "256c1f9d-73c8-4743-ac0f-27bd4055185b")
+	)
+	(junction
+		(at 184.15 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "30351332-d74f-4b9a-9480-240cb60fbb4c")
+	)
+	(junction
+		(at 184.15 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "51968573-701a-410f-9c2c-0b9ca7c328e8")
 	)
 	(junction
 		(at 46.99 137.16)
@@ -1030,60 +948,128 @@
 		(uuid "59104831-fe90-4e23-9121-b34c3d6703d0")
 	)
 	(junction
-		(at 140.97 144.78)
+		(at 185.42 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "63e642b8-1c7a-428a-b42e-630858290035")
+		(uuid "60792e10-b3cb-42c3-b77e-9f7dc1fa43ce")
 	)
 	(junction
-		(at 140.97 142.24)
+		(at 184.15 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9e37b07b-7a77-4f08-96b4-e72e84a4eeb9")
+		(uuid "6a6355ae-1a82-4b17-9bc3-753351cfe72c")
 	)
 	(junction
-		(at 185.42 130.81)
+		(at 142.24 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a4e78359-ef5a-4a22-9996-a11c4afb7493")
+		(uuid "763c4cd2-5829-4270-8c8d-6d413e8a8a9c")
 	)
 	(junction
-		(at 185.42 167.64)
+		(at 184.15 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c3e6a7a9-662d-40bd-a2af-fec42655e11f")
+		(uuid "950e1736-27b1-416e-aa69-b08ddfbb5f28")
 	)
 	(junction
-		(at 140.97 153.67)
+		(at 140.97 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e17135aa-28c2-4c0e-8128-b78de7b2f4b8")
+		(uuid "987ba05b-887a-4655-814f-619eaa94e395")
 	)
 	(junction
-		(at 140.97 156.21)
+		(at 140.97 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ff0b9303-03de-4ebd-bb40-5a4105e9517c")
+		(uuid "a313cedc-b9e0-4a45-a904-9aba6d8506fa")
+	)
+	(junction
+		(at 184.15 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a95e64a3-b094-4d5f-8986-41632ca8712e")
+	)
+	(junction
+		(at 142.24 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce4efcb3-3df9-4efb-9b8a-d56a19c2d1d7")
+	)
+	(junction
+		(at 184.15 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cff5fad0-2271-4708-99a6-159ebb1e9821")
+	)
+	(junction
+		(at 184.15 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d6d829fd-04ef-4980-9895-3286453a5741")
+	)
+	(junction
+		(at 142.24 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e9ccbf11-f176-4061-97c2-1d3b0b8a0cbe")
+	)
+	(junction
+		(at 142.24 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "efca6c5a-a448-4ce4-9f92-2787286e6127")
+	)
+	(junction
+		(at 140.97 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f9a56964-a8a1-4e1e-906f-ee6c6868bd9a")
+	)
+	(junction
+		(at 142.24 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa5c54ef-448e-40a7-bb3e-69d6a0edad9c")
 	)
 	(wire
 		(pts
-			(xy 140.97 121.92) (xy 140.97 116.84)
+			(xy 142.24 137.16) (xy 142.24 138.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "02754c26-ed6d-4d8a-b660-d7edd011db3b")
+		(uuid "0277278d-03d2-4cbe-b0e1-12f4f7868826")
 	)
 	(wire
 		(pts
-			(xy 185.42 162.56) (xy 185.42 167.64)
+			(xy 142.24 165.1) (xy 142.24 166.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "07795869-c124-4e87-b8c5-2b5adb39d629")
+		(uuid "033936f6-8f33-42ae-920b-56c7febbb235")
+	)
+	(wire
+		(pts
+			(xy 184.15 143.51) (xy 184.15 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06d4d38b-2cab-4b51-a327-bb37af093afc")
+	)
+	(wire
+		(pts
+			(xy 184.15 165.1) (xy 185.42 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07d62013-0df8-4061-9eb4-7f4981f266e5")
 	)
 	(wire
 		(pts
@@ -1097,7 +1083,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 142.24) (xy 185.42 139.7)
+			(xy 185.42 140.97) (xy 185.42 144.78)
 		)
 		(stroke
 			(width 0)
@@ -1107,23 +1093,13 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 139.7) (xy 184.15 139.7)
+			(xy 185.42 140.97) (xy 185.42 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0867d670-0694-4bfb-ab58-1df09b29adc6")
-	)
-	(wire
-		(pts
-			(xy 184.15 121.92) (xy 185.42 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09103eb5-9ee0-4528-a10f-081ce6247a95")
+		(uuid "085c28a3-f9de-4aa3-883e-6e1960b369cd")
 	)
 	(wire
 		(pts
@@ -1157,13 +1133,23 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 156.21) (xy 140.97 153.67)
+			(xy 142.24 158.75) (xy 142.24 160.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "13d72ac0-322b-4949-9d3d-d91084f6bd8f")
+		(uuid "0e94edc3-6672-42f1-ab5c-12bf65642591")
+	)
+	(wire
+		(pts
+			(xy 184.15 151.13) (xy 184.15 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ebf0878-9b6a-4ab4-b051-7c2f10455144")
 	)
 	(wire
 		(pts
@@ -1177,13 +1163,13 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 142.24) (xy 140.97 139.7)
+			(xy 140.97 127) (xy 140.97 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1736ae6a-27a1-4b0a-8103-c7f75708f852")
+		(uuid "144f9d9b-9571-4942-8056-2042027469be")
 	)
 	(wire
 		(pts
@@ -1207,17 +1193,47 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 167.64) (xy 140.97 162.56)
+			(xy 184.15 165.1) (xy 184.15 166.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "259ff2fe-7964-46f5-a268-d6e9146d0506")
+		(uuid "20d4496b-6309-4650-ab13-4bc842728b4d")
 	)
 	(wire
 		(pts
-			(xy 118.11 166.37) (xy 118.11 167.64)
+			(xy 142.24 130.81) (xy 142.24 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22693b90-2093-4540-93d4-70a25be2172c")
+	)
+	(wire
+		(pts
+			(xy 142.24 143.51) (xy 142.24 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "226fdaf8-f034-452c-bb87-3e63899d1a9d")
+	)
+	(wire
+		(pts
+			(xy 184.15 115.57) (xy 184.15 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2924f16d-67da-418a-afea-423cd34e5c05")
+	)
+	(wire
+		(pts
+			(xy 118.11 166.37) (xy 118.11 168.91)
 		)
 		(stroke
 			(width 0)
@@ -1247,6 +1263,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 116.84) (xy 184.15 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30f58c15-fbff-4e1c-94ab-236ba2c8f746")
+	)
+	(wire
+		(pts
 			(xy 91.44 67.31) (xy 104.14 67.31)
 		)
 		(stroke
@@ -1257,23 +1283,23 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 144.78) (xy 185.42 144.78)
+			(xy 140.97 140.97) (xy 140.97 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "343ebf88-5680-4d12-adad-ee0f2008889a")
+		(uuid "32a4b940-e14d-41c1-9925-1a1f955187ed")
 	)
 	(wire
 		(pts
-			(xy 184.15 156.21) (xy 185.42 156.21)
+			(xy 184.15 135.89) (xy 184.15 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3997e0ef-b4e0-48aa-a625-873a5e2e9265")
+		(uuid "32c61387-bed7-45c5-af53-08e076ae6a5c")
 	)
 	(wire
 		(pts
@@ -1297,6 +1323,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 129.54) (xy 142.24 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f6ed4f4-3c20-4ebb-9fe8-e99ec408d8ce")
+	)
+	(wire
+		(pts
 			(xy 91.44 77.47) (xy 104.14 77.47)
 		)
 		(stroke
@@ -1304,6 +1340,36 @@
 			(type default)
 		)
 		(uuid "46d08f9f-b4ef-42ea-a383-ed61a8e8118e")
+	)
+	(wire
+		(pts
+			(xy 105.41 105.41) (xy 105.41 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "472acebe-e1b1-407a-aff8-66a910c2cc73")
+	)
+	(wire
+		(pts
+			(xy 185.42 127) (xy 185.42 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "478b2356-affa-48b1-86e5-609e4cda5adb")
+	)
+	(wire
+		(pts
+			(xy 184.15 137.16) (xy 185.42 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4860fcf1-9698-4b01-a088-6f91d28d8759")
 	)
 	(wire
 		(pts
@@ -1327,7 +1393,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 128.27) (xy 142.24 128.27)
+			(xy 140.97 123.19) (xy 142.24 123.19)
 		)
 		(stroke
 			(width 0)
@@ -1357,6 +1423,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 151.13) (xy 185.42 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c8ffdc9-ca55-4d20-a992-e5ef6cd38478")
+	)
+	(wire
+		(pts
 			(xy 91.44 53.34) (xy 105.41 53.34)
 		)
 		(stroke
@@ -1377,6 +1453,26 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 157.48) (xy 142.24 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fe35d56-e253-4ecc-863f-064b8efeefc7")
+	)
+	(wire
+		(pts
+			(xy 142.24 163.83) (xy 142.24 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50738315-5c4c-44ca-a727-984b232fee6c")
+	)
+	(wire
+		(pts
 			(xy 91.44 35.56) (xy 105.41 35.56)
 		)
 		(stroke
@@ -1394,16 +1490,6 @@
 			(type default)
 		)
 		(uuid "517bdf48-7203-4f8d-9584-25f45f62732e")
-	)
-	(wire
-		(pts
-			(xy 185.42 167.64) (xy 140.97 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52a66bb2-7c21-4bb8-bdf7-a0c04eba6a9c")
 	)
 	(wire
 		(pts
@@ -1437,6 +1523,26 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 163.83) (xy 184.15 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5668c363-4a6a-4ad2-8b44-3ead16029966")
+	)
+	(wire
+		(pts
+			(xy 184.15 158.75) (xy 184.15 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "568dffb9-e8d3-4297-95d3-2e6cb4e7bd65")
+	)
+	(wire
+		(pts
 			(xy 91.44 90.17) (xy 104.14 90.17)
 		)
 		(stroke
@@ -1444,6 +1550,26 @@
 			(type default)
 		)
 		(uuid "580baec2-eff6-4fb6-b2eb-341e100fd3a0")
+	)
+	(wire
+		(pts
+			(xy 184.15 130.81) (xy 185.42 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58f9176a-09ed-4791-94b0-e4f97857b1a6")
+	)
+	(wire
+		(pts
+			(xy 184.15 158.75) (xy 185.42 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bc4fa3e-2498-4ecd-8690-fb8bed8246d5")
 	)
 	(wire
 		(pts
@@ -1457,6 +1583,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 127) (xy 185.42 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dd4f60f-2175-4d6e-b7e6-73b2a6458699")
+	)
+	(wire
+		(pts
 			(xy 46.99 147.32) (xy 46.99 137.16)
 		)
 		(stroke
@@ -1464,6 +1600,26 @@
 			(type default)
 		)
 		(uuid "5f781b57-3944-450e-a3f2-d4cead1eb4a9")
+	)
+	(wire
+		(pts
+			(xy 184.15 130.81) (xy 184.15 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62c6f6b6-066a-49cf-8749-d6a5317c650a")
+	)
+	(wire
+		(pts
+			(xy 142.24 151.13) (xy 142.24 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "661d6288-6f55-4dbc-9575-36af45701e93")
 	)
 	(wire
 		(pts
@@ -1477,13 +1633,33 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 156.21) (xy 185.42 153.67)
+			(xy 185.42 158.75) (xy 185.42 154.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "666fad31-f89b-4ff6-9ea1-4068a0b41d8c")
+	)
+	(wire
+		(pts
+			(xy 140.97 165.1) (xy 140.97 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67631e75-d9bc-4a9a-9128-5b7513830380")
+	)
+	(wire
+		(pts
+			(xy 140.97 154.94) (xy 140.97 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "695d7220-9feb-4e50-b666-67e5b1bbbdc0")
 	)
 	(wire
 		(pts
@@ -1497,6 +1673,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 116.84) (xy 142.24 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ac48db6-1fc4-4cd0-b943-2c21915c092a")
+	)
+	(wire
+		(pts
 			(xy 91.44 55.88) (xy 105.41 55.88)
 		)
 		(stroke
@@ -1507,23 +1693,53 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 130.81) (xy 185.42 128.27)
+			(xy 142.24 135.89) (xy 142.24 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6d4e3669-6e5a-4616-bd05-3c092e9ed1e0")
+		(uuid "6cdfe6a3-ea86-4a43-a17f-7d88a6dea10d")
 	)
 	(wire
 		(pts
-			(xy 184.15 128.27) (xy 185.42 128.27)
+			(xy 184.15 123.19) (xy 184.15 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7d4fb4be-4009-45f5-a9b9-fc587a42ba1c")
+		(uuid "740ca02e-dd07-41fa-b51a-9f367e1733d2")
+	)
+	(wire
+		(pts
+			(xy 142.24 123.19) (xy 142.24 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "750febc3-500a-44a9-9419-1cd56b37d6fe")
+	)
+	(wire
+		(pts
+			(xy 184.15 123.19) (xy 185.42 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "778ce8fd-f27e-44c3-9a6d-1f3d2881e769")
+	)
+	(wire
+		(pts
+			(xy 128.27 116.84) (xy 140.97 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cde5cdd-7403-4e1a-90db-9fc15dea8e4f")
 	)
 	(wire
 		(pts
@@ -1537,7 +1753,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 167.64) (xy 140.97 167.64)
+			(xy 118.11 168.91) (xy 140.97 168.91)
 		)
 		(stroke
 			(width 0)
@@ -1557,7 +1773,17 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 156.21) (xy 140.97 156.21)
+			(xy 184.15 116.84) (xy 185.42 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "869c2136-ae09-49e0-9481-b465d47213a1")
+	)
+	(wire
+		(pts
+			(xy 142.24 158.75) (xy 140.97 158.75)
 		)
 		(stroke
 			(width 0)
@@ -1567,33 +1793,33 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 151.13) (xy 184.15 151.13)
+			(xy 184.15 137.16) (xy 184.15 138.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8a661e5f-92f9-496d-8820-58af57636fce")
+		(uuid "8924c2be-3ccd-4ce2-b2e7-219c470ded8e")
 	)
 	(wire
 		(pts
-			(xy 140.97 144.78) (xy 140.97 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8bcd88e2-3b83-4b61-8529-10daa4af5cd3")
-	)
-	(wire
-		(pts
-			(xy 140.97 153.67) (xy 185.42 153.67)
+			(xy 140.97 154.94) (xy 185.42 154.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8c82911e-abfe-4b11-a2a7-93d00d184437")
+	)
+	(wire
+		(pts
+			(xy 140.97 140.97) (xy 140.97 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d26eb4f-f214-4f1c-b9f4-53499f181957")
 	)
 	(wire
 		(pts
@@ -1617,7 +1843,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 133.35) (xy 140.97 133.35)
+			(xy 142.24 130.81) (xy 140.97 130.81)
 		)
 		(stroke
 			(width 0)
@@ -1627,7 +1853,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 121.92) (xy 140.97 121.92)
+			(xy 142.24 116.84) (xy 140.97 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1637,7 +1863,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 116.84) (xy 185.42 116.84)
+			(xy 140.97 113.03) (xy 185.42 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1647,7 +1873,17 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 162.56) (xy 142.24 162.56)
+			(xy 185.42 151.13) (xy 185.42 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "961a0370-06ac-4c45-bc95-1d4c90c0ed39")
+	)
+	(wire
+		(pts
+			(xy 140.97 165.1) (xy 142.24 165.1)
 		)
 		(stroke
 			(width 0)
@@ -1657,7 +1893,27 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 133.35) (xy 140.97 133.35)
+			(xy 142.24 149.86) (xy 142.24 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "979b1ff2-a1d0-433a-91a2-3d3e3484cf6c")
+	)
+	(wire
+		(pts
+			(xy 142.24 121.92) (xy 142.24 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bba25ee-14de-4e09-ada5-d3c56dd30498")
+	)
+	(wire
+		(pts
+			(xy 128.27 127) (xy 140.97 127)
 		)
 		(stroke
 			(width 0)
@@ -1667,7 +1923,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 139.7) (xy 142.24 139.7)
+			(xy 140.97 137.16) (xy 142.24 137.16)
 		)
 		(stroke
 			(width 0)
@@ -1697,43 +1953,13 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 133.35) (xy 140.97 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a97246d8-e730-46e9-aa3e-c210f788a7da")
-	)
-	(wire
-		(pts
-			(xy 140.97 153.67) (xy 140.97 151.13)
+			(xy 140.97 151.13) (xy 140.97 154.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a9af9b94-2f50-47bf-b824-c03f6a630aad")
-	)
-	(wire
-		(pts
-			(xy 185.42 133.35) (xy 185.42 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "abe68e07-b8c7-4d1e-8e90-2648b8bde037")
-	)
-	(wire
-		(pts
-			(xy 184.15 162.56) (xy 185.42 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac43cb70-7aea-4b65-9dc9-ea1aa538937b")
 	)
 	(wire
 		(pts
@@ -1767,16 +1993,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 105.41) (xy 105.41 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b241d748-92a6-445c-b325-59dce9de832d")
-	)
-	(wire
-		(pts
 			(xy 91.44 82.55) (xy 104.14 82.55)
 		)
 		(stroke
@@ -1787,23 +2003,13 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 144.78) (xy 140.97 144.78)
+			(xy 128.27 140.97) (xy 140.97 140.97)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b5d85b15-cdae-4e32-8c0e-38cb40027f27")
-	)
-	(wire
-		(pts
-			(xy 128.27 121.92) (xy 140.97 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b72a5a54-7e98-415e-8012-ab17626f7f3b")
 	)
 	(wire
 		(pts
@@ -1827,6 +2033,26 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 157.48) (xy 184.15 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9adf256-af8b-47e2-be02-f882d350f0da")
+	)
+	(wire
+		(pts
+			(xy 185.42 165.1) (xy 185.42 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba0a7d58-cfdf-4b8e-8e2c-49d6590aa0f4")
+	)
+	(wire
+		(pts
 			(xy 41.91 80.01) (xy 60.96 80.01)
 		)
 		(stroke
@@ -1834,6 +2060,26 @@
 			(type default)
 		)
 		(uuid "bd5913d0-99e0-4cf4-930e-a01df6ff6391")
+	)
+	(wire
+		(pts
+			(xy 140.97 116.84) (xy 140.97 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c13c518d-57ab-4dfe-951c-61dfbe948f8f")
+	)
+	(wire
+		(pts
+			(xy 140.97 127) (xy 140.97 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5457765-95b4-484a-9e7f-ed12b1b66fc5")
 	)
 	(wire
 		(pts
@@ -1847,16 +2093,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 133.35) (xy 185.42 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc63ba7a-0bdf-4bc4-9798-d5c6f34aeba4")
-	)
-	(wire
-		(pts
 			(xy 40.64 67.31) (xy 60.96 67.31)
 		)
 		(stroke
@@ -1864,16 +2100,6 @@
 			(type default)
 		)
 		(uuid "cf0541ad-cc3e-400b-a592-c32dae51721d")
-	)
-	(wire
-		(pts
-			(xy 140.97 130.81) (xy 140.97 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf597a7b-f606-45ee-a3fb-3ee283890193")
 	)
 	(wire
 		(pts
@@ -1887,7 +2113,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 130.81) (xy 185.42 130.81)
+			(xy 140.97 127) (xy 185.42 127)
 		)
 		(stroke
 			(width 0)
@@ -1897,7 +2123,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 142.24) (xy 185.42 142.24)
+			(xy 140.97 140.97) (xy 185.42 140.97)
 		)
 		(stroke
 			(width 0)
@@ -1907,13 +2133,23 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 153.67) (xy 185.42 151.13)
+			(xy 184.15 144.78) (xy 184.15 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d8da74eb-f1a0-4106-bfb8-4b8b7f11aa03")
+		(uuid "d64175b0-8360-4742-9157-5b0eb6437de2")
+	)
+	(wire
+		(pts
+			(xy 184.15 149.86) (xy 184.15 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d70a224b-d2cc-4a55-8f59-81a3d3058d3d")
 	)
 	(wire
 		(pts
@@ -1957,6 +2193,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 129.54) (xy 184.15 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8a600b9-79ab-4925-805e-c550632f99c3")
+	)
+	(wire
+		(pts
 			(xy 91.44 33.02) (xy 105.41 33.02)
 		)
 		(stroke
@@ -1967,7 +2213,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 116.84) (xy 185.42 121.92)
+			(xy 185.42 113.03) (xy 185.42 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1977,13 +2223,43 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 144.78) (xy 185.42 142.24)
+			(xy 184.15 121.92) (xy 184.15 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ecb6e7d0-612c-47c9-8672-29055de6d00f")
+		(uuid "ec451945-d250-42c3-b404-2d8a98a01e4a")
+	)
+	(wire
+		(pts
+			(xy 142.24 144.78) (xy 142.24 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eca8c3fc-355c-473f-abc7-615c174df9d4")
+	)
+	(wire
+		(pts
+			(xy 142.24 115.57) (xy 142.24 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed9c3710-ca41-4e04-9505-52a32e27b112")
+	)
+	(wire
+		(pts
+			(xy 184.15 144.78) (xy 185.42 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f116cf76-3421-4795-8a73-ee799419c87e")
 	)
 	(wire
 		(pts
@@ -2007,13 +2283,23 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 156.21) (xy 140.97 156.21)
+			(xy 128.27 154.94) (xy 140.97 154.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "fc6825c1-ae54-4796-9e50-f276d1a141bb")
+	)
+	(wire
+		(pts
+			(xy 140.97 168.91) (xy 185.42 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe4b5e96-47ab-41f9-86d4-94b833b85f0c")
 	)
 	(label "~{PWR_LED}{slash}~{PSON}"
 		(at 45.72 80.01 0)
@@ -2036,6 +2322,212 @@
 		(uuid "d1a9598d-b344-4c12-b673-36621434a2b3")
 	)
 	(symbol
+		(lib_name "54_1")
+		(lib_id "54:54")
+		(at 173.99 116.84 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0d3096d6-6246-4a58-8e74-287c70732634")
+		(property "Reference" "BT9"
+			(at 167.64 115.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "54"
+			(at 167.64 118.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "54:BAT_54"
+			(at 194.31 125.222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 173.99 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Keystone Electronics"
+			(at 171.704 123.952 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "18.3mm"
+			(at 199.644 113.792 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "NON-STANDARD Keystone"
+			(at 198.882 121.158 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 178.816 111.252 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/54/Keystone/view-part/?ref=eda"
+			(at 175.514 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 192.532 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "E"
+			(at 173.99 111.506 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/54/Keystone/view-part/?ref=snap"
+			(at 174.752 133.096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "54"
+			(at 171.45 112.776 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            Battery Clip, THM, 1 Cell, 17mm-19mm, CR123A, 2/3A, 17350, 18350, 18650 | Keystone Electronics 54\n                        \n"
+			(at 169.926 136.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Keystone Electronics"
+			(at 213.106 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 208.788 115.316 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "54"
+			(at 174.498 113.792 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1_3"
+			(uuid "03aac8e8-d794-4c64-a602-9275afadfedb")
+		)
+		(pin "1_2"
+			(uuid "8d80cf68-4c8c-4cfa-80f2-78d460009242")
+		)
+		(pin "1_1"
+			(uuid "051d135a-628d-41d9-a713-28b73a27521a")
+		)
+		(instances
+			(project "RDAT"
+				(path "/0db9370a-8a21-4fd2-83a9-f207c3725dc9"
+					(reference "BT9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "54_1")
 		(lib_id "54:54")
 		(at 173.99 144.78 0)
 		(mirror y)
@@ -2044,9 +2536,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "18b69d3a-209c-44be-bf18-1daab197cd0c")
-		(property "Reference" "BT10"
+		(uuid "131a9ffa-5de0-4665-9a9d-230adac594fe")
+		(property "Reference" "BT13"
 			(at 167.64 143.5099 0)
 			(effects
 				(font
@@ -2065,7 +2556,7 @@
 			)
 		)
 		(property "Footprint" "54:BAT_54"
-			(at 173.99 144.78 0)
+			(at 194.31 153.162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2093,7 +2584,7 @@
 			)
 		)
 		(property "MF" "Keystone Electronics"
-			(at 173.99 144.78 0)
+			(at 171.704 151.892 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2103,7 +2594,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "18.3mm"
-			(at 173.99 144.78 0)
+			(at 199.644 141.732 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2113,7 +2604,7 @@
 			)
 		)
 		(property "Package" "NON-STANDARD Keystone"
-			(at 173.99 144.78 0)
+			(at 198.882 149.098 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2123,7 +2614,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 173.99 144.78 0)
+			(at 178.816 139.192 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2133,7 +2624,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/54/Keystone/view-part/?ref=eda"
-			(at 173.99 144.78 0)
+			(at 175.514 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2143,7 +2634,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 173.99 144.78 0)
+			(at 192.532 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2153,7 +2644,7 @@
 			)
 		)
 		(property "PARTREV" "E"
-			(at 173.99 144.78 0)
+			(at 173.99 139.446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2163,7 +2654,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/54/Keystone/view-part/?ref=snap"
-			(at 173.99 144.78 0)
+			(at 174.752 161.036 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2173,7 +2664,7 @@
 			)
 		)
 		(property "MP" "54"
-			(at 173.99 144.78 0)
+			(at 171.45 140.716 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2183,7 +2674,7 @@
 			)
 		)
 		(property "Description_1" "\n                        \n                            Battery Clip, THM, 1 Cell, 17mm-19mm, CR123A, 2/3A, 17350, 18350, 18650 | Keystone Electronics 54\n                        \n"
-			(at 173.99 144.78 0)
+			(at 169.926 164.846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2193,7 +2684,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Keystone Electronics"
-			(at 173.99 144.78 0)
+			(at 213.106 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2203,7 +2694,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 173.99 144.78 0)
+			(at 208.788 143.256 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2213,7 +2704,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" "54"
-			(at 173.99 144.78 0)
+			(at 174.498 141.732 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2223,18 +2714,18 @@
 			)
 		)
 		(pin "1_3"
-			(uuid "0aba6329-641e-45c6-9f71-870e2bcfe3d6")
+			(uuid "f2d3c120-0567-4877-8165-5ad49e364987")
 		)
 		(pin "1_2"
-			(uuid "fb7a4b09-b302-426c-839a-40a03f3b6ee2")
+			(uuid "d5a225a7-429b-4cd4-90e1-faaa523f37d3")
 		)
 		(pin "1_1"
-			(uuid "5774ad1c-6722-49c6-a5ef-a26dc650e9cb")
+			(uuid "5ab00dba-300e-4f31-848e-34e5b733d66b")
 		)
 		(instances
 			(project "RDAT"
 				(path "/0db9370a-8a21-4fd2-83a9-f207c3725dc9"
-					(reference "BT10")
+					(reference "BT13")
 					(unit 1)
 				)
 			)
@@ -2378,222 +2869,18 @@
 		)
 	)
 	(symbol
+		(lib_name "54_1")
 		(lib_id "54:54")
-		(at 152.4 128.27 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "24c15bf0-6713-494a-b2f5-75daa9d3040f")
-		(property "Reference" "BT3"
-			(at 158.75 126.9999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "54"
-			(at 158.75 129.5399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "54:BAT_54"
-			(at 152.4 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.4 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 152.4 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Keystone Electronics"
-			(at 152.4 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "18.3mm"
-			(at 152.4 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "NON-STANDARD Keystone"
-			(at 152.4 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 152.4 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/54/Keystone/view-part/?ref=eda"
-			(at 152.4 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 152.4 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "E"
-			(at 152.4 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/54/Keystone/view-part/?ref=snap"
-			(at 152.4 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "54"
-			(at 152.4 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n                        \n                            Battery Clip, THM, 1 Cell, 17mm-19mm, CR123A, 2/3A, 17350, 18350, 18650 | Keystone Electronics 54\n                        \n"
-			(at 152.4 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Keystone Electronics"
-			(at 152.4 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 152.4 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" "54"
-			(at 152.4 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1_3"
-			(uuid "ddb4f0de-09a4-4477-9f33-3f4a230c7599")
-		)
-		(pin "1_2"
-			(uuid "122695fb-909c-4750-bc94-166fda7833fe")
-		)
-		(pin "1_1"
-			(uuid "1bf4e72f-956d-4d5f-8f79-f514cbcfc909")
-		)
-		(instances
-			(project "RDAT"
-				(path "/0db9370a-8a21-4fd2-83a9-f207c3725dc9"
-					(reference "BT3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "54:54")
-		(at 173.99 121.92 0)
+		(at 173.99 151.13 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "31fe7327-61f0-42dc-8328-2b64691b3cbe")
-		(property "Reference" "BT2"
-			(at 167.64 120.6499 0)
+		(uuid "2e23a5a6-e1b6-4033-a464-89d4f5314df3")
+		(property "Reference" "BT14"
+			(at 167.64 149.8599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2602,7 +2889,7 @@
 			)
 		)
 		(property "Value" "54"
-			(at 167.64 123.1899 0)
+			(at 167.64 152.3999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2611,7 +2898,7 @@
 			)
 		)
 		(property "Footprint" "54:BAT_54"
-			(at 173.99 121.92 0)
+			(at 194.31 159.512 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2621,7 +2908,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 173.99 121.92 0)
+			(at 173.99 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2630,7 +2917,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 173.99 121.92 0)
+			(at 173.99 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2639,7 +2926,7 @@
 			)
 		)
 		(property "MF" "Keystone Electronics"
-			(at 173.99 121.92 0)
+			(at 171.704 158.242 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2649,7 +2936,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "18.3mm"
-			(at 173.99 121.92 0)
+			(at 199.644 148.082 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2659,7 +2946,7 @@
 			)
 		)
 		(property "Package" "NON-STANDARD Keystone"
-			(at 173.99 121.92 0)
+			(at 198.882 155.448 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2669,7 +2956,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 173.99 121.92 0)
+			(at 178.816 145.542 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2679,7 +2966,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/54/Keystone/view-part/?ref=eda"
-			(at 173.99 121.92 0)
+			(at 175.514 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2689,7 +2976,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 173.99 121.92 0)
+			(at 192.532 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2699,7 +2986,7 @@
 			)
 		)
 		(property "PARTREV" "E"
-			(at 173.99 121.92 0)
+			(at 173.99 145.796 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2709,7 +2996,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/54/Keystone/view-part/?ref=snap"
-			(at 173.99 121.92 0)
+			(at 174.752 167.386 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2719,7 +3006,7 @@
 			)
 		)
 		(property "MP" "54"
-			(at 173.99 121.92 0)
+			(at 171.45 147.066 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2729,7 +3016,7 @@
 			)
 		)
 		(property "Description_1" "\n                        \n                            Battery Clip, THM, 1 Cell, 17mm-19mm, CR123A, 2/3A, 17350, 18350, 18650 | Keystone Electronics 54\n                        \n"
-			(at 173.99 121.92 0)
+			(at 169.926 171.196 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2739,7 +3026,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Keystone Electronics"
-			(at 173.99 121.92 0)
+			(at 213.106 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2749,7 +3036,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 173.99 121.92 0)
+			(at 208.788 149.606 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2759,7 +3046,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" "54"
-			(at 173.99 121.92 0)
+			(at 174.498 148.082 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2769,657 +3056,35 @@
 			)
 		)
 		(pin "1_3"
-			(uuid "9f257918-66ea-4eaf-8b0e-8ce2513c86ee")
+			(uuid "8af46897-eedc-487e-916c-e83fe9e6679f")
 		)
 		(pin "1_2"
-			(uuid "2b4e77fd-e88c-4b01-8e55-34a4ad712794")
+			(uuid "fd6bcdfe-3488-44b3-9292-29cbdb706a68")
 		)
 		(pin "1_1"
-			(uuid "3284ef7f-bcec-4bf7-a7a9-7a405ce34651")
+			(uuid "c00afed5-4c60-4fe7-b3db-6ed53ebf0e5c")
 		)
 		(instances
 			(project "RDAT"
 				(path "/0db9370a-8a21-4fd2-83a9-f207c3725dc9"
-					(reference "BT2")
+					(reference "BT14")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
+		(lib_name "54_1")
 		(lib_id "54:54")
-		(at 173.99 162.56 0)
-		(mirror y)
+		(at 152.4 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "33068c7d-a141-47a5-ad3b-aead995f5496")
-		(property "Reference" "BT16"
-			(at 167.64 161.2899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "54"
-			(at 167.64 163.8299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "54:BAT_54"
-			(at 173.99 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 173.99 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 173.99 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Keystone Electronics"
-			(at 173.99 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "18.3mm"
-			(at 173.99 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "NON-STANDARD Keystone"
-			(at 173.99 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 173.99 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/54/Keystone/view-part/?ref=eda"
-			(at 173.99 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 173.99 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "E"
-			(at 173.99 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/54/Keystone/view-part/?ref=snap"
-			(at 173.99 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "54"
-			(at 173.99 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n                        \n                            Battery Clip, THM, 1 Cell, 17mm-19mm, CR123A, 2/3A, 17350, 18350, 18650 | Keystone Electronics 54\n                        \n"
-			(at 173.99 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Keystone Electronics"
-			(at 173.99 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 173.99 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" "54"
-			(at 173.99 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1_3"
-			(uuid "86bb8807-6b6a-4325-ad5e-84f43f1c8707")
-		)
-		(pin "1_2"
-			(uuid "4f1e1675-5fb9-4d5e-af66-5c563c94e3a7")
-		)
-		(pin "1_1"
-			(uuid "7f76e6eb-e6f4-4f4f-8dfc-508a4b31056d")
-		)
-		(instances
-			(project "RDAT"
-				(path "/0db9370a-8a21-4fd2-83a9-f207c3725dc9"
-					(reference "BT16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "54:54")
-		(at 152.4 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4de9eab0-1b69-449c-8cda-01a249368b26")
-		(property "Reference" "BT5"
-			(at 158.75 132.0799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "54"
-			(at 158.75 134.6199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "54:BAT_54"
-			(at 152.4 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.4 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 152.4 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Keystone Electronics"
-			(at 152.4 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "18.3mm"
-			(at 152.4 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "NON-STANDARD Keystone"
-			(at 152.4 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 152.4 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/54/Keystone/view-part/?ref=eda"
-			(at 152.4 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 152.4 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "E"
-			(at 152.4 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/54/Keystone/view-part/?ref=snap"
-			(at 152.4 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "54"
-			(at 152.4 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n                        \n                            Battery Clip, THM, 1 Cell, 17mm-19mm, CR123A, 2/3A, 17350, 18350, 18650 | Keystone Electronics 54\n                        \n"
-			(at 152.4 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Keystone Electronics"
-			(at 152.4 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 152.4 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" "54"
-			(at 152.4 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1_3"
-			(uuid "c6853821-75e2-4bf2-821f-cfea337e8aff")
-		)
-		(pin "1_2"
-			(uuid "b8feb37c-a8f7-4a79-bbb3-f19061f6999b")
-		)
-		(pin "1_1"
-			(uuid "42359609-56df-442a-a122-998f538f5ab9")
-		)
-		(instances
-			(project "RDAT"
-				(path "/0db9370a-8a21-4fd2-83a9-f207c3725dc9"
-					(reference "BT5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "54:54")
-		(at 173.99 133.35 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5e24fd37-f878-4b21-8bd2-726127182de5")
-		(property "Reference" "BT6"
-			(at 167.64 132.0799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "54"
-			(at 167.64 134.6199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "54:BAT_54"
-			(at 173.99 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 173.99 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 173.99 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Keystone Electronics"
-			(at 173.99 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "18.3mm"
-			(at 173.99 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "NON-STANDARD Keystone"
-			(at 173.99 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 173.99 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/54/Keystone/view-part/?ref=eda"
-			(at 173.99 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 173.99 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "E"
-			(at 173.99 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/54/Keystone/view-part/?ref=snap"
-			(at 173.99 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "54"
-			(at 173.99 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n                        \n                            Battery Clip, THM, 1 Cell, 17mm-19mm, CR123A, 2/3A, 17350, 18350, 18650 | Keystone Electronics 54\n                        \n"
-			(at 173.99 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Keystone Electronics"
-			(at 173.99 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 173.99 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" "54"
-			(at 173.99 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1_3"
-			(uuid "6f3d8e8b-2b76-4ee2-88a8-69405eba07a2")
-		)
-		(pin "1_2"
-			(uuid "1f39a89d-101b-4eba-acf7-f2fa85a0d9db")
-		)
-		(pin "1_1"
-			(uuid "3179b55d-5857-416d-9aeb-6a98d3d090eb")
-		)
-		(instances
-			(project "RDAT"
-				(path "/0db9370a-8a21-4fd2-83a9-f207c3725dc9"
-					(reference "BT6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "54:54")
-		(at 152.4 162.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5fc9e4b7-216b-4d12-afae-77b682f69d45")
-		(property "Reference" "BT15"
-			(at 158.75 161.2899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "54"
+		(uuid "3a4dee00-4c4d-41c3-b459-dbabc1bc6564")
+		(property "Reference" "BT8"
 			(at 158.75 163.8299 0)
 			(effects
 				(font
@@ -3428,203 +3093,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "54:BAT_54"
-			(at 152.4 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.4 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 152.4 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Keystone Electronics"
-			(at 152.4 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "18.3mm"
-			(at 152.4 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "NON-STANDARD Keystone"
-			(at 152.4 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 152.4 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/54/Keystone/view-part/?ref=eda"
-			(at 152.4 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 152.4 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "E"
-			(at 152.4 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/54/Keystone/view-part/?ref=snap"
-			(at 152.4 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "54"
-			(at 152.4 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n                        \n                            Battery Clip, THM, 1 Cell, 17mm-19mm, CR123A, 2/3A, 17350, 18350, 18650 | Keystone Electronics 54\n                        \n"
-			(at 152.4 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Keystone Electronics"
-			(at 152.4 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 152.4 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" "54"
-			(at 152.4 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1_3"
-			(uuid "9f8f5cbc-59a3-422a-91eb-a83449372ae0")
-		)
-		(pin "1_2"
-			(uuid "1642d2de-46f7-43f7-b869-e63541ff7601")
-		)
-		(pin "1_1"
-			(uuid "f44ea4ef-6438-4cde-9c8d-7272fce0e3b3")
-		)
-		(instances
-			(project "RDAT"
-				(path "/0db9370a-8a21-4fd2-83a9-f207c3725dc9"
-					(reference "BT15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "54:54")
-		(at 152.4 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7f8d58eb-6955-4d20-a45c-a563ab5dd2f1")
-		(property "Reference" "BT7"
-			(at 158.75 138.4299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(property "Value" "54"
-			(at 158.75 140.9699 0)
+			(at 158.75 166.3699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3633,7 +3103,7 @@
 			)
 		)
 		(property "Footprint" "54:BAT_54"
-			(at 152.4 139.7 0)
+			(at 132.08 173.482 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3643,7 +3113,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 139.7 0)
+			(at 152.4 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3652,7 +3122,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 152.4 139.7 0)
+			(at 152.4 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3661,7 +3131,7 @@
 			)
 		)
 		(property "MF" "Keystone Electronics"
-			(at 152.4 139.7 0)
+			(at 154.686 172.212 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3671,7 +3141,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "18.3mm"
-			(at 152.4 139.7 0)
+			(at 126.746 162.052 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3681,7 +3151,7 @@
 			)
 		)
 		(property "Package" "NON-STANDARD Keystone"
-			(at 152.4 139.7 0)
+			(at 127.508 169.418 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3691,7 +3161,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 152.4 139.7 0)
+			(at 147.574 159.512 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3701,7 +3171,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/54/Keystone/view-part/?ref=eda"
-			(at 152.4 139.7 0)
+			(at 150.876 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3711,7 +3181,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 152.4 139.7 0)
+			(at 133.858 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3721,7 +3191,7 @@
 			)
 		)
 		(property "PARTREV" "E"
-			(at 152.4 139.7 0)
+			(at 152.4 159.766 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3731,7 +3201,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/54/Keystone/view-part/?ref=snap"
-			(at 152.4 139.7 0)
+			(at 151.638 181.356 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3741,7 +3211,7 @@
 			)
 		)
 		(property "MP" "54"
-			(at 152.4 139.7 0)
+			(at 154.94 161.036 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3751,7 +3221,7 @@
 			)
 		)
 		(property "Description_1" "\n                        \n                            Battery Clip, THM, 1 Cell, 17mm-19mm, CR123A, 2/3A, 17350, 18350, 18650 | Keystone Electronics 54\n                        \n"
-			(at 152.4 139.7 0)
+			(at 156.464 185.166 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3761,7 +3231,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Keystone Electronics"
-			(at 152.4 139.7 0)
+			(at 113.284 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3771,7 +3241,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 152.4 139.7 0)
+			(at 117.602 163.576 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3781,7 +3251,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" "54"
-			(at 152.4 139.7 0)
+			(at 151.892 162.052 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3791,422 +3261,13 @@
 			)
 		)
 		(pin "1_3"
-			(uuid "0ae38281-64e8-4295-8674-e2a411614955")
+			(uuid "2ff6db90-7e66-4dda-ad75-c47111b83dc7")
 		)
 		(pin "1_2"
-			(uuid "e18a7d09-e184-4cd5-9828-44f10b1895ec")
+			(uuid "f8ef61c0-f644-4504-a16f-affc31acf1bb")
 		)
 		(pin "1_1"
-			(uuid "648a30db-0d08-457e-846d-68b4fc65b6bb")
-		)
-		(instances
-			(project "RDAT"
-				(path "/0db9370a-8a21-4fd2-83a9-f207c3725dc9"
-					(reference "BT7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "54:54")
-		(at 152.4 144.78 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "82e2c554-f9fa-46fb-bd6a-663207543ac9")
-		(property "Reference" "BT9"
-			(at 158.75 143.5099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "54"
-			(at 158.75 146.0499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "54:BAT_54"
-			(at 152.4 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.4 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 152.4 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Keystone Electronics"
-			(at 152.4 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "18.3mm"
-			(at 152.4 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "NON-STANDARD Keystone"
-			(at 152.4 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 152.4 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/54/Keystone/view-part/?ref=eda"
-			(at 152.4 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 152.4 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "E"
-			(at 152.4 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/54/Keystone/view-part/?ref=snap"
-			(at 152.4 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "54"
-			(at 152.4 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n                        \n                            Battery Clip, THM, 1 Cell, 17mm-19mm, CR123A, 2/3A, 17350, 18350, 18650 | Keystone Electronics 54\n                        \n"
-			(at 152.4 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Keystone Electronics"
-			(at 152.4 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 152.4 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" "54"
-			(at 152.4 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1_3"
-			(uuid "3be63307-84bb-4843-b4bd-2f07f78f373f")
-		)
-		(pin "1_2"
-			(uuid "2430a70e-17ed-4ac3-8016-2dabbbd6f754")
-		)
-		(pin "1_1"
-			(uuid "63c92f48-d7f2-4063-ab99-7eae572187fc")
-		)
-		(instances
-			(project "RDAT"
-				(path "/0db9370a-8a21-4fd2-83a9-f207c3725dc9"
-					(reference "BT9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "54:54")
-		(at 173.99 139.7 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "855d156c-747b-4c7a-89b7-508f94f622bd")
-		(property "Reference" "BT8"
-			(at 167.64 138.4299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "54"
-			(at 167.64 140.9699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "54:BAT_54"
-			(at 173.99 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 173.99 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 173.99 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Keystone Electronics"
-			(at 173.99 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "18.3mm"
-			(at 173.99 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "NON-STANDARD Keystone"
-			(at 173.99 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 173.99 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/54/Keystone/view-part/?ref=eda"
-			(at 173.99 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 173.99 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "E"
-			(at 173.99 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/54/Keystone/view-part/?ref=snap"
-			(at 173.99 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "54"
-			(at 173.99 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n                        \n                            Battery Clip, THM, 1 Cell, 17mm-19mm, CR123A, 2/3A, 17350, 18350, 18650 | Keystone Electronics 54\n                        \n"
-			(at 173.99 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Keystone Electronics"
-			(at 173.99 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 173.99 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" "54"
-			(at 173.99 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1_3"
-			(uuid "2911179c-6c5b-4cfa-b8af-a69b5e5c9e05")
-		)
-		(pin "1_2"
-			(uuid "a5714d71-6e61-4b23-9a13-ab329549b55a")
-		)
-		(pin "1_1"
-			(uuid "3addad7c-e46d-4482-a0dc-ca6d52abbc0d")
+			(uuid "7136c7f5-473d-4046-badb-932383359ccd")
 		)
 		(instances
 			(project "RDAT"
@@ -4218,17 +3279,18 @@
 		)
 	)
 	(symbol
+		(lib_name "54_1")
 		(lib_id "54:54")
-		(at 152.4 151.13 0)
+		(at 173.99 130.81 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "86946e29-6245-445d-a623-1c11e86e45b5")
+		(uuid "5c74e6e0-ff69-4790-9070-b06b38644a5d")
 		(property "Reference" "BT11"
-			(at 158.75 149.8599 0)
+			(at 167.64 129.5399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4237,7 +3299,7 @@
 			)
 		)
 		(property "Value" "54"
-			(at 158.75 152.3999 0)
+			(at 167.64 132.0799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4246,7 +3308,7 @@
 			)
 		)
 		(property "Footprint" "54:BAT_54"
-			(at 152.4 151.13 0)
+			(at 194.31 139.192 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4256,7 +3318,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 151.13 0)
+			(at 173.99 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4265,7 +3327,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 152.4 151.13 0)
+			(at 173.99 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4274,7 +3336,7 @@
 			)
 		)
 		(property "MF" "Keystone Electronics"
-			(at 152.4 151.13 0)
+			(at 171.704 137.922 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4284,7 +3346,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "18.3mm"
-			(at 152.4 151.13 0)
+			(at 199.644 127.762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4294,7 +3356,7 @@
 			)
 		)
 		(property "Package" "NON-STANDARD Keystone"
-			(at 152.4 151.13 0)
+			(at 198.882 135.128 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4304,7 +3366,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 152.4 151.13 0)
+			(at 178.816 125.222 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4314,7 +3376,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/54/Keystone/view-part/?ref=eda"
-			(at 152.4 151.13 0)
+			(at 175.514 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4324,7 +3386,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 152.4 151.13 0)
+			(at 192.532 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4334,7 +3396,7 @@
 			)
 		)
 		(property "PARTREV" "E"
-			(at 152.4 151.13 0)
+			(at 173.99 125.476 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4344,7 +3406,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/54/Keystone/view-part/?ref=snap"
-			(at 152.4 151.13 0)
+			(at 174.752 147.066 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4354,7 +3416,7 @@
 			)
 		)
 		(property "MP" "54"
-			(at 152.4 151.13 0)
+			(at 171.45 126.746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4364,7 +3426,7 @@
 			)
 		)
 		(property "Description_1" "\n                        \n                            Battery Clip, THM, 1 Cell, 17mm-19mm, CR123A, 2/3A, 17350, 18350, 18650 | Keystone Electronics 54\n                        \n"
-			(at 152.4 151.13 0)
+			(at 169.926 150.876 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4374,7 +3436,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Keystone Electronics"
-			(at 152.4 151.13 0)
+			(at 213.106 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4384,7 +3446,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 152.4 151.13 0)
+			(at 208.788 129.286 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4394,7 +3456,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" "54"
-			(at 152.4 151.13 0)
+			(at 174.498 127.762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4404,13 +3466,13 @@
 			)
 		)
 		(pin "1_3"
-			(uuid "cd61fcd4-00c1-48ce-b925-4e11f71d605a")
+			(uuid "c52ea03e-440a-4576-b233-020eb21b84d0")
 		)
 		(pin "1_2"
-			(uuid "cc6fd9f4-1a3a-4420-bc73-311f0eabd187")
+			(uuid "128f67c4-5073-4a20-87ad-1cb2aaec49f3")
 		)
 		(pin "1_1"
-			(uuid "7d208223-8b10-4e69-b11a-7fe5bb1c218e")
+			(uuid "834613e4-7b44-46c2-b711-83df977acd01")
 		)
 		(instances
 			(project "RDAT"
@@ -4422,17 +3484,18 @@
 		)
 	)
 	(symbol
+		(lib_name "54_1")
 		(lib_id "54:54")
-		(at 152.4 121.92 0)
+		(at 152.4 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "92850b85-7a06-4554-943e-136752ba0fe0")
-		(property "Reference" "BT1"
-			(at 158.75 120.6499 0)
+		(uuid "8c41a1a1-d860-48dd-bb7d-5a23a0a4fce2")
+		(property "Reference" "BT4"
+			(at 158.75 135.8899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4441,7 +3504,7 @@
 			)
 		)
 		(property "Value" "54"
-			(at 158.75 123.1899 0)
+			(at 158.75 138.4299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4450,7 +3513,7 @@
 			)
 		)
 		(property "Footprint" "54:BAT_54"
-			(at 152.4 121.92 0)
+			(at 132.08 145.542 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4460,7 +3523,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 121.92 0)
+			(at 152.4 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4469,7 +3532,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 152.4 121.92 0)
+			(at 152.4 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4478,7 +3541,7 @@
 			)
 		)
 		(property "MF" "Keystone Electronics"
-			(at 152.4 121.92 0)
+			(at 154.686 144.272 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4488,7 +3551,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "18.3mm"
-			(at 152.4 121.92 0)
+			(at 126.746 134.112 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4498,7 +3561,7 @@
 			)
 		)
 		(property "Package" "NON-STANDARD Keystone"
-			(at 152.4 121.92 0)
+			(at 127.508 141.478 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4508,7 +3571,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 152.4 121.92 0)
+			(at 147.574 131.572 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4518,7 +3581,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/54/Keystone/view-part/?ref=eda"
-			(at 152.4 121.92 0)
+			(at 150.876 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4528,7 +3591,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 152.4 121.92 0)
+			(at 133.858 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4538,7 +3601,7 @@
 			)
 		)
 		(property "PARTREV" "E"
-			(at 152.4 121.92 0)
+			(at 152.4 131.826 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4548,7 +3611,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/54/Keystone/view-part/?ref=snap"
-			(at 152.4 121.92 0)
+			(at 151.638 153.416 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4558,7 +3621,7 @@
 			)
 		)
 		(property "MP" "54"
-			(at 152.4 121.92 0)
+			(at 154.94 133.096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4568,7 +3631,7 @@
 			)
 		)
 		(property "Description_1" "\n                        \n                            Battery Clip, THM, 1 Cell, 17mm-19mm, CR123A, 2/3A, 17350, 18350, 18650 | Keystone Electronics 54\n                        \n"
-			(at 152.4 121.92 0)
+			(at 156.464 157.226 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4578,7 +3641,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Keystone Electronics"
-			(at 152.4 121.92 0)
+			(at 113.284 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4588,7 +3651,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 152.4 121.92 0)
+			(at 117.602 135.636 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4598,7 +3661,212 @@
 			)
 		)
 		(property "SNAPEDA_PN" "54"
-			(at 152.4 121.92 0)
+			(at 151.892 134.112 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1_3"
+			(uuid "75b07d70-ee82-4d59-8eaa-d0dd6623c5b9")
+		)
+		(pin "1_2"
+			(uuid "758b01e3-dbc8-4366-8f81-8d02dbfbe54c")
+		)
+		(pin "1_1"
+			(uuid "14e75d24-5d67-42c1-ad65-e5e52186a472")
+		)
+		(instances
+			(project "RDAT"
+				(path "/0db9370a-8a21-4fd2-83a9-f207c3725dc9"
+					(reference "BT4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "54_1")
+		(lib_id "54:54")
+		(at 152.4 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "92850b85-7a06-4554-943e-136752ba0fe0")
+		(property "Reference" "BT1"
+			(at 158.75 115.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "54"
+			(at 158.75 118.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "54:BAT_54"
+			(at 132.08 125.222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Keystone Electronics"
+			(at 154.686 123.952 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "18.3mm"
+			(at 126.746 113.792 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "NON-STANDARD Keystone"
+			(at 127.508 121.158 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 147.574 111.252 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/54/Keystone/view-part/?ref=eda"
+			(at 150.876 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 133.858 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "E"
+			(at 152.4 111.506 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/54/Keystone/view-part/?ref=snap"
+			(at 151.638 133.096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "54"
+			(at 154.94 112.776 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            Battery Clip, THM, 1 Cell, 17mm-19mm, CR123A, 2/3A, 17350, 18350, 18650 | Keystone Electronics 54\n                        \n"
+			(at 156.464 136.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Keystone Electronics"
+			(at 113.284 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 117.602 115.316 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "54"
+			(at 151.892 113.792 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4626,230 +3894,17 @@
 		)
 	)
 	(symbol
+		(lib_name "54_1")
 		(lib_id "54:54")
-		(at 173.99 156.21 0)
-		(mirror y)
+		(at 152.4 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a1f21f2d-a389-46cf-8b67-feddf9129c12")
-		(property "Reference" "BT14"
-			(at 167.64 154.9399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "54"
-			(at 167.64 157.4799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "54:BAT_54"
-			(at 173.99 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 173.99 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 173.99 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Keystone Electronics"
-			(at 173.99 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "18.3mm"
-			(at 173.99 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "NON-STANDARD Keystone"
-			(at 173.99 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 173.99 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/54/Keystone/view-part/?ref=eda"
-			(at 173.99 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 173.99 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "E"
-			(at 173.99 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/54/Keystone/view-part/?ref=snap"
-			(at 173.99 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "54"
-			(at 173.99 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n                        \n                            Battery Clip, THM, 1 Cell, 17mm-19mm, CR123A, 2/3A, 17350, 18350, 18650 | Keystone Electronics 54\n                        \n"
-			(at 173.99 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Keystone Electronics"
-			(at 173.99 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 173.99 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" "54"
-			(at 173.99 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1_3"
-			(uuid "f12d52e5-bfbf-488d-97d9-dce88a08f982")
-		)
-		(pin "1_2"
-			(uuid "664b62f8-accd-435b-9f5d-3592022e8b2d")
-		)
-		(pin "1_1"
-			(uuid "cdcb0d08-5bf6-4151-80dc-00e0db853288")
-		)
-		(instances
-			(project "RDAT"
-				(path "/0db9370a-8a21-4fd2-83a9-f207c3725dc9"
-					(reference "BT14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "54:54")
-		(at 152.4 156.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aca46fa2-5fea-4da3-8f14-d39416e07fe3")
-		(property "Reference" "BT13"
-			(at 158.75 154.9399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "54"
+		(uuid "96809f92-6125-426a-855b-8d0181736eb7")
+		(property "Reference" "BT6"
 			(at 158.75 157.4799 0)
 			(effects
 				(font
@@ -4858,8 +3913,17 @@
 				(justify left)
 			)
 		)
+		(property "Value" "54"
+			(at 158.75 160.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "Footprint" "54:BAT_54"
-			(at 152.4 156.21 0)
+			(at 132.08 167.132 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4869,7 +3933,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 156.21 0)
+			(at 152.4 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4878,7 +3942,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 152.4 156.21 0)
+			(at 152.4 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4887,7 +3951,7 @@
 			)
 		)
 		(property "MF" "Keystone Electronics"
-			(at 152.4 156.21 0)
+			(at 154.686 165.862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4897,7 +3961,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "18.3mm"
-			(at 152.4 156.21 0)
+			(at 126.746 155.702 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4907,7 +3971,7 @@
 			)
 		)
 		(property "Package" "NON-STANDARD Keystone"
-			(at 152.4 156.21 0)
+			(at 127.508 163.068 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4917,7 +3981,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 152.4 156.21 0)
+			(at 147.574 153.162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4927,7 +3991,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/54/Keystone/view-part/?ref=eda"
-			(at 152.4 156.21 0)
+			(at 150.876 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4937,7 +4001,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 152.4 156.21 0)
+			(at 133.858 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4947,7 +4011,7 @@
 			)
 		)
 		(property "PARTREV" "E"
-			(at 152.4 156.21 0)
+			(at 152.4 153.416 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4957,7 +4021,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/54/Keystone/view-part/?ref=snap"
-			(at 152.4 156.21 0)
+			(at 151.638 175.006 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4967,7 +4031,7 @@
 			)
 		)
 		(property "MP" "54"
-			(at 152.4 156.21 0)
+			(at 154.94 154.686 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4977,7 +4041,7 @@
 			)
 		)
 		(property "Description_1" "\n                        \n                            Battery Clip, THM, 1 Cell, 17mm-19mm, CR123A, 2/3A, 17350, 18350, 18650 | Keystone Electronics 54\n                        \n"
-			(at 152.4 156.21 0)
+			(at 156.464 178.816 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4987,7 +4051,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Keystone Electronics"
-			(at 152.4 156.21 0)
+			(at 113.284 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4997,7 +4061,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 152.4 156.21 0)
+			(at 117.602 157.226 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5007,7 +4071,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" "54"
-			(at 152.4 156.21 0)
+			(at 151.892 155.702 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5017,102 +4081,36 @@
 			)
 		)
 		(pin "1_3"
-			(uuid "e0d91d2e-9c51-4682-965b-9e64a72bcdaa")
+			(uuid "6e6fce69-49e2-41f9-895b-6f35a6e2bcae")
 		)
 		(pin "1_2"
-			(uuid "d709d277-0072-4361-ae29-f65bdce20cac")
+			(uuid "4c7118d8-92b5-4610-bb94-20a70272695d")
 		)
 		(pin "1_1"
-			(uuid "303c1b06-d467-46f6-91f2-cdf5682c5923")
+			(uuid "75cb3991-be59-4465-9d99-dc41b1e394ac")
 		)
 		(instances
 			(project "RDAT"
 				(path "/0db9370a-8a21-4fd2-83a9-f207c3725dc9"
-					(reference "BT13")
+					(reference "BT6")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 185.42 167.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ce7e5a9e-e9ef-4c95-8e64-d1dd32eeb683")
-		(property "Reference" "#PWR01"
-			(at 185.42 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 185.42 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 185.42 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 185.42 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "143e615b-0db2-42b9-b933-5fe63f7f402b")
-		)
-		(instances
-			(project ""
-				(path "/0db9370a-8a21-4fd2-83a9-f207c3725dc9"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
+		(lib_name "54_1")
 		(lib_id "54:54")
-		(at 173.99 151.13 0)
+		(at 173.99 158.75 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d0f0f4d6-0e13-46ba-8d5f-b86571837774")
-		(property "Reference" "BT12"
-			(at 167.64 149.8599 0)
+		(uuid "a451d61a-e4e7-4538-9d86-4eb4a15907f4")
+		(property "Reference" "BT15"
+			(at 167.64 157.4799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5121,7 +4119,7 @@
 			)
 		)
 		(property "Value" "54"
-			(at 167.64 152.3999 0)
+			(at 167.64 160.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5130,7 +4128,7 @@
 			)
 		)
 		(property "Footprint" "54:BAT_54"
-			(at 173.99 151.13 0)
+			(at 194.31 167.132 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5140,7 +4138,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 173.99 151.13 0)
+			(at 173.99 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5149,7 +4147,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 173.99 151.13 0)
+			(at 173.99 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5158,7 +4156,7 @@
 			)
 		)
 		(property "MF" "Keystone Electronics"
-			(at 173.99 151.13 0)
+			(at 171.704 165.862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5168,7 +4166,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "18.3mm"
-			(at 173.99 151.13 0)
+			(at 199.644 155.702 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5178,7 +4176,7 @@
 			)
 		)
 		(property "Package" "NON-STANDARD Keystone"
-			(at 173.99 151.13 0)
+			(at 198.882 163.068 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5188,7 +4186,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 173.99 151.13 0)
+			(at 178.816 153.162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5198,7 +4196,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/54/Keystone/view-part/?ref=eda"
-			(at 173.99 151.13 0)
+			(at 175.514 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5208,7 +4206,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 173.99 151.13 0)
+			(at 192.532 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5218,7 +4216,7 @@
 			)
 		)
 		(property "PARTREV" "E"
-			(at 173.99 151.13 0)
+			(at 173.99 153.416 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5228,7 +4226,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/54/Keystone/view-part/?ref=snap"
-			(at 173.99 151.13 0)
+			(at 174.752 175.006 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5238,7 +4236,7 @@
 			)
 		)
 		(property "MP" "54"
-			(at 173.99 151.13 0)
+			(at 171.45 154.686 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5248,7 +4246,7 @@
 			)
 		)
 		(property "Description_1" "\n                        \n                            Battery Clip, THM, 1 Cell, 17mm-19mm, CR123A, 2/3A, 17350, 18350, 18650 | Keystone Electronics 54\n                        \n"
-			(at 173.99 151.13 0)
+			(at 169.926 178.816 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5258,7 +4256,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Keystone Electronics"
-			(at 173.99 151.13 0)
+			(at 213.106 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5268,7 +4266,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 173.99 151.13 0)
+			(at 208.788 157.226 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5278,7 +4276,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" "54"
-			(at 173.99 151.13 0)
+			(at 174.498 155.702 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5288,13 +4286,423 @@
 			)
 		)
 		(pin "1_3"
-			(uuid "475f58ed-4551-45b1-8c25-7a95d4d223e5")
+			(uuid "358b7efe-5404-49f8-962b-aa9332529dab")
 		)
 		(pin "1_2"
-			(uuid "f3c82d56-9ea7-49ac-9568-3164f334140c")
+			(uuid "2d359a42-98d9-4c22-b722-8928380d72e2")
 		)
 		(pin "1_1"
-			(uuid "017ef46c-90eb-4b02-a275-a5dabe582223")
+			(uuid "dc5f47d9-e8a6-4c8a-878a-e04ec529d2bc")
+		)
+		(instances
+			(project "RDAT"
+				(path "/0db9370a-8a21-4fd2-83a9-f207c3725dc9"
+					(reference "BT15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "54_1")
+		(lib_id "54:54")
+		(at 152.4 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b13f64fd-9b32-4af0-b138-bd21418129ae")
+		(property "Reference" "BT3"
+			(at 158.75 129.5399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "54"
+			(at 158.75 132.0799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "54:BAT_54"
+			(at 132.08 139.192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Keystone Electronics"
+			(at 154.686 137.922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "18.3mm"
+			(at 126.746 127.762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "NON-STANDARD Keystone"
+			(at 127.508 135.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 147.574 125.222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/54/Keystone/view-part/?ref=eda"
+			(at 150.876 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 133.858 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "E"
+			(at 152.4 125.476 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/54/Keystone/view-part/?ref=snap"
+			(at 151.638 147.066 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "54"
+			(at 154.94 126.746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            Battery Clip, THM, 1 Cell, 17mm-19mm, CR123A, 2/3A, 17350, 18350, 18650 | Keystone Electronics 54\n                        \n"
+			(at 156.464 150.876 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Keystone Electronics"
+			(at 113.284 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 117.602 129.286 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "54"
+			(at 151.892 127.762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1_3"
+			(uuid "b1d98e4a-5dc6-43d1-97a9-f7d48e8b0846")
+		)
+		(pin "1_2"
+			(uuid "2908de49-3b38-463e-9f6a-60ddda056125")
+		)
+		(pin "1_1"
+			(uuid "ca869cd6-a4ab-48b0-9d68-8441c6c7e4e2")
+		)
+		(instances
+			(project "RDAT"
+				(path "/0db9370a-8a21-4fd2-83a9-f207c3725dc9"
+					(reference "BT3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "54_1")
+		(lib_id "54:54")
+		(at 173.99 137.16 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c2f52482-f476-4d9a-b8f7-9c132a4d4bce")
+		(property "Reference" "BT12"
+			(at 167.64 135.8899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "54"
+			(at 167.64 138.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "54:BAT_54"
+			(at 194.31 145.542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 173.99 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Keystone Electronics"
+			(at 171.704 144.272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "18.3mm"
+			(at 199.644 134.112 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "NON-STANDARD Keystone"
+			(at 198.882 141.478 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 178.816 131.572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/54/Keystone/view-part/?ref=eda"
+			(at 175.514 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 192.532 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "E"
+			(at 173.99 131.826 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/54/Keystone/view-part/?ref=snap"
+			(at 174.752 153.416 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "54"
+			(at 171.45 133.096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            Battery Clip, THM, 1 Cell, 17mm-19mm, CR123A, 2/3A, 17350, 18350, 18650 | Keystone Electronics 54\n                        \n"
+			(at 169.926 157.226 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Keystone Electronics"
+			(at 213.106 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 208.788 135.636 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "54"
+			(at 174.498 134.112 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1_3"
+			(uuid "be3d41fd-8ee8-491f-a58e-7e82b1bc392b")
+		)
+		(pin "1_2"
+			(uuid "fedcb3ff-d0c7-40eb-8002-5c7e2b2e48eb")
+		)
+		(pin "1_1"
+			(uuid "b57e4501-4165-4e62-a17b-766403bf3efb")
 		)
 		(instances
 			(project "RDAT"
@@ -5306,18 +4714,18 @@
 		)
 	)
 	(symbol
+		(lib_name "54_1")
 		(lib_id "54:54")
-		(at 173.99 128.27 0)
-		(mirror y)
+		(at 152.4 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f8d7b0d7-c406-452b-b98c-f839c66541f5")
-		(property "Reference" "BT4"
-			(at 167.64 126.9999 0)
+		(uuid "c508feb8-9749-4bf5-a88f-bd18cc0099a4")
+		(property "Reference" "BT5"
+			(at 158.75 143.5099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5326,7 +4734,7 @@
 			)
 		)
 		(property "Value" "54"
-			(at 167.64 129.5399 0)
+			(at 158.75 146.0499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5335,7 +4743,7 @@
 			)
 		)
 		(property "Footprint" "54:BAT_54"
-			(at 173.99 128.27 0)
+			(at 132.08 153.162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5345,7 +4753,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 173.99 128.27 0)
+			(at 152.4 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5354,7 +4762,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 173.99 128.27 0)
+			(at 152.4 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5363,7 +4771,7 @@
 			)
 		)
 		(property "MF" "Keystone Electronics"
-			(at 173.99 128.27 0)
+			(at 154.686 151.892 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5373,7 +4781,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "18.3mm"
-			(at 173.99 128.27 0)
+			(at 126.746 141.732 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5383,7 +4791,7 @@
 			)
 		)
 		(property "Package" "NON-STANDARD Keystone"
-			(at 173.99 128.27 0)
+			(at 127.508 149.098 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5393,7 +4801,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 173.99 128.27 0)
+			(at 147.574 139.192 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5403,7 +4811,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/54/Keystone/view-part/?ref=eda"
-			(at 173.99 128.27 0)
+			(at 150.876 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5413,7 +4821,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 173.99 128.27 0)
+			(at 133.858 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5423,7 +4831,7 @@
 			)
 		)
 		(property "PARTREV" "E"
-			(at 173.99 128.27 0)
+			(at 152.4 139.446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5433,7 +4841,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/54/Keystone/view-part/?ref=snap"
-			(at 173.99 128.27 0)
+			(at 151.638 161.036 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5443,7 +4851,7 @@
 			)
 		)
 		(property "MP" "54"
-			(at 173.99 128.27 0)
+			(at 154.94 140.716 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5453,7 +4861,7 @@
 			)
 		)
 		(property "Description_1" "\n                        \n                            Battery Clip, THM, 1 Cell, 17mm-19mm, CR123A, 2/3A, 17350, 18350, 18650 | Keystone Electronics 54\n                        \n"
-			(at 173.99 128.27 0)
+			(at 156.464 164.846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5463,7 +4871,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Keystone Electronics"
-			(at 173.99 128.27 0)
+			(at 113.284 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5473,7 +4881,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 173.99 128.27 0)
+			(at 117.602 143.256 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5483,7 +4891,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" "54"
-			(at 173.99 128.27 0)
+			(at 151.892 141.732 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5493,18 +4901,904 @@
 			)
 		)
 		(pin "1_3"
-			(uuid "d1a1da6f-7d28-4f37-b6cb-cf1b3baef86e")
+			(uuid "d8d129fb-af87-43f5-a2ed-df6dc5ab425a")
 		)
 		(pin "1_2"
-			(uuid "0f30e93f-c1bb-4fe0-b851-073a33956c60")
+			(uuid "a4506f96-664c-46f1-99db-aab06e5736a0")
 		)
 		(pin "1_1"
-			(uuid "16d0c289-19a7-4137-85a0-2f07b4f4507f")
+			(uuid "b793e38f-72d6-4ac4-a114-824c8cf4f5ac")
 		)
 		(instances
 			(project "RDAT"
 				(path "/0db9370a-8a21-4fd2-83a9-f207c3725dc9"
-					(reference "BT4")
+					(reference "BT5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 167.64 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce7e5a9e-e9ef-4c95-8e64-d1dd32eeb683")
+		(property "Reference" "#PWR01"
+			(at 167.64 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 167.64 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 167.64 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "143e615b-0db2-42b9-b933-5fe63f7f402b")
+		)
+		(instances
+			(project "RDAT"
+				(path "/0db9370a-8a21-4fd2-83a9-f207c3725dc9"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "54_1")
+		(lib_id "54:54")
+		(at 152.4 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d3ba46f5-e50d-4a61-b3d1-1c7a7d47932e")
+		(property "Reference" "BT7"
+			(at 158.75 149.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "54"
+			(at 158.75 152.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "54:BAT_54"
+			(at 132.08 159.512 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Keystone Electronics"
+			(at 154.686 158.242 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "18.3mm"
+			(at 126.746 148.082 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "NON-STANDARD Keystone"
+			(at 127.508 155.448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 147.574 145.542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/54/Keystone/view-part/?ref=eda"
+			(at 150.876 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 133.858 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "E"
+			(at 152.4 145.796 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/54/Keystone/view-part/?ref=snap"
+			(at 151.638 167.386 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "54"
+			(at 154.94 147.066 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            Battery Clip, THM, 1 Cell, 17mm-19mm, CR123A, 2/3A, 17350, 18350, 18650 | Keystone Electronics 54\n                        \n"
+			(at 156.464 171.196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Keystone Electronics"
+			(at 113.284 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 117.602 149.606 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "54"
+			(at 151.892 148.082 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1_3"
+			(uuid "463b3953-79d6-4e5a-b210-8023464c8b2a")
+		)
+		(pin "1_2"
+			(uuid "0f6c8a7d-8157-456f-a2ff-e64446fdde69")
+		)
+		(pin "1_1"
+			(uuid "95d51b4e-ac1a-49bc-8b24-62b12e5af83e")
+		)
+		(instances
+			(project "RDAT"
+				(path "/0db9370a-8a21-4fd2-83a9-f207c3725dc9"
+					(reference "BT7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "54_1")
+		(lib_id "54:54")
+		(at 173.99 165.1 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dac209ee-c007-4cf3-86a5-c826bc2cad28")
+		(property "Reference" "BT16"
+			(at 167.64 163.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "54"
+			(at 167.64 166.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "54:BAT_54"
+			(at 194.31 173.482 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 173.99 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Keystone Electronics"
+			(at 171.704 172.212 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "18.3mm"
+			(at 199.644 162.052 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "NON-STANDARD Keystone"
+			(at 198.882 169.418 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 178.816 159.512 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/54/Keystone/view-part/?ref=eda"
+			(at 175.514 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 192.532 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "E"
+			(at 173.99 159.766 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/54/Keystone/view-part/?ref=snap"
+			(at 174.752 181.356 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "54"
+			(at 171.45 161.036 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            Battery Clip, THM, 1 Cell, 17mm-19mm, CR123A, 2/3A, 17350, 18350, 18650 | Keystone Electronics 54\n                        \n"
+			(at 169.926 185.166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Keystone Electronics"
+			(at 213.106 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 208.788 163.576 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "54"
+			(at 174.498 162.052 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1_3"
+			(uuid "f96b17fa-c0fe-4290-9e87-2e214e50d65d")
+		)
+		(pin "1_2"
+			(uuid "b55fc555-45ff-4204-901b-4b42b5919efa")
+		)
+		(pin "1_1"
+			(uuid "f6357c8c-5b01-4b70-94ae-6fc19810f102")
+		)
+		(instances
+			(project "RDAT"
+				(path "/0db9370a-8a21-4fd2-83a9-f207c3725dc9"
+					(reference "BT16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "54_1")
+		(lib_id "54:54")
+		(at 173.99 123.19 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f6b09fd1-39d4-4223-bf46-454494816d9a")
+		(property "Reference" "BT10"
+			(at 167.64 121.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "54"
+			(at 167.64 124.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "54:BAT_54"
+			(at 194.31 131.572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 173.99 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Keystone Electronics"
+			(at 171.704 130.302 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "18.3mm"
+			(at 199.644 120.142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "NON-STANDARD Keystone"
+			(at 198.882 127.508 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 178.816 117.602 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/54/Keystone/view-part/?ref=eda"
+			(at 175.514 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 192.532 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "E"
+			(at 173.99 117.856 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/54/Keystone/view-part/?ref=snap"
+			(at 174.752 139.446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "54"
+			(at 171.45 119.126 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            Battery Clip, THM, 1 Cell, 17mm-19mm, CR123A, 2/3A, 17350, 18350, 18650 | Keystone Electronics 54\n                        \n"
+			(at 169.926 143.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Keystone Electronics"
+			(at 213.106 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 208.788 121.666 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "54"
+			(at 174.498 120.142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1_3"
+			(uuid "a795181b-b084-4424-a6a8-c3f226f06b75")
+		)
+		(pin "1_2"
+			(uuid "44e3ea42-102c-435d-ac86-a99988756be0")
+		)
+		(pin "1_1"
+			(uuid "587a16f6-6ef9-4085-90d3-525cdcc912e0")
+		)
+		(instances
+			(project "RDAT"
+				(path "/0db9370a-8a21-4fd2-83a9-f207c3725dc9"
+					(reference "BT10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "54_1")
+		(lib_id "54:54")
+		(at 152.4 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fbbf2b3b-8028-431a-9690-8d7fd039aff1")
+		(property "Reference" "BT2"
+			(at 158.75 121.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "54"
+			(at 158.75 124.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "54:BAT_54"
+			(at 132.08 131.572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Keystone Electronics"
+			(at 154.686 130.302 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "18.3mm"
+			(at 126.746 120.142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "NON-STANDARD Keystone"
+			(at 127.508 127.508 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 147.574 117.602 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/54/Keystone/view-part/?ref=eda"
+			(at 150.876 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 133.858 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "E"
+			(at 152.4 117.856 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/54/Keystone/view-part/?ref=snap"
+			(at 151.638 139.446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "54"
+			(at 154.94 119.126 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            Battery Clip, THM, 1 Cell, 17mm-19mm, CR123A, 2/3A, 17350, 18350, 18650 | Keystone Electronics 54\n                        \n"
+			(at 156.464 143.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Keystone Electronics"
+			(at 113.284 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 117.602 121.666 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "54"
+			(at 151.892 120.142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1_3"
+			(uuid "79db4f71-e7cb-4fbd-a762-86db9f6b9fc1")
+		)
+		(pin "1_2"
+			(uuid "60e3e6fc-90ea-48cf-ba32-e2ed247bee3a")
+		)
+		(pin "1_1"
+			(uuid "48e677fb-a81b-4210-b973-ab30c20ab12b")
+		)
+		(instances
+			(project "RDAT"
+				(path "/0db9370a-8a21-4fd2-83a9-f207c3725dc9"
+					(reference "BT2")
 					(unit 1)
 				)
 			)
@@ -6586,8 +6880,8 @@
 		)
 	)
 	(sheet
-		(at 99.06 118.11)
-		(size 29.21 48.26)
+		(at 99.06 113.03)
+		(size 29.21 53.34)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -6602,7 +6896,7 @@
 		)
 		(uuid "8352a856-8d2f-4632-b66f-b2f3049cf780")
 		(property "Sheetname" "BMS"
-			(at 99.06 117.3984 0)
+			(at 99.06 112.3184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6620,7 +6914,7 @@
 			)
 		)
 		(pin "Cell1+" output
-			(at 128.27 156.21 0)
+			(at 128.27 154.94 0)
 			(uuid "6b8b80fa-588d-4f9a-b63e-f2eb0ea43304")
 			(effects
 				(font
@@ -6630,7 +6924,7 @@
 			)
 		)
 		(pin "Cell2+" output
-			(at 128.27 144.78 0)
+			(at 128.27 140.97 0)
 			(uuid "8a3eab19-2c88-491e-8ce0-0e8a82b3c9ed")
 			(effects
 				(font
@@ -6640,7 +6934,7 @@
 			)
 		)
 		(pin "Cell3+" output
-			(at 128.27 133.35 0)
+			(at 128.27 127 0)
 			(uuid "3e17975d-c773-4527-acef-51e6df8d6378")
 			(effects
 				(font
@@ -6650,7 +6944,7 @@
 			)
 		)
 		(pin "Cell4+" output
-			(at 128.27 121.92 0)
+			(at 128.27 116.84 0)
 			(uuid "f6128482-128e-43db-98f9-648a459aed05")
 			(effects
 				(font
@@ -6670,7 +6964,7 @@
 			)
 		)
 		(pin "LOAD+" output
-			(at 105.41 118.11 90)
+			(at 105.41 113.03 90)
 			(uuid "9553764d-9dd2-420d-868f-324d10187dad")
 			(effects
 				(font
