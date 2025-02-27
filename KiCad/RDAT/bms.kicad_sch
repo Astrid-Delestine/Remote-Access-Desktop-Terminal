@@ -2405,6 +2405,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "NEEDS REVIEW"
+		(exclude_from_sim no)
+		(at 100.33 126.238 0)
+		(effects
+			(font
+				(size 10.16 10.16)
+			)
+		)
+		(uuid "b1746a08-001c-4f14-8f30-d7ef18969312")
+	)
 	(text_box "Not Strictly Nessessary"
 		(exclude_from_sim no)
 		(at 13.97 134.62 0)

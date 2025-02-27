@@ -1,0 +1,52 @@
+﻿Name,Value,Category,Description
+Vout,10 V,System Information,Operational Output Voltage
+IC Tolerance,13 mV,IC,IC Feedback Tolerance
+Cin IRMS,1.97 A,Capacitor,Input capacitor RMS ripple current
+Cin Pd,3.86 mW,Capacitor,Input capacitor power dissipation
+Cout IRMS,283.17 mA,Capacitor,Output capacitor RMS ripple current
+Cout Pd,400.93 µW,Capacitor,Output capacitor power dissipation
+L Ipp,980.93 mA,Inductor,Peak-to-peak inductor ripple current
+Ipp percentage,24.52%,Inductor,Inductor ripple current percentage (with respect to average inductor current)
+L Pd,303.92 mW,Inductor,Inductor power dissipation
+Duty Cycle,60.80%,System Information,Duty cycle
+Efficiency,97.3%,System Information,Steady state efficiency
+Frequency,600 kHz,System Information,Switching frequency
+IC Tj,37.17 °C,IC,IC junction temperature
+ICThetaJA,44.3 °C/W,IC,IC junction-to-ambient thermal resistance
+IC Pd,161.8 mW,IC,IC power dissipation
+Pout,40 W,System Information,Total output power
+Iin Avg,2.45 A,IC,Average input current
+IC Ipk,4.49 A,IC,Peak switch current in IC
+Mode,CCM,System Information,Conduction Mode
+Vout p-p,20.4 mV,System Information,Peak-to-peak output ripple voltage
+Vin p-p,163.39 mV,System Information,Peak-to-peak input voltage
+M1 PdSw,62.4 mW,Mosfet,M1 MOSFET switching losses
+M1 PdCond,345.73 mW,Mosfet,M1 MOSFET conduction losses
+M1 Pd,408.13 mW,Mosfet,M1 MOSFET total power dissipation
+M2 PdSw,14.98 mW,Mosfet,M2 MOSFET switching losses
+M2 PdCond,210.01 mW,Mosfet,M2 MOSFET conduction losses
+M2 Pd,224.99 mW,Mosfet,M2 MOSFET total power dissipation
+M1 Tj,56.53 °C,Mosfet,M1 MOSFET junction temperature
+M2 Tj,44.62 °C,Mosfet,M2 MOSFET junction temperature
+Phase Marg,65.95 °,System Information,Bode Plot Phase Margin
+Cross Freq,47.15 kHz,System Information,Bode plot crossover frequency
+Low Freq Gain,76.96 dB,System Information,Gain at 1Hz
+Gain Marg,-27.57 dB,System Information,Bode Plot Gain Margin
+Total Pd,1.11 W,Power,Total Power Dissipation
+FootPrint,203 mm²,System Information,Total Foot Print Area of BOM components
+Vin,16.8 V,System Information,Vin operating point
+Iout,4 A,System Information,Iout operating point
+Cin Pd,3.86 mW,Power,Input capacitor power dissipation
+Cout Pd,400.93 µW,Power,Output capacitor power dissipation
+L Pd,303.92 mW,Power,Inductor power dissipation
+IC Pd,161.8 mW,Power,IC power dissipation
+M1 PdSw,62.4 mW,Power,M1 MOSFET switching losses
+M1 PdCond,345.73 mW,Power,M1 MOSFET conduction losses
+M1 Pd,408.13 mW,Power,M1 MOSFET total power dissipation
+M2 PdSw,14.98 mW,Power,M2 MOSFET switching losses
+M2 PdCond,210.01 mW,Power,M2 MOSFET conduction losses
+M2 Pd,224.99 mW,Power,M2 MOSFET total power dissipation
+Vout Actual,10.06 V,System Information,Vout Actual calculated based on selected voltage divider resistors
+Vout Tolerance,4.11%,System Information,Vout Tolerance based on IC Tolerance (no load) and voltage divider resistors if applicable
+Total BOM,$2.45,System Information,Total BOM Cost
+BOM Count,21 ,System Information,Total Design BOM count
