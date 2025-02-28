@@ -4007,6 +4007,14 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB_LINK" ""
+			(at 78.74 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "17b16037-1d81-47cc-bbe4-98348a91b8ea")
 		)
@@ -4074,6 +4082,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB_LINK" ""
+			(at 162.56 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -4239,6 +4255,14 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB_LINK" ""
+			(at 128.27 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6c50cb46-3c09-42d5-bfce-42b9f5f5f9c5")
 		)
@@ -4310,6 +4334,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB_LINK" ""
+			(at 27.94 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -4445,6 +4477,14 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB_LINK" ""
+			(at 172.72 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2718f33e-e4f3-4eff-a570-0fd69bce2192")
 		)
@@ -4512,6 +4552,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB_LINK" ""
+			(at 109.22 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -4590,6 +4638,14 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB_LINK" ""
+			(at 67.31 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "38592744-a2be-4078-b042-61d6e124dacc")
 		)
@@ -4657,6 +4713,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB_LINK" ""
+			(at 44.45 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -4861,6 +4925,14 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB_LINK" ""
+			(at 133.35 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0dc43e0d-4a73-4ee5-a2cd-ce6b30d0e531")
 		)
@@ -4996,6 +5068,14 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB_LINK" ""
+			(at 109.22 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ca88b5ad-53ea-4dbf-8d12-942c90c090ff")
 		)
@@ -5061,6 +5141,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB_LINK" ""
+			(at 78.74 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -5133,6 +5221,14 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB_LINK" ""
+			(at 50.8 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "930838d2-114c-4017-a4f3-f7c6adda422e")
 		)
@@ -5200,6 +5296,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB_LINK" ""
+			(at 172.72 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -5338,6 +5442,14 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB_LINK" ""
+			(at 154.94 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "9752e780-17dd-41cd-8888-98a4d2642c1b")
 		)
@@ -5474,6 +5586,14 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB_LINK" ""
+			(at 190.5 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2458ee1b-ae91-47bb-9a1c-1db3ca699e2f")
 		)
@@ -5541,6 +5661,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB_LINK" ""
+			(at 190.5 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -5613,6 +5741,14 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB_LINK" ""
+			(at 50.8 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4447e525-9e4a-42f5-ad64-16074e65dee0")
 		)
@@ -5683,6 +5819,14 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB_LINK" ""
+			(at 133.35 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "52196b9f-c646-4d09-af56-44bee456f75b")
 		)
@@ -5748,6 +5892,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB_LINK" ""
+			(at 105.41 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -5886,6 +6038,14 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB_LINK" ""
+			(at 15.24 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "3fdc8422-91de-45af-8244-a8dba3a399cf")
 		)
@@ -5989,6 +6149,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB_LINK" ""
+			(at 44.45 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -6153,6 +6321,14 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB_LINK" ""
+			(at 114.3 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ee92c7fe-0889-40ea-ba09-8253ba389780")
 		)
@@ -6292,6 +6468,14 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB_LINK" ""
+			(at 50.8 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "37628566-8a76-48af-be3b-4ff7bd31c25c")
 		)
@@ -6362,6 +6546,14 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB_LINK" ""
+			(at 27.94 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "dd2dbdbd-886c-427f-80f0-7cf379069e72")
 		)
@@ -6429,6 +6621,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB_LINK" ""
+			(at 73.66 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -6501,6 +6701,14 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB_LINK" ""
+			(at 50.8 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a011de83-4af0-4342-bfcc-e64036661f3b")
 		)
@@ -6570,6 +6778,14 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB_LINK" ""
+			(at 44.45 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "4b506569-f0bf-4fe2-bfd8-c8e9022fd304")
 		)
@@ -6637,6 +6853,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB_LINK" ""
+			(at 44.45 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -6709,6 +6933,14 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB_LINK" ""
+			(at 35.56 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a3780116-6922-456f-aade-557999384caa")
 		)
@@ -6774,6 +7006,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB_LINK" ""
+			(at 78.74 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -6911,6 +7151,14 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB_LINK" ""
+			(at 50.8 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ae4eb927-049f-42dd-b851-028dfba37856")
 		)
@@ -6979,6 +7227,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB_LINK" ""
+			(at 59.69 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "9"
@@ -7117,6 +7373,14 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB_LINK" ""
+			(at 50.8 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "51fde566-1831-4cab-b065-50bd5feed693")
 		)
@@ -7250,6 +7514,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB_LINK" ""
+			(at 73.66 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"

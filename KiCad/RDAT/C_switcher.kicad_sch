@@ -2886,7 +2886,25 @@
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwAAAAAAAACw79I1"
+			"iwIAAAEAAAAAAAAAAAAAAAAAAABUieiqAE0CgEM6L1dJTkRPV1MvZm9udHNcc21hZjEyNTYuZm9u"
+			"AAAAAAAAAAAAAABRieeqAE4CgEM6L1dJTkRPV1MvZm9udHNcc21hZjEyNTUuZm9uAAAAAAAAAAAA"
+			"AABSieKqAE8CgAAAAAAAAAAAAwAAAAAAAACQ8NI1iwIAAAEAAAAAAAAAAAAAAAAAAACvhuGqAFAC"
+			"gAAAAAAAAAAAAwAAAAAAAABQJM81iwIAAAEAAAAAAAAAAAAAAAAAAACohhyrAFECgAAAAAAAAAAA"
+			"AwAAAAAAAADg7tI1iwIAAAEAAAAAAAAAAAAAAAAAAAClhhurAFICgAAAAAAAAAAAAwAAAAAAAACA"
+			"hNM1iwIAAAEAAAAAAAAAAAAAAAAAAACmhharAFMCgAAAAAAAAAAACAAAAAAAAABg2dA1iwIAAAEA"
+			"AAAAAAAAAAAAAAAAAACjhhWrAFQCgAAAAAAAAAAACAAAAAAAAACg2NA1iwIAAAEAAAAAAAAAAAAA"
+			"AAAAAAC8hhCrAFUCgAAAAAAAAAAAAwAAAAAAAAAA79I1iwIAAAEAAAAAAAAAAAAAAAAAAAC5hg+r"
+			"AFYCgEM6L1dJTkRPV1MvZm9udHNcc21hZjEyNTcuZm9uAAAAAAAAAAAAAAC6hgqrAFcCgAAAAAAA"
+			"AAAAAwAAAAAAAADQ8NI1iwIAAAEAAAAAAAAAAAAAAAAAAAC3hgmrAFgCgAAAAAAAAAAAAwAAAAAA"
+			"AADQf9M1iwIAAAEAAAAAAAAAAAAAAAAAAACwhgSrAFkCgAAAAAAAAAAAAwAAAAAAAAAg8NI1iwIA"
+			"AAEAAAAAAAAAAAAAAAAAAACNhgOrAFoCgAAAAAAAAAAAAwAAAAAAAACggtM1iwIAAAEAAAAAAAAA"
+			"AAAAAAAAAACOhj6rAFsCgAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAACL"
+			"hj2rAFwCgAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAACEhjirAF0CgEM6"
+			"L1dJTkRPV1MvZm9udHNcc21hbGxlZy5mb24AAAAAAAAAAAAAAACBhjerAF4CgAAAAAAAAAAABAAA"
+			"AAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAACChjKrAF8CgAAAAAAAAAAAAwAAAAAAAABw7tI1"
+			"iwIAAAEAAAAAAAAAAAAAAAAAAACfhjGrAGACgAAAAAAAAAAAAwAAAAAAAACwIs81iwIAAAEAAAAA"
+			"AAAAAAAAAAAAAACYhiyrAGECgAAAAAAAAAAACAAAAAAAAAAg2g=="
 		)
 	)
 	(label "CC1"
@@ -3027,6 +3045,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB_LINK" ""
+			(at 57.15 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "B1"
@@ -3380,6 +3406,14 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB_LINK" ""
+			(at 149.86 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b6b65fed-961b-4214-941a-c70d191546e0")
 		)
@@ -3510,6 +3544,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB_LINK" ""
+			(at 85.09 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -3684,6 +3726,14 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB_LINK" ""
+			(at 109.22 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "390da6f4-8b35-4264-9a15-5e8aef5dae82")
 		)
@@ -3851,6 +3901,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB_LINK" ""
+			(at 130.81 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -4024,6 +4082,14 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB_LINK" ""
+			(at 116.84 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "5dd7704a-eacd-4db0-b4a8-f380570940bb")
 		)
@@ -4129,6 +4195,14 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB_LINK" ""
+			(at 92.71 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8ff6b840-5af1-4fe6-adee-83c8a1e04b14")
 		)
@@ -4230,6 +4304,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB_LINK" ""
+			(at 129.54 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -4337,6 +4419,14 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB_LINK" ""
+			(at 101.6 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f1b69c7b-715b-4ece-a7b0-ec67fcab026b")
 		)
@@ -4440,6 +4530,14 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB_LINK" ""
+			(at 173.99 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "46fad54c-0190-4824-855a-ce8b578d5989")
 		)
@@ -4541,6 +4639,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB_LINK" ""
+			(at 129.54 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"

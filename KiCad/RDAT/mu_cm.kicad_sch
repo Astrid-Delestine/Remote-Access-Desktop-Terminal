@@ -6518,16 +6518,6 @@
 		)
 		(uuid "1b962550-aca4-4459-8dd7-34c1cc6fbb48")
 	)
-	(text "3V"
-		(exclude_from_sim no)
-		(at 171.704 51.816 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "5841326a-b658-4a2c-81d0-b724513b56bb")
-	)
 	(text "HPD pin of unused DDI/TCP port\nneeds to be pulled down"
 		(exclude_from_sim no)
 		(at 74.93 252.73 0)
@@ -8200,8 +8190,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Battery_Cell"
-			(at 180.34 43.18 90)
+		(property "Value" "3v"
+			(at 172.974 51.308 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8218,7 +8208,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2210171730_Harwin-S8411-45R_C5199899.pdf"
 			(at 173.736 49.53 90)
 			(effects
 				(font
@@ -8264,6 +8254,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 175.26 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Keystone-103/C238065"
 			(at 175.26 49.53 0)
 			(effects
 				(font
@@ -8507,6 +8506,14 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB_LINK" ""
+			(at 91.44 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "28375ef4-b59e-460c-94fd-287a9f21817b")
 		)
@@ -8676,6 +8683,14 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB_LINK" ""
+			(at 91.44 290.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3630bf28-84f2-4373-93da-b9ac5d9bd6fc")
 		)
@@ -8771,6 +8786,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB_LINK" ""
+			(at 212.09 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -9001,6 +9024,14 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB_LINK" ""
+			(at 181.61 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "845efb52-9de8-48e3-ad9c-c623250115bc")
 		)
@@ -9103,6 +9134,14 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB_LINK" ""
+			(at 187.96 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ba41c870-b3e1-4037-b530-46bb713701aa")
 		)
@@ -9155,7 +9194,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/830/DFRobot_ProductOverview_LattePandaMuMicrox86Comput-3483961.pdf"
 			(at 135.89 186.69 0)
 			(effects
 				(font
@@ -9174,6 +9213,15 @@
 			)
 		)
 		(property "Part" "TE 2309411-1"
+			(at 135.89 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/TeConnectivity-23094111/C5163334"
 			(at 135.89 196.85 0)
 			(effects
 				(font
@@ -10027,6 +10075,14 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB_LINK" ""
+			(at 161.29 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b7a5e335-6f4f-4bb1-9512-81fa5cfe63dd")
 		)
@@ -10122,6 +10178,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB_LINK" ""
+			(at 237.49 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"

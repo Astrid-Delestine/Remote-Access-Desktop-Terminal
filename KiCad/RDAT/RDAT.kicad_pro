@@ -533,6 +533,12 @@
         },
         {
           "group_by": false,
+          "label": "JLCPCB_LINK",
+          "name": "JLCPCB_LINK",
+          "show": true
+        },
+        {
+          "group_by": false,
           "label": "Footprint",
           "name": "Footprint",
           "show": true
