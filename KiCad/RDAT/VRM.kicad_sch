@@ -3573,6 +3573,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "volt in always at 12-16.8v\n"
+		(exclude_from_sim no)
+		(at 72.898 184.912 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "66915c9a-2274-4ba5-a3ff-c0a4385ffd9c")
+	)
 	(text "LattePanda Mu has integrated pull-up resistors."
 		(exclude_from_sim no)
 		(at 117.856 141.478 0)
