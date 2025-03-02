@@ -2427,7 +2427,7 @@
 				)
 			)
 		)
-		(property "Value" "ULC0524P"
+		(property "Value" "CDDFN10-0524P"
 			(at 133.35 82.55 0)
 			(effects
 				(font
@@ -2444,7 +2444,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/D3V3XA4B10LP.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2103161034_BOURNS-CDDFN10-0524P_C911379.pdf"
 			(at 121.92 69.85 0)
 			(effects
 				(font
@@ -2498,12 +2498,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Bourns-CDDFN100524P/C911379"
 			(at 121.92 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -2815,7 +2816,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:USB_A_CUI_UJ2-ADH-TH_Horizontal_Stacked"
+		(property "Footprint" "footprints:CONN8_MUSBC_1211x569_AMP"
 			(at 160.02 64.77 0)
 			(effects
 				(font

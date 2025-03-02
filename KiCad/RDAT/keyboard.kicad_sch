@@ -476,6 +476,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:TestPoint_Small"
 			(pin_numbers
 				(hide yes)
@@ -3146,7 +3253,7 @@
 		)
 		(uuid "17624c77-c6d5-4fe5-9f2a-c6f981e12dc7")
 	)
-	(text "Ensure C1 is close to pin 45 of RP2040"
+	(text "Ensure C3 is close to pin 45 of RP2040"
 		(exclude_from_sim no)
 		(at 176.53 35.052 0)
 		(effects
@@ -3196,7 +3303,7 @@
 		)
 		(uuid "c4e8720b-4380-44e1-949c-e17f53155322")
 	)
-	(text "Ensure C11 is close to pin 44 of RP2040"
+	(text "Ensure C5 is close to pin 44 of RP2040"
 		(exclude_from_sim no)
 		(at 172.974 63.5 0)
 		(effects
@@ -3757,6 +3864,12 @@
 		(uuid "86ca4be2-a44a-4611-9dc0-8e77b26bf83a")
 	)
 	(junction
+		(at 158.75 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "87ed0aaf-a772-446a-b2ef-3e4ba9e2ab51")
+	)
+	(junction
 		(at 40.64 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4037,6 +4150,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c2a0e917-a34d-4b8a-aa80-43bcd5007d82")
+	)
+	(junction
+		(at 158.75 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c309b6e4-8c91-4c5a-9634-eb72ce449a70")
 	)
 	(junction
 		(at 50.8 185.42)
@@ -4469,6 +4588,16 @@
 			(type default)
 		)
 		(uuid "088bb498-fd12-4240-a9d5-eb4d273119c1")
+	)
+	(wire
+		(pts
+			(xy 158.75 73.66) (xy 168.91 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08e0fcc3-8589-4d2b-bccf-417b107ebf46")
 	)
 	(wire
 		(pts
@@ -5162,7 +5291,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 73.66) (xy 168.91 73.66)
+			(xy 152.4 73.66) (xy 158.75 73.66)
 		)
 		(stroke
 			(width 0)
@@ -5229,6 +5358,16 @@
 			(type default)
 		)
 		(uuid "503598e4-7f85-4aa1-a4ed-5b463362a182")
+	)
+	(wire
+		(pts
+			(xy 158.75 83.82) (xy 168.91 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "510c8d7d-e2cb-442c-96b5-3b02659e1fc9")
 	)
 	(wire
 		(pts
@@ -5812,7 +5951,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 83.82) (xy 168.91 83.82)
+			(xy 152.4 83.82) (xy 158.75 83.82)
 		)
 		(stroke
 			(width 0)
@@ -7423,7 +7562,7 @@
 		(uuid "4ba6d124-1ef6-4a64-b6d2-b3aad5dffc51")
 	)
 	(label "USB_DM"
-		(at 160.02 83.82 0)
+		(at 152.4 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7443,7 +7582,7 @@
 		(uuid "4eefc2c7-ac5b-4cde-beae-0b0f788269ab")
 	)
 	(label "USB_DP"
-		(at 160.02 73.66 0)
+		(at 152.4 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8070,7 +8209,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 17.78 43.18 0)
 			(effects
 				(font
@@ -8146,7 +8285,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 58.42 107.95 0)
 			(effects
 				(font
@@ -8224,7 +8363,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 71.12 27.94 0)
 			(effects
 				(font
@@ -8233,7 +8372,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 71.12 27.94 0)
 			(effects
 				(font
@@ -8269,12 +8408,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 71.12 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -8318,7 +8458,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 99.06 107.95 0)
 			(effects
 				(font
@@ -8452,7 +8592,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "(10k)"
+		(property "Value" "10k"
 			(at 152.908 115.57 0)
 			(effects
 				(font
@@ -8461,7 +8601,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 161.036 115.824 90)
 			(effects
 				(font
@@ -8470,7 +8610,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8556212101498380288"
 			(at 160.02 115.57 0)
 			(effects
 				(font
@@ -8494,14 +8634,16 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/26487-0402WGF1002TCE/C25744"
 			(at 160.02 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8545,7 +8687,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 17.78 151.13 0)
 			(effects
 				(font
@@ -8623,7 +8765,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 30.48 49.53 0)
 			(effects
 				(font
@@ -8632,7 +8774,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 30.48 49.53 0)
 			(effects
 				(font
@@ -8668,12 +8810,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 30.48 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -8719,7 +8862,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 91.44 27.94 0)
 			(effects
 				(font
@@ -8728,7 +8871,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 91.44 27.94 0)
 			(effects
 				(font
@@ -8764,12 +8907,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 91.44 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -8815,7 +8959,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 185.1152 26.67 0)
 			(effects
 				(font
@@ -8824,7 +8968,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707269996871680 https://jlcpcb.com/partdetail/1877-CL05B104KO5NNNC/C1525"
 			(at 184.15 22.86 0)
 			(effects
 				(font
@@ -8842,12 +8986,14 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/1877-CL05B104KO5NNNC/C1525"
 			(at 184.15 22.86 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -8891,7 +9037,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 68.58 129.54 0)
 			(effects
 				(font
@@ -8969,7 +9115,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 111.76 92.71 0)
 			(effects
 				(font
@@ -8978,7 +9124,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 111.76 92.71 0)
 			(effects
 				(font
@@ -9014,12 +9160,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 111.76 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -9063,7 +9210,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 119.38 64.77 0)
 			(effects
 				(font
@@ -9139,7 +9286,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 78.74 151.13 0)
 			(effects
 				(font
@@ -9217,7 +9364,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 121.92 49.53 0)
 			(effects
 				(font
@@ -9226,7 +9373,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 121.92 49.53 0)
 			(effects
 				(font
@@ -9262,12 +9409,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 121.92 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -9311,7 +9459,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 119.38 151.13 0)
 			(effects
 				(font
@@ -9389,7 +9537,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 30.48 181.61 0)
 			(effects
 				(font
@@ -9398,7 +9546,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 30.48 181.61 0)
 			(effects
 				(font
@@ -9434,12 +9582,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 30.48 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -9483,7 +9632,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 48.26 21.59 0)
 			(effects
 				(font
@@ -9561,7 +9710,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 121.92 71.12 0)
 			(effects
 				(font
@@ -9570,7 +9719,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 121.92 71.12 0)
 			(effects
 				(font
@@ -9606,12 +9755,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 121.92 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -9657,7 +9807,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 71.12 49.53 0)
 			(effects
 				(font
@@ -9666,7 +9816,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 71.12 49.53 0)
 			(effects
 				(font
@@ -9702,12 +9852,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 71.12 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -9753,7 +9904,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 132.08 157.48 0)
 			(effects
 				(font
@@ -9762,7 +9913,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 132.08 157.48 0)
 			(effects
 				(font
@@ -9798,12 +9949,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 132.08 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -9847,7 +9999,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 139.7 129.54 0)
 			(effects
 				(font
@@ -9925,7 +10077,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 101.6 114.3 0)
 			(effects
 				(font
@@ -9934,7 +10086,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 101.6 114.3 0)
 			(effects
 				(font
@@ -9970,12 +10122,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 101.6 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -10021,7 +10174,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 71.12 135.89 0)
 			(effects
 				(font
@@ -10030,7 +10183,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 71.12 135.89 0)
 			(effects
 				(font
@@ -10066,12 +10219,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 71.12 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -10115,7 +10269,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 27.94 86.36 0)
 			(effects
 				(font
@@ -10191,7 +10345,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 201.93 90.4748 0)
 			(effects
 				(font
@@ -10200,7 +10354,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707269996871680 https://jlcpcb.com/partdetail/1877-CL05B104KO5NNNC/C1525"
 			(at 198.12 91.44 0)
 			(effects
 				(font
@@ -10218,12 +10372,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/1877-CL05B104KO5NNNC/C1525"
 			(at 198.12 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -10269,7 +10424,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 132.08 114.3 0)
 			(effects
 				(font
@@ -10278,7 +10433,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 132.08 114.3 0)
 			(effects
 				(font
@@ -10314,12 +10469,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 132.08 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -10363,7 +10519,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 99.06 129.54 0)
 			(effects
 				(font
@@ -10441,7 +10597,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 50.8 157.48 0)
 			(effects
 				(font
@@ -10450,7 +10606,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 50.8 157.48 0)
 			(effects
 				(font
@@ -10486,12 +10642,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 50.8 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -10537,7 +10694,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 60.96 135.89 0)
 			(effects
 				(font
@@ -10546,7 +10703,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 60.96 135.89 0)
 			(effects
 				(font
@@ -10582,12 +10739,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 60.96 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -10697,7 +10855,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 119.38 175.26 0)
 			(effects
 				(font
@@ -10773,7 +10931,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 99.06 86.36 0)
 			(effects
 				(font
@@ -10851,7 +11009,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 40.64 157.48 0)
 			(effects
 				(font
@@ -10860,7 +11018,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 40.64 157.48 0)
 			(effects
 				(font
@@ -10896,12 +11054,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 40.64 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -10954,7 +11113,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "SC091413"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8550723933012836352"
 			(at 20.32 190.5 0)
 			(effects
 				(font
@@ -10973,12 +11132,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/RaspberryPi-RP2040/C2040"
 			(at 20.32 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "6"
@@ -11187,7 +11347,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 109.22 175.26 0)
 			(effects
 				(font
@@ -11263,7 +11423,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 129.54 107.95 0)
 			(effects
 				(font
@@ -11339,7 +11499,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 88.9 43.18 0)
 			(effects
 				(font
@@ -11417,7 +11577,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 86.36 248.92 0)
 			(effects
 				(font
@@ -11492,7 +11652,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 81.28 135.89 0)
 			(effects
 				(font
@@ -11501,7 +11661,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 81.28 135.89 0)
 			(effects
 				(font
@@ -11537,12 +11697,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 81.28 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -11652,7 +11813,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 78.74 21.59 0)
 			(effects
 				(font
@@ -11730,7 +11891,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 111.76 135.89 0)
 			(effects
 				(font
@@ -11739,7 +11900,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 111.76 135.89 0)
 			(effects
 				(font
@@ -11775,12 +11936,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 111.76 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -11826,7 +11988,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 40.64 71.12 0)
 			(effects
 				(font
@@ -11835,7 +11997,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 40.64 71.12 0)
 			(effects
 				(font
@@ -11871,12 +12033,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 40.64 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -11920,7 +12083,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 48.26 175.26 0)
 			(effects
 				(font
@@ -11996,7 +12159,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 109.22 151.13 0)
 			(effects
 				(font
@@ -12072,7 +12235,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 17.78 86.36 0)
 			(effects
 				(font
@@ -12213,7 +12376,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 58.42 129.54 0)
 			(effects
 				(font
@@ -12288,7 +12451,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 185.674 175.514 90)
 			(effects
 				(font
@@ -12297,7 +12460,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579705868213927936"
 			(at 185.42 176.53 0)
 			(effects
 				(font
@@ -12315,12 +12478,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/18576-1206W4F0000T5E/C17888"
 			(at 185.42 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12366,7 +12530,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 142.24 49.53 0)
 			(effects
 				(font
@@ -12375,7 +12539,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 142.24 49.53 0)
 			(effects
 				(font
@@ -12411,12 +12575,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 142.24 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -12460,7 +12625,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 88.9 21.59 0)
 			(effects
 				(font
@@ -12538,7 +12703,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 121.92 114.3 0)
 			(effects
 				(font
@@ -12547,7 +12712,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 121.92 114.3 0)
 			(effects
 				(font
@@ -12583,12 +12748,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 121.92 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -12634,7 +12800,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 91.44 157.48 0)
 			(effects
 				(font
@@ -12643,7 +12809,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 91.44 157.48 0)
 			(effects
 				(font
@@ -12679,12 +12845,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 91.44 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -12730,7 +12897,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 91.44 135.89 0)
 			(effects
 				(font
@@ -12739,7 +12906,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 91.44 135.89 0)
 			(effects
 				(font
@@ -12775,12 +12942,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 91.44 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -12824,7 +12992,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 129.54 129.54 0)
 			(effects
 				(font
@@ -12900,7 +13068,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 27.94 151.13 0)
 			(effects
 				(font
@@ -12978,7 +13146,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 86.36 243.84 0)
 			(effects
 				(font
@@ -13053,7 +13221,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 60.96 114.3 0)
 			(effects
 				(font
@@ -13062,7 +13230,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 60.96 114.3 0)
 			(effects
 				(font
@@ -13098,12 +13266,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 60.96 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -13213,7 +13382,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 201.93 56.1848 0)
 			(effects
 				(font
@@ -13222,7 +13391,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707269996871680 https://jlcpcb.com/partdetail/1877-CL05B104KO5NNNC/C1525"
 			(at 198.12 57.15 0)
 			(effects
 				(font
@@ -13240,12 +13409,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/1877-CL05B104KO5NNNC/C1525"
 			(at 198.12 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -13291,7 +13461,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 50.8 114.3 0)
 			(effects
 				(font
@@ -13300,7 +13470,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 50.8 114.3 0)
 			(effects
 				(font
@@ -13336,12 +13506,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 50.8 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -13387,7 +13558,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 60.96 27.94 0)
 			(effects
 				(font
@@ -13396,7 +13567,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 60.96 27.94 0)
 			(effects
 				(font
@@ -13432,12 +13603,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 60.96 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -13482,7 +13654,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical"
 			(at 201.93 127 0)
 			(effects
 				(font
@@ -13491,7 +13663,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://gct.co/files/specs/1.00mm-header-spec.pdf"
 			(at 201.93 127 0)
 			(effects
 				(font
@@ -13509,12 +13681,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.digikey.com/en/products/detail/gct/BC020-02-A-0200-0300-L-G/12549946"
 			(at 201.93 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13558,7 +13731,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 58.42 175.26 0)
 			(effects
 				(font
@@ -13634,7 +13807,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 201.93 44.7548 0)
 			(effects
 				(font
@@ -13643,7 +13816,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707269996871680 https://jlcpcb.com/partdetail/1877-CL05B104KO5NNNC/C1525"
 			(at 198.12 45.72 0)
 			(effects
 				(font
@@ -13661,12 +13834,14 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/1877-CL05B104KO5NNNC/C1525"
 			(at 198.12 45.72 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13712,7 +13887,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 60.96 157.48 0)
 			(effects
 				(font
@@ -13721,7 +13896,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 60.96 157.48 0)
 			(effects
 				(font
@@ -13757,12 +13932,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 60.96 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -13806,7 +13982,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 68.58 175.26 0)
 			(effects
 				(font
@@ -13882,7 +14058,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 68.58 107.95 0)
 			(effects
 				(font
@@ -13958,7 +14134,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 68.58 86.36 0)
 			(effects
 				(font
@@ -14034,7 +14210,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 58.42 64.77 0)
 			(effects
 				(font
@@ -14112,7 +14288,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 142.24 114.3 0)
 			(effects
 				(font
@@ -14121,7 +14297,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 142.24 114.3 0)
 			(effects
 				(font
@@ -14157,12 +14333,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 142.24 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -14208,7 +14385,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 111.76 49.53 0)
 			(effects
 				(font
@@ -14217,7 +14394,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 111.76 49.53 0)
 			(effects
 				(font
@@ -14253,12 +14430,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 111.76 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -14302,7 +14480,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 38.1 129.54 0)
 			(effects
 				(font
@@ -14378,7 +14556,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 99.06 175.26 0)
 			(effects
 				(font
@@ -14454,7 +14632,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 139.7 86.36 0)
 			(effects
 				(font
@@ -14530,7 +14708,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 78.74 64.77 0)
 			(effects
 				(font
@@ -14608,7 +14786,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 20.32 114.3 0)
 			(effects
 				(font
@@ -14617,7 +14795,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 20.32 114.3 0)
 			(effects
 				(font
@@ -14653,12 +14831,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 20.32 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -14702,7 +14881,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 88.9 129.54 0)
 			(effects
 				(font
@@ -14780,7 +14959,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 81.28 157.48 0)
 			(effects
 				(font
@@ -14789,7 +14968,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 81.28 157.48 0)
 			(effects
 				(font
@@ -14825,12 +15004,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 81.28 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -14874,7 +15054,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 88.9 151.13 0)
 			(effects
 				(font
@@ -14950,7 +15130,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 78.74 129.54 0)
 			(effects
 				(font
@@ -15026,7 +15206,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 27.94 175.26 0)
 			(effects
 				(font
@@ -15104,7 +15284,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 60.96 92.71 0)
 			(effects
 				(font
@@ -15113,7 +15293,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 60.96 92.71 0)
 			(effects
 				(font
@@ -15149,12 +15329,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 60.96 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -15200,7 +15381,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 20.32 27.94 0)
 			(effects
 				(font
@@ -15209,7 +15390,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 20.32 27.94 0)
 			(effects
 				(font
@@ -15245,12 +15426,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 20.32 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -15296,7 +15478,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 121.92 135.89 0)
 			(effects
 				(font
@@ -15305,7 +15487,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 121.92 135.89 0)
 			(effects
 				(font
@@ -15341,12 +15523,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 121.92 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -15390,7 +15573,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 129.54 86.36 0)
 			(effects
 				(font
@@ -15468,7 +15651,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 142.24 135.89 0)
 			(effects
 				(font
@@ -15477,7 +15660,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 142.24 135.89 0)
 			(effects
 				(font
@@ -15513,12 +15696,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 142.24 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -15564,7 +15748,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 30.48 27.94 0)
 			(effects
 				(font
@@ -15573,7 +15757,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 30.48 27.94 0)
 			(effects
 				(font
@@ -15609,12 +15793,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 30.48 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -15658,7 +15843,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 139.7 151.13 0)
 			(effects
 				(font
@@ -15736,7 +15921,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 91.44 71.12 0)
 			(effects
 				(font
@@ -15745,7 +15930,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 91.44 71.12 0)
 			(effects
 				(font
@@ -15781,12 +15966,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 91.44 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -15830,7 +16016,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 27.94 64.77 0)
 			(effects
 				(font
@@ -15971,7 +16157,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 78.74 175.26 0)
 			(effects
 				(font
@@ -16049,7 +16235,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 132.08 49.53 0)
 			(effects
 				(font
@@ -16058,7 +16244,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 132.08 49.53 0)
 			(effects
 				(font
@@ -16094,12 +16280,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 132.08 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -16145,7 +16332,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 50.8 92.71 0)
 			(effects
 				(font
@@ -16154,7 +16341,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 50.8 92.71 0)
 			(effects
 				(font
@@ -16190,12 +16377,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 50.8 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -16239,7 +16427,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 68.58 43.18 0)
 			(effects
 				(font
@@ -16300,7 +16488,7 @@
 		(fields_autoplaced yes)
 		(uuid "5cb41112-9863-4f68-9873-16d8d455a72a")
 		(property "Reference" "X1"
-			(at 181.61 140.97 0)
+			(at 181.61 139.7 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -16325,7 +16513,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "ABM8-272-T3"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8559470777180311552"
 			(at 168.91 148.59 0)
 			(effects
 				(font
@@ -16344,12 +16532,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/parts/componentSearch?searchTxt=ABM8-272-T3"
 			(at 168.91 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "4"
@@ -16401,7 +16590,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 111.76 157.48 0)
 			(effects
 				(font
@@ -16410,7 +16599,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 111.76 157.48 0)
 			(effects
 				(font
@@ -16446,12 +16635,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 111.76 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -16495,7 +16685,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 119.38 43.18 0)
 			(effects
 				(font
@@ -16571,7 +16761,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 68.58 21.59 0)
 			(effects
 				(font
@@ -16647,7 +16837,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 58.42 21.59 0)
 			(effects
 				(font
@@ -16723,7 +16913,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 78.74 86.36 0)
 			(effects
 				(font
@@ -16799,7 +16989,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 109.22 64.77 0)
 			(effects
 				(font
@@ -16875,7 +17065,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 119.38 107.95 0)
 			(effects
 				(font
@@ -16951,7 +17141,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 88.9 64.77 0)
 			(effects
 				(font
@@ -17029,7 +17219,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 40.64 114.3 0)
 			(effects
 				(font
@@ -17038,7 +17228,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 40.64 114.3 0)
 			(effects
 				(font
@@ -17074,12 +17264,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 40.64 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -17125,7 +17316,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 142.24 71.12 0)
 			(effects
 				(font
@@ -17134,7 +17325,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 142.24 71.12 0)
 			(effects
 				(font
@@ -17170,12 +17361,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 142.24 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -17221,7 +17413,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 111.76 181.61 0)
 			(effects
 				(font
@@ -17230,7 +17422,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 111.76 181.61 0)
 			(effects
 				(font
@@ -17266,12 +17458,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 111.76 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -17317,7 +17510,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 81.28 181.61 0)
 			(effects
 				(font
@@ -17326,7 +17519,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 81.28 181.61 0)
 			(effects
 				(font
@@ -17362,12 +17555,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 81.28 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -17413,7 +17607,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 30.48 157.48 0)
 			(effects
 				(font
@@ -17422,7 +17616,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 30.48 157.48 0)
 			(effects
 				(font
@@ -17458,12 +17652,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 30.48 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -17509,7 +17704,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 142.24 181.61 0)
 			(effects
 				(font
@@ -17518,7 +17713,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 142.24 181.61 0)
 			(effects
 				(font
@@ -17554,12 +17749,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 142.24 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -17605,7 +17801,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 142.24 157.48 0)
 			(effects
 				(font
@@ -17614,7 +17810,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 142.24 157.48 0)
 			(effects
 				(font
@@ -17650,12 +17846,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 142.24 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -17701,7 +17898,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 101.6 71.12 0)
 			(effects
 				(font
@@ -17710,7 +17907,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 101.6 71.12 0)
 			(effects
 				(font
@@ -17746,12 +17943,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 101.6 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -17794,7 +17992,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 180.086 162.306 90)
 			(effects
 				(font
@@ -17803,7 +18001,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579705924167974912"
 			(at 180.34 161.29 0)
 			(effects
 				(font
@@ -17821,12 +18019,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/12256-0402WGF1001TCE/C11702"
 			(at 180.34 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -17872,7 +18071,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 101.6 49.53 0)
 			(effects
 				(font
@@ -17881,7 +18080,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 101.6 49.53 0)
 			(effects
 				(font
@@ -17917,12 +18116,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 101.6 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -17968,7 +18168,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 20.32 181.61 0)
 			(effects
 				(font
@@ -17977,7 +18177,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 20.32 181.61 0)
 			(effects
 				(font
@@ -18013,12 +18213,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 20.32 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -18062,7 +18263,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 38.1 64.77 0)
 			(effects
 				(font
@@ -18140,7 +18341,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 132.08 181.61 0)
 			(effects
 				(font
@@ -18149,7 +18350,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 132.08 181.61 0)
 			(effects
 				(font
@@ -18185,12 +18386,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 132.08 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -18236,7 +18438,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 60.96 49.53 0)
 			(effects
 				(font
@@ -18245,7 +18447,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 60.96 49.53 0)
 			(effects
 				(font
@@ -18281,12 +18483,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 60.96 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -18397,7 +18600,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 17.78 21.59 0)
 			(effects
 				(font
@@ -18542,7 +18745,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 86.36 246.38 0)
 			(effects
 				(font
@@ -18615,7 +18818,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 38.1 21.59 0)
 			(effects
 				(font
@@ -18691,7 +18894,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 27.94 107.95 0)
 			(effects
 				(font
@@ -18767,7 +18970,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 99.06 151.13 0)
 			(effects
 				(font
@@ -18843,7 +19046,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 109.22 21.59 0)
 			(effects
 				(font
@@ -18921,7 +19124,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 91.44 49.53 0)
 			(effects
 				(font
@@ -18930,7 +19133,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 91.44 49.53 0)
 			(effects
 				(font
@@ -18966,12 +19169,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 91.44 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -19016,7 +19220,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical"
 			(at 161.29 176.53 0)
 			(effects
 				(font
@@ -19025,7 +19229,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://gct.co/files/specs/1.00mm-header-spec.pdf"
 			(at 161.29 176.53 0)
 			(effects
 				(font
@@ -19043,12 +19247,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.digikey.com/en/products/detail/gct/BC020-02-A-0200-0300-L-G/12549946"
 			(at 161.29 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -19094,7 +19299,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 101.6 157.48 0)
 			(effects
 				(font
@@ -19103,7 +19308,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 101.6 157.48 0)
 			(effects
 				(font
@@ -19139,12 +19344,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 101.6 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -19190,7 +19396,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 60.96 71.12 0)
 			(effects
 				(font
@@ -19199,7 +19405,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 60.96 71.12 0)
 			(effects
 				(font
@@ -19235,12 +19441,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 60.96 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -19286,7 +19493,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 50.8 71.12 0)
 			(effects
 				(font
@@ -19295,7 +19502,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 50.8 71.12 0)
 			(effects
 				(font
@@ -19331,12 +19538,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 50.8 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -19382,7 +19590,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 81.28 92.71 0)
 			(effects
 				(font
@@ -19391,7 +19599,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 81.28 92.71 0)
 			(effects
 				(font
@@ -19427,12 +19635,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 81.28 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -19476,7 +19685,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 129.54 175.26 0)
 			(effects
 				(font
@@ -19552,7 +19761,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 27.94 129.54 0)
 			(effects
 				(font
@@ -19630,7 +19839,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 71.12 181.61 0)
 			(effects
 				(font
@@ -19639,7 +19848,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 71.12 181.61 0)
 			(effects
 				(font
@@ -19675,12 +19884,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 71.12 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -19726,7 +19936,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 30.48 71.12 0)
 			(effects
 				(font
@@ -19735,7 +19945,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 30.48 71.12 0)
 			(effects
 				(font
@@ -19771,12 +19981,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 30.48 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -19822,7 +20033,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 81.28 27.94 0)
 			(effects
 				(font
@@ -19831,7 +20042,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 81.28 27.94 0)
 			(effects
 				(font
@@ -19867,12 +20078,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 81.28 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -19885,6 +20097,73 @@
 			(project "RDAT"
 				(path "/0db9370a-8a21-4fd2-83a9-f207c3725dc9/46851a1d-4cfb-4cea-9716-b2c986edaf3a"
 					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 158.75 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8cb3b4cd-0eb7-4edc-88ab-5ab696071868")
+		(property "Reference" "TP17"
+			(at 161.29 69.0879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "KB_USB_D+"
+			(at 161.29 71.6279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+			(at 163.83 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 158.75 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c5c2481b-c0b3-47f9-8238-641ce57291b9")
+		)
+		(instances
+			(project ""
+				(path "/0db9370a-8a21-4fd2-83a9-f207c3725dc9/46851a1d-4cfb-4cea-9716-b2c986edaf3a"
+					(reference "TP17")
 					(unit 1)
 				)
 			)
@@ -19981,7 +20260,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 139.7 43.18 0)
 			(effects
 				(font
@@ -20057,7 +20336,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 88.9 107.95 0)
 			(effects
 				(font
@@ -20264,7 +20543,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 172.974 72.644 90)
 			(effects
 				(font
@@ -20273,7 +20552,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF270JTCE_C25100.pdf"
 			(at 172.72 73.66 0)
 			(effects
 				(font
@@ -20291,12 +20570,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/25843-0402WGF270JTCE/C25100"
 			(at 172.72 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -20340,7 +20620,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 99.06 64.77 0)
 			(effects
 				(font
@@ -20418,7 +20698,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 81.28 49.53 0)
 			(effects
 				(font
@@ -20427,7 +20707,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 81.28 49.53 0)
 			(effects
 				(font
@@ -20463,12 +20743,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 81.28 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -20514,7 +20795,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 71.12 92.71 0)
 			(effects
 				(font
@@ -20523,7 +20804,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 71.12 92.71 0)
 			(effects
 				(font
@@ -20559,12 +20840,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 71.12 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -20636,12 +20918,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/WinbondElec-W25Q128JVSIQ/C97521"
 			(at 184.15 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "5"
@@ -20705,7 +20988,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 160.02 159.7152 0)
 			(effects
 				(font
@@ -20714,7 +20997,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05C150JB5NNNC_C86285.pdf"
 			(at 163.83 158.75 0)
 			(effects
 				(font
@@ -20732,12 +21015,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/87461-CL05C150JB5NNNC/C86285"
 			(at 163.83 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -20783,7 +21067,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 111.76 71.12 0)
 			(effects
 				(font
@@ -20792,7 +21076,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 111.76 71.12 0)
 			(effects
 				(font
@@ -20828,12 +21112,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 111.76 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -20879,7 +21164,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 30.48 114.3 0)
 			(effects
 				(font
@@ -20888,7 +21173,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 30.48 114.3 0)
 			(effects
 				(font
@@ -20924,12 +21209,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 30.48 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -20975,7 +21261,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 60.96 181.61 0)
 			(effects
 				(font
@@ -20984,7 +21270,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 60.96 181.61 0)
 			(effects
 				(font
@@ -21020,12 +21306,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 60.96 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -21069,7 +21356,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 129.54 21.59 0)
 			(effects
 				(font
@@ -21145,7 +21432,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 38.1 107.95 0)
 			(effects
 				(font
@@ -21223,7 +21510,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 142.24 92.71 0)
 			(effects
 				(font
@@ -21232,7 +21519,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 142.24 92.71 0)
 			(effects
 				(font
@@ -21268,12 +21555,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 142.24 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -21319,7 +21607,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 101.6 181.61 0)
 			(effects
 				(font
@@ -21328,7 +21616,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 101.6 181.61 0)
 			(effects
 				(font
@@ -21364,12 +21652,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 101.6 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -21413,7 +21702,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 38.1 86.36 0)
 			(effects
 				(font
@@ -21491,7 +21780,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 81.28 114.3 0)
 			(effects
 				(font
@@ -21500,7 +21789,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 81.28 114.3 0)
 			(effects
 				(font
@@ -21536,12 +21825,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 81.28 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -21585,7 +21875,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 27.94 43.18 0)
 			(effects
 				(font
@@ -21663,7 +21953,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 40.64 181.61 0)
 			(effects
 				(font
@@ -21672,7 +21962,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 40.64 181.61 0)
 			(effects
 				(font
@@ -21708,12 +21998,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 40.64 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -21759,7 +22050,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 121.92 181.61 0)
 			(effects
 				(font
@@ -21768,7 +22059,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 121.92 181.61 0)
 			(effects
 				(font
@@ -21804,12 +22095,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 121.92 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -21853,7 +22145,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 58.42 43.18 0)
 			(effects
 				(font
@@ -21929,7 +22221,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 48.26 86.36 0)
 			(effects
 				(font
@@ -22005,7 +22297,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 58.42 151.13 0)
 			(effects
 				(font
@@ -22083,7 +22375,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 121.92 157.48 0)
 			(effects
 				(font
@@ -22092,7 +22384,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 121.92 157.48 0)
 			(effects
 				(font
@@ -22128,12 +22420,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 121.92 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -22179,7 +22472,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 86.36 254 0)
 			(effects
 				(font
@@ -22254,7 +22547,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 86.36 233.68 0)
 			(effects
 				(font
@@ -22329,7 +22622,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 81.28 71.12 0)
 			(effects
 				(font
@@ -22338,7 +22631,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 81.28 71.12 0)
 			(effects
 				(font
@@ -22374,12 +22667,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 81.28 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -22425,7 +22719,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 20.32 71.12 0)
 			(effects
 				(font
@@ -22434,7 +22728,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 20.32 71.12 0)
 			(effects
 				(font
@@ -22470,12 +22764,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 20.32 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -22519,7 +22814,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 129.54 43.18 0)
 			(effects
 				(font
@@ -22597,7 +22892,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 50.8 135.89 0)
 			(effects
 				(font
@@ -22606,7 +22901,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 50.8 135.89 0)
 			(effects
 				(font
@@ -22642,12 +22937,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 50.8 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -22693,7 +22989,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 40.64 49.53 0)
 			(effects
 				(font
@@ -22702,7 +22998,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 40.64 49.53 0)
 			(effects
 				(font
@@ -22738,12 +23034,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 40.64 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -22789,7 +23086,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 101.6 92.71 0)
 			(effects
 				(font
@@ -22798,7 +23095,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 101.6 92.71 0)
 			(effects
 				(font
@@ -22834,12 +23131,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 101.6 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -22885,7 +23183,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 86.36 241.3 0)
 			(effects
 				(font
@@ -22958,7 +23256,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 17.78 107.95 0)
 			(effects
 				(font
@@ -23034,7 +23332,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 201.93 114.6048 0)
 			(effects
 				(font
@@ -23043,7 +23341,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707269996871680 https://jlcpcb.com/partdetail/1877-CL05B104KO5NNNC/C1525"
 			(at 198.12 115.57 0)
 			(effects
 				(font
@@ -23061,12 +23359,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/1877-CL05B104KO5NNNC/C1525"
 			(at 198.12 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -23110,7 +23409,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 139.7 107.95 0)
 			(effects
 				(font
@@ -23155,6 +23454,73 @@
 			(project "RDAT"
 				(path "/0db9370a-8a21-4fd2-83a9-f207c3725dc9/46851a1d-4cfb-4cea-9716-b2c986edaf3a"
 					(reference "S65")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 158.75 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b10ef1ee-2789-474e-b088-2b41b089b92f")
+		(property "Reference" "TP13"
+			(at 161.29 79.2479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "KB_USB_D-"
+			(at 161.29 81.7879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+			(at 163.83 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 158.75 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c5c2481b-c0b3-47f9-8238-641ce57291ba")
+		)
+		(instances
+			(project ""
+				(path "/0db9370a-8a21-4fd2-83a9-f207c3725dc9/46851a1d-4cfb-4cea-9716-b2c986edaf3a"
+					(reference "TP13")
 					(unit 1)
 				)
 			)
@@ -23317,7 +23683,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 119.38 129.54 0)
 			(effects
 				(font
@@ -23395,7 +23761,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 91.44 181.61 0)
 			(effects
 				(font
@@ -23404,7 +23770,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 91.44 181.61 0)
 			(effects
 				(font
@@ -23440,12 +23806,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 91.44 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -23489,7 +23856,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 201.93 79.0448 0)
 			(effects
 				(font
@@ -23498,7 +23865,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707269996871680 https://jlcpcb.com/partdetail/1877-CL05B104KO5NNNC/C1525"
 			(at 198.12 80.01 0)
 			(effects
 				(font
@@ -23516,12 +23883,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/1877-CL05B104KO5NNNC/C1525"
 			(at 198.12 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -23565,7 +23933,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 99.06 43.18 0)
 			(effects
 				(font
@@ -23641,7 +24009,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 109.22 129.54 0)
 			(effects
 				(font
@@ -23719,7 +24087,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 132.08 92.71 0)
 			(effects
 				(font
@@ -23728,7 +24096,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 132.08 92.71 0)
 			(effects
 				(font
@@ -23764,12 +24132,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 132.08 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -23815,7 +24184,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 121.92 92.71 0)
 			(effects
 				(font
@@ -23824,7 +24193,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 121.92 92.71 0)
 			(effects
 				(font
@@ -23860,12 +24229,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 121.92 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -23911,7 +24281,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 50.8 181.61 0)
 			(effects
 				(font
@@ -23920,7 +24290,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 50.8 181.61 0)
 			(effects
 				(font
@@ -23956,12 +24326,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 50.8 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -24005,7 +24376,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 48.26 129.54 0)
 			(effects
 				(font
@@ -24083,7 +24454,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 71.12 114.3 0)
 			(effects
 				(font
@@ -24092,7 +24463,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 71.12 114.3 0)
 			(effects
 				(font
@@ -24128,12 +24499,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 71.12 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -24177,7 +24549,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 48.26 151.13 0)
 			(effects
 				(font
@@ -24253,7 +24625,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 17.78 64.77 0)
 			(effects
 				(font
@@ -24331,7 +24703,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 196.5452 26.67 0)
 			(effects
 				(font
@@ -24340,7 +24712,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707269996871680"
 			(at 195.58 22.86 0)
 			(effects
 				(font
@@ -24358,12 +24730,14 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/1877-CL05B104KO5NNNC/C1525"
 			(at 195.58 22.86 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -24407,7 +24781,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 58.42 86.36 0)
 			(effects
 				(font
@@ -24548,7 +24922,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 139.7 175.26 0)
 			(effects
 				(font
@@ -24624,7 +24998,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 78.74 107.95 0)
 			(effects
 				(font
@@ -24702,7 +25076,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 20.32 135.89 0)
 			(effects
 				(font
@@ -24711,7 +25085,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 20.32 135.89 0)
 			(effects
 				(font
@@ -24747,12 +25121,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 20.32 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -24798,7 +25173,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 40.64 135.89 0)
 			(effects
 				(font
@@ -24807,7 +25182,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 40.64 135.89 0)
 			(effects
 				(font
@@ -24843,12 +25218,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 40.64 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -24892,7 +25268,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 68.58 151.13 0)
 			(effects
 				(font
@@ -24968,7 +25344,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 17.78 129.54 0)
 			(effects
 				(font
@@ -25046,7 +25422,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 40.64 27.94 0)
 			(effects
 				(font
@@ -25055,7 +25431,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 40.64 27.94 0)
 			(effects
 				(font
@@ -25091,12 +25467,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 40.64 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -25140,7 +25517,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 27.94 21.59 0)
 			(effects
 				(font
@@ -25218,7 +25595,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 101.6 27.94 0)
 			(effects
 				(font
@@ -25227,7 +25604,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 101.6 27.94 0)
 			(effects
 				(font
@@ -25263,12 +25640,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 101.6 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -25314,7 +25692,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 111.76 27.94 0)
 			(effects
 				(font
@@ -25323,7 +25701,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 111.76 27.94 0)
 			(effects
 				(font
@@ -25359,12 +25737,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 111.76 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -25410,7 +25789,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 71.12 71.12 0)
 			(effects
 				(font
@@ -25419,7 +25798,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 71.12 71.12 0)
 			(effects
 				(font
@@ -25455,12 +25834,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 71.12 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -25504,7 +25884,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 119.38 21.59 0)
 			(effects
 				(font
@@ -25580,7 +25960,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 88.9 175.26 0)
 			(effects
 				(font
@@ -25656,7 +26036,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 17.78 175.26 0)
 			(effects
 				(font
@@ -25732,7 +26112,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 38.1 151.13 0)
 			(effects
 				(font
@@ -25810,7 +26190,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 132.08 71.12 0)
 			(effects
 				(font
@@ -25819,7 +26199,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 132.08 71.12 0)
 			(effects
 				(font
@@ -25855,12 +26235,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 132.08 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -25906,7 +26287,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 101.6 135.89 0)
 			(effects
 				(font
@@ -25915,7 +26296,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 101.6 135.89 0)
 			(effects
 				(font
@@ -25951,12 +26332,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 101.6 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -26002,7 +26384,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 132.08 27.94 0)
 			(effects
 				(font
@@ -26011,7 +26393,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 132.08 27.94 0)
 			(effects
 				(font
@@ -26047,12 +26429,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 132.08 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -26096,7 +26479,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 109.22 43.18 0)
 			(effects
 				(font
@@ -26172,7 +26555,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 129.54 64.77 0)
 			(effects
 				(font
@@ -26250,7 +26633,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 180.0352 54.61 0)
 			(effects
 				(font
@@ -26259,7 +26642,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707269996871680"
 			(at 179.07 50.8 0)
 			(effects
 				(font
@@ -26277,12 +26660,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/1877-CL05B104KO5NNNC/C1525"
 			(at 179.07 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -26328,7 +26712,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 30.48 135.89 0)
 			(effects
 				(font
@@ -26337,7 +26721,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 30.48 135.89 0)
 			(effects
 				(font
@@ -26373,12 +26757,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 30.48 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -26424,7 +26809,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 111.76 114.3 0)
 			(effects
 				(font
@@ -26433,7 +26818,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 111.76 114.3 0)
 			(effects
 				(font
@@ -26469,12 +26854,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 111.76 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -26520,7 +26906,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 86.36 238.76 0)
 			(effects
 				(font
@@ -26593,7 +26979,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 201.93 67.6148 0)
 			(effects
 				(font
@@ -26602,7 +26988,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707269996871680 https://jlcpcb.com/partdetail/1877-CL05B104KO5NNNC/C1525"
 			(at 198.12 68.58 0)
 			(effects
 				(font
@@ -26620,12 +27006,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/1877-CL05B104KO5NNNC/C1525"
 			(at 198.12 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -26670,7 +27057,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 159.7152 102.87 0)
 			(effects
 				(font
@@ -26679,7 +27066,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707269996871680 https://jlcpcb.com/partdetail/1877-CL05B104KO5NNNC/C1525"
 			(at 158.75 99.06 0)
 			(effects
 				(font
@@ -26697,12 +27084,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/1877-CL05B104KO5NNNC/C1525"
 			(at 158.75 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -26748,7 +27136,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 71.12 157.48 0)
 			(effects
 				(font
@@ -26757,7 +27145,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 71.12 157.48 0)
 			(effects
 				(font
@@ -26793,12 +27181,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 71.12 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -26842,7 +27231,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 38.1 43.18 0)
 			(effects
 				(font
@@ -26920,7 +27309,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 86.36 231.14 0)
 			(effects
 				(font
@@ -26995,7 +27384,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 86.36 236.22 0)
 			(effects
 				(font
@@ -27070,7 +27459,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 142.24 27.94 0)
 			(effects
 				(font
@@ -27079,7 +27468,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 142.24 27.94 0)
 			(effects
 				(font
@@ -27115,12 +27504,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 142.24 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -27164,7 +27554,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 172.974 82.804 90)
 			(effects
 				(font
@@ -27173,7 +27563,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF270JTCE_C25100.pdf"
 			(at 172.72 83.82 0)
 			(effects
 				(font
@@ -27191,12 +27581,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/25843-0402WGF270JTCE/C25100"
 			(at 172.72 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -27306,7 +27697,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 48.26 43.18 0)
 			(effects
 				(font
@@ -27384,7 +27775,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 91.44 114.3 0)
 			(effects
 				(font
@@ -27393,7 +27784,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 91.44 114.3 0)
 			(effects
 				(font
@@ -27429,12 +27820,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 91.44 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -27478,7 +27870,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 88.9 86.36 0)
 			(effects
 				(font
@@ -27554,7 +27946,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 48.26 64.77 0)
 			(effects
 				(font
@@ -27632,7 +28024,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 172.4152 26.67 0)
 			(effects
 				(font
@@ -27641,7 +28033,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707269996871680 https://jlcpcb.com/partdetail/1877-CL05B104KO5NNNC/C1525"
 			(at 171.45 22.86 0)
 			(effects
 				(font
@@ -27659,12 +28051,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/1877-CL05B104KO5NNNC/C1525"
 			(at 171.45 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -27710,7 +28103,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 20.32 92.71 0)
 			(effects
 				(font
@@ -27719,7 +28112,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 20.32 92.71 0)
 			(effects
 				(font
@@ -27755,12 +28148,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 20.32 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -27804,7 +28198,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 201.93 101.9048 0)
 			(effects
 				(font
@@ -27813,7 +28207,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707269996871680 https://jlcpcb.com/partdetail/1877-CL05B104KO5NNNC/C1525"
 			(at 198.12 102.87 0)
 			(effects
 				(font
@@ -27831,12 +28225,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/1877-CL05B104KO5NNNC/C1525"
 			(at 198.12 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -27880,7 +28275,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 38.1 175.26 0)
 			(effects
 				(font
@@ -27956,7 +28351,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 68.58 64.77 0)
 			(effects
 				(font
@@ -28032,7 +28427,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 48.26 107.95 0)
 			(effects
 				(font
@@ -28110,7 +28505,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 121.92 27.94 0)
 			(effects
 				(font
@@ -28119,7 +28514,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 121.92 27.94 0)
 			(effects
 				(font
@@ -28155,12 +28550,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 121.92 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -28204,7 +28600,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 99.06 21.59 0)
 			(effects
 				(font
@@ -28280,7 +28676,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 78.74 43.18 0)
 			(effects
 				(font
@@ -28358,7 +28754,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 30.48 92.71 0)
 			(effects
 				(font
@@ -28367,7 +28763,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 30.48 92.71 0)
 			(effects
 				(font
@@ -28403,12 +28799,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 30.48 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -28454,7 +28851,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 91.44 92.71 0)
 			(effects
 				(font
@@ -28463,7 +28860,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 91.44 92.71 0)
 			(effects
 				(font
@@ -28499,12 +28896,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 91.44 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -28548,7 +28946,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 139.7 21.59 0)
 			(effects
 				(font
@@ -28626,7 +29024,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 50.8 49.53 0)
 			(effects
 				(font
@@ -28635,7 +29033,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 50.8 49.53 0)
 			(effects
 				(font
@@ -28671,12 +29069,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 50.8 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -28722,7 +29121,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 160.02 149.5552 0)
 			(effects
 				(font
@@ -28731,7 +29130,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05C150JB5NNNC_C86285.pdf"
 			(at 163.83 148.59 0)
 			(effects
 				(font
@@ -28749,12 +29148,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/87461-CL05C150JB5NNNC/C86285"
 			(at 163.83 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -28800,7 +29200,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 20.32 49.53 0)
 			(effects
 				(font
@@ -28809,7 +29209,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 20.32 49.53 0)
 			(effects
 				(font
@@ -28845,12 +29245,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 20.32 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -28896,7 +29297,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 132.08 135.89 0)
 			(effects
 				(font
@@ -28905,7 +29306,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 132.08 135.89 0)
 			(effects
 				(font
@@ -28941,12 +29342,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 132.08 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -28990,7 +29392,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 119.38 86.36 0)
 			(effects
 				(font
@@ -29066,7 +29468,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 129.54 151.13 0)
 			(effects
 				(font
@@ -29142,7 +29544,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 139.7 64.77 0)
 			(effects
 				(font
@@ -29218,7 +29620,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 109.22 107.95 0)
 			(effects
 				(font
@@ -29294,7 +29696,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_PG151101S11"
 			(at 109.22 86.36 0)
 			(effects
 				(font
@@ -29372,7 +29774,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 50.8 27.94 0)
 			(effects
 				(font
@@ -29381,7 +29783,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 50.8 27.94 0)
 			(effects
 				(font
@@ -29417,12 +29819,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 50.8 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -29468,7 +29871,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 40.64 92.71 0)
 			(effects
 				(font
@@ -29477,7 +29880,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 40.64 92.71 0)
 			(effects
 				(font
@@ -29513,12 +29916,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 40.64 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -29561,7 +29965,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 172.974 125.984 90)
 			(effects
 				(font
@@ -29570,7 +29974,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579705924167974912"
 			(at 172.72 127 0)
 			(effects
 				(font
@@ -29588,12 +29992,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/12256-0402WGF1001TCE/C11702"
 			(at 172.72 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -29639,7 +30044,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 20.32 157.48 0)
 			(effects
 				(font
@@ -29648,7 +30053,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
 			(at 20.32 157.48 0)
 			(effects
 				(font
@@ -29684,12 +30089,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
 			(at 20.32 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"

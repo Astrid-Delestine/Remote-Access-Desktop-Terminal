@@ -7571,7 +7571,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:HDMI_A_Molex_208658-1001_Horizontal"
+		(property "Footprint" "footprints:AMPHENOL_MHDRA111M0"
 			(at 179.705 72.39 0)
 			(effects
 				(font
@@ -7580,7 +7580,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://en.wikipedia.org/wiki/HDMI"
+		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/mhdra111xx.pdf"
 			(at 179.705 72.39 0)
 			(effects
 				(font
@@ -7634,12 +7634,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.digikey.com/en/products/detail/amphenol-cs-commercial-products/MHDRA111M0/8572891"
 			(at 179.07 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "8"

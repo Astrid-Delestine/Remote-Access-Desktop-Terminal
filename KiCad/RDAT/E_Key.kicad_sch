@@ -3493,7 +3493,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Bus_M.2_Socket_E"
+		(property "Value" "MDT420E03001"
 			(at 139.3541 69.85 0)
 			(effects
 				(font
@@ -3502,7 +3502,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:PCIe_M.2_Connectors_P=0.5mm_H=4.2mm_KeyE"
+		(property "Footprint" "footprints:AMPHENOL_MDT420E03001"
 			(at 137.16 91.44 0)
 			(effects
 				(font
@@ -3511,7 +3511,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://read.pudn.com/downloads794/doc/project/3133918/PCIe_M.2_Electromechanical_Spec_Rev1.0_Final_11012013_RS_Clean.pdf#page=150"
+		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/ssio/ssio_pcie_m2.pdf"
 			(at 137.16 91.44 0)
 			(effects
 				(font
@@ -3565,12 +3565,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/AmphenolIcc-MDT420E03001/C599397"
 			(at 137.16 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "5"
