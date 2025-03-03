@@ -1480,7 +1480,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 88.9) (xy 135.89 88.9)
+			(xy 120.65 88.9) (xy 128.27 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1546,7 +1546,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/25819-0402WGF1000TCE/C25076"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579705907481001984"
 			(at 139.7 93.98 0)
 			(effects
 				(font
@@ -1600,12 +1600,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579705907481001984"
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/25819-0402WGF1000TCE/C25076"
 			(at 139.7 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -1768,7 +1769,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8554627388281098240"
 			(at 148.59 77.47 0)
 			(effects
 				(font
@@ -1822,12 +1823,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/291005-CL05B104KB54PNC/C307331"
 			(at 148.59 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -2007,6 +2009,118 @@
 			(project "RDAT"
 				(path "/0db9370a-8a21-4fd2-83a9-f207c3725dc9/2f5ffc1e-d25d-4ef5-8610-5326cc58210f"
 					(reference "#PWR0123")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 132.08 88.9 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6a25fc83-365f-4c3a-8d95-1916cc930930")
+		(property "Reference" "R42"
+			(at 128.016 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20k"
+			(at 128.016 90.424 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
+			(at 132.08 87.122 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579705988980932608"
+			(at 132.08 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SCH_Show_Footprint" ""
+			(at 132.08 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 132.08 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 132.08 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 132.08 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/26508-0402WGF2002TCE/C25765"
+			(at 132.08 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5a4864dd-c11a-4988-b124-57438503ca66")
+		)
+		(pin "2"
+			(uuid "6b4629c5-86f0-4018-b036-c50c01f6b9d0")
+		)
+		(instances
+			(project "RDAT"
+				(path "/0db9370a-8a21-4fd2-83a9-f207c3725dc9/2f5ffc1e-d25d-4ef5-8610-5326cc58210f"
+					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -2388,15 +2502,15 @@
 		(dnp no)
 		(uuid "af0259f8-72dd-4afa-853d-a7b9de9fe30e")
 		(property "Reference" "R25"
-			(at 133.35 87.63 90)
+			(at 135.89 86.868 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "21.5K/1%"
-			(at 132.08 90.17 90)
+		(property "Value" "1.5k"
+			(at 136.906 90.932 90)
 			(effects
 				(font
 					(size 1 1)
@@ -2412,7 +2526,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579705932919590912"
 			(at 139.7 88.9 0)
 			(effects
 				(font
@@ -2466,12 +2580,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/26610-0402WGF1501TCE/C25867"
 			(at 139.7 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2658,7 +2773,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2204281430_Guangdong-Hottech-1N5819WS_C191023.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8550723919347523584"
 			(at 172.72 78.74 0)
 			(effects
 				(font
@@ -2712,12 +2827,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/GuangdongHottech-1N5819WS/C191023"
 			(at 172.72 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2771,7 +2887,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579705941367193600"
 			(at 160.02 78.74 0)
 			(effects
 				(font
@@ -2825,12 +2941,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/26643-0402WGF4701TCE/C25900"
 			(at 160.02 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
