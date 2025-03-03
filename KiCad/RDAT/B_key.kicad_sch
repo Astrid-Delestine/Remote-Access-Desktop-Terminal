@@ -3963,7 +3963,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 40.64 146.05 0)
 			(effects
 				(font
@@ -5024,7 +5024,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4fd90049-872a-4265-9d44-1d2e20a9760f")
-		(property "Reference" "J2"
+		(property "Reference" "J3"
 			(at 68.58 182.8799 0)
 			(effects
 				(font
@@ -5105,7 +5105,7 @@
 		(instances
 			(project "RDAT"
 				(path "/0db9370a-8a21-4fd2-83a9-f207c3725dc9/55ec8a2f-3960-4a3a-93a6-0eefb6fdb74b"
-					(reference "J2")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -5809,7 +5809,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 50.8 142.24 0)
 			(effects
 				(font
@@ -6464,7 +6464,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 157.48 92.71 0)
 			(effects
 				(font
@@ -7340,7 +7340,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 45.72 158.75 0)
 			(effects
 				(font

@@ -2081,7 +2081,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:Fuse_0805_2012Metric"
+		(property "Footprint" "Fuse:Fuse_0805_2012Metric"
 			(at 144.78 42.418 90)
 			(effects
 				(font
@@ -2325,7 +2325,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:Fuse_0805_2012Metric"
+		(property "Footprint" "Fuse:Fuse_0805_2012Metric"
 			(at 144.78 44.958 90)
 			(effects
 				(font
@@ -2437,7 +2437,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:Diodes_UDFN-10_1.0x2.5mm_P0.5mm"
+		(property "Footprint" "Package_DFN_QFN:Diodes_UDFN-10_1.0x2.5mm_P0.5mm"
 			(at 97.79 80.01 0)
 			(effects
 				(font
@@ -2706,7 +2706,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 132.08 39.6748 0)
 			(effects
 				(font

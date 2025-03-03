@@ -1,4 +1,4 @@
-24824439448497064
+24833144431394353
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -99540,6 +99540,13 @@ AMPHENOL_MHDRA111M0
 21
 21
 footprints
+AMPHENOL_MUSBRM1C130
+
+
+0
+32
+32
+footprints
 BAT_54
 
 
@@ -99624,12 +99631,33 @@ LM74800QDRRRQ1
 16
 16
 footprints
+ESSOP-10_L4.9-W3.9-P1.0-LS6.0-TL-EP
+
+
+0
+11
+11
+footprints
+HARWIN_S8411-45R
+
+
+0
+2
+2
+footprints
 INDM6864X300N
 
 
 0
 2
 2
+footprints
+JST_B4B-PH-SM4-TBT_LF__SN_
+
+
+0
+6
+6
 footprints
 LattePanda_Module_H4.0mm_Horizontal
 LattePanda Module
@@ -99791,6 +99819,13 @@ SF72S006VBDR2500
 0
 18
 18
+footprints
+SOIC127P790X216-8N
+
+
+0
+8
+8
 footprints
 SOIC_128JVSIQ_WIN
 

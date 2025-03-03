@@ -5558,7 +5558,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 113.9952 179.07 0)
 			(effects
 				(font
@@ -5855,7 +5855,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 175.768 127 90)
 			(effects
 				(font
@@ -6808,7 +6808,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 187.198 106.68 90)
 			(effects
 				(font
@@ -7652,7 +7652,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 147.32 165.862 90)
 			(effects
 				(font
@@ -7985,7 +7985,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 80.01 66.04 0)
 			(effects
 				(font
@@ -8301,7 +8301,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 109.22 165.862 90)
 			(effects
 				(font
@@ -9218,7 +9218,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 104.14 128.27 0)
 			(effects
 				(font
@@ -9296,7 +9296,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 104.14 100.33 0)
 			(effects
 				(font
@@ -9442,7 +9442,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 185.42 114.3 0)
 			(effects
 				(font
@@ -10212,7 +10212,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 187.96 125.095 0)
 			(effects
 				(font
@@ -10489,7 +10489,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 107.95 118.11 0)
 			(effects
 				(font
@@ -10526,10 +10526,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "cfd83f2c-2cb1-452d-8191-733df04c1a9d")
+			(uuid "cfd83f2c-2cb1-452d-8191-733df04c1a9e")
 		)
 		(pin "1"
-			(uuid "3d44e5d0-1503-4377-b07e-62395fcf8519")
+			(uuid "3d44e5d0-1503-4377-b07e-62395fcf851a")
 		)
 		(instances
 			(project ""
@@ -11413,7 +11413,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 166.37 124.968 90)
 			(effects
 				(font
@@ -11684,7 +11684,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 104.14 105.41 0)
 			(effects
 				(font
@@ -11721,10 +11721,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "cfd83f2c-2cb1-452d-8191-733df04c1a9d")
+			(uuid "cfd83f2c-2cb1-452d-8191-733df04c1a9f")
 		)
 		(pin "1"
-			(uuid "3d44e5d0-1503-4377-b07e-62395fcf8519")
+			(uuid "3d44e5d0-1503-4377-b07e-62395fcf851b")
 		)
 		(instances
 			(project ""
@@ -12268,7 +12268,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 152.0952 179.07 0)
 			(effects
 				(font
@@ -12447,7 +12447,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 76.2 180.34 0)
 			(effects
 				(font

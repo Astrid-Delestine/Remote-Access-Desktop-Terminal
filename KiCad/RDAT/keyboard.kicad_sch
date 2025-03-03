@@ -20952,7 +20952,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm"
+		(property "Footprint" "footprints:SOIC_128JVSIQ_WIN"
 			(at 184.15 85.09 0)
 			(effects
 				(font
