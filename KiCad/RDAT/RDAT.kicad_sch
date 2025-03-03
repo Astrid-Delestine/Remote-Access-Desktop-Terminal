@@ -2553,7 +2553,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "54:BAT_54"
+		(property "Footprint" "footprints:BAT_BK-18650-CLIP"
 			(at 194.31 125.222 0)
 			(effects
 				(font
@@ -2767,7 +2767,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "54:BAT_54"
+		(property "Footprint" "footprints:BAT_BK-18650-CLIP"
 			(at 194.31 153.162 0)
 			(effects
 				(font
@@ -2980,7 +2980,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 47.9552 154.94 0)
 			(effects
 				(font
@@ -2989,7 +2989,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706866429190144"
 			(at 46.99 151.13 0)
 			(effects
 				(font
@@ -3007,12 +3007,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/46786-CL21A226MAQNNNE/C45783"
 			(at 46.99 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3126,7 +3127,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "54:BAT_54"
+		(property "Footprint" "footprints:BAT_BK-18650-CLIP"
 			(at 194.31 159.512 0)
 			(effects
 				(font
@@ -3340,7 +3341,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "54:BAT_54"
+		(property "Footprint" "footprints:BAT_BK-18650-CLIP"
 			(at 132.08 173.482 0)
 			(effects
 				(font
@@ -3554,7 +3555,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "54:BAT_54"
+		(property "Footprint" "footprints:BAT_BK-18650-CLIP"
 			(at 194.31 139.192 0)
 			(effects
 				(font
@@ -3834,7 +3835,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "54:BAT_54"
+		(property "Footprint" "footprints:BAT_BK-18650-CLIP"
 			(at 132.08 145.542 0)
 			(effects
 				(font
@@ -4262,7 +4263,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "54:BAT_54"
+		(property "Footprint" "footprints:BAT_BK-18650-CLIP"
 			(at 132.08 167.132 0)
 			(effects
 				(font
@@ -4476,7 +4477,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "54:BAT_54"
+		(property "Footprint" "footprints:BAT_BK-18650-CLIP"
 			(at 194.31 167.132 0)
 			(effects
 				(font
@@ -4690,7 +4691,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "54:BAT_54"
+		(property "Footprint" "footprints:BAT_BK-18650-CLIP"
 			(at 132.08 139.192 0)
 			(effects
 				(font
@@ -4904,7 +4905,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "54:BAT_54"
+		(property "Footprint" "footprints:BAT_BK-18650-CLIP"
 			(at 194.31 145.542 0)
 			(effects
 				(font
@@ -5118,7 +5119,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "54:BAT_54"
+		(property "Footprint" "footprints:BAT_BK-18650-CLIP"
 			(at 132.08 153.162 0)
 			(effects
 				(font
@@ -5332,7 +5333,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "54:BAT_54"
+		(property "Footprint" "footprints:BAT_BK-18650-CLIP"
 			(at 132.08 159.512 0)
 			(effects
 				(font
@@ -5612,7 +5613,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "54:BAT_54"
+		(property "Footprint" "footprints:BAT_BK-18650-CLIP"
 			(at 194.31 173.482 0)
 			(effects
 				(font
@@ -5826,7 +5827,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "54:BAT_54"
+		(property "Footprint" "footprints:BAT_BK-18650-CLIP"
 			(at 194.31 131.572 0)
 			(effects
 				(font
@@ -6040,7 +6041,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "54:BAT_54"
+		(property "Footprint" "footprints:BAT_BK-18650-CLIP"
 			(at 132.08 131.572 0)
 			(effects
 				(font

@@ -8218,7 +8218,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 17.78 43.18 0)
 			(effects
 				(font
@@ -8236,12 +8236,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 17.78 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8294,7 +8295,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 58.42 107.95 0)
 			(effects
 				(font
@@ -8312,12 +8313,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 58.42 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8467,7 +8469,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 99.06 107.95 0)
 			(effects
 				(font
@@ -8485,12 +8487,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 99.06 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8696,7 +8699,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 17.78 151.13 0)
 			(effects
 				(font
@@ -8714,12 +8717,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 17.78 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9046,7 +9050,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 68.58 129.54 0)
 			(effects
 				(font
@@ -9064,12 +9068,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 68.58 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9219,7 +9224,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 119.38 64.77 0)
 			(effects
 				(font
@@ -9237,12 +9242,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 119.38 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9295,7 +9301,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 78.74 151.13 0)
 			(effects
 				(font
@@ -9313,12 +9319,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 78.74 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9468,7 +9475,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 119.38 151.13 0)
 			(effects
 				(font
@@ -9486,12 +9493,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 119.38 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9641,7 +9649,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 48.26 21.59 0)
 			(effects
 				(font
@@ -9659,12 +9667,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 48.26 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10008,7 +10017,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 139.7 129.54 0)
 			(effects
 				(font
@@ -10026,12 +10035,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 139.7 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10278,7 +10288,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 27.94 86.36 0)
 			(effects
 				(font
@@ -10296,12 +10306,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 27.94 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10528,7 +10539,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 99.06 129.54 0)
 			(effects
 				(font
@@ -10546,12 +10557,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 99.06 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10864,7 +10876,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 119.38 175.26 0)
 			(effects
 				(font
@@ -10882,12 +10894,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 119.38 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10940,7 +10953,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 99.06 86.36 0)
 			(effects
 				(font
@@ -10958,12 +10971,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 99.06 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11356,7 +11370,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 109.22 175.26 0)
 			(effects
 				(font
@@ -11374,12 +11388,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 109.22 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11432,7 +11447,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 129.54 107.95 0)
 			(effects
 				(font
@@ -11450,12 +11465,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 129.54 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11508,7 +11524,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 88.9 43.18 0)
 			(effects
 				(font
@@ -11526,12 +11542,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 88.9 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11822,7 +11839,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 78.74 21.59 0)
 			(effects
 				(font
@@ -11840,12 +11857,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 78.74 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12092,7 +12110,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 48.26 175.26 0)
 			(effects
 				(font
@@ -12110,12 +12128,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 48.26 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12168,7 +12187,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 109.22 151.13 0)
 			(effects
 				(font
@@ -12186,12 +12205,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 109.22 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12244,7 +12264,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 17.78 86.36 0)
 			(effects
 				(font
@@ -12262,12 +12282,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 17.78 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12385,7 +12406,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 58.42 129.54 0)
 			(effects
 				(font
@@ -12403,12 +12424,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 58.42 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12634,7 +12656,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 88.9 21.59 0)
 			(effects
 				(font
@@ -12652,12 +12674,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 88.9 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13001,7 +13024,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 129.54 129.54 0)
 			(effects
 				(font
@@ -13019,12 +13042,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 129.54 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13077,7 +13101,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 27.94 151.13 0)
 			(effects
 				(font
@@ -13095,12 +13119,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 27.94 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13740,7 +13765,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 58.42 175.26 0)
 			(effects
 				(font
@@ -13758,12 +13783,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 58.42 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13991,7 +14017,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 68.58 175.26 0)
 			(effects
 				(font
@@ -14009,12 +14035,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 68.58 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -14067,7 +14094,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 68.58 107.95 0)
 			(effects
 				(font
@@ -14085,12 +14112,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 68.58 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -14143,7 +14171,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 68.58 86.36 0)
 			(effects
 				(font
@@ -14161,12 +14189,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 68.58 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -14219,7 +14248,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 58.42 64.77 0)
 			(effects
 				(font
@@ -14237,12 +14266,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 58.42 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -14489,7 +14519,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 38.1 129.54 0)
 			(effects
 				(font
@@ -14507,12 +14537,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 38.1 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -14565,7 +14596,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 99.06 175.26 0)
 			(effects
 				(font
@@ -14583,12 +14614,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 99.06 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -14641,7 +14673,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 139.7 86.36 0)
 			(effects
 				(font
@@ -14659,12 +14691,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 139.7 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -14717,7 +14750,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 78.74 64.77 0)
 			(effects
 				(font
@@ -14735,12 +14768,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 78.74 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -14890,7 +14924,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 88.9 129.54 0)
 			(effects
 				(font
@@ -14908,12 +14942,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 88.9 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -15063,7 +15098,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 88.9 151.13 0)
 			(effects
 				(font
@@ -15081,12 +15116,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 88.9 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -15139,7 +15175,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 78.74 129.54 0)
 			(effects
 				(font
@@ -15157,12 +15193,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 78.74 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -15215,7 +15252,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 27.94 175.26 0)
 			(effects
 				(font
@@ -15233,12 +15270,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 27.94 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -15582,7 +15620,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 129.54 86.36 0)
 			(effects
 				(font
@@ -15600,12 +15638,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 129.54 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -15852,7 +15891,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 139.7 151.13 0)
 			(effects
 				(font
@@ -15870,12 +15909,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 139.7 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -16025,7 +16065,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 27.94 64.77 0)
 			(effects
 				(font
@@ -16043,12 +16083,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 27.94 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -16166,7 +16207,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 78.74 175.26 0)
 			(effects
 				(font
@@ -16184,12 +16225,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 78.74 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -16436,7 +16478,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 68.58 43.18 0)
 			(effects
 				(font
@@ -16454,12 +16496,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 68.58 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -16694,7 +16737,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 119.38 43.18 0)
 			(effects
 				(font
@@ -16712,12 +16755,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 119.38 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -16770,7 +16814,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 68.58 21.59 0)
 			(effects
 				(font
@@ -16788,12 +16832,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 68.58 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -16846,7 +16891,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 58.42 21.59 0)
 			(effects
 				(font
@@ -16864,12 +16909,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 58.42 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -16922,7 +16968,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 78.74 86.36 0)
 			(effects
 				(font
@@ -16940,12 +16986,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 78.74 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -16998,7 +17045,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 109.22 64.77 0)
 			(effects
 				(font
@@ -17016,12 +17063,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 109.22 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -17074,7 +17122,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 119.38 107.95 0)
 			(effects
 				(font
@@ -17092,12 +17140,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 119.38 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -17150,7 +17199,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 88.9 64.77 0)
 			(effects
 				(font
@@ -17168,12 +17217,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 88.9 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -18272,7 +18322,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 38.1 64.77 0)
 			(effects
 				(font
@@ -18290,12 +18340,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 38.1 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -18609,7 +18660,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 17.78 21.59 0)
 			(effects
 				(font
@@ -18627,12 +18678,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 17.78 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -18827,7 +18879,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 38.1 21.59 0)
 			(effects
 				(font
@@ -18845,12 +18897,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 38.1 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -18903,7 +18956,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 27.94 107.95 0)
 			(effects
 				(font
@@ -18921,12 +18974,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 27.94 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -18979,7 +19033,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 99.06 151.13 0)
 			(effects
 				(font
@@ -18997,12 +19051,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 99.06 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -19055,7 +19110,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 109.22 21.59 0)
 			(effects
 				(font
@@ -19073,12 +19128,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 109.22 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -19694,7 +19750,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 129.54 175.26 0)
 			(effects
 				(font
@@ -19712,12 +19768,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 129.54 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -19770,7 +19827,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 27.94 129.54 0)
 			(effects
 				(font
@@ -19788,12 +19845,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 27.94 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -20269,7 +20327,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 139.7 43.18 0)
 			(effects
 				(font
@@ -20287,12 +20345,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 139.7 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -20345,7 +20404,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 88.9 107.95 0)
 			(effects
 				(font
@@ -20363,12 +20422,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 88.9 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -20629,7 +20689,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 99.06 64.77 0)
 			(effects
 				(font
@@ -20647,12 +20707,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 99.06 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -20891,7 +20952,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm"
+		(property "Footprint" "footprints:SOIC_128JVSIQ_WIN"
 			(at 184.15 85.09 0)
 			(effects
 				(font
@@ -21365,7 +21426,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 129.54 21.59 0)
 			(effects
 				(font
@@ -21383,12 +21444,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 129.54 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -21441,7 +21503,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 38.1 107.95 0)
 			(effects
 				(font
@@ -21459,12 +21521,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 38.1 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -21711,7 +21774,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 38.1 86.36 0)
 			(effects
 				(font
@@ -21729,12 +21792,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 38.1 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -21884,7 +21948,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 27.94 43.18 0)
 			(effects
 				(font
@@ -21902,12 +21966,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 27.94 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -22154,7 +22219,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 58.42 43.18 0)
 			(effects
 				(font
@@ -22172,12 +22237,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 58.42 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -22230,7 +22296,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 48.26 86.36 0)
 			(effects
 				(font
@@ -22248,12 +22314,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 48.26 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -22306,7 +22373,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 58.42 151.13 0)
 			(effects
 				(font
@@ -22324,12 +22391,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 58.42 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -22823,7 +22891,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 129.54 43.18 0)
 			(effects
 				(font
@@ -22841,12 +22909,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 129.54 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -23265,7 +23334,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 17.78 107.95 0)
 			(effects
 				(font
@@ -23283,12 +23352,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 17.78 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -23418,7 +23488,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 139.7 107.95 0)
 			(effects
 				(font
@@ -23436,12 +23506,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 139.7 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -23692,7 +23763,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 119.38 129.54 0)
 			(effects
 				(font
@@ -23710,12 +23781,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 119.38 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -23942,7 +24014,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 99.06 43.18 0)
 			(effects
 				(font
@@ -23960,12 +24032,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 99.06 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -24018,7 +24091,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 109.22 129.54 0)
 			(effects
 				(font
@@ -24036,12 +24109,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 109.22 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -24385,7 +24459,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 48.26 129.54 0)
 			(effects
 				(font
@@ -24403,12 +24477,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 48.26 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -24558,7 +24633,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 48.26 151.13 0)
 			(effects
 				(font
@@ -24576,12 +24651,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 48.26 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -24634,7 +24710,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 17.78 64.77 0)
 			(effects
 				(font
@@ -24652,12 +24728,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 17.78 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -24790,7 +24867,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 58.42 86.36 0)
 			(effects
 				(font
@@ -24808,12 +24885,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 58.42 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -24931,7 +25009,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 139.7 175.26 0)
 			(effects
 				(font
@@ -24949,12 +25027,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 139.7 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -25007,7 +25086,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 78.74 107.95 0)
 			(effects
 				(font
@@ -25025,12 +25104,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 78.74 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -25277,7 +25357,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 68.58 151.13 0)
 			(effects
 				(font
@@ -25295,12 +25375,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 68.58 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -25353,7 +25434,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 17.78 129.54 0)
 			(effects
 				(font
@@ -25371,12 +25452,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 17.78 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -25526,7 +25608,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 27.94 21.59 0)
 			(effects
 				(font
@@ -25544,12 +25626,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 27.94 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -25893,7 +25976,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 119.38 21.59 0)
 			(effects
 				(font
@@ -25911,12 +25994,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 119.38 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -25969,7 +26053,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 88.9 175.26 0)
 			(effects
 				(font
@@ -25987,12 +26071,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 88.9 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -26045,7 +26130,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 17.78 175.26 0)
 			(effects
 				(font
@@ -26063,12 +26148,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 17.78 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -26121,7 +26207,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 38.1 151.13 0)
 			(effects
 				(font
@@ -26139,12 +26225,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 38.1 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -26488,7 +26575,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 109.22 43.18 0)
 			(effects
 				(font
@@ -26506,12 +26593,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 109.22 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -26564,7 +26652,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 129.54 64.77 0)
 			(effects
 				(font
@@ -26582,12 +26670,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 129.54 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -27240,7 +27329,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 38.1 43.18 0)
 			(effects
 				(font
@@ -27258,12 +27347,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 38.1 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -27706,7 +27796,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 48.26 43.18 0)
 			(effects
 				(font
@@ -27724,12 +27814,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 48.26 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -27879,7 +27970,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 88.9 86.36 0)
 			(effects
 				(font
@@ -27897,12 +27988,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 88.9 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -27955,7 +28047,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 48.26 64.77 0)
 			(effects
 				(font
@@ -27973,12 +28065,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 48.26 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -28284,7 +28377,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 38.1 175.26 0)
 			(effects
 				(font
@@ -28302,12 +28395,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 38.1 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -28360,7 +28454,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 68.58 64.77 0)
 			(effects
 				(font
@@ -28378,12 +28472,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 68.58 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -28436,7 +28531,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 48.26 107.95 0)
 			(effects
 				(font
@@ -28454,12 +28549,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 48.26 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -28609,7 +28705,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 99.06 21.59 0)
 			(effects
 				(font
@@ -28627,12 +28723,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 99.06 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -28685,7 +28782,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 78.74 43.18 0)
 			(effects
 				(font
@@ -28703,12 +28800,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 78.74 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -28955,7 +29053,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 139.7 21.59 0)
 			(effects
 				(font
@@ -28973,12 +29071,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 139.7 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -29401,7 +29500,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 119.38 86.36 0)
 			(effects
 				(font
@@ -29419,12 +29518,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 119.38 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -29477,7 +29577,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 129.54 151.13 0)
 			(effects
 				(font
@@ -29495,12 +29595,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 129.54 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -29553,7 +29654,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 139.7 64.77 0)
 			(effects
 				(font
@@ -29571,12 +29672,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 139.7 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -29629,7 +29731,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 109.22 107.95 0)
 			(effects
 				(font
@@ -29647,12 +29749,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 109.22 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -29705,7 +29808,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
 			(at 109.22 86.36 0)
 			(effects
 				(font
@@ -29723,12 +29826,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
 			(at 109.22 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"

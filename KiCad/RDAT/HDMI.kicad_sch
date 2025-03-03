@@ -3747,6 +3747,12 @@
 		(uuid "00748afa-c3c6-4138-89ce-3c6dd54fc049")
 	)
 	(junction
+		(at 74.93 238.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "058611df-8b7b-4104-9ac9-18c53c8a3d4d")
+	)
+	(junction
 		(at 46.99 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3763,6 +3769,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1a11b3cf-16f0-470e-a7f6-76cf67e2be95")
+	)
+	(junction
+		(at 74.93 255.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1a7d5723-bdcc-4e86-af03-068b0a1b5398")
 	)
 	(junction
 		(at 176.53 105.41)
@@ -3853,12 +3865,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "57ef141f-462b-4da0-9489-17583e56c1d5")
-	)
-	(junction
-		(at 72.39 255.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5bcb48a0-78a5-439c-8bd3-55ff9f63a4c0")
 	)
 	(junction
 		(at 68.58 81.28)
@@ -3969,12 +3975,6 @@
 		(uuid "e453d1b6-2fe1-47a7-bdc5-8df64df5d58a")
 	)
 	(junction
-		(at 72.39 238.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e8cd5a08-8de1-4080-a283-2054a4e3adb3")
-	)
-	(junction
 		(at 49.53 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4068,7 +4068,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 238.76) (xy 78.74 238.76)
+			(xy 67.31 238.76) (xy 74.93 238.76)
 		)
 		(stroke
 			(width 0)
@@ -4288,16 +4288,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 238.76) (xy 72.39 242.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42b9f2fe-e2d3-4af2-8f3a-08dbe2c8f0ac")
-	)
-	(wire
-		(pts
 			(xy 179.07 31.75) (xy 179.07 33.02)
 		)
 		(stroke
@@ -4455,6 +4445,16 @@
 			(type default)
 		)
 		(uuid "5a516740-180d-4fe1-aa3c-1400b657a799")
+	)
+	(wire
+		(pts
+			(xy 74.93 255.27) (xy 72.39 255.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b5517c4-6d41-436c-b509-3dea129fd2e0")
 	)
 	(wire
 		(pts
@@ -4678,6 +4678,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 238.76) (xy 78.74 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "854a1194-faab-4305-a455-eee6a6c61135")
+	)
+	(wire
+		(pts
 			(xy 86.36 238.76) (xy 90.17 238.76)
 		)
 		(stroke
@@ -4718,7 +4728,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 255.27) (xy 72.39 255.27)
+			(xy 90.17 255.27) (xy 74.93 255.27)
 		)
 		(stroke
 			(width 0)
@@ -4765,6 +4775,16 @@
 			(type default)
 		)
 		(uuid "92c1c039-29bb-423a-8926-d54f68a0b94d")
+	)
+	(wire
+		(pts
+			(xy 74.93 247.65) (xy 74.93 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9363138a-1136-469a-820f-a2c09573b6c3")
 	)
 	(wire
 		(pts
@@ -4898,16 +4918,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 250.19) (xy 72.39 255.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad734cfc-30f6-4844-86d4-522c60613b73")
-	)
-	(wire
-		(pts
 			(xy 146.05 67.31) (xy 168.91 67.31)
 		)
 		(stroke
@@ -4935,16 +4945,6 @@
 			(type default)
 		)
 		(uuid "b466e96f-3235-4822-a5a8-a0e80d8b362d")
-	)
-	(wire
-		(pts
-			(xy 67.31 238.76) (xy 72.39 238.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b55a0f10-bdec-4c2a-b97f-0372d811d9be")
 	)
 	(wire
 		(pts
@@ -5891,7 +5891,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 42.672 173.99 90)
 			(effects
 				(font
@@ -5900,7 +5900,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579705935700279296"
 			(at 44.45 173.99 0)
 			(effects
 				(font
@@ -5954,12 +5954,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/26622-0402WGF2201TCE/C25879"
 			(at 44.45 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6004,7 +6005,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 42.672 232.41 90)
 			(effects
 				(font
@@ -6013,7 +6014,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579705944068186112"
 			(at 44.45 232.41 0)
 			(effects
 				(font
@@ -6067,12 +6068,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/26826-0402WGF1004TCE/C26083"
 			(at 44.45 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6117,7 +6119,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 66.802 64.77 90)
 			(effects
 				(font
@@ -6126,7 +6128,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579705913233424384"
 			(at 68.58 64.77 0)
 			(effects
 				(font
@@ -6180,12 +6182,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/TexasInstruments-CSD85302L/C701748"
 			(at 68.58 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6295,7 +6298,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 38.1 37.1348 0)
 			(effects
 				(font
@@ -6304,7 +6307,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8554627388281098240"
 			(at 34.29 38.1 0)
 			(effects
 				(font
@@ -6358,12 +6361,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/291005-CL05B104KB54PNC/C307331"
 			(at 34.29 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -6406,7 +6410,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 38.1 28.2448 0)
 			(effects
 				(font
@@ -6415,7 +6419,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8554627388281098240"
 			(at 34.29 29.21 0)
 			(effects
 				(font
@@ -6469,12 +6473,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/291005-CL05B104KB54PNC/C307331"
 			(at 34.29 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -6519,7 +6524,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 78.232 173.99 90)
 			(effects
 				(font
@@ -6528,7 +6533,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579705935700279296"
 			(at 80.01 173.99 0)
 			(effects
 				(font
@@ -6582,12 +6587,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/26622-0402WGF2201TCE/C25879"
 			(at 80.01 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6696,7 +6702,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:D_SOD-323"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 109.22 174.625 0)
 			(effects
 				(font
@@ -6705,7 +6711,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2204281430_Guangdong-Hottech-1N5819WS_C191023.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8550723919347523584"
 			(at 109.22 170.18 0)
 			(effects
 				(font
@@ -6759,12 +6765,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/GuangdongHottech-1N5819WS/C191023"
 			(at 109.22 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6809,7 +6816,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 82.55 240.538 90)
 			(effects
 				(font
@@ -6818,7 +6825,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579705924167974912"
 			(at 82.55 238.76 0)
 			(effects
 				(font
@@ -6872,12 +6879,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/12256-0402WGF1001TCE/C11702"
 			(at 82.55 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6920,7 +6928,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 38.1 14.2748 0)
 			(effects
 				(font
@@ -6929,7 +6937,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8554627388281098240"
 			(at 34.29 15.24 0)
 			(effects
 				(font
@@ -6983,12 +6991,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/291005-CL05B104KB54PNC/C307331"
 			(at 34.29 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -7101,7 +7110,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:R_0603_1608Metric"
+		(property "Footprint" "Fuse:Fuse_0805_2012Metric"
 			(at 177.292 36.83 90)
 			(effects
 				(font
@@ -7110,7 +7119,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810201911_Littelfuse-0805L050WR_C207022.pdf"
 			(at 179.07 36.83 0)
 			(effects
 				(font
@@ -7164,12 +7173,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Littelfuse-0805L050WR/C207022"
 			(at 179.07 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -7278,7 +7288,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 187.96 30.7848 0)
 			(effects
 				(font
@@ -7287,7 +7297,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8554627388281098240"
 			(at 184.15 31.75 0)
 			(effects
 				(font
@@ -7341,12 +7351,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/291005-CL05B104KB54PNC/C307331"
 			(at 184.15 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -7457,7 +7468,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:D_0402_1005Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-882"
 			(at 90.17 213.36 0)
 			(effects
 				(font
@@ -7466,7 +7477,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2108131930_TECH-PUBLIC-ESD5V0B03-1006_C521894.pdf"
 			(at 90.17 213.36 0)
 			(effects
 				(font
@@ -7520,12 +7531,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/TechPublic-ESD5V0B031006/C521894"
 			(at 90.17 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -7553,8 +7565,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78b7a7f4-78dd-4d48-bbd2-ff818140a8cd")
-		(property "Reference" "J3"
-			(at 190.5 71.12 0)
+		(property "Reference" "J6"
+			(at 190.5 71.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7563,7 +7575,7 @@
 			)
 		)
 		(property "Value" "HDMI_A"
-			(at 190.5 73.66 0)
+			(at 190.5 73.6599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7706,7 +7718,7 @@
 		(instances
 			(project "RDAT"
 				(path "/0db9370a-8a21-4fd2-83a9-f207c3725dc9/ff947762-4f52-404d-b941-6166ab828992"
-					(reference "J3")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -7737,7 +7749,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 38.1 39.6748 0)
 			(effects
 				(font
@@ -7746,7 +7758,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8554627388281098240"
 			(at 34.29 40.64 0)
 			(effects
 				(font
@@ -7800,12 +7812,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/291005-CL05B104KB54PNC/C307331"
 			(at 34.29 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -7884,6 +7897,118 @@
 			(project "RDAT"
 				(path "/0db9370a-8a21-4fd2-83a9-f207c3725dc9/ff947762-4f52-404d-b941-6166ab828992"
 					(reference "#PWR098")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 74.93 251.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7d0e37df-0080-4e6c-92e5-1d9c98b085d5")
+		(property "Reference" "R87"
+			(at 72.136 249.682 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20k"
+			(at 72.39 251.206 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 73.152 251.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579705988980932608"
+			(at 74.93 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SCH_Show_Footprint" ""
+			(at 74.93 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 74.93 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 74.93 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 74.93 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/26508-0402WGF2002TCE/C25765"
+			(at 74.93 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cb1c41c5-d759-47f6-b998-b1e70df88aa7")
+		)
+		(pin "2"
+			(uuid "410122f4-8602-48ed-922e-2534154a272a")
+		)
+		(instances
+			(project "RDAT"
+				(path "/0db9370a-8a21-4fd2-83a9-f207c3725dc9/ff947762-4f52-404d-b941-6166ab828992"
+					(reference "R87")
 					(unit 1)
 				)
 			)
@@ -7981,7 +8106,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 64.262 64.77 90)
 			(effects
 				(font
@@ -7990,7 +8115,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579705913233424384"
 			(at 66.04 64.77 0)
 			(effects
 				(font
@@ -8044,12 +8169,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/TexasInstruments-CSD85302L/C701748"
 			(at 66.04 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8094,7 +8220,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 45.212 64.77 90)
 			(effects
 				(font
@@ -8103,7 +8229,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579705913233424384"
 			(at 46.99 64.77 0)
 			(effects
 				(font
@@ -8157,12 +8283,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/TexasInstruments-CSD85302L/C701748"
 			(at 46.99 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8175,119 +8302,6 @@
 			(project "RDAT"
 				(path "/0db9370a-8a21-4fd2-83a9-f207c3725dc9/ff947762-4f52-404d-b941-6166ab828992"
 					(reference "R88")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 72.39 246.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8faa7905-7001-49de-8034-04e24f77185e")
-		(property "Reference" "R87"
-			(at 73.66 247.65 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "21.5K/1%"
-			(at 73.66 245.11 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
-			(at 70.612 246.38 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 72.39 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 72.39 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SCH_Show_Footprint" ""
-			(at 72.39 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 72.39 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 72.39 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 72.39 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_LINK" ""
-			(at 72.39 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5c2eefe5-9e7c-4855-9dcd-d6069526689c")
-		)
-		(pin "2"
-			(uuid "3c1951ae-1514-4aaa-a3ce-aa9b4991a1f4")
-		)
-		(instances
-			(project "RDAT"
-				(path "/0db9370a-8a21-4fd2-83a9-f207c3725dc9/ff947762-4f52-404d-b941-6166ab828992"
-					(reference "R87")
 					(unit 1)
 				)
 			)
@@ -8320,7 +8334,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 82.55 85.852 90)
 			(effects
 				(font
@@ -8329,7 +8343,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579705935700279296"
 			(at 82.55 87.63 0)
 			(effects
 				(font
@@ -8383,12 +8397,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/26622-0402WGF2201TCE/C25879"
 			(at 82.55 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8433,7 +8448,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:D_0402_1005Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-882"
 			(at 80.01 213.36 0)
 			(effects
 				(font
@@ -8442,7 +8457,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2108131930_TECH-PUBLIC-ESD5V0B03-1006_C521894.pdf"
 			(at 80.01 213.36 0)
 			(effects
 				(font
@@ -8496,12 +8511,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/TechPublic-ESD5V0B031006/C521894"
 			(at 80.01 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -8544,7 +8560,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 38.1 16.8148 0)
 			(effects
 				(font
@@ -8553,7 +8569,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8554627388281098240"
 			(at 34.29 17.78 0)
 			(effects
 				(font
@@ -8607,12 +8623,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/291005-CL05B104KB54PNC/C307331"
 			(at 34.29 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -8723,7 +8740,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 61.595 207.01 0)
 			(effects
 				(font
@@ -8734,7 +8751,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2204271430_Guangdong-Hottech-2SK3018_C181084.pdf"
 			(at 63.5 201.93 0)
 			(effects
 				(font
@@ -8789,12 +8806,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/GuangdongHottech-2SK3018/C181084"
 			(at 63.5 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -8842,7 +8860,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 57.912 64.77 90)
 			(effects
 				(font
@@ -8851,7 +8869,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579705913233424384"
 			(at 59.69 64.77 0)
 			(effects
 				(font
@@ -8905,12 +8923,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/TexasInstruments-CSD85302L/C701748"
 			(at 59.69 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9021,7 +9040,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 51.562 64.77 90)
 			(effects
 				(font
@@ -9030,7 +9049,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579705913233424384"
 			(at 53.34 64.77 0)
 			(effects
 				(font
@@ -9084,12 +9103,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/TexasInstruments-CSD85302L/C701748"
 			(at 53.34 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9134,7 +9154,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 60.325 241.3 0)
 			(effects
 				(font
@@ -9145,7 +9165,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8550724090244980736"
 			(at 62.23 236.22 0)
 			(effects
 				(font
@@ -9200,12 +9220,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/9040-2N7002/C8545"
 			(at 62.23 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -9251,7 +9272,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 38.1 25.7048 0)
 			(effects
 				(font
@@ -9260,7 +9281,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8554627388281098240"
 			(at 34.29 26.67 0)
 			(effects
 				(font
@@ -9314,12 +9335,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/291005-CL05B104KB54PNC/C307331"
 			(at 34.29 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -9420,7 +9442,7 @@
 				)
 			)
 		)
-		(property "Value" "TPAZ1023-04F"
+		(property "Value" "SP3004-04XTG"
 			(at 107.95 152.4 0)
 			(effects
 				(font
@@ -9428,7 +9450,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:Diodes_UDFN-10_1.0x2.5mm_P0.5mm"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-563"
 			(at 72.39 149.86 0)
 			(effects
 				(font
@@ -9491,12 +9513,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Littelfuse-SP300404XTG/C207280"
 			(at 96.52 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -9567,7 +9590,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 66.04 89.535 0)
 			(effects
 				(font
@@ -9578,7 +9601,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2204271430_Guangdong-Hottech-2SK3018_C181084.pdf"
 			(at 71.12 87.63 0)
 			(effects
 				(font
@@ -9633,12 +9656,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/GuangdongHottech-2SK3018/C181084"
 			(at 71.12 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -9654,6 +9678,118 @@
 			(project "RDAT"
 				(path "/0db9370a-8a21-4fd2-83a9-f207c3725dc9/ff947762-4f52-404d-b941-6166ab828992"
 					(reference "Q7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 74.93 242.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b987848c-08aa-474b-b5fa-fa752d308999")
+		(property "Reference" "R106"
+			(at 70.866 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.5k"
+			(at 71.882 242.824 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 73.152 242.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579705932919590912"
+			(at 74.93 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SCH_Show_Footprint" ""
+			(at 74.93 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 74.93 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 74.93 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 74.93 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/26610-0402WGF1501TCE/C25867"
+			(at 74.93 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "60f7624e-bd7b-4445-a487-afe24c876b2e")
+		)
+		(pin "2"
+			(uuid "26c45bfc-3c5f-4b04-afe5-a71d7edaacb7")
+		)
+		(instances
+			(project "RDAT"
+				(path "/0db9370a-8a21-4fd2-83a9-f207c3725dc9/ff947762-4f52-404d-b941-6166ab828992"
+					(reference "R106")
 					(unit 1)
 				)
 			)
@@ -9686,7 +9822,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 88.392 173.99 90)
 			(effects
 				(font
@@ -9695,7 +9831,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579705935700279296"
 			(at 90.17 173.99 0)
 			(effects
 				(font
@@ -9749,12 +9885,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/26622-0402WGF2201TCE/C25879"
 			(at 90.17 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9799,7 +9936,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 32.512 173.99 90)
 			(effects
 				(font
@@ -9808,7 +9945,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579705935700279296"
 			(at 34.29 173.99 0)
 			(effects
 				(font
@@ -9862,12 +9999,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/26622-0402WGF2201TCE/C25879"
 			(at 34.29 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9910,7 +10048,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 38.1 51.1048 0)
 			(effects
 				(font
@@ -9919,7 +10057,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8554627388281098240"
 			(at 34.29 52.07 0)
 			(effects
 				(font
@@ -9973,12 +10111,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/291005-CL05B104KB54PNC/C307331"
 			(at 34.29 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -10023,7 +10162,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 54.102 64.77 90)
 			(effects
 				(font
@@ -10032,7 +10171,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579705913233424384"
 			(at 55.88 64.77 0)
 			(effects
 				(font
@@ -10086,12 +10225,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/TexasInstruments-CSD85302L/C701748"
 			(at 55.88 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10126,7 +10266,7 @@
 				)
 			)
 		)
-		(property "Value" "TPAZ1023-04F"
+		(property "Value" "SP3004-04XTG"
 			(at 55.88 153.67 0)
 			(effects
 				(font
@@ -10134,7 +10274,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:Diodes_UDFN-10_1.0x2.5mm_P0.5mm"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-563"
 			(at 21.59 149.86 0)
 			(effects
 				(font
@@ -10197,12 +10337,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Littelfuse-SP300404XTG/C207280"
 			(at 45.72 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "10"
@@ -10269,7 +10410,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 38.1 48.5648 0)
 			(effects
 				(font
@@ -10278,7 +10419,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8554627388281098240"
 			(at 34.29 49.53 0)
 			(effects
 				(font
@@ -10332,12 +10473,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/291005-CL05B104KB54PNC/C307331"
 			(at 34.29 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -10383,7 +10525,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 61.595 187.96 0)
 			(effects
 				(font
@@ -10394,7 +10536,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2204271430_Guangdong-Hottech-2SK3018_C181084.pdf"
 			(at 63.5 182.88 0)
 			(effects
 				(font
@@ -10449,12 +10591,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/GuangdongHottech-2SK3018/C181084"
 			(at 63.5 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -10568,7 +10711,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 47.752 64.77 90)
 			(effects
 				(font
@@ -10577,7 +10720,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579705913233424384"
 			(at 49.53 64.77 0)
 			(effects
 				(font
@@ -10631,12 +10774,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/TexasInstruments-CSD85302L/C701748"
 			(at 49.53 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10681,7 +10825,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:D_0402_1005Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-882"
 			(at 90.17 246.38 0)
 			(effects
 				(font
@@ -10690,7 +10834,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2108131930_TECH-PUBLIC-ESD5V0B03-1006_C521894.pdf"
 			(at 90.17 246.38 0)
 			(effects
 				(font
@@ -10744,12 +10888,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/TechPublic-ESD5V0B031006/C521894"
 			(at 90.17 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -10859,7 +11004,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 60.452 64.77 90)
 			(effects
 				(font
@@ -10868,7 +11013,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579705913233424384"
 			(at 62.23 64.77 0)
 			(effects
 				(font
@@ -10922,12 +11067,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/TexasInstruments-CSD85302L/C701748"
 			(at 62.23 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"

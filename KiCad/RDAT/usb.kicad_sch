@@ -2081,7 +2081,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:Fuse_0805_2012Metric"
+		(property "Footprint" "Fuse:Fuse_0805_2012Metric"
 			(at 144.78 42.418 90)
 			(effects
 				(font
@@ -2090,7 +2090,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Littelfuse-0805L100WR_C80270.pdf"
 			(at 144.78 40.64 0)
 			(effects
 				(font
@@ -2144,12 +2144,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Littelfuse-0805L100WR/C80270"
 			(at 144.78 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2324,7 +2325,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:Fuse_0805_2012Metric"
+		(property "Footprint" "Fuse:Fuse_0805_2012Metric"
 			(at 144.78 44.958 90)
 			(effects
 				(font
@@ -2333,7 +2334,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Littelfuse-0805L100WR_C80270.pdf"
 			(at 144.78 43.18 0)
 			(effects
 				(font
@@ -2387,12 +2388,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Littelfuse-0805L100WR/C80270"
 			(at 144.78 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2435,7 +2437,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:Diodes_UDFN-10_1.0x2.5mm_P0.5mm"
+		(property "Footprint" "Package_DFN_QFN:Diodes_UDFN-10_1.0x2.5mm_P0.5mm"
 			(at 97.79 80.01 0)
 			(effects
 				(font
@@ -2704,7 +2706,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 132.08 39.6748 0)
 			(effects
 				(font
@@ -2713,7 +2715,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8558969697804193792"
 			(at 128.27 40.64 0)
 			(effects
 				(font
@@ -2767,12 +2769,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/4414076-GRM158R61A226ME15D/C3845593"
 			(at 128.27 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -2826,7 +2829,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.amphenol-icc.com/media/wysiwyg/files/drawing/musbc111xx.pdf"
 			(at 158.75 49.53 0)
 			(effects
 				(font
@@ -2880,12 +2883,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://www.digikey.com/en/products/detail/amphenol-cs-commercial-products/MUSBC111M0/4889538"
 			(at 163.83 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"

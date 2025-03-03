@@ -6596,7 +6596,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "YME0004A-MFG"
+		(property "Footprint" "footprints:YME0004A-MFG"
 			(at 129.54 27.94 0)
 			(effects
 				(font

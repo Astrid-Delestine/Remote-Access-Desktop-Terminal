@@ -2874,7 +2874,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 77.47 85.09 0)
 			(effects
 				(font
@@ -2883,7 +2883,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2108160930_Taiyo-Yuden-UMK105BJ224KV-F_C268018.pdf"
 			(at 77.47 85.09 0)
 			(effects
 				(font
@@ -2937,12 +2937,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/TaiyoYuden-UMK105BJ224KVF/C268018"
 			(at 77.47 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3053,7 +3054,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 77.47 87.63 0)
 			(effects
 				(font
@@ -3062,7 +3063,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2108160930_Taiyo-Yuden-UMK105BJ224KV-F_C268018.pdf"
 			(at 77.47 87.63 0)
 			(effects
 				(font
@@ -3116,12 +3117,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/TaiyoYuden-UMK105BJ224KVF/C268018"
 			(at 77.47 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3166,7 +3168,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 180.848 93.98 90)
 			(effects
 				(font
@@ -3175,7 +3177,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8556212101498380288"
 			(at 179.07 93.98 0)
 			(effects
 				(font
@@ -3229,7 +3231,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/26487-0402WGF1002TCE/C25744"
 			(at 179.07 93.98 0)
 			(effects
 				(font
@@ -3277,7 +3279,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 139.7 58.1152 0)
 			(effects
 				(font
@@ -3286,7 +3288,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707190011494400"
 			(at 143.51 57.15 0)
 			(effects
 				(font
@@ -3340,12 +3342,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/16204-CL05A106MQ5NUNC/C15525"
 			(at 143.51 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -3388,7 +3391,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 139.7 45.4152 0)
 			(effects
 				(font
@@ -3397,7 +3400,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707190011494400"
 			(at 143.51 44.45 0)
 			(effects
 				(font
@@ -3451,12 +3454,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/16204-CL05A106MQ5NUNC/C15525"
 			(at 143.51 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -3817,7 +3821,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 177.8 147.828 90)
 			(effects
 				(font
@@ -3826,7 +3830,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579705904671227904"
 			(at 177.8 146.05 0)
 			(effects
 				(font
@@ -3880,7 +3884,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/17853-0402WGF0000TCE/C17168"
 			(at 177.8 146.05 0)
 			(effects
 				(font
@@ -4062,7 +4066,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 103.378 62.23 90)
 			(effects
 				(font
@@ -4071,7 +4075,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579705904671227904"
 			(at 101.6 62.23 0)
 			(effects
 				(font
@@ -4125,7 +4129,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/17853-0402WGF0000TCE/C17168"
 			(at 101.6 62.23 0)
 			(effects
 				(font
@@ -4176,7 +4180,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:MountingHole_2.75mm_M2_4.4mm_Pad_TopOnly"
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_TopBottom"
 			(at 25.4 92.71 0)
 			(effects
 				(font
@@ -4341,7 +4345,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 139.7 64.4652 0)
 			(effects
 				(font
@@ -4350,7 +4354,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8554627388281098240"
 			(at 143.51 63.5 0)
 			(effects
 				(font
@@ -4404,12 +4408,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/291005-CL05B104KB54PNC/C307331"
 			(at 143.51 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -4452,7 +4457,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 139.7 51.7652 0)
 			(effects
 				(font
@@ -4461,7 +4466,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8554627388281098240"
 			(at 143.51 50.8 0)
 			(effects
 				(font
@@ -4515,12 +4520,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/291005-CL05B104KB54PNC/C307331"
 			(at 143.51 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -4698,7 +4704,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 181.102 93.98 90)
 			(effects
 				(font
@@ -4707,7 +4713,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8556212101498380288"
 			(at 182.88 93.98 0)
 			(effects
 				(font
@@ -4761,7 +4767,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/26487-0402WGF1002TCE/C25744"
 			(at 182.88 93.98 0)
 			(effects
 				(font

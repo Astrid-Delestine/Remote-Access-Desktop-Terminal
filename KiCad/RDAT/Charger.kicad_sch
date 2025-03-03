@@ -4058,6 +4058,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+5V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_names
@@ -4198,6 +4323,16 @@
 		)
 		(uuid "68574c13-ea09-4130-83de-a03c1f69f7df")
 	)
+	(text "Charging"
+		(exclude_from_sim no)
+		(at 46.736 143.764 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "88810a3d-acd9-47de-a88f-c42ee4b600b1")
+	)
 	(text "differential-mode filtering"
 		(exclude_from_sim no)
 		(at 152.654 164.846 0)
@@ -4207,6 +4342,26 @@
 			)
 		)
 		(uuid "a4f4370f-38d6-45e3-9144-78021de21b7e")
+	)
+	(text "adapter plugged in\n"
+		(exclude_from_sim no)
+		(at 72.898 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ac24144e-b60f-4907-9bbb-316c0708660b")
+	)
+	(text "Fault"
+		(exclude_from_sim no)
+		(at 57.912 142.494 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cf50507b-ed91-4f70-801e-7ac4bb757f0f")
 	)
 	(junction
 		(at 176.53 163.83)
@@ -4219,12 +4374,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "02d327e7-2d4d-49fa-aa4c-80d65aef7362")
-	)
-	(junction
-		(at 46.99 177.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0410a5c1-07ef-48c5-85de-0fb6fb418946")
 	)
 	(junction
 		(at 190.5 168.91)
@@ -4305,7 +4454,7 @@
 		(uuid "3684e944-9662-4223-a67b-52191e70f69c")
 	)
 	(junction
-		(at 59.69 109.22)
+		(at 59.69 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "434d8544-541d-4d98-af8c-75e336470bac")
@@ -4359,7 +4508,7 @@
 		(uuid "6dcba1b9-400c-4a84-a174-6c09b3764bcf")
 	)
 	(junction
-		(at 59.69 106.68)
+		(at 59.69 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6e6735cd-980c-46cf-a53f-b3584c9e2a39")
@@ -4389,7 +4538,7 @@
 		(uuid "79d7aeb3-7db1-4d1e-a449-70fda5e830e6")
 	)
 	(junction
-		(at 38.1 85.09)
+		(at 38.1 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7bdee2c1-9a52-4980-b788-6a1b147dbbf5")
@@ -4401,16 +4550,16 @@
 		(uuid "82869749-8f8d-47d5-95a4-aa43b7dac2a7")
 	)
 	(junction
+		(at 46.99 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "82ad16b8-6926-4669-a67d-45135bd68de0")
+	)
+	(junction
 		(at 200.66 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "83833d65-608f-44f8-b520-9d465cf92d09")
-	)
-	(junction
-		(at 46.99 165.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "881dc337-b0aa-4715-89fd-1ce3e82e756d")
 	)
 	(junction
 		(at 97.79 193.04)
@@ -4485,7 +4634,7 @@
 		(uuid "c5867573-07a1-42fa-aef4-306d923929c8")
 	)
 	(junction
-		(at 19.05 106.68)
+		(at 19.05 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ca48ca6c-8ee3-421b-8ed3-59f35e000696")
@@ -4556,16 +4705,6 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 43.18) (xy 35.56 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "068ce5f0-aa64-462c-ab12-fc1217f30948")
-	)
-	(wire
-		(pts
 			(xy 151.13 177.8) (xy 148.59 177.8)
 		)
 		(stroke
@@ -4583,6 +4722,16 @@
 			(type default)
 		)
 		(uuid "08cc62cc-219b-44fb-a739-76e103a93a0a")
+	)
+	(wire
+		(pts
+			(xy 54.61 83.82) (xy 54.61 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "094e7862-232c-45e2-8301-49cd6371d2a7")
 	)
 	(wire
 		(pts
@@ -4666,7 +4815,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 85.09) (xy 21.59 83.82)
+			(xy 21.59 104.14) (xy 21.59 102.87)
 		)
 		(stroke
 			(width 0)
@@ -4696,7 +4845,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 85.09) (xy 38.1 85.09)
+			(xy 21.59 104.14) (xy 38.1 104.14)
 		)
 		(stroke
 			(width 0)
@@ -4786,7 +4935,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 109.22) (xy 59.69 111.76)
+			(xy 59.69 125.73) (xy 59.69 128.27)
 		)
 		(stroke
 			(width 0)
@@ -4906,7 +5055,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 73.66) (xy 38.1 78.74)
+			(xy 38.1 78.74) (xy 38.1 97.79)
 		)
 		(stroke
 			(width 0)
@@ -4926,7 +5075,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 104.14) (xy 19.05 106.68)
+			(xy 19.05 120.65) (xy 19.05 123.19)
 		)
 		(stroke
 			(width 0)
@@ -4986,17 +5135,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 177.8) (xy 46.99 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48a75e9b-4a8a-4811-9734-e806d8a7cba9")
-	)
-	(wire
-		(pts
-			(xy 59.69 106.68) (xy 59.69 109.22)
+			(xy 59.69 123.19) (xy 59.69 125.73)
 		)
 		(stroke
 			(width 0)
@@ -5046,7 +5185,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 85.09) (xy 54.61 83.82)
+			(xy 54.61 104.14) (xy 54.61 102.87)
 		)
 		(stroke
 			(width 0)
@@ -5123,6 +5262,16 @@
 			(type default)
 		)
 		(uuid "5c2c86a6-b280-4d7a-84b0-69238e2ccc37")
+	)
+	(wire
+		(pts
+			(xy 29.21 38.1) (xy 35.56 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f02ff2a-6fae-400b-be69-a753f4621c67")
 	)
 	(wire
 		(pts
@@ -5236,7 +5385,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 104.14) (xy 59.69 106.68)
+			(xy 59.69 120.65) (xy 59.69 123.19)
 		)
 		(stroke
 			(width 0)
@@ -5276,7 +5425,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 85.09) (xy 54.61 85.09)
+			(xy 38.1 104.14) (xy 54.61 104.14)
 		)
 		(stroke
 			(width 0)
@@ -5356,7 +5505,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 85.09) (xy 38.1 83.82)
+			(xy 38.1 104.14) (xy 38.1 102.87)
 		)
 		(stroke
 			(width 0)
@@ -5366,13 +5515,13 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 43.18) (xy 35.56 44.45)
+			(xy 46.99 165.1) (xy 58.42 165.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8ad54557-760c-4c05-adf5-2976dbd5ec43")
+		(uuid "8a965049-836f-412f-989d-cd8ba0e894f4")
 	)
 	(wire
 		(pts
@@ -5396,7 +5545,17 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 106.68) (xy 19.05 109.22)
+			(xy 38.1 165.1) (xy 46.99 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c0924df-fef6-4c23-9ce7-d52b79f641ce")
+	)
+	(wire
+		(pts
+			(xy 19.05 123.19) (xy 19.05 125.73)
 		)
 		(stroke
 			(width 0)
@@ -5443,16 +5602,6 @@
 			(type default)
 		)
 		(uuid "9acde979-b4c4-41f8-86cc-b745743d0908")
-	)
-	(wire
-		(pts
-			(xy 54.61 73.66) (xy 54.61 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9af22b5d-88f4-4ace-8711-73978d3be38b")
 	)
 	(wire
 		(pts
@@ -5606,16 +5755,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 67.31) (xy 38.1 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4765c2f-f4a8-4870-b997-374c24c9c47c")
-	)
-	(wire
-		(pts
 			(xy 148.59 180.34) (xy 148.59 182.88)
 		)
 		(stroke
@@ -5626,7 +5765,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 73.66) (xy 21.59 78.74)
+			(xy 21.59 73.66) (xy 21.59 97.79)
 		)
 		(stroke
 			(width 0)
@@ -5723,6 +5862,16 @@
 			(type default)
 		)
 		(uuid "c2a21bb7-75ba-4050-8b86-e93029166d98")
+	)
+	(wire
+		(pts
+			(xy 35.56 38.1) (xy 35.56 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5b6e471-213e-4d3c-8b04-176c7d3edc34")
 	)
 	(wire
 		(pts
@@ -5876,16 +6025,6 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 50.8) (xy 29.21 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e301b45a-4131-4cef-8ecf-16e208b37e27")
-	)
-	(wire
-		(pts
 			(xy 195.58 123.19) (xy 195.58 116.84)
 		)
 		(stroke
@@ -5936,16 +6075,6 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 165.1) (xy 58.42 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "efb5d50b-f8ac-440d-a363-9f79d8e4a237")
-	)
-	(wire
-		(pts
 			(xy 176.53 162.56) (xy 176.53 163.83)
 		)
 		(stroke
@@ -5986,6 +6115,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 38.1) (xy 29.21 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6c5d009-daaa-45af-a707-1f8e6d5366c0")
+	)
+	(wire
+		(pts
 			(xy 21.59 67.31) (xy 21.59 68.58)
 		)
 		(stroke
@@ -6013,6 +6152,16 @@
 			(type default)
 		)
 		(uuid "f91b8064-c30b-4aff-a4b3-6a8c74aa8145")
+	)
+	(wire
+		(pts
+			(xy 38.1 68.58) (xy 38.1 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9eb329b-d8fa-4383-9268-91936ded7496")
 	)
 	(wire
 		(pts
@@ -6075,7 +6224,7 @@
 		(uuid "01e0552d-c49f-4743-b95a-12f378a2ead8")
 	)
 	(label "ACSET"
-		(at 21.59 78.74 90)
+		(at 21.59 97.79 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6115,7 +6264,7 @@
 		(uuid "1127a4a1-4f37-4515-bbdc-70fb3bd4d0cb")
 	)
 	(label "ISET1"
-		(at 54.61 78.74 90)
+		(at 54.61 97.79 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6145,7 +6294,7 @@
 		(uuid "2765f081-10a5-4737-bd02-0f81c12b27b6")
 	)
 	(label "HIDRV"
-		(at 19.05 111.76 180)
+		(at 19.05 128.27 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6345,7 +6494,7 @@
 		(uuid "bdbb76ca-cbe9-480f-ae20-cf4d6d186cde")
 	)
 	(label "ACN"
-		(at 59.69 104.14 0)
+		(at 59.69 120.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6375,7 +6524,7 @@
 		(uuid "d1a89d89-653d-40e2-804a-9dbc32af7818")
 	)
 	(label "PH"
-		(at 19.05 104.14 180)
+		(at 19.05 120.65 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6405,7 +6554,7 @@
 		(uuid "e37b9ec5-ddde-4b7b-852b-417e83d29ade")
 	)
 	(label "ISET2"
-		(at 38.1 78.74 90)
+		(at 38.1 97.79 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6555,7 +6704,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 21.59 81.28 0)
+		(at 21.59 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6564,7 +6713,7 @@
 		(fields_autoplaced yes)
 		(uuid "01490763-4f20-42c0-84df-5493f8c40b50")
 		(property "Reference" "R37"
-			(at 24.13 80.0099 0)
+			(at 24.13 99.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6573,7 +6722,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 24.13 82.5499 0)
+			(at 24.13 101.5999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6582,7 +6731,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 21.59 81.28 0)
+			(at 21.59 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6591,7 +6740,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8556212101498380288"
-			(at 21.59 81.28 0)
+			(at 21.59 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6600,7 +6749,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 21.59 81.28 0)
+			(at 21.59 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6609,7 +6758,7 @@
 			)
 		)
 		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/26487-0402WGF1002TCE/C25744"
-			(at 21.59 81.28 0)
+			(at 21.59 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6726,7 +6875,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 149.86 69.85 0)
 			(effects
 				(font
@@ -6735,7 +6884,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05A104KA5NNNC_C100072.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0402F104M500NT_C1581.pdf"
 			(at 149.86 69.85 0)
 			(effects
 				(font
@@ -6753,12 +6902,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/101286-CL05A104KA5NNNC/C100072"
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/1933-0402F104M500NT/C1581"
 			(at 149.86 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6804,7 +6954,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 58.42 54.61 0)
 			(effects
 				(font
@@ -6813,7 +6963,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05A104KA5NNNC_C100072.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0402F104M500NT_C1581.pdf"
 			(at 58.42 54.61 0)
 			(effects
 				(font
@@ -6831,12 +6981,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/101286-CL05A104KA5NNNC/C100072"
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/1933-0402F104M500NT/C1581"
 			(at 58.42 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6883,7 +7034,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:CAP-SMD_BD6.3-L6.6-W6.6-LS7.4-FD"
 			(at 44.45 193.04 0)
 			(effects
 				(font
@@ -6916,6 +7067,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -6961,7 +7113,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 180.34 119.38 0)
 			(effects
 				(font
@@ -6994,6 +7146,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -7013,7 +7166,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 38.1 81.28 0)
+		(at 38.1 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7022,7 +7175,7 @@
 		(fields_autoplaced yes)
 		(uuid "17b07cf4-79fa-4087-9205-28e0d8691069")
 		(property "Reference" "R38"
-			(at 40.64 80.0099 0)
+			(at 40.64 99.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7031,7 +7184,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 40.64 82.5499 0)
+			(at 40.64 101.5999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7040,7 +7193,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 38.1 81.28 0)
+			(at 38.1 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7049,7 +7202,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8556212101498380288"
-			(at 38.1 81.28 0)
+			(at 38.1 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7058,7 +7211,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 38.1 81.28 0)
+			(at 38.1 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7067,7 +7220,7 @@
 			)
 		)
 		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/26487-0402WGF1002TCE/C25744"
-			(at 38.1 81.28 0)
+			(at 38.1 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7119,7 +7272,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 200.66 59.69 0)
 			(effects
 				(font
@@ -7152,6 +7305,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7423,7 +7577,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:CAP-SMD_BD6.3-L6.6-W6.6-LS7.4-FD"
 			(at 181.61 177.8 0)
 			(effects
 				(font
@@ -7456,6 +7610,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -7535,6 +7690,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -7765,7 +7921,7 @@
 	)
 	(symbol
 		(lib_id "SIS412DN:SIS412DN-T1-GE3")
-		(at 19.05 104.14 0)
+		(at 19.05 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7773,7 +7929,7 @@
 		(dnp no)
 		(uuid "2fbd8d96-8060-4072-b563-426c489c10b1")
 		(property "Reference" "MOSFET2(Q4)1"
-			(at 33.528 101.092 0)
+			(at 33.528 117.602 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7781,7 +7937,7 @@
 			)
 		)
 		(property "Value" "SIS412DN-T1-GE3"
-			(at 42.672 115.316 0)
+			(at 42.672 131.826 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7789,7 +7945,7 @@
 			)
 		)
 		(property "Footprint" "POWERPAK_1212-8"
-			(at 19.05 104.14 0)
+			(at 19.05 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7799,7 +7955,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1809301515_Vishay-Intertech-SIS412DN-T1-GE3_C111309.pdf"
-			(at 19.05 104.14 0)
+			(at 19.05 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7809,7 +7965,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 19.05 104.14 0)
+			(at 19.05 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7818,7 +7974,7 @@
 			)
 		)
 		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/VishayIntertech-SIS412DN_T1GE3/C111309"
-			(at 19.05 104.14 0)
+			(at 19.05 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7953,7 +8109,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 35.56 54.61 0)
 			(effects
 				(font
@@ -7999,6 +8155,84 @@
 			(project "RDAT"
 				(path "/0db9370a-8a21-4fd2-83a9-f207c3725dc9/64601ab1-4b63-421f-a3b9-e484b74e1409"
 					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 38.1 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "39df778c-5bc7-4d95-a561-e800ca7fdd18")
+		(property "Reference" "R107"
+			(at 40.64 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "68.1k/10%"
+			(at 40.64 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 38.1 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010216_UNI-ROYAL-Uniroyal-Elec-0402WGF6812TCE_C11537.pdf"
+			(at 38.1 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 38.1 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/12091-0402WGF6812TCE/C11537"
+			(at 38.1 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c152fbed-505f-44f7-a857-fa4a3a7138bc")
+		)
+		(pin "2"
+			(uuid "0cd1737c-a47b-4d9c-aecf-8be165e79886")
+		)
+		(instances
+			(project "RDAT"
+				(path "/0db9370a-8a21-4fd2-83a9-f207c3725dc9/64601ab1-4b63-421f-a3b9-e484b74e1409"
+					(reference "R107")
 					(unit 1)
 				)
 			)
@@ -8351,7 +8585,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 181.61 166.37 0)
 			(effects
 				(font
@@ -8360,7 +8594,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05A104KA5NNNC_C100072.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0402F104M500NT_C1581.pdf"
 			(at 181.61 166.37 0)
 			(effects
 				(font
@@ -8378,12 +8612,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/101286-CL05A104KA5NNNC/C100072"
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/1933-0402F104M500NT/C1581"
 			(at 181.61 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -8409,7 +8644,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "55352e2e-f4b2-4eec-9b85-a42882719f4a")
 		(property "Reference" "R35"
 			(at 40.64 69.8499 0)
@@ -8420,7 +8654,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "73.2k/10%"
+		(property "Value" "5.1k/10%"
 			(at 40.64 72.3899 0)
 			(effects
 				(font
@@ -8429,7 +8663,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 38.1 71.12 0)
 			(effects
 				(font
@@ -8438,7 +8672,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706277024620544"
 			(at 38.1 71.12 0)
 			(effects
 				(font
@@ -8456,12 +8690,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/23913-0603WAF5101T5E/C23186"
 			(at 38.1 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8774,7 +9009,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 156.21 119.38 0)
 			(effects
 				(font
@@ -8807,6 +9042,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -8852,7 +9088,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 151.13 190.5 0)
 			(effects
 				(font
@@ -8861,7 +9097,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05A104KA5NNNC_C100072.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0402F104M500NT_C1581.pdf"
 			(at 151.13 190.5 0)
 			(effects
 				(font
@@ -8879,12 +9115,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/101286-CL05A104KA5NNNC/C100072"
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/1933-0402F104M500NT/C1581"
 			(at 151.13 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8987,7 +9224,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "150"
 			(at 49.53 163.8299 0)
 			(effects
 				(font
@@ -9005,7 +9242,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8556212101498380288"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579705968676032512"
 			(at 46.99 162.56 0)
 			(effects
 				(font
@@ -9023,7 +9260,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/26487-0402WGF1002TCE/C25744"
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/25825-0402WGF1500TCE/C25082"
 			(at 46.99 162.56 0)
 			(effects
 				(font
@@ -9181,6 +9418,85 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
+		(at 54.61 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "75f581d4-08be-43b2-b525-698ff9767621")
+		(property "Reference" "R108"
+			(at 57.15 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.4k"
+			(at 57.15 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 54.61 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579705980040298496"
+			(at 54.61 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 54.61 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/26625-0402WGF2401TCE/C25882"
+			(at 54.61 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9d2efea7-921e-4f5b-876f-f66574b7dc76")
+		)
+		(pin "2"
+			(uuid "e029d4f9-a25c-48af-abb9-f6cc11753074")
+		)
+		(instances
+			(project "RDAT"
+				(path "/0db9370a-8a21-4fd2-83a9-f207c3725dc9/64601ab1-4b63-421f-a3b9-e484b74e1409"
+					(reference "R108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
 		(at 54.61 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9188,8 +9504,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "783806fc-461b-40e7-8dc9-4424505aca1c")
-		(property "Reference" "R39"
+		(uuid "7747c5a9-5d9a-4aaa-8cdd-392df91fcb91")
+		(property "Reference" "R109"
 			(at 57.15 80.0099 0)
 			(effects
 				(font
@@ -9198,7 +9514,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "1k"
 			(at 57.15 82.5499 0)
 			(effects
 				(font
@@ -9216,7 +9532,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8556212101498380288"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579705924167974912"
 			(at 54.61 81.28 0)
 			(effects
 				(font
@@ -9234,8 +9550,87 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/26487-0402WGF1002TCE/C25744"
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/12256-0402WGF1001TCE/C11702"
 			(at 54.61 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "529c689c-e974-4ba9-af5c-6f479b49963f")
+		)
+		(pin "2"
+			(uuid "16becd58-1332-47d3-a60b-3f250f7962b7")
+		)
+		(instances
+			(project "RDAT"
+				(path "/0db9370a-8a21-4fd2-83a9-f207c3725dc9/64601ab1-4b63-421f-a3b9-e484b74e1409"
+					(reference "R109")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 54.61 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "783806fc-461b-40e7-8dc9-4424505aca1c")
+		(property "Reference" "R39"
+			(at 57.15 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 57.15 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 54.61 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8556212101498380288"
+			(at 54.61 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 54.61 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/26487-0402WGF1002TCE/C25744"
+			(at 54.61 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9575,7 +9970,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 67.31 74.93 0)
 			(effects
 				(font
@@ -9645,7 +10040,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "100"
 			(at 72.39 163.8299 0)
 			(effects
 				(font
@@ -9663,7 +10058,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8556212101498380288"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579705907481001984"
 			(at 69.85 162.56 0)
 			(effects
 				(font
@@ -9681,7 +10076,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/26487-0402WGF1002TCE/C25744"
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/25819-0402WGF1000TCE/C25076"
 			(at 69.85 162.56 0)
 			(effects
 				(font
@@ -9802,7 +10197,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "560"
 			(at 60.96 163.8299 0)
 			(effects
 				(font
@@ -9820,7 +10215,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8556212101498380288"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF5600TCE_C25126.pdf"
 			(at 58.42 162.56 0)
 			(effects
 				(font
@@ -9838,7 +10233,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/26487-0402WGF1002TCE/C25744"
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/25869-0402WGF5600TCE/C25126"
 			(at 58.42 162.56 0)
 			(effects
 				(font
@@ -10046,7 +10441,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_1206_3216Metric"
 			(at 69.85 156.21 0)
 			(effects
 				(font
@@ -10055,7 +10450,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811151241_Everlight-Elec-15-21-BHC-AP1Q2-2T_C131245.pdf"
 			(at 69.85 156.21 0)
 			(effects
 				(font
@@ -10073,12 +10468,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/EverlightElec-15_21_BHC_AP1Q22T/C131245"
 			(at 69.85 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10269,7 +10665,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_1206_3216Metric"
 			(at 58.42 156.21 0)
 			(effects
 				(font
@@ -10278,7 +10674,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2006121820_MEIHUA-MHT151CRCT_C559117.pdf"
 			(at 58.42 156.21 0)
 			(effects
 				(font
@@ -10296,12 +10692,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Meihua-MHT151CRCT/C559117"
 			(at 58.42 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10347,7 +10744,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:CAP-SMD_BD4.0-L4.3-W4.3-FD"
 			(at 102.87 168.91 0)
 			(effects
 				(font
@@ -10374,12 +10771,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/53938-CL05A105KA5NQNC/C52923"
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/HonorElec-RVT1H1R0M0405/C3348"
 			(at 102.87 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -10423,7 +10821,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_Vishay_IHLP-2525"
 			(at 135.89 116.84 0)
 			(effects
 				(font
@@ -10450,7 +10848,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/VishayIntertech-IHLP2525EZER6R8M01/C2052194"
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/VishayIntertech-IHLP2525CZER6R8M01/C506575"
 			(at 135.89 116.84 0)
 			(effects
 				(font
@@ -10598,7 +10996,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 21.59 71.12 0)
 			(effects
 				(font
@@ -10901,7 +11299,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 160.02 69.85 0)
 			(effects
 				(font
@@ -10910,7 +11308,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05A104KA5NNNC_C100072.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0402F104M500NT_C1581.pdf"
 			(at 160.02 69.85 0)
 			(effects
 				(font
@@ -10928,12 +11326,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/101286-CL05A104KA5NNNC/C100072"
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/1933-0402F104M500NT/C1581"
 			(at 160.02 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10980,7 +11379,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 200.66 43.18 0)
 			(effects
 				(font
@@ -10989,7 +11388,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05A104KA5NNNC_C100072.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0402F104M500NT_C1581.pdf"
 			(at 200.66 43.18 0)
 			(effects
 				(font
@@ -11007,12 +11406,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/101286-CL05A104KA5NNNC/C100072"
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/1933-0402F104M500NT/C1581"
 			(at 200.66 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11032,7 +11432,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 38.1 85.09 0)
+		(at 38.1 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11041,7 +11441,7 @@
 		(fields_autoplaced yes)
 		(uuid "d52620d9-491e-4485-a00a-b4988ce4061a")
 		(property "Reference" "#PWR056"
-			(at 38.1 91.44 0)
+			(at 38.1 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11050,7 +11450,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 38.1 90.17 0)
+			(at 38.1 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11058,7 +11458,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 85.09 0)
+			(at 38.1 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11067,7 +11467,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 85.09 0)
+			(at 38.1 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11076,7 +11476,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 38.1 85.09 0)
+			(at 38.1 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11123,7 +11523,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 95.25 186.69 0)
 			(effects
 				(font
@@ -11156,6 +11556,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11201,7 +11602,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_1206_3216Metric"
 			(at 46.99 156.21 0)
 			(effects
 				(font
@@ -11210,7 +11611,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1912111437_Everlight-Elec-11-21-Y2C-CNQBY-2T_C264322.pdf"
 			(at 46.99 156.21 0)
 			(effects
 				(font
@@ -11228,12 +11629,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/EverlightElec-11_21_Y2C_CNQBY2T/C264322"
 			(at 46.99 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11353,7 +11755,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 35.56 46.99 0)
+		(at 35.56 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11362,7 +11764,7 @@
 		(fields_autoplaced yes)
 		(uuid "da1d9beb-585b-4aca-95fc-29b138a53ae7")
 		(property "Reference" "R31"
-			(at 38.1 45.7199 0)
+			(at 38.1 40.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11370,8 +11772,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "9.31k"
-			(at 38.1 48.2599 0)
+		(property "Value" "9.09k"
+			(at 38.1 43.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11379,8 +11781,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 35.56 46.99 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 35.56 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11388,8 +11790,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 35.56 46.99 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010216_UNI-ROYAL-Uniroyal-Elec-0402WGF9091TCE_C11549.pdf"
+			(at 35.56 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11398,7 +11800,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 35.56 46.99 0)
+			(at 35.56 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11406,12 +11808,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
-			(at 35.56 46.99 0)
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/12103-0402WGF9091TCE/C11549"
+			(at 35.56 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -11457,7 +11860,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 151.13 171.45 0)
 			(effects
 				(font
@@ -11466,7 +11869,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05A104KA5NNNC_C100072.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0402F104M500NT_C1581.pdf"
 			(at 151.13 171.45 0)
 			(effects
 				(font
@@ -11484,12 +11887,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/101286-CL05A104KA5NNNC/C100072"
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/1933-0402F104M500NT/C1581"
 			(at 151.13 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11632,7 +12036,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:CAP-SMD_BD6.3-L6.6-W6.6-LS7.4-FD"
 			(at 176.53 177.8 0)
 			(effects
 				(font
@@ -11665,6 +12069,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -11701,7 +12106,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "37.4k/1%"
+		(property "Value" "34k"
 			(at 57.15 72.3899 0)
 			(effects
 				(font
@@ -11710,7 +12115,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 54.61 71.12 0)
 			(effects
 				(font
@@ -11719,7 +12124,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010000_UNI-ROYAL-Uniroyal-Elec-0402WGF3402TCE_C48939.pdf"
 			(at 54.61 71.12 0)
 			(effects
 				(font
@@ -11737,12 +12142,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" ""
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/49947-0402WGF3402TCE/C48939"
 			(at 54.61 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11868,7 +12274,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 160.02 119.38 0)
 			(effects
 				(font
@@ -11901,6 +12307,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -11913,6 +12320,72 @@
 			(project "RDAT"
 				(path "/0db9370a-8a21-4fd2-83a9-f207c3725dc9/64601ab1-4b63-421f-a3b9-e484b74e1409"
 					(reference "C41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 38.1 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f1a2657c-5ae9-410f-99c8-a6e876e51b28")
+		(property "Reference" "#PWR029"
+			(at 38.1 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 38.1 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 38.1 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "93d6b044-308c-49dd-9d62-7e84d2d8eb13")
+		)
+		(instances
+			(project ""
+				(path "/0db9370a-8a21-4fd2-83a9-f207c3725dc9/64601ab1-4b63-421f-a3b9-e484b74e1409"
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -11944,7 +12417,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 100.33 163.83 0)
 			(effects
 				(font
@@ -12024,7 +12497,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:CAP-SMD_BD4.0-L4.3-W4.3-FD"
 			(at 19.05 54.61 0)
 			(effects
 				(font
@@ -12051,12 +12524,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/53938-CL05A105KA5NQNC/C52923"
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/HonorElec-RVT1H1R0M0405/C3348"
 			(at 19.05 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -12069,6 +12543,85 @@
 			(project "RDAT"
 				(path "/0db9370a-8a21-4fd2-83a9-f207c3725dc9/64601ab1-4b63-421f-a3b9-e484b74e1409"
 					(reference "C33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 35.56 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f7c7651a-847b-46f5-ba27-7dd5f2df9de8")
+		(property "Reference" "R110"
+			(at 38.1 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220"
+			(at 38.1 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 35.56 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579705994546499584"
+			(at 35.56 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 35.56 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/25834-0402WGF2200TCE/C25091"
+			(at 35.56 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4e787aae-55e2-47cd-9ecc-7527dd2fbba7")
+		)
+		(pin "1"
+			(uuid "c79668e1-76f6-4df0-b3bf-3210613c26de")
+		)
+		(instances
+			(project "RDAT"
+				(path "/0db9370a-8a21-4fd2-83a9-f207c3725dc9/64601ab1-4b63-421f-a3b9-e484b74e1409"
+					(reference "R110")
 					(unit 1)
 				)
 			)
