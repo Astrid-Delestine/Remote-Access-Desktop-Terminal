@@ -3420,6 +3420,12 @@
 		(uuid "1b1c9abf-7b3c-4df8-9a94-130c687de568")
 	)
 	(junction
+		(at 180.34 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1b512d49-6d1e-4846-8060-47f406f33e89")
+	)
+	(junction
 		(at 96.52 127)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3624,6 +3630,12 @@
 		(uuid "53728ee9-0b86-46d9-bc0a-1af03b341e29")
 	)
 	(junction
+		(at 180.34 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "53d53df6-2f00-4497-9508-b6e85acb947f")
+	)
+	(junction
 		(at 111.76 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3634,12 +3646,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "54116723-8ae4-4cfb-86cb-e3363789b796")
-	)
-	(junction
-		(at 137.16 148.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5436e59f-1c25-480f-86f0-a3b0a6099760")
 	)
 	(junction
 		(at 96.52 83.82)
@@ -3862,12 +3868,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "86ca4be2-a44a-4611-9dc0-8e77b26bf83a")
-	)
-	(junction
-		(at 158.75 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "87ed0aaf-a772-446a-b2ef-3e4ba9e2ab51")
 	)
 	(junction
 		(at 40.64 31.75)
@@ -4150,12 +4150,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c2a0e917-a34d-4b8a-aa80-43bcd5007d82")
-	)
-	(junction
-		(at 158.75 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c309b6e4-8c91-4c5a-9634-eb72ce449a70")
 	)
 	(junction
 		(at 50.8 185.42)
@@ -4588,16 +4582,6 @@
 			(type default)
 		)
 		(uuid "088bb498-fd12-4240-a9d5-eb4d273119c1")
-	)
-	(wire
-		(pts
-			(xy 158.75 73.66) (xy 168.91 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08e0fcc3-8589-4d2b-bccf-417b107ebf46")
 	)
 	(wire
 		(pts
@@ -5131,16 +5115,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 148.59) (xy 137.16 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ccbdc23-4f52-49b8-8c52-03bc1528058e")
-	)
-	(wire
-		(pts
 			(xy 101.6 31.75) (xy 111.76 31.75)
 		)
 		(stroke
@@ -5291,7 +5265,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 73.66) (xy 158.75 73.66)
+			(xy 152.4 73.66) (xy 168.91 73.66)
 		)
 		(stroke
 			(width 0)
@@ -5358,16 +5332,6 @@
 			(type default)
 		)
 		(uuid "503598e4-7f85-4aa1-a4ed-5b463362a182")
-	)
-	(wire
-		(pts
-			(xy 158.75 83.82) (xy 168.91 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "510c8d7d-e2cb-442c-96b5-3b02659e1fc9")
 	)
 	(wire
 		(pts
@@ -5951,7 +5915,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 83.82) (xy 158.75 83.82)
+			(xy 152.4 83.82) (xy 168.91 83.82)
 		)
 		(stroke
 			(width 0)
@@ -6281,6 +6245,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 83.82) (xy 180.34 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3304005-d77c-447c-9430-5418c395fe99")
+	)
+	(wire
+		(pts
 			(xy 30.48 31.75) (xy 40.64 31.75)
 		)
 		(stroke
@@ -6298,6 +6272,16 @@
 			(type default)
 		)
 		(uuid "a35c86be-0894-4721-b3fd-9ed4fb8f4341")
+	)
+	(wire
+		(pts
+			(xy 180.34 73.66) (xy 176.53 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3b28fd5-d631-4a08-8541-5a5ee7dc9557")
 	)
 	(wire
 		(pts
@@ -6428,6 +6412,16 @@
 			(type default)
 		)
 		(uuid "ae139479-31b9-4ad8-a38e-64c124a69ad9")
+	)
+	(wire
+		(pts
+			(xy 180.34 83.82) (xy 176.53 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af49178b-3cc6-4af9-ac5f-f3e7cc17dc21")
 	)
 	(wire
 		(pts
@@ -6681,7 +6675,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 185.42) (xy 142.24 185.42)
+			(xy 132.08 185.42) (xy 133.35 185.42)
 		)
 		(stroke
 			(width 0)
@@ -7268,6 +7262,16 @@
 			(type default)
 		)
 		(uuid "f9de3c18-488d-45ba-bde6-a63e2e9574a4")
+	)
+	(wire
+		(pts
+			(xy 182.88 73.66) (xy 180.34 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb6133ae-19f8-495b-afae-f7532250c578")
 	)
 	(wire
 		(pts
@@ -8002,7 +8006,7 @@
 		(uuid "b73667e9-8fc3-4eb0-9e2c-96dc013c7268")
 	)
 	(label "Row_7"
-		(at 142.24 185.42 0)
+		(at 133.35 185.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8163,7 +8167,7 @@
 	)
 	(hierarchical_label "KB_USB_D-"
 		(shape input)
-		(at 176.53 83.82 0)
+		(at 182.88 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8174,7 +8178,7 @@
 	)
 	(hierarchical_label "KB_USB_D+"
 		(shape input)
-		(at 176.53 73.66 0)
+		(at 182.88 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13654,7 +13658,8 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 201.93 127 0)
+		(at 201.93 129.54 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13662,7 +13667,7 @@
 		(dnp no)
 		(uuid "3c4c7a45-cfa9-487e-97cf-fa91ca46ca79")
 		(property "Reference" "J1"
-			(at 198.374 131.318 0)
+			(at 198.374 125.222 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13671,7 +13676,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 191.262 123.952 0)
+			(at 191.262 132.588 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13680,7 +13685,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical"
-			(at 201.93 127 0)
+			(at 201.93 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13689,7 +13694,7 @@
 			)
 		)
 		(property "Datasheet" "https://gct.co/files/specs/1.00mm-header-spec.pdf"
-			(at 201.93 127 0)
+			(at 201.93 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13698,7 +13703,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 201.93 127 0)
+			(at 201.93 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13707,7 +13712,7 @@
 			)
 		)
 		(property "JLCPCB_LINK" "https://www.digikey.com/en/products/detail/gct/BC020-02-A-0200-0300-L-G/12549946"
-			(at 201.93 127 0)
+			(at 201.93 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13722,7 +13727,7 @@
 			(uuid "a3b3f4f5-61c1-4447-b38a-c5ce8bbb090c")
 		)
 		(instances
-			(project ""
+			(project "RDAT"
 				(path "/0db9370a-8a21-4fd2-83a9-f207c3725dc9/46851a1d-4cfb-4cea-9716-b2c986edaf3a"
 					(reference "J1")
 					(unit 1)
@@ -17728,103 +17733,6 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Diode")
-		(at 142.24 181.61 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "68c02ebc-84eb-447b-b79d-c4ba5e0eb997")
-		(property "Reference" "D104"
-			(at 144.78 180.3399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Diode"
-			(at 144.78 182.8799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF"
-			(at 142.24 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109011130_YONGYUTAI-LL4148_C2891733.pdf"
-			(at 142.24 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
-			(at 142.24 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 142.24 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 142.24 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Yongyutai-LL4148/C2891733"
-			(at 142.24 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d499ed80-f99f-4fdd-b944-fb0666255565")
-		)
-		(pin "1"
-			(uuid "eb8fb7aa-8b86-44ee-acaf-a30efe6c2f44")
-		)
-		(instances
-			(project "RDAT"
-				(path "/0db9370a-8a21-4fd2-83a9-f207c3725dc9/46851a1d-4cfb-4cea-9716-b2c986edaf3a"
-					(reference "D104")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Diode")
 		(at 142.24 157.48 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20162,7 +20070,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 158.75 73.66 0)
+		(at 180.34 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20171,7 +20079,7 @@
 		(fields_autoplaced yes)
 		(uuid "8cb3b4cd-0eb7-4edc-88ab-5ab696071868")
 		(property "Reference" "TP17"
-			(at 161.29 69.0879 0)
+			(at 182.88 69.0879 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20180,7 +20088,7 @@
 			)
 		)
 		(property "Value" "KB_USB_D+"
-			(at 161.29 71.6279 0)
+			(at 182.88 71.6279 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20189,7 +20097,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
-			(at 163.83 73.66 0)
+			(at 185.42 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20198,7 +20106,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 163.83 73.66 0)
+			(at 185.42 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20207,7 +20115,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 158.75 73.66 0)
+			(at 180.34 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20219,7 +20127,7 @@
 			(uuid "c5c2481b-c0b3-47f9-8238-641ce57291b9")
 		)
 		(instances
-			(project ""
+			(project "RDAT"
 				(path "/0db9370a-8a21-4fd2-83a9-f207c3725dc9/46851a1d-4cfb-4cea-9716-b2c986edaf3a"
 					(reference "TP17")
 					(unit 1)
@@ -23532,7 +23440,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 158.75 83.82 0)
+		(at 180.34 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23541,7 +23449,7 @@
 		(fields_autoplaced yes)
 		(uuid "b10ef1ee-2789-474e-b088-2b41b089b92f")
 		(property "Reference" "TP13"
-			(at 161.29 79.2479 0)
+			(at 182.88 79.2479 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23550,7 +23458,7 @@
 			)
 		)
 		(property "Value" "KB_USB_D-"
-			(at 161.29 81.7879 0)
+			(at 182.88 81.7879 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23559,7 +23467,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
-			(at 163.83 83.82 0)
+			(at 185.42 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23568,7 +23476,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 163.83 83.82 0)
+			(at 185.42 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23577,7 +23485,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 158.75 83.82 0)
+			(at 180.34 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23589,7 +23497,7 @@
 			(uuid "c5c2481b-c0b3-47f9-8238-641ce57291ba")
 		)
 		(instances
-			(project ""
+			(project "RDAT"
 				(path "/0db9370a-8a21-4fd2-83a9-f207c3725dc9/46851a1d-4cfb-4cea-9716-b2c986edaf3a"
 					(reference "TP13")
 					(unit 1)
@@ -24969,83 +24877,6 @@
 			(project "RDAT"
 				(path "/0db9370a-8a21-4fd2-83a9-f207c3725dc9/46851a1d-4cfb-4cea-9716-b2c986edaf3a"
 					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 139.7 175.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c0bc68fc-9bb9-4491-b726-0a97842105b3")
-		(property "Reference" "S104"
-			(at 139.7 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Keyswitch"
-			(at 139.7 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:SW_PG151101S11"
-			(at 139.7 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.snapeda.com/parts/PG151101S11/Kailh/datasheet/"
-			(at 139.7 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 139.7 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_LINK" "https://www.amazon.com/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW/?_encoding=UTF8&pd_rd_w=Zv7EK&content-id=amzn1.sym.255b3518-6e7f-495c-8611-30a58648072e%253Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=255b3518-6e7f-495c-8611-30a58648072e&pf_rd_r=S2349ED4J6992ZNTQ2V2&pd_rd_wg=ENLp6&pd_rd_r=429e199a-f908-4573-8edb-3e2c9fcda82c&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d"
-			(at 139.7 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1cacde60-3eec-47af-bdc7-d3ead4748606")
-		)
-		(pin "2"
-			(uuid "aad8cbd9-075c-4bef-abd3-a7cfdcfcda73")
-		)
-		(instances
-			(project "RDAT"
-				(path "/0db9370a-8a21-4fd2-83a9-f207c3725dc9/46851a1d-4cfb-4cea-9716-b2c986edaf3a"
-					(reference "S104")
 					(unit 1)
 				)
 			)

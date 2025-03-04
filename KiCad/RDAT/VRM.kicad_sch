@@ -2295,156 +2295,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_Push"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 1.27 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SW_Push"
-				(at 0 -1.524 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Push button switch, generic, two pins"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch normally-open pushbutton push-button"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_Push_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "TPS40345DRCR:TPS40345DRCR"
 			(pin_names
 				(offset 0.254)
@@ -2768,6 +2618,328 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "TS-1187A-B-A-B:TS-1187A-B-A-B"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S"
+				(at -2.54 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "TS-1187A-B-A-B"
+				(at -6.858 -3.302 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 -7.366 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" ""
+				(at 8.382 -8.636 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" ""
+				(at -6.35 -8.382 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" ""
+				(at -8.128 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" ""
+				(at 10.922 -10.414 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" ""
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" ""
+				(at 1.778 -12.192 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" ""
+				(at 10.414 5.842 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" ""
+				(at -7.874 7.112 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" ""
+				(at -9.652 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" ""
+				(at 16.002 -2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "TS-1187A-B-A-B_0_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -5.08 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 2.794 2.1336)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 0)
+					(radius 0.3302)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 2.921 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "D"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TS-1187A-B-A-B_0_1"
+				(polyline
+					(pts
+						(xy -5.08 -2.54) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 2.9285 -0.0302)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
@@ -3475,6 +3647,12 @@
 		(uuid "c89a33b8-43e1-4052-b023-746de9e20ebd")
 	)
 	(junction
+		(at 153.67 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "00a1f71d-28e3-4fde-a704-e42732adfb87")
+	)
+	(junction
 		(at 40.64 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3533,12 +3711,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "30ee80d3-fa44-400a-b840-eb4364e96894")
-	)
-	(junction
-		(at 134.62 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3249d445-06aa-4185-84cc-abb0e1269adc")
 	)
 	(junction
 		(at 111.76 113.03)
@@ -3613,6 +3785,12 @@
 		(uuid "6cd96435-cc34-4b95-92af-b8f8fb38bd6f")
 	)
 	(junction
+		(at 165.1 186.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7051fd88-92d3-4e9a-91fe-5299e047b56c")
+	)
+	(junction
 		(at 146.05 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3653,6 +3831,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "898e4c13-6512-4b31-849c-6b532d795ceb")
+	)
+	(junction
+		(at 165.1 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8a238f81-a28d-4168-90b9-35fe9dac8b0b")
 	)
 	(junction
 		(at 125.73 67.31)
@@ -3751,12 +3935,6 @@
 		(uuid "d1693de5-7d78-4fdd-a47e-253e8b1dc9f5")
 	)
 	(junction
-		(at 134.62 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d308da49-6ca6-49ff-b190-4aa778098f86")
-	)
-	(junction
 		(at 185.42 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3767,6 +3945,24 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d913f810-76b8-4dd8-8182-d8b51b0f2747")
+	)
+	(junction
+		(at 127 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ddd16078-26e6-4375-ba3b-598ec1e74520")
+	)
+	(junction
+		(at 127 186.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e73253c9-8b42-44c1-af40-e395e5a0f44f")
+	)
+	(junction
+		(at 146.05 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e76bcf6d-e59d-47c9-8fc0-31b66e0dff0a")
 	)
 	(junction
 		(at 111.76 97.79)
@@ -3783,12 +3979,16 @@
 		(uuid "53d23b77-a596-47c1-8537-59123ae5ac68")
 	)
 	(no_connect
-		(at 153.67 62.23)
-		(uuid "98542bf2-ce85-4f28-8fae-9600b2816d35")
+		(at 140.97 60.96)
+		(uuid "60764331-95f1-4b35-98f9-3518371041a0")
 	)
 	(no_connect
-		(at 153.67 57.15)
-		(uuid "edd2554c-5c9d-4c03-bb27-489e12316c46")
+		(at 134.62 57.15)
+		(uuid "aee77c3e-d270-47f6-9c46-a539e1ce7b2f")
+	)
+	(no_connect
+		(at 134.62 62.23)
+		(uuid "b4517272-2299-46e5-9d18-3e5190ca4f19")
 	)
 	(no_connect
 		(at 139.7 26.67)
@@ -3850,6 +4050,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 185.42) (xy 165.1 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a7b43ec-6605-4ea0-8b23-f5e6220f67e5")
+	)
+	(wire
+		(pts
 			(xy 88.9 102.87) (xy 91.44 102.87)
 		)
 		(stroke
@@ -3870,23 +4080,13 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 186.69) (xy 158.75 186.69)
+			(xy 158.75 186.69) (xy 165.1 186.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0d160411-578d-4c39-82a1-5b61db3e2ffd")
-	)
-	(wire
-		(pts
-			(xy 134.62 41.91) (xy 146.05 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0dcb0724-5af2-41cb-8d37-32ebc3936ce9")
 	)
 	(wire
 		(pts
@@ -3910,7 +4110,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 167.64) (xy 158.75 167.64)
+			(xy 158.75 167.64) (xy 165.1 167.64)
 		)
 		(stroke
 			(width 0)
@@ -3937,16 +4137,6 @@
 			(type default)
 		)
 		(uuid "128c359c-6e17-41a2-9a28-ea6ae27d6036")
-	)
-	(wire
-		(pts
-			(xy 165.1 181.61) (xy 165.1 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13297da0-1cf6-4a09-91e9-ed21a1674bd6")
 	)
 	(wire
 		(pts
@@ -3980,7 +4170,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 41.91) (xy 134.62 41.91)
+			(xy 104.14 41.91) (xy 146.05 41.91)
 		)
 		(stroke
 			(width 0)
@@ -4130,6 +4320,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 167.64) (xy 127 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25118230-7f82-4262-9077-06a3c1fe6f82")
+	)
+	(wire
+		(pts
 			(xy 120.65 113.03) (xy 111.76 113.03)
 		)
 		(stroke
@@ -4210,16 +4410,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 41.91) (xy 134.62 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34c8e672-9c98-4e92-9a13-b967206b4699")
-	)
-	(wire
-		(pts
 			(xy 78.74 180.34) (xy 82.55 180.34)
 		)
 		(stroke
@@ -4247,6 +4437,16 @@
 			(type default)
 		)
 		(uuid "39d982a0-de65-43e3-875d-2427906d8355")
+	)
+	(wire
+		(pts
+			(xy 129.54 186.69) (xy 129.54 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b49185d-1a8a-4e77-99fe-3e857dcb7878")
 	)
 	(wire
 		(pts
@@ -4307,6 +4507,16 @@
 			(type default)
 		)
 		(uuid "49e4cf59-dd77-415e-aff7-123ff98a71da")
+	)
+	(wire
+		(pts
+			(xy 129.54 167.64) (xy 127 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a812d75-ce93-4e38-93bc-1d0fc56eead2")
 	)
 	(wire
 		(pts
@@ -4520,16 +4730,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 186.69) (xy 120.65 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61ab4a9a-bc21-41c4-b898-c40218ca93d8")
-	)
-	(wire
-		(pts
 			(xy 48.26 123.19) (xy 48.26 125.73)
 		)
 		(stroke
@@ -4567,6 +4767,16 @@
 			(type default)
 		)
 		(uuid "6f623239-2f28-46dc-8e06-810c75837333")
+	)
+	(wire
+		(pts
+			(xy 167.64 167.64) (xy 167.64 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71e42eb4-4232-422a-83bf-ff3fc66d22b0")
 	)
 	(wire
 		(pts
@@ -4750,6 +4960,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 186.69) (xy 129.54 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95d49e96-44b5-45dc-9cba-be4b83499977")
+	)
+	(wire
+		(pts
 			(xy 163.83 50.8) (xy 163.83 52.07)
 		)
 		(stroke
@@ -4757,6 +4977,16 @@
 			(type default)
 		)
 		(uuid "987bb775-4920-461e-812d-bb1938c83124")
+	)
+	(wire
+		(pts
+			(xy 129.54 170.18) (xy 129.54 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9967a36e-358f-4c13-9e18-b29441229f4e")
 	)
 	(wire
 		(pts
@@ -4807,6 +5037,16 @@
 			(type default)
 		)
 		(uuid "9cb3beb3-a034-435c-9bac-fe01d299e4f0")
+	)
+	(wire
+		(pts
+			(xy 165.1 167.64) (xy 167.64 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dd1428f-8379-4763-b09b-a4f2c8127e89")
 	)
 	(wire
 		(pts
@@ -4940,6 +5180,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 167.64) (xy 165.1 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acbd4013-39b0-44bf-90f4-c9164721cd3d")
+	)
+	(wire
+		(pts
 			(xy 180.34 39.37) (xy 180.34 41.91)
 		)
 		(stroke
@@ -4957,16 +5207,6 @@
 			(type default)
 		)
 		(uuid "afec3be2-1050-4add-bb22-e35dc2b864c6")
-	)
-	(wire
-		(pts
-			(xy 165.1 171.45) (xy 165.1 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4779054-23ec-4450-98fe-97cd2842aea5")
 	)
 	(wire
 		(pts
@@ -5100,6 +5340,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 186.69) (xy 120.65 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4965e28-e5fe-411c-87cd-368b97ada597")
+	)
+	(wire
+		(pts
 			(xy 34.29 62.23) (xy 43.18 62.23)
 		)
 		(stroke
@@ -5107,6 +5357,16 @@
 			(type default)
 		)
 		(uuid "c6979f58-698c-4154-9919-59f874f045dd")
+	)
+	(wire
+		(pts
+			(xy 153.67 57.15) (xy 153.67 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c71b47f6-0f22-4102-a4eb-cd738a348e97")
 	)
 	(wire
 		(pts
@@ -5130,6 +5390,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 186.69) (xy 167.64 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca9311fd-fcd5-4842-8795-dbbde785794a")
+	)
+	(wire
+		(pts
 			(xy 163.83 52.07) (xy 163.83 82.55)
 		)
 		(stroke
@@ -5147,16 +5417,6 @@
 			(type default)
 		)
 		(uuid "cbd5942d-ebb6-41c1-b9bc-d4ff98bb9247")
-	)
-	(wire
-		(pts
-			(xy 127 181.61) (xy 127 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc28e7d3-6ba6-4ef1-bfb1-d2921550bb8f")
 	)
 	(wire
 		(pts
@@ -5320,6 +5580,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 41.91) (xy 153.67 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5cfb235-a34d-42b1-b1ea-17a9bc6964a4")
+	)
+	(wire
+		(pts
 			(xy 34.29 49.53) (xy 34.29 53.34)
 		)
 		(stroke
@@ -5360,23 +5630,23 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 57.15) (xy 134.62 62.23)
+			(xy 146.05 41.91) (xy 153.67 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "eb4dd6a6-3d45-47b5-bf79-4c433c2675ab")
+		(uuid "ebed32fc-6a5d-4cdf-8f06-de0eb3c26036")
 	)
 	(wire
 		(pts
-			(xy 127 171.45) (xy 127 167.64)
+			(xy 127 186.69) (xy 127 185.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "eeb25f7e-fe4a-45d0-9ea7-e036b79e6d92")
+		(uuid "ef82926f-6526-49d0-a315-108fdbbe0475")
 	)
 	(wire
 		(pts
@@ -5387,6 +5657,16 @@
 			(type default)
 		)
 		(uuid "f023dbf1-5e6d-422b-b870-e319005df633")
+	)
+	(wire
+		(pts
+			(xy 165.1 186.69) (xy 167.64 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0337164-73fe-449e-947e-7ed71de2266b")
 	)
 	(wire
 		(pts
@@ -5640,112 +5920,6 @@
 			(project "RDAT"
 				(path "/0db9370a-8a21-4fd2-83a9-f207c3725dc9/5f0e9cd9-64da-46d2-87be-d1281cc3d7f6"
 					(reference "C66")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 165.1 176.53 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "05e6d279-f80e-42aa-8729-ca82674f7b6b")
-		(property "Reference" "SW2"
-			(at 168.91 175.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 168.91 177.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "footprints:SW_TS-1187A-B-A-B"
-			(at 170.18 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "TS-1187A-B-A-B"
-			(at 170.18 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 165.1 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 165.1 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 165.1 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 165.1 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/XkbConnection-TS_1187A_B_AB/C318884"
-			(at 165.1 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f882e055-577f-4754-a25e-c85d20aa25c5")
-		)
-		(pin "2"
-			(uuid "780338af-2cff-42c7-b895-41bec1941577")
-		)
-		(instances
-			(project "RDAT"
-				(path "/0db9370a-8a21-4fd2-83a9-f207c3725dc9/5f0e9cd9-64da-46d2-87be-d1281cc3d7f6"
-					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -8103,112 +8277,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 127 176.53 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6af28dc2-de27-4475-86b9-06a928a4b8c1")
-		(property "Reference" "SW1"
-			(at 130.81 175.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 130.81 177.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "footprints:SW_TS-1187A-B-A-B"
-			(at 132.08 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "TS-1187A-B-A-B"
-			(at 132.08 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 127 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 127 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 127 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 127 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/XkbConnection-TS_1187A_B_AB/C318884"
-			(at 127 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "55664240-a196-45a2-bcb2-d80c3831ad3e")
-		)
-		(pin "2"
-			(uuid "e36bee3a-9739-4aba-a907-aafab2835531")
-		)
-		(instances
-			(project "RDAT"
-				(path "/0db9370a-8a21-4fd2-83a9-f207c3725dc9/5f0e9cd9-64da-46d2-87be-d1281cc3d7f6"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 139.7 76.2 0)
 		(unit 1)
@@ -9596,6 +9664,212 @@
 		)
 	)
 	(symbol
+		(lib_id "TS-1187A-B-A-B:TS-1187A-B-A-B")
+		(at 129.54 177.8 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f49239b-5c49-4525-a271-aa72d234e222")
+		(property "Reference" "S104"
+			(at 133.35 176.5299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TS-1187A-B-A-B"
+			(at 133.35 179.0699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprints:SW_TS-1187A-B-A-B"
+			(at 122.174 176.022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "TS-1187A-B-A-B"
+			(at 129.54 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 120.904 186.182 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 121.158 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 127 169.672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 119.126 188.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 129.54 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 123.19 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 117.348 179.578 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 129.54 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 135.382 188.214 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 136.652 169.926 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 124.46 168.148 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 127.254 193.802 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/XkbConnection-TS_1187A_B_AB/C318884"
+			(at 129.54 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "C"
+			(uuid "2c13d430-fce9-42dc-8e93-f66e80d5d699")
+		)
+		(pin "D"
+			(uuid "6d9ad1fd-33e4-4359-9f1d-db12386f6fc7")
+		)
+		(pin "B"
+			(uuid "aa330506-e60c-4ef7-ac89-9ee72a22cab3")
+		)
+		(pin "A"
+			(uuid "11b99b82-3b18-4886-89e8-c5af81e4b7c3")
+		)
+		(instances
+			(project ""
+				(path "/0db9370a-8a21-4fd2-83a9-f207c3725dc9/5f0e9cd9-64da-46d2-87be-d1281cc3d7f6"
+					(reference "S104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 53.34 40.64 0)
 		(mirror y)
@@ -10103,6 +10377,212 @@
 			(project "RDAT"
 				(path "/0db9370a-8a21-4fd2-83a9-f207c3725dc9/5f0e9cd9-64da-46d2-87be-d1281cc3d7f6"
 					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TS-1187A-B-A-B:TS-1187A-B-A-B")
+		(at 167.64 177.8 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a4f6dcff-49f4-40b5-a0ba-a5044d0e7159")
+		(property "Reference" "S105"
+			(at 171.45 176.5299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TS-1187A-B-A-B"
+			(at 171.45 179.0699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprints:SW_TS-1187A-B-A-B"
+			(at 160.274 176.022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "TS-1187A-B-A-B"
+			(at 167.64 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 159.004 186.182 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 159.258 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 165.1 169.672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 157.226 188.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 167.64 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 161.29 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 155.448 179.578 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 167.64 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 173.482 188.214 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 174.752 169.926 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 162.56 168.148 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 165.354 193.802 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/XkbConnection-TS_1187A_B_AB/C318884"
+			(at 167.64 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "C"
+			(uuid "2c13d430-fce9-42dc-8e93-f66e80d5d699")
+		)
+		(pin "D"
+			(uuid "6d9ad1fd-33e4-4359-9f1d-db12386f6fc7")
+		)
+		(pin "B"
+			(uuid "aa330506-e60c-4ef7-ac89-9ee72a22cab3")
+		)
+		(pin "A"
+			(uuid "11b99b82-3b18-4886-89e8-c5af81e4b7c3")
+		)
+		(instances
+			(project ""
+				(path "/0db9370a-8a21-4fd2-83a9-f207c3725dc9/5f0e9cd9-64da-46d2-87be-d1281cc3d7f6"
+					(reference "S105")
 					(unit 1)
 				)
 			)
@@ -12506,7 +12986,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f99e7ba7-2eed-427f-9306-7d162e71473d")
 		(property "Reference" "#PWR0105"
 			(at 151.13 193.04 0)
@@ -12518,7 +12997,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 151.13 191.77 0)
+			(at 153.67 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
