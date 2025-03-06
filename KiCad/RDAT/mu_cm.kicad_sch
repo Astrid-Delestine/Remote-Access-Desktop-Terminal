@@ -240,183 +240,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Battery_Cell"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "BT"
-				(at 2.54 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Battery_Cell"
-				(at 2.54 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 1.524 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 1.524 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Single-cell battery"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "battery cell"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Battery_Cell_0_1"
-				(rectangle
-					(start -2.286 1.778)
-					(end 2.286 1.524)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -1.524 1.016)
-					(end 1.524 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.778) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 3.048) (xy 1.778 3.048)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 3.556) (xy 1.27 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Battery_Cell_1_1"
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -6043,6 +5866,305 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "S8411-45R:S8411-45R"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -3.81 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "S8411-45R"
+				(at -3.81 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "S8411-45R:HARWIN_S8411-45R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DigiKey_Part_Number" "952-1745-2-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/S8411-45R/Harwin/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "4.25mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/S8411-45R/Harwin/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "4"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MF" "Harwin"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "S8411-45R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "Coin Cell Battery Retainer, Horizontal SMT, for CR1220 Coin Cell Batteries, Tape & Reeled"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Harwin"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "S8411-45R_0_0"
+				(polyline
+					(pts
+						(xy -3.81 1.905) (xy -2.54 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 2.54) (xy -3.175 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -1.27 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "N"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+9V"
 			(power)
 			(pin_numbers
@@ -6656,12 +6778,40 @@
 		(uuid "b8d09166-0698-49e9-964c-092de96eadb8")
 	)
 	(no_connect
+		(at 176.53 99.06)
+		(uuid "03b89757-bfba-4765-839f-ed515cd8ef55")
+	)
+	(no_connect
+		(at 176.53 227.33)
+		(uuid "07b363b3-943c-4cc7-83fe-36451b2d4a4d")
+	)
+	(no_connect
+		(at 176.53 148.59)
+		(uuid "0c6a54cc-47ea-4da0-bf2f-3fce4219e8f7")
+	)
+	(no_connect
 		(at 176.53 318.77)
 		(uuid "0ce7133d-d894-49e1-a448-d8609b54463d")
 	)
 	(no_connect
+		(at 176.53 146.05)
+		(uuid "0e367ceb-47fb-413f-bc6e-66e1661da6ec")
+	)
+	(no_connect
+		(at 176.53 160.02)
+		(uuid "1278c49e-05d2-4480-819b-7dcebd6968f0")
+	)
+	(no_connect
 		(at 95.25 128.27)
 		(uuid "1393cef6-b7fa-4522-aa59-8d2d9113f83c")
+	)
+	(no_connect
+		(at 176.53 292.1)
+		(uuid "1933379b-b4db-4aea-bb6d-847f787a517a")
+	)
+	(no_connect
+		(at 176.53 287.02)
+		(uuid "1e9d86a0-ff2b-4127-864d-a4782e553bb3")
 	)
 	(no_connect
 		(at 95.25 143.51)
@@ -6672,6 +6822,18 @@
 		(uuid "21da6799-e92a-4109-aa85-de5fac613492")
 	)
 	(no_connect
+		(at 176.53 229.87)
+		(uuid "227e879b-146f-4f98-a148-0f61fead640e")
+	)
+	(no_connect
+		(at 176.53 278.13)
+		(uuid "240ccda7-e12f-46b7-b3e9-2d111580e53b")
+	)
+	(no_connect
+		(at 176.53 157.48)
+		(uuid "275bc61b-e00a-49d9-954c-be9694faa5e3")
+	)
+	(no_connect
 		(at 95.25 105.41)
 		(uuid "2a5dbbab-0e01-42a2-9a0b-f6d87274d7a4")
 	)
@@ -6680,16 +6842,36 @@
 		(uuid "2ed65062-83f5-4292-8591-aaa5296464ba")
 	)
 	(no_connect
+		(at 176.53 93.98)
+		(uuid "2f8cbd64-6d14-432b-8daf-64d011fec590")
+	)
+	(no_connect
 		(at 95.25 140.97)
 		(uuid "30a1586f-6f7b-48cd-9229-b2aed2d98aaf")
+	)
+	(no_connect
+		(at 176.53 267.97)
+		(uuid "3369eb84-241e-4ed8-a132-dcee4383dc1a")
+	)
+	(no_connect
+		(at 176.53 212.09)
+		(uuid "3452e9b6-ed1a-4ec5-a807-b129f9ad43c9")
 	)
 	(no_connect
 		(at 176.53 316.23)
 		(uuid "367c18d1-8aa8-4ab5-b59f-a3b5b32dbf4e")
 	)
 	(no_connect
+		(at 176.53 196.85)
+		(uuid "37e7b00c-914b-43c9-a151-93c4344f2a2a")
+	)
+	(no_connect
 		(at 176.53 321.31)
 		(uuid "3a26bd00-9f2c-464f-af9f-8d35071f9fa5")
+	)
+	(no_connect
+		(at 176.53 135.89)
+		(uuid "3e6c2928-eb21-473f-997a-eb7ba74e7929")
 	)
 	(no_connect
 		(at 95.25 107.95)
@@ -6700,16 +6882,44 @@
 		(uuid "41d50a95-ab0f-457c-9fa9-b0a00c5a5997")
 	)
 	(no_connect
+		(at 176.53 125.73)
+		(uuid "426a626f-7523-4eec-90ba-9fc24d4ec413")
+	)
+	(no_connect
 		(at 95.25 153.67)
 		(uuid "435cbfe0-30ed-4715-a04e-66d07e5c237e")
+	)
+	(no_connect
+		(at 176.53 191.77)
+		(uuid "462ad5f5-4e40-4ffb-a75b-7e705c98b66c")
+	)
+	(no_connect
+		(at 176.53 118.11)
+		(uuid "463eba6b-fdd0-485f-b112-6655e4cf9ca2")
+	)
+	(no_connect
+		(at 176.53 255.27)
+		(uuid "494059fc-a78d-4e7c-b3b6-288918f6f364")
 	)
 	(no_connect
 		(at 95.25 173.99)
 		(uuid "49674330-c120-4f05-a397-b8d9c1b25700")
 	)
 	(no_connect
+		(at 176.53 214.63)
+		(uuid "4cd22bc2-4f99-47e5-a4e4-e94d56fee469")
+	)
+	(no_connect
 		(at 95.25 102.87)
 		(uuid "508edf52-4ad2-4d76-9ba7-f9a38bffc098")
+	)
+	(no_connect
+		(at 176.53 162.56)
+		(uuid "515caf05-1fd0-481b-bf01-608a4818ead6")
+	)
+	(no_connect
+		(at 176.53 237.49)
+		(uuid "53636f45-63c7-404e-b01a-93835ffe5f3f")
 	)
 	(no_connect
 		(at 95.25 148.59)
@@ -6720,16 +6930,64 @@
 		(uuid "575bea7d-f748-4ae0-a297-fad081912606")
 	)
 	(no_connect
+		(at 176.53 143.51)
+		(uuid "57de44c6-9ccb-43ad-9aee-0c1d8c4e6f0b")
+	)
+	(no_connect
+		(at 176.53 101.6)
+		(uuid "58d8b1ee-09ad-4baa-9e72-f09ae7c40428")
+	)
+	(no_connect
+		(at 176.53 123.19)
+		(uuid "6000ed21-ac37-44d6-901b-48924bcc9ef6")
+	)
+	(no_connect
 		(at 176.53 297.18)
 		(uuid "6066dd6e-74a5-4c35-88f1-da79bf0e602f")
+	)
+	(no_connect
+		(at 176.53 189.23)
+		(uuid "6114f025-2893-4f4a-aa78-a9dbb9c14d89")
+	)
+	(no_connect
+		(at 176.53 245.11)
+		(uuid "6354a83c-b4ae-42d2-b5b2-dcbc5a479017")
 	)
 	(no_connect
 		(at 95.25 77.47)
 		(uuid "641fcdfa-dda1-4656-9b6c-1b52cb4ed63b")
 	)
 	(no_connect
+		(at 176.53 140.97)
+		(uuid "6502208b-6aa0-4e60-ae70-8928702a1d22")
+	)
+	(no_connect
+		(at 176.53 260.35)
+		(uuid "6ce496a0-498f-49da-83fb-677870e21836")
+	)
+	(no_connect
+		(at 176.53 257.81)
+		(uuid "6e613114-751f-4f6b-820f-70fcdd84a989")
+	)
+	(no_connect
+		(at 176.53 281.94)
+		(uuid "711784bc-e084-45e7-a415-74ef9fd935a5")
+	)
+	(no_connect
+		(at 176.53 289.56)
+		(uuid "747a68d5-9f78-481b-b47e-b11e5ab43e70")
+	)
+	(no_connect
+		(at 176.53 247.65)
+		(uuid "75647f67-0221-40ab-9100-344ba2346c9d")
+	)
+	(no_connect
 		(at 95.25 161.29)
 		(uuid "7e21b9ac-06ad-45c6-b0d9-6378b8dec9ea")
+	)
+	(no_connect
+		(at 176.53 207.01)
+		(uuid "7f685178-2b51-4f1c-be24-9563a2f93c77")
 	)
 	(no_connect
 		(at 95.25 138.43)
@@ -6756,6 +7014,18 @@
 		(uuid "8be71305-6d7f-4e3f-8808-d4939a18dbba")
 	)
 	(no_connect
+		(at 176.53 130.81)
+		(uuid "8d8913ef-8711-4cc9-a836-58ace727a269")
+	)
+	(no_connect
+		(at 176.53 232.41)
+		(uuid "8d90422e-9cd5-4462-83f8-2a96e42f5abc")
+	)
+	(no_connect
+		(at 176.53 252.73)
+		(uuid "9177c070-8e1d-4637-be10-a39a8176c5d2")
+	)
+	(no_connect
 		(at 95.25 95.25)
 		(uuid "9183e984-1909-43bf-a02b-41e631d7f0fb")
 	)
@@ -6768,6 +7038,26 @@
 		(uuid "964c0a4e-3470-4b59-8405-7840b81f8235")
 	)
 	(no_connect
+		(at 176.53 224.79)
+		(uuid "96c0d0ba-1f89-42fd-80d5-f50129a89494")
+	)
+	(no_connect
+		(at 176.53 176.53)
+		(uuid "9acb9b3f-16d3-4458-91ca-9971dd63c9d6")
+	)
+	(no_connect
+		(at 176.53 217.17)
+		(uuid "9d361bc9-4193-4117-87be-80fcde29f754")
+	)
+	(no_connect
+		(at 176.53 201.93)
+		(uuid "9df6f150-e8aa-4878-93c9-52e76ecbb1bf")
+	)
+	(no_connect
+		(at 176.53 179.07)
+		(uuid "9eb06449-9321-4547-95ef-300fe2f45342")
+	)
+	(no_connect
 		(at 95.25 146.05)
 		(uuid "a567ba8d-c4df-45a7-9dd7-c86da2ac7576")
 	)
@@ -6776,12 +7066,32 @@
 		(uuid "a63b5746-dd51-4413-9764-4fedf2f842eb")
 	)
 	(no_connect
+		(at 176.53 128.27)
+		(uuid "a7d3881b-2012-48c3-b51b-2240c0688454")
+	)
+	(no_connect
+		(at 176.53 270.51)
+		(uuid "a87dc28c-9fbe-41f9-8975-a06a28452069")
+	)
+	(no_connect
+		(at 176.53 111.76)
+		(uuid "a9a036b9-c6a5-4431-a13d-e5e086a093fe")
+	)
+	(no_connect
+		(at 176.53 284.48)
+		(uuid "aa926ea0-969e-4ba1-999c-b506ff0a125b")
+	)
+	(no_connect
 		(at 176.53 323.85)
 		(uuid "b0842d06-d188-4fca-94a6-d34ee2c55219")
 	)
 	(no_connect
 		(at 176.53 313.69)
 		(uuid "bafce80e-b26e-4402-ada6-6f31f1900cf3")
+	)
+	(no_connect
+		(at 176.53 204.47)
+		(uuid "bd879110-9ac3-4bcb-806c-8970852c5b14")
 	)
 	(no_connect
 		(at 95.25 227.33)
@@ -6796,12 +7106,36 @@
 		(uuid "c368a1fc-f881-484c-967b-9a2304734c69")
 	)
 	(no_connect
+		(at 176.53 115.57)
+		(uuid "c41aec44-bc6d-43d8-9e0d-adb6dd91578c")
+	)
+	(no_connect
+		(at 176.53 240.03)
+		(uuid "c4a70180-5a09-4d1a-b278-59d3e89ba51a")
+	)
+	(no_connect
+		(at 176.53 165.1)
+		(uuid "c6ee7f98-1e66-4ac3-8d0b-e071f6d57f88")
+	)
+	(no_connect
 		(at 95.25 224.79)
 		(uuid "c7c42d0b-c00a-4b17-b659-4f269b254429")
 	)
 	(no_connect
+		(at 176.53 194.31)
+		(uuid "ca1f3fc5-069b-45c1-a412-29e5027f7274")
+	)
+	(no_connect
 		(at 95.25 110.49)
 		(uuid "ccb7209b-bdad-49f5-8c27-30aa30c7844e")
+	)
+	(no_connect
+		(at 176.53 96.52)
+		(uuid "ccff374e-84a4-4c93-9688-b1fc06fadae8")
+	)
+	(no_connect
+		(at 176.53 275.59)
+		(uuid "cd25a69c-9193-4a31-849e-a7d3e057635e")
 	)
 	(no_connect
 		(at 95.25 179.07)
@@ -6816,12 +7150,52 @@
 		(uuid "d0aaa0a0-a431-4979-b92b-b47803e71969")
 	)
 	(no_connect
+		(at 176.53 186.69)
+		(uuid "d3f1f260-241d-4e1e-b243-5db450f5552e")
+	)
+	(no_connect
+		(at 176.53 234.95)
+		(uuid "d48ebd6f-12a4-468a-8468-6832f6d641b4")
+	)
+	(no_connect
+		(at 176.53 222.25)
+		(uuid "d7e33cda-5791-4c06-ac29-60fa059d3721")
+	)
+	(no_connect
+		(at 176.53 250.19)
+		(uuid "d85752b8-6bf4-4cfa-9fcc-6e394882905d")
+	)
+	(no_connect
+		(at 176.53 151.13)
+		(uuid "d934e1a0-3cfe-4cf6-a394-54d745e4c6fc")
+	)
+	(no_connect
+		(at 176.53 88.9)
+		(uuid "da64bb3c-e1c0-4cdb-a4f6-d4d7622c9fce")
+	)
+	(no_connect
+		(at 176.53 184.15)
+		(uuid "dada77bd-52b0-479c-acb6-66ba8a06d692")
+	)
+	(no_connect
+		(at 176.53 91.44)
+		(uuid "dd0f87e2-c0a0-41d9-9208-186cf33488d7")
+	)
+	(no_connect
 		(at 95.25 163.83)
 		(uuid "ddbeef08-dfde-405c-9840-965c950d36ae")
 	)
 	(no_connect
+		(at 176.53 273.05)
+		(uuid "e2b6d3e8-cb83-4c59-987a-a72b403bc961")
+	)
+	(no_connect
 		(at 95.25 166.37)
 		(uuid "e2e929bf-1970-44eb-96d1-09fd322a4e99")
+	)
+	(no_connect
+		(at 176.53 109.22)
+		(uuid "e341df5a-4b2a-4d9f-a7ce-454889c3aa35")
 	)
 	(no_connect
 		(at 95.25 158.75)
@@ -6895,7 +7269,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 49.53) (xy 180.34 52.07)
+			(xy 187.96 49.53) (xy 187.96 52.07)
 		)
 		(stroke
 			(width 0)
@@ -7095,7 +7469,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 49.53) (xy 180.34 49.53)
+			(xy 185.42 49.53) (xy 187.96 49.53)
 		)
 		(stroke
 			(width 0)
@@ -7909,7 +8283,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 180.34 52.07 0)
+		(at 187.96 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7918,7 +8292,7 @@
 		(fields_autoplaced yes)
 		(uuid "0edf1f30-7ded-443d-94d7-67f1e2297c85")
 		(property "Reference" "#PWR021"
-			(at 180.34 58.42 0)
+			(at 187.96 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7927,7 +8301,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 180.34 57.15 0)
+			(at 187.96 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7935,7 +8309,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 180.34 52.07 0)
+			(at 187.96 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7944,7 +8318,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 52.07 0)
+			(at 187.96 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7953,7 +8327,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 180.34 52.07 0)
+			(at 187.96 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8167,120 +8541,6 @@
 			(project "RDAT"
 				(path "/0db9370a-8a21-4fd2-83a9-f207c3725dc9/5b2d2e6c-036c-404a-b71b-c732d724c5c0"
 					(reference "#FLG01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Battery_Cell")
-		(at 175.26 49.53 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "53296cb9-a5cb-45da-a8dc-908737d2bd32")
-		(property "Reference" "BT17"
-			(at 172.72 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "3v"
-			(at 172.974 51.308 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "footprints:HARWIN_S8411-45R"
-			(at 173.736 49.53 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2210171730_Harwin-S8411-45R_C5199899.pdf"
-			(at 173.736 49.53 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 175.26 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SCH_Show_Footprint" ""
-			(at 175.26 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 175.26 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 175.26 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 175.26 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Harwin-S841145R/C5199899"
-			(at 175.26 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a00c4930-40a5-4bd2-92ed-ab0be7842de4")
-		)
-		(pin "2"
-			(uuid "d81954f4-a702-4da2-af08-471c8bb52428")
-		)
-		(instances
-			(project "RDAT"
-				(path "/0db9370a-8a21-4fd2-83a9-f207c3725dc9/5b2d2e6c-036c-404a-b71b-c732d724c5c0"
-					(reference "BT17")
 					(unit 1)
 				)
 			)
@@ -9155,6 +9415,194 @@
 			(project "RDAT"
 				(path "/0db9370a-8a21-4fd2-83a9-f207c3725dc9/5b2d2e6c-036c-404a-b71b-c732d724c5c0"
 					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "S8411-45R:S8411-45R")
+		(at 177.8 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf83762e-c8be-4e52-962e-403f7d324f6f")
+		(property "Reference" "J3"
+			(at 177.165 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "S8411-45R"
+			(at 177.165 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:HARWIN_S8411-45R"
+			(at 177.8 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2210171730_Harwin-S8411-45R_C5199899.pdf"
+			(at 177.8 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 177.8 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "952-1745-2-ND"
+			(at 177.8 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/S8411-45R/Harwin/view-part/?ref=snap"
+			(at 177.8 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "4.25mm"
+			(at 177.8 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 177.8 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/S8411-45R/Harwin/view-part/?ref=eda"
+			(at 177.8 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 177.8 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "4"
+			(at 177.8 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "Harwin"
+			(at 177.8 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "S8411-45R"
+			(at 177.8 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Coin Cell Battery Retainer, Horizontal SMT, for CR1220 Coin Cell Batteries, Tape & Reeled"
+			(at 177.8 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Harwin"
+			(at 177.8 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Harwin-S841145R/C5199899"
+			(at 177.8 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "N"
+			(uuid "8ac68ee4-99f7-4b28-b88b-ee9d619b7a25")
+		)
+		(pin "P"
+			(uuid "23f1e963-abda-4f10-9789-e05e75cfd768")
+		)
+		(instances
+			(project ""
+				(path "/0db9370a-8a21-4fd2-83a9-f207c3725dc9/5b2d2e6c-036c-404a-b71b-c732d724c5c0"
+					(reference "J3")
 					(unit 1)
 				)
 			)

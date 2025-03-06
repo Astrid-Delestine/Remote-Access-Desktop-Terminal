@@ -12,8 +12,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at -22.86 46.99 0)
+			(property "Reference" "J4"
+				(at 2.1433 50.8 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -22,14 +22,15 @@
 				)
 			)
 			(property "Value" "Bus_M.2_Socket_B"
-				(at 16.51 46.99 0)
+				(at 2.1433 48.26 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "footprints:AMPHENOL_MDT420B03001"
 				(at 0 26.67 0)
 				(effects
 					(font
@@ -48,6 +49,15 @@
 				)
 			)
 			(property "Description" "M.2 Socket 2 Mechanical Key B"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/AmphenolICC-MDT420B03001/C4885179"
 				(at 0 0 0)
 				(effects
 					(font
@@ -797,6 +807,44 @@
 						)
 					)
 					(number "73"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -48.26 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -48.26 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2895,12 +2943,6 @@
 		(uuid "33fd23a5-60cc-40c2-b97e-b1e039a184ee")
 	)
 	(junction
-		(at 26.67 220.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "35b03b20-75c8-45c5-ba80-157327393411")
-	)
-	(junction
 		(at 60.96 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2917,6 +2959,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5339cc09-3579-4c32-8354-bef58395b5e7")
+	)
+	(junction
+		(at 26.67 220.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "568a8f7b-3d0d-4467-857b-15eb920ab5ca")
 	)
 	(junction
 		(at 26.67 200.66)
@@ -2946,7 +2994,7 @@
 		(at 26.67 223.52)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "962eeba8-1f89-464e-ae23-ad69e02538f1")
+		(uuid "8d90e666-9bed-44da-a223-95317d2afa8a")
 	)
 	(junction
 		(at 26.67 213.36)
@@ -3148,16 +3196,6 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 220.98) (xy 31.75 220.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02300266-ac94-41ba-8c3b-3994b37eba25")
-	)
-	(wire
-		(pts
 			(xy 107.95 54.61) (xy 107.95 64.77)
 		)
 		(stroke
@@ -3165,16 +3203,6 @@
 			(type default)
 		)
 		(uuid "0338129a-0bcb-4164-b28e-b3149e9f0e52")
-	)
-	(wire
-		(pts
-			(xy 26.67 223.52) (xy 26.67 224.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "055be733-77ec-40e9-afbc-ba003416a880")
 	)
 	(wire
 		(pts
@@ -3578,6 +3606,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 223.52) (xy 26.67 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5acf9d2a-29d0-4b77-9433-8666fdefda5b")
+	)
+	(wire
+		(pts
 			(xy 54.61 92.71) (xy 60.96 92.71)
 		)
 		(stroke
@@ -3665,16 +3703,6 @@
 			(type default)
 		)
 		(uuid "765d69ee-a66d-4b96-b487-e701ed16600b")
-	)
-	(wire
-		(pts
-			(xy 31.75 223.52) (xy 26.67 223.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78ea0ea1-869d-4f99-98a2-9a88275e958e")
 	)
 	(wire
 		(pts
@@ -3888,6 +3916,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 223.52) (xy 31.75 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a976ab90-19ff-4a10-a3da-485023c03dda")
+	)
+	(wire
+		(pts
 			(xy 17.78 114.3) (xy 29.21 114.3)
 		)
 		(stroke
@@ -3955,6 +3993,16 @@
 			(type default)
 		)
 		(uuid "c7c5ea1c-a559-4fdc-976a-2f51b7362c8d")
+	)
+	(wire
+		(pts
+			(xy 26.67 220.98) (xy 26.67 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf28068c-1c9f-4d3c-a19b-0e575f5dd29b")
 	)
 	(wire
 		(pts
@@ -4068,16 +4116,6 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 218.44) (xy 26.67 220.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e99d6614-e628-4e5f-9307-0ee6d4b051f5")
-	)
-	(wire
-		(pts
 			(xy 58.42 140.97) (xy 58.42 146.05)
 		)
 		(stroke
@@ -4088,7 +4126,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 220.98) (xy 26.67 223.52)
+			(xy 26.67 218.44) (xy 26.67 220.98)
 		)
 		(stroke
 			(width 0)
@@ -4115,6 +4153,16 @@
 			(type default)
 		)
 		(uuid "f483bd55-81ac-4ed1-9ca4-74f30f75141c")
+	)
+	(wire
+		(pts
+			(xy 26.67 220.98) (xy 31.75 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8463c06-ce4f-47ba-ae0c-77aef2610a0e")
 	)
 	(wire
 		(pts
@@ -5354,6 +5402,12 @@
 		)
 		(pin "62"
 			(uuid "a81ce8c0-62b8-459c-91fc-3611de53c7f8")
+		)
+		(pin "P2"
+			(uuid "a29965e6-3065-4337-ada3-9e8656f3cb87")
+		)
+		(pin "P1"
+			(uuid "ced347b6-ae2d-4800-b6f1-77634b91107e")
 		)
 		(instances
 			(project "RDAT"
@@ -7231,7 +7285,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JAE:JAE_SIM_Card_SF72S006"
+		(property "Footprint" "SF72S006VBDR2500_JAE"
 			(at 31.75 187.96 0)
 			(effects
 				(font
@@ -7272,14 +7326,8 @@
 		(pin "C5"
 			(uuid "b2f2b876-60ac-4102-95e8-3abb007dd631")
 		)
-		(pin "GND9"
-			(uuid "d7b04cd6-0722-4d22-9188-ab7ba4d3d498")
-		)
 		(pin "GND10"
 			(uuid "27bf4ee2-a656-49b9-a4be-d532c10b154d")
-		)
-		(pin "GND8"
-			(uuid "ef92761b-d31a-49b8-8ac0-ae39cd40078d")
 		)
 		(pin "C2"
 			(uuid "c54788f6-edb7-4318-aa59-4a20cf10d98b")
@@ -7313,6 +7361,12 @@
 		)
 		(pin "GND7"
 			(uuid "36d4a10e-3642-4eb9-a617-0bd4c26ff555")
+		)
+		(pin "GND9"
+			(uuid "ed6612ae-3529-4799-baf9-5874f631613a")
+		)
+		(pin "GND8"
+			(uuid "45b6fba6-c435-4928-9cff-96ed2d2ba1f0")
 		)
 		(instances
 			(project ""

@@ -1,143 +1,138 @@
-Info: Processing symbol 'R83:Resistor_SMD:R_0402_1005Metric'.
-Info: Processing symbol 'R75:Resistor_SMD:R_0402_1005Metric'.
-Info: Processing symbol 'R76:Resistor_SMD:R_0402_1005Metric'.
-Info: Processing symbol 'R77:Resistor_SMD:R_0402_1005Metric'.
-Info: Processing symbol 'R78:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R87:Resistor_SMD:R_0402_1005Metric'.
 Info: Processing symbol 'R79:Resistor_SMD:R_0402_1005Metric'.
 Info: Processing symbol 'R80:Resistor_SMD:R_0402_1005Metric'.
 Info: Processing symbol 'R81:Resistor_SMD:R_0402_1005Metric'.
 Info: Processing symbol 'R82:Resistor_SMD:R_0402_1005Metric'.
-Info: Processing symbol 'R74:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R83:Resistor_SMD:R_0402_1005Metric'.
 Info: Processing symbol 'R84:Resistor_SMD:R_0402_1005Metric'.
 Info: Processing symbol 'R85:Resistor_SMD:R_0402_1005Metric'.
 Info: Processing symbol 'R86:Resistor_SMD:R_0402_1005Metric'.
-Info: Processing symbol 'R87:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R78:Resistor_SMD:R_0402_1005Metric'.
 Info: Processing symbol 'R88:Resistor_SMD:R_0402_1005Metric'.
 Info: Processing symbol 'R89:Resistor_SMD:R_0402_1005Metric'.
 Info: Processing symbol 'R90:Resistor_SMD:R_0402_1005Metric'.
 Info: Processing symbol 'R91:Resistor_SMD:R_0402_1005Metric'.
-Info: Processing symbol 'R66:Resistor_SMD:R_0402_1005Metric'.
-Info: Processing symbol 'R58:Resistor_SMD:R_0402_1005Metric'.
-Info: Processing symbol 'R59:Resistor_SMD:R_0402_1005Metric'.
-Info: Processing symbol 'R60:Resistor_SMD:R_0402_1005Metric'.
-Info: Processing symbol 'R61:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R92:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R93:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R94:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R70:Resistor_SMD:R_0402_1005Metric'.
 Info: Processing symbol 'R62:Resistor_SMD:R_0402_1005Metric'.
 Info: Processing symbol 'R63:Resistor_SMD:R_0402_1005Metric'.
 Info: Processing symbol 'R64:Resistor_SMD:R_0402_1005Metric'.
 Info: Processing symbol 'R65:Resistor_SMD:R_0402_1005Metric'.
-Info: Processing symbol 'R92:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R66:Resistor_SMD:R_0402_1005Metric'.
 Info: Processing symbol 'R67:Resistor_SMD:R_0402_1005Metric'.
 Info: Processing symbol 'R68:Resistor_SMD:R_0402_1005Metric'.
 Info: Processing symbol 'R69:Resistor_SMD:R_0402_1005Metric'.
-Info: Processing symbol 'R70:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R95:Resistor_SMD:R_0402_1005Metric'.
 Info: Processing symbol 'R71:Resistor_SMD:R_0402_1005Metric'.
 Info: Processing symbol 'R72:Resistor_SMD:R_0402_1005Metric'.
 Info: Processing symbol 'R73:Resistor_SMD:R_0402_1005Metric'.
-Info: Processing symbol 'R_{AC}2:footprints:RESC_WSHM2818R0150FEA'.
-Info: Processing symbol 'R110:Resistor_SMD:R_0402_1005Metric'.
-Info: Processing symbol 'Rcomp2:Resistor_SMD:R_0402_1005Metric'.
-Info: Processing symbol 'Rcomp3:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R74:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R75:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R76:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R77:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R_{GS}1:Resistor_SMD:R_0402_1005Metric'.
 Info: Processing symbol 'Rcomp4:Resistor_SMD:R_0402_1005Metric'.
 Info: Processing symbol 'Rfbb1:Resistor_SMD:R_0402_1005Metric'.
 Info: Processing symbol 'Rfbb2:Resistor_SMD:R_0402_1005Metric'.
 Info: Processing symbol 'Rfbt1:Resistor_SMD:R_0402_1005Metric'.
 Info: Processing symbol 'R_{AC}1:footprints:RESC_WSHM2818R0150FEA'.
-Info: Processing symbol 'R109:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R_{AC}2:footprints:RESC_WSHM2818R0150FEA'.
 Info: Processing symbol 'R_{CHG}1:Resistor_SMD:R_0402_1005Metric'.
 Info: Processing symbol 'R_{DSG}1:Resistor_SMD:R_0402_1005Metric'.
-Info: Processing symbol 'R_{GS}1:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'Rcomp3:Resistor_SMD:R_0402_1005Metric'.
 Info: Processing symbol 'R_{GS}2:Resistor_SMD:R_0402_1005Metric'.
 Info: Processing symbol 'R_{SNS}1:Resistor_SMD:R_0402_1005Metric'.
 Info: Processing symbol 'R_{SR}1:footprints:RESC_WSHM2818R0150FEA'.
 Info: Processing symbol 'S1:footprints:SW_PG151101S11'.
 Info: Processing symbol 'S2:footprints:SW_PG151101S11'.
-Info: Processing symbol 'R101:Resistor_SMD:R_0402_1005Metric'.
-Info: Processing symbol 'R93:Resistor_SMD:R_0402_1005Metric'.
-Info: Processing symbol 'R94:Resistor_SMD:R_0402_1005Metric'.
-Info: Processing symbol 'R95:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'S3:footprints:SW_PG151101S11'.
+Info: Processing symbol 'S4:footprints:SW_PG151101S11'.
+Info: Processing symbol 'R104:Resistor_SMD:R_0402_1005Metric'.
 Info: Processing symbol 'R96:Resistor_SMD:R_0402_1005Metric'.
 Info: Processing symbol 'R97:Resistor_SMD:R_0402_1005Metric'.
 Info: Processing symbol 'R98:Resistor_SMD:R_0402_1005Metric'.
 Info: Processing symbol 'R99:Resistor_SMD:R_0402_1005Metric'.
 Info: Processing symbol 'R100:Resistor_SMD:R_0402_1005Metric'.
-Info: Processing symbol 'R57:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R101:Resistor_SMD:R_0402_1005Metric'.
 Info: Processing symbol 'R102:Resistor_SMD:R_0402_1005Metric'.
 Info: Processing symbol 'R103:Resistor_SMD:R_0402_1005Metric'.
-Info: Processing symbol 'R104:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R61:Resistor_SMD:R_0402_1005Metric'.
 Info: Processing symbol 'R105:Resistor_SMD:R_0402_1005Metric'.
 Info: Processing symbol 'R106:Resistor_SMD:R_0402_1005Metric'.
 Info: Processing symbol 'R107:Resistor_SMD:R_0402_1005Metric'.
 Info: Processing symbol 'R108:Resistor_SMD:R_0402_1005Metric'.
-Info: Processing symbol 'R11:Resistor_SMD:R_0402_1005Metric'.
-Info: Processing symbol 'R3:Resistor_SMD:R_0402_1005Metric'.
-Info: Processing symbol 'R4:Resistor_SMD:R_0402_1005Metric'.
-Info: Processing symbol 'R5:Resistor_SMD:R_0402_1005Metric'.
-Info: Processing symbol 'R6:Resistor_SMD:R_1206_3216Metric'.
-Info: Processing symbol 'R7:Resistor_SMD:R_0402_1005Metric'.
-Info: Processing symbol 'R8:Resistor_SMD:R_0402_1005Metric'.
-Info: Processing symbol 'R9:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R109:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R110:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'Rcomp2:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R18:Resistor_SMD:R_0402_1005Metric'.
 Info: Processing symbol 'R10:Resistor_SMD:R_0402_1005Metric'.
-Info: Processing symbol 'R2:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R11:Resistor_SMD:R_0402_1005Metric'.
 Info: Processing symbol 'R12:Resistor_SMD:R_0402_1005Metric'.
 Info: Processing symbol 'R13:Resistor_SMD:R_0402_1005Metric'.
 Info: Processing symbol 'R14:Resistor_SMD:R_0402_1005Metric'.
 Info: Processing symbol 'R15:Resistor_SMD:R_0402_1005Metric'.
 Info: Processing symbol 'R16:Resistor_SMD:R_0402_1005Metric'.
 Info: Processing symbol 'R17:Resistor_SMD:R_0402_1005Metric'.
-Info: Processing symbol 'R18:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R9:Resistor_SMD:R_0402_1005Metric'.
 Info: Processing symbol 'R21:Resistor_SMD:R_0402_1005Metric'.
-Info: Processing symbol 'Q3:Package_SO:PowerPAK_SO-8_Single'.
-Info: Processing symbol 'L2:Inductor_SMD:L_Vishay_IHLP-2525'.
-Info: Processing symbol 'L3:Inductor_SMD:L_Vishay_IHLP-2525'.
-Info: Processing symbol 'L4:Inductor_SMD:L_Vishay_IHLP-2525'.
-Info: Processing symbol 'M1:footprints:JST_B4B-PH-SM4-TBT_LF__SN_'.
-Info: Processing symbol 'M2:Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm_ThermalVias'.
-Info: Processing symbol 'M3:Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm_ThermalVias'.
-Info: Processing symbol 'MOSFET2(Q4)1:POWERPAK_1212-8'.
-Info: Processing symbol 'MOSFET4(Q5)1:POWERPAK_1212-8'.
 Info: Processing symbol 'R22:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R23:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R24:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R25:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R26:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R27:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R1:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'MOSFET4(Q5)1:POWERPAK_1212-8'.
 Info: Processing symbol 'Q4:Package_TO_SOT_SMD:SOT-23'.
 Info: Processing symbol 'Q5:Package_TO_SOT_SMD:SOT-23'.
 Info: Processing symbol 'Q6:Package_TO_SOT_SMD:SOT-23'.
 Info: Processing symbol 'Q7:Package_TO_SOT_SMD:SOT-23'.
 Info: Processing symbol 'Q8:Package_TO_SOT_SMD:SOT-23'.
 Info: Processing symbol 'Q9:Package_SO:PowerPAK_SO-8_Single'.
-Info: Processing symbol 'R1:Resistor_SMD:R_0402_1005Metric'.
-Info: Processing symbol 'R48:Resistor_SMD:R_0402_1005Metric'.
-Info: Processing symbol 'R40:Resistor_SMD:R_0402_1005Metric'.
-Info: Processing symbol 'R41:Resistor_SMD:R_0402_1005Metric'.
-Info: Processing symbol 'R42:Resistor_SMD:R_0402_1005Metric'.
-Info: Processing symbol 'R43:Resistor_SMD:R_0402_1005Metric'.
-Info: Processing symbol 'R44:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'Q10:Package_SO:PowerPAK_SO-8_Single'.
+Info: Processing symbol 'R28:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R2:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R3:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R4:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R5:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R6:Resistor_SMD:R_1206_3216Metric'.
+Info: Processing symbol 'R7:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R8:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R53:Resistor_SMD:R_0402_1005Metric'.
 Info: Processing symbol 'R45:Resistor_SMD:R_0402_1005Metric'.
 Info: Processing symbol 'R46:Resistor_SMD:R_0402_1005Metric'.
 Info: Processing symbol 'R47:Resistor_SMD:R_0402_1005Metric'.
-Info: Processing symbol 'R39:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R48:Resistor_SMD:R_0402_1005Metric'.
 Info: Processing symbol 'R49:Resistor_SMD:R_0402_1005Metric'.
 Info: Processing symbol 'R50:Resistor_SMD:R_0402_1005Metric'.
 Info: Processing symbol 'R51:Resistor_SMD:R_0402_1005Metric'.
 Info: Processing symbol 'R52:Resistor_SMD:R_0402_1005Metric'.
-Info: Processing symbol 'R53:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R44:Resistor_SMD:R_0402_1005Metric'.
 Info: Processing symbol 'R54:Resistor_SMD:R_0402_1005Metric'.
 Info: Processing symbol 'R55:Capacitor_SMD:C_0402_1005Metric'.
 Info: Processing symbol 'R56:Resistor_SMD:R_0402_1005Metric'.
-Info: Processing symbol 'R31:Resistor_SMD:R_0402_1005Metric'.
-Info: Processing symbol 'R23:Resistor_SMD:R_0402_1005Metric'.
-Info: Processing symbol 'R24:Resistor_SMD:R_0402_1005Metric'.
-Info: Processing symbol 'R25:Resistor_SMD:R_0402_1005Metric'.
-Info: Processing symbol 'R26:Resistor_SMD:R_0402_1005Metric'.
-Info: Processing symbol 'R27:Resistor_SMD:R_0402_1005Metric'.
-Info: Processing symbol 'R28:Resistor_SMD:R_0402_1005Metric'.
-Info: Processing symbol 'R29:Resistor_SMD:R_0402_1005Metric'.
-Info: Processing symbol 'R30:Resistor_SMD:R_0402_1005Metric'.
-Info: Processing symbol 'S3:footprints:SW_PG151101S11'.
-Info: Processing symbol 'R32:Resistor_SMD:R_0402_1005Metric'.
-Info: Processing symbol 'R33:Resistor_SMD:R_0402_1005Metric'.
-Info: Processing symbol 'R34:Resistor_SMD:R_0402_1005Metric'.
-Info: Processing symbol 'R35:Resistor_SMD:R_0603_1608Metric'.
-Info: Processing symbol 'R36:Resistor_SMD:R_0402_1005Metric'.
-Info: Processing symbol 'R37:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R57:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R58:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R59:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R60:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'S5:footprints:SW_PG151101S11'.
+Info: Processing symbol 'R43:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R42:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R41:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R40:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R39:Resistor_SMD:R_0402_1005Metric'.
 Info: Processing symbol 'R38:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R37:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R36:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R35:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R34:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R33:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R32:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R31:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R30:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R29:Resistor_SMD:R_0402_1005Metric'.
 Info: Processing symbol 'S98:footprints:SW_PG151101S11'.
 Info: Processing symbol 'S90:footprints:SW_PG151101S11'.
 Info: Processing symbol 'S91:footprints:SW_PG151101S11'.
@@ -153,9 +148,8 @@ Info: Processing symbol 'S100:footprints:SW_PG151101S11'.
 Info: Processing symbol 'S101:footprints:SW_PG151101S11'.
 Info: Processing symbol 'S102:footprints:SW_PG151101S11'.
 Info: Processing symbol 'S103:footprints:SW_PG151101S11'.
-Info: Processing symbol 'SW1:footprints:SW_TS-1187A-B-A-B'.
-Info: Processing symbol 'SW2:footprints:SW_TS-1187A-B-A-B'.
-Info: Processing symbol 'SW_{HibernateBattery}1:footprints:SW_CFS-0102MA_NDC-L'.
+Info: Processing symbol 'S104:footprints:SW_TS-1187A-B-A-B'.
+Info: Processing symbol 'S105:footprints:SW_TS-1187A-B-A-B'.
 Info: Processing symbol 'S81:footprints:SW_PG151101S11'.
 Info: Processing symbol 'S73:footprints:SW_PG151101S11'.
 Info: Processing symbol 'S74:footprints:SW_PG151101S11'.
@@ -165,7 +159,7 @@ Info: Processing symbol 'S77:footprints:SW_PG151101S11'.
 Info: Processing symbol 'S78:footprints:SW_PG151101S11'.
 Info: Processing symbol 'S79:footprints:SW_PG151101S11'.
 Info: Processing symbol 'S80:footprints:SW_PG151101S11'.
-Info: Processing symbol 'TH2:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'SW_{HibernateBattery}1:footprints:SW_CFS-0102MA_NDC-L'.
 Info: Processing symbol 'S82:footprints:SW_PG151101S11'.
 Info: Processing symbol 'S83:footprints:SW_PG151101S11'.
 Info: Processing symbol 'S84:footprints:SW_PG151101S11'.
@@ -173,25 +167,25 @@ Info: Processing symbol 'S85:footprints:SW_PG151101S11'.
 Info: Processing symbol 'S86:footprints:SW_PG151101S11'.
 Info: Processing symbol 'S87:footprints:SW_PG151101S11'.
 Info: Processing symbol 'S88:footprints:SW_PG151101S11'.
-Info: Processing symbol 'U7:DRC0010J'.
+Info: Processing symbol 'U6:Package_DFN_QFN:Texas_RGE0024H_VQFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm_ThermalVias'.
+Info: Processing symbol 'TP16:TestPoint:TestPoint_Pad_1.0x1.0mm'.
 Info: Processing symbol 'TP17:TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded'.
 Info: Processing symbol 'TP18:TestPoint:TestPoint_Pad_1.0x1.0mm'.
 Info: Processing symbol 'U1:footprints:SOIC_128JVSIQ_WIN'.
 Info: Processing symbol 'U2:QFN56_7X7_RPI'.
 Info: Processing symbol 'U3:PW24_TEX'.
-Info: Processing symbol 'U4:PW14_TEX'.
+Info: Processing symbol 'U4:footprints:PW14_TEX'.
 Info: Processing symbol 'U5:Package_TO_SOT_SMD:SOT-23-6'.
-Info: Processing symbol 'U6:RGE24_2P45X2P45'.
-Info: Processing symbol 'TP16:TestPoint:TestPoint_Pad_1.0x1.0mm'.
+Info: Processing symbol 'TP15:TestPoint:TestPoint_Pad_1.0x1.0mm'.
+Info: Processing symbol 'U7:DRC0010J'.
 Info: Processing symbol 'U8:Package_TO_SOT_SMD:SOT-23-6'.
 Info: Processing symbol 'U9:Package_DFN_QFN:Diodes_UDFN-10_1.0x2.5mm_P0.5mm'.
-Info: Processing symbol 'U10:footprints:ESSOP-10_L4.9-W3.9-P1.0-LS6.0-TL-EP'.
 Info: Processing symbol 'U11:footprints:YME0004A-MFG'.
 Info: Processing symbol 'U12:Package_TO_SOT_SMD:TSOT-23-6'.
-Info: Processing symbol 'U13:Package_TO_SOT_SMD:SOT-563'.
-Info: Processing symbol 'U14:Package_TO_SOT_SMD:SOT-563'.
+Info: Processing symbol 'U15:Package_SO:SSOP-10-1EP_3.9x4.9mm_P1mm_EP2.1x3.3mm'.
 Info: Processing symbol 'X1:ABM8-272-T3_ABR'.
-Info: Processing symbol 'TP8:TestPoint:TestPoint_Pad_D1.0mm'.
+Info: Processing symbol 'TP7:TestPoint:TestPoint_Pad_D1.0mm'.
+Info: Processing symbol 'TH2:Resistor_SMD:R_0603_1608Metric'.
 Info: Processing symbol 'TH_103AT_1:Resistor_SMD:R_0201_0603Metric'.
 Info: Processing symbol 'TP1:TestPoint:TestPoint_Pad_D1.0mm'.
 Info: Processing symbol 'TP2:TestPoint:TestPoint_Pad_D1.0mm'.
@@ -199,50 +193,48 @@ Info: Processing symbol 'TP3:TestPoint:TestPoint_Pad_D1.0mm'.
 Info: Processing symbol 'TP4:TestPoint:TestPoint_Pad_D1.0mm'.
 Info: Processing symbol 'TP5:TestPoint:TestPoint_Pad_D1.0mm'.
 Info: Processing symbol 'TP6:TestPoint:TestPoint_Pad_D1.0mm'.
-Info: Processing symbol 'TP7:TestPoint:TestPoint_Pad_D1.0mm'.
 Info: Processing symbol 'S72:footprints:SW_PG151101S11'.
+Info: Processing symbol 'TP8:TestPoint:TestPoint_Pad_D1.0mm'.
 Info: Processing symbol 'TP9:TestPoint:TestPoint_Pad_D1.0mm'.
 Info: Processing symbol 'TP10:TestPoint:TestPoint_Pad_D1.0mm'.
 Info: Processing symbol 'TP11:TestPoint:TestPoint_Pad_D1.0mm'.
 Info: Processing symbol 'TP12:TestPoint:TestPoint_Pad_D1.0mm'.
 Info: Processing symbol 'TP13:TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded'.
 Info: Processing symbol 'TP14:TestPoint:TestPoint_Pad_1.0x1.0mm'.
-Info: Processing symbol 'TP15:TestPoint:TestPoint_Pad_1.0x1.0mm'.
-Info: Processing symbol 'S29:footprints:SW_PG151101S11'.
-Info: Processing symbol 'S21:footprints:SW_PG151101S11'.
-Info: Processing symbol 'S22:footprints:SW_PG151101S11'.
+Info: Processing symbol 'S31:footprints:SW_PG151101S11'.
 Info: Processing symbol 'S23:footprints:SW_PG151101S11'.
 Info: Processing symbol 'S24:footprints:SW_PG151101S11'.
 Info: Processing symbol 'S25:footprints:SW_PG151101S11'.
 Info: Processing symbol 'S26:footprints:SW_PG151101S11'.
 Info: Processing symbol 'S27:footprints:SW_PG151101S11'.
 Info: Processing symbol 'S28:footprints:SW_PG151101S11'.
-Info: Processing symbol 'S20:footprints:SW_PG151101S11'.
+Info: Processing symbol 'S29:footprints:SW_PG151101S11'.
 Info: Processing symbol 'S30:footprints:SW_PG151101S11'.
-Info: Processing symbol 'S31:footprints:SW_PG151101S11'.
+Info: Processing symbol 'S22:footprints:SW_PG151101S11'.
 Info: Processing symbol 'S32:footprints:SW_PG151101S11'.
 Info: Processing symbol 'S33:footprints:SW_PG151101S11'.
 Info: Processing symbol 'S34:footprints:SW_PG151101S11'.
 Info: Processing symbol 'S35:footprints:SW_PG151101S11'.
 Info: Processing symbol 'S36:footprints:SW_PG151101S11'.
 Info: Processing symbol 'S37:footprints:SW_PG151101S11'.
-Info: Processing symbol 'S12:footprints:SW_PG151101S11'.
-Info: Processing symbol 'S4:footprints:SW_PG151101S11'.
-Info: Processing symbol 'S5:footprints:SW_PG151101S11'.
+Info: Processing symbol 'S38:footprints:SW_PG151101S11'.
+Info: Processing symbol 'S14:footprints:SW_PG151101S11'.
 Info: Processing symbol 'S6:footprints:SW_PG151101S11'.
 Info: Processing symbol 'S7:footprints:SW_PG151101S11'.
 Info: Processing symbol 'S8:footprints:SW_PG151101S11'.
 Info: Processing symbol 'S9:footprints:SW_PG151101S11'.
 Info: Processing symbol 'S10:footprints:SW_PG151101S11'.
 Info: Processing symbol 'S11:footprints:SW_PG151101S11'.
-Info: Processing symbol 'S38:footprints:SW_PG151101S11'.
+Info: Processing symbol 'S12:footprints:SW_PG151101S11'.
 Info: Processing symbol 'S13:footprints:SW_PG151101S11'.
-Info: Processing symbol 'S14:footprints:SW_PG151101S11'.
+Info: Processing symbol 'S39:footprints:SW_PG151101S11'.
 Info: Processing symbol 'S15:footprints:SW_PG151101S11'.
 Info: Processing symbol 'S16:footprints:SW_PG151101S11'.
 Info: Processing symbol 'S17:footprints:SW_PG151101S11'.
 Info: Processing symbol 'S18:footprints:SW_PG151101S11'.
 Info: Processing symbol 'S19:footprints:SW_PG151101S11'.
+Info: Processing symbol 'S20:footprints:SW_PG151101S11'.
+Info: Processing symbol 'S21:footprints:SW_PG151101S11'.
 Info: Processing symbol 'S64:footprints:SW_PG151101S11'.
 Info: Processing symbol 'S56:footprints:SW_PG151101S11'.
 Info: Processing symbol 'S57:footprints:SW_PG151101S11'.
@@ -260,163 +252,204 @@ Info: Processing symbol 'S68:footprints:SW_PG151101S11'.
 Info: Processing symbol 'S69:footprints:SW_PG151101S11'.
 Info: Processing symbol 'S70:footprints:SW_PG151101S11'.
 Info: Processing symbol 'S71:footprints:SW_PG151101S11'.
-Info: Processing symbol 'S47:footprints:SW_PG151101S11'.
-Info: Processing symbol 'S39:footprints:SW_PG151101S11'.
-Info: Processing symbol 'S40:footprints:SW_PG151101S11'.
-Info: Processing symbol 'S41:footprints:SW_PG151101S11'.
-Info: Processing symbol 'S42:footprints:SW_PG151101S11'.
-Info: Processing symbol 'S43:footprints:SW_PG151101S11'.
-Info: Processing symbol 'S44:footprints:SW_PG151101S11'.
-Info: Processing symbol 'S45:footprints:SW_PG151101S11'.
-Info: Processing symbol 'S46:footprints:SW_PG151101S11'.
 Info: Processing symbol 'ACFET1:POWERPAK_1212-8_VIS'.
-Info: Processing symbol 'S48:footprints:SW_PG151101S11'.
-Info: Processing symbol 'S49:footprints:SW_PG151101S11'.
-Info: Processing symbol 'S50:footprints:SW_PG151101S11'.
-Info: Processing symbol 'S51:footprints:SW_PG151101S11'.
-Info: Processing symbol 'S52:footprints:SW_PG151101S11'.
-Info: Processing symbol 'S53:footprints:SW_PG151101S11'.
 Info: Processing symbol 'S54:footprints:SW_PG151101S11'.
-Info: Processing symbol 'D15:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'D9:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'D10:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'D11:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'D12:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'C11:Capacitor_SMD:C_0402_1005Metric'.
-Info: Processing symbol 'C10:Capacitor_SMD:C_0402_1005Metric'.
-Info: Processing symbol 'D13:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'D14:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'D8:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'D16:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'D17:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'D18:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'D19:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'D20:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'D21:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'D22:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'D23:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'C_{OUT}1:Capacitor_SMD:C_0402_1005Metric'.
-Info: Processing symbol 'C91:Capacitor_SMD:C_0402_1005Metric'.
-Info: Processing symbol 'C92:Capacitor_SMD:C_0402_1005Metric'.
-Info: Processing symbol 'Ccomp3:Capacitor_SMD:C_0402_1005Metric'.
-Info: Processing symbol 'Cin1:Capacitor_SMD:C_0402_1005Metric'.
-Info: Processing symbol 'Css1:Capacitor_SMD:C_0402_1005Metric'.
-Info: Processing symbol 'CTTC1:Capacitor_SMD:C_0402_1005Metric'.
-Info: Processing symbol 'Cvcc1:Capacitor_SMD:C_1206_3216Metric'.
-Info: Processing symbol 'C12:Capacitor_SMD:C_0402_1005Metric'.
-Info: Processing symbol 'D24:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'D1:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'D2:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'D3:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'D4:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'D5:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'D6:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'D7:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'D44:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'D36:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'D37:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'D38:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'D39:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'D40:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'D41:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'D42:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'D43:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'D35:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'D45:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'D46:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'D47:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'D48:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'D49:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'D50:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'D51:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'D31:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'D25:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'C9:Capacitor_SMD:C_0402_1005Metric'.
-Info: Processing symbol 'C8:Capacitor_SMD:C_0402_1005Metric'.
-Info: Processing symbol 'D26:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'D27:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'D28:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'D29:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'D30:Diode_SMD:D_MiniMELF'.
+Info: Processing symbol 'S53:footprints:SW_PG151101S11'.
+Info: Processing symbol 'S52:footprints:SW_PG151101S11'.
+Info: Processing symbol 'S51:footprints:SW_PG151101S11'.
+Info: Processing symbol 'S50:footprints:SW_PG151101S11'.
+Info: Processing symbol 'S49:footprints:SW_PG151101S11'.
+Info: Processing symbol 'S48:footprints:SW_PG151101S11'.
+Info: Processing symbol 'S47:footprints:SW_PG151101S11'.
+Info: Processing symbol 'S46:footprints:SW_PG151101S11'.
+Info: Processing symbol 'S45:footprints:SW_PG151101S11'.
+Info: Processing symbol 'S44:footprints:SW_PG151101S11'.
+Info: Processing symbol 'S43:footprints:SW_PG151101S11'.
+Info: Processing symbol 'S42:footprints:SW_PG151101S11'.
+Info: Processing symbol 'S41:footprints:SW_PG151101S11'.
+Info: Processing symbol 'S40:footprints:SW_PG151101S11'.
+Info: Processing symbol 'C78:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C65:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C66:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C67:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C69:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C70:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C71:Capacitor_SMD:C_1210_3225Metric'.
+Info: Processing symbol 'C72:Capacitor_SMD:C_0201_0603Metric'.
+Info: Processing symbol 'C73:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C64:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C79:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C80:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C81:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C82:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C83:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C84:Capacitor_SMD:C_0402_1005Metric'.
 Info: Processing symbol 'C85:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C91:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C63:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C62:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C61:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C60:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C59:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C58:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C57:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C56:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C55:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C54:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C53:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C52:Capacitor_SMD:C_0201_0603Metric'.
+Info: Processing symbol 'C51:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C50:Capacitor_SMD:C_0805_2012Metric'.
+Info: Processing symbol 'C49:footprints:CAP-SMD_BD6.3-L6.6-W6.6-LS7.4-FD'.
+Info: Processing symbol 'D18:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D10:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D11:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D12:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D13:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D14:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D15:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D16:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D17:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D9:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D19:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D20:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D21:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D22:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D23:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D24:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D26:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'C48:Capacitor_SMD:C_1210_3225Metric'.
+Info: Processing symbol 'D8:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D7:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D6:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D5:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D4:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D3:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D2:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D1:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'C_{OUT}1:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'Cvcc1:Capacitor_SMD:C_1206_3216Metric'.
+Info: Processing symbol 'CTTC1:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'Css1:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'Cin1:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'Ccomp3:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C92:Capacitor_SMD:C_0402_1005Metric'.
 Info: Processing symbol 'C7:Capacitor_SMD:C_0402_1005Metric'.
-Info: Processing symbol 'C6:Capacitor_SMD:C_0402_1005Metric'.
-Info: Processing symbol 'D32:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'C5:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'BT15:footprints:BAT_BK-18650-CLIP'.
+Info: Processing symbol 'BT16:footprints:BAT_BK-18650-CLIP'.
+Info: Processing symbol 'C1:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C2:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C3:Capacitor_SMD:C_0402_1005Metric'.
 Info: Processing symbol 'C4:Capacitor_SMD:C_0402_1005Metric'.
-Info: Processing symbol 'D33:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'D34:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'C41:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C5:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C6:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'BT14:footprints:BAT_BK-18650-CLIP'.
+Info: Processing symbol 'C8:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C9:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C10:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C11:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C12:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C13:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C14:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C15:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'BT13:footprints:BAT_BK-18650-CLIP'.
+Info: Processing symbol 'BT12:footprints:BAT_BK-18650-CLIP'.
+Info: Processing symbol 'BT11:footprints:BAT_BK-18650-CLIP'.
+Info: Processing symbol 'BT10:footprints:BAT_BK-18650-CLIP'.
+Info: Processing symbol 'BT9:footprints:BAT_BK-18650-CLIP'.
+Info: Processing symbol 'BT8:footprints:BAT_BK-18650-CLIP'.
+Info: Processing symbol 'BT7:footprints:BAT_BK-18650-CLIP'.
+Info: Processing symbol 'BT6:footprints:BAT_BK-18650-CLIP'.
+Info: Processing symbol 'BT5:footprints:BAT_BK-18650-CLIP'.
+Info: Processing symbol 'BT4:footprints:BAT_BK-18650-CLIP'.
+Info: Processing symbol 'BT3:footprints:BAT_BK-18650-CLIP'.
+Info: Processing symbol 'ACFET2:POWERPAK_1212-8_VIS'.
+Info: Processing symbol 'BT2:footprints:BAT_BK-18650-CLIP'.
+Info: Processing symbol 'BT1:footprints:BAT_BK-18650-CLIP'.
+Info: Processing symbol 'BATFET1:POWERPAK_1212-8_VIS'.
+Info: Processing symbol 'C40:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C32:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C33:footprints:CAP-SMD_BD4.0-L4.3-W4.3-FD'.
 Info: Processing symbol 'C34:Capacitor_SMD:C_0402_1005Metric'.
 Info: Processing symbol 'C35:Capacitor_SMD:C_0402_1005Metric'.
-Info: Processing symbol 'C16:Capacitor_SMD:C_0402_1005Metric'.
 Info: Processing symbol 'C36:Capacitor_SMD:C_0402_1005Metric'.
 Info: Processing symbol 'C37:Capacitor_SMD:C_0402_1005Metric'.
 Info: Processing symbol 'C38:Capacitor_SMD:C_0402_1005Metric'.
 Info: Processing symbol 'C39:Capacitor_SMD:C_0402_1005Metric'.
-Info: Processing symbol 'C40:Capacitor_SMD:C_0402_1005Metric'.
-Info: Processing symbol 'C33:footprints:CAP-SMD_BD4.0-L4.3-W4.3-FD'.
+Info: Processing symbol 'C31:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C41:Capacitor_SMD:C_0402_1005Metric'.
 Info: Processing symbol 'C42:Capacitor_SMD:C_0402_1005Metric'.
 Info: Processing symbol 'C43:footprints:CAP-SMD_BD4.0-L4.3-W4.3-FD'.
 Info: Processing symbol 'C44:Capacitor_SMD:C_0402_1005Metric'.
 Info: Processing symbol 'C45:footprints:CAP-SMD_BD6.3-L6.6-W6.6-LS7.4-FD'.
 Info: Processing symbol 'C46:footprints:CAP-SMD_BD6.3-L6.6-W6.6-LS7.4-FD'.
 Info: Processing symbol 'C47:Capacitor_SMD:C_0402_1005Metric'.
-Info: Processing symbol 'C48:Capacitor_SMD:C_1210_3225Metric'.
-Info: Processing symbol 'C25:Capacitor_SMD:C_0402_1005Metric'.
-Info: Processing symbol 'C18:Capacitor_SMD:C_0402_1005Metric'.
-Info: Processing symbol 'C19:Capacitor_SMD:C_0402_1005Metric'.
-Info: Processing symbol 'C20:Capacitor_SMD:C_0402_1005Metric'.
-Info: Processing symbol 'C21:Capacitor_SMD:C_0402_1005Metric'.
-Info: Processing symbol 'C22:Capacitor_SMD:C_0402_1005Metric'.
-Info: Processing symbol 'C17:Capacitor_SMD:C_0402_1005Metric'.
-Info: Processing symbol 'C23:Capacitor_SMD:C_1210_3225Metric'.
-Info: Processing symbol 'C24:Capacitor_SMD:C_0402_1005Metric'.
-Info: Processing symbol 'C15:Capacitor_SMD:C_0402_1005Metric'.
-Info: Processing symbol 'C26:Capacitor_SMD:C_0402_1005Metric'.
-Info: Processing symbol 'C27:Capacitor_SMD:C_0402_1005Metric'.
-Info: Processing symbol 'C28:Capacitor_SMD:C_0402_1005Metric'.
-Info: Processing symbol 'C29:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'D25:Diode_SMD:D_SOD-882'.
 Info: Processing symbol 'C30:Capacitor_SMD:C_0402_1005Metric'.
-Info: Processing symbol 'C31:Capacitor_SMD:C_0402_1005Metric'.
-Info: Processing symbol 'C32:Capacitor_SMD:C_0402_1005Metric'.
-Info: Processing symbol 'C78:Capacitor_SMD:C_0402_1005Metric'.
-Info: Processing symbol 'C65:Capacitor_SMD:C_0402_1005Metric'.
-Info: Processing symbol 'C66:Capacitor_SMD:C_0402_1005Metric'.
-Info: Processing symbol 'C67:Capacitor_SMD:C_0402_1005Metric'.
-Info: Processing symbol 'C68:Capacitor_SMD:C_0402_1005Metric'.
-Info: Processing symbol 'C69:Capacitor_SMD:C_0402_1005Metric'.
-Info: Processing symbol 'C70:Capacitor_SMD:C_0402_1005Metric'.
-Info: Processing symbol 'C71:Capacitor_SMD:C_1210_3225Metric'.
-Info: Processing symbol 'C72:Capacitor_SMD:C_0201_0603Metric'.
-Info: Processing symbol 'C64:Capacitor_SMD:C_0402_1005Metric'.
-Info: Processing symbol 'C79:Capacitor_SMD:C_0402_1005Metric'.
-Info: Processing symbol 'C13:Capacitor_SMD:C_0402_1005Metric'.
-Info: Processing symbol 'C80:Capacitor_SMD:C_0402_1005Metric'.
-Info: Processing symbol 'C81:Capacitor_SMD:C_0402_1005Metric'.
-Info: Processing symbol 'C82:Capacitor_SMD:C_0402_1005Metric'.
-Info: Processing symbol 'C83:Capacitor_SMD:C_0402_1005Metric'.
-Info: Processing symbol 'C84:Capacitor_SMD:C_0402_1005Metric'.
-Info: Processing symbol 'C57:Capacitor_SMD:C_0402_1005Metric'.
-Info: Processing symbol 'C49:footprints:CAP-SMD_BD6.3-L6.6-W6.6-LS7.4-FD'.
-Info: Processing symbol 'C50:Capacitor_SMD:C_0805_2012Metric'.
-Info: Processing symbol 'C51:Capacitor_SMD:C_0402_1005Metric'.
-Info: Processing symbol 'C52:Capacitor_SMD:C_0201_0603Metric'.
-Info: Processing symbol 'C53:Capacitor_SMD:C_0402_1005Metric'.
-Info: Processing symbol 'C54:Capacitor_SMD:C_0402_1005Metric'.
-Info: Processing symbol 'C55:Capacitor_SMD:C_0402_1005Metric'.
-Info: Processing symbol 'C56:Capacitor_SMD:C_0402_1005Metric'.
-Info: Processing symbol 'D52:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'C58:Capacitor_SMD:C_0402_1005Metric'.
-Info: Processing symbol 'C59:Capacitor_SMD:C_0402_1005Metric'.
-Info: Processing symbol 'C60:Capacitor_SMD:C_0402_1005Metric'.
-Info: Processing symbol 'C61:Capacitor_SMD:C_0402_1005Metric'.
-Info: Processing symbol 'C14:Capacitor_SMD:C_0402_1005Metric'.
-Info: Processing symbol 'C62:Capacitor_SMD:C_0402_1005Metric'.
-Info: Processing symbol 'C63:Capacitor_SMD:C_0402_1005Metric'.
-Info: Processing symbol 'D128:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'C29:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C28:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C27:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C26:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C25:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C24:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C23:Capacitor_SMD:C_1210_3225Metric'.
+Info: Processing symbol 'C22:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C21:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C20:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C19:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C18:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C17:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C16:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'D115:Package_TO_SOT_SMD:SOT-23'.
+Info: Processing symbol 'D107:Package_TO_SOT_SMD:SOT-23'.
+Info: Processing symbol 'D108:Package_TO_SOT_SMD:SOT-23'.
+Info: Processing symbol 'D109:Diode_SMD:D_SOD-323'.
+Info: Processing symbol 'D110:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D111:Diode_SMD:D_SOD-323F'.
+Info: Processing symbol 'D112:Diode_SMD:D_1206_3216Metric'.
+Info: Processing symbol 'D113:Diode_SMD:D_1206_3216Metric'.
+Info: Processing symbol 'D114:Diode_SMD:D_1206_3216Metric'.
+Info: Processing symbol 'D106:Diode_SMD:D_SOD-323'.
+Info: Processing symbol 'D116:LED_SMD:LED_0603_1608Metric'.
+Info: Processing symbol 'D118:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D119:Diode_SMD:D_SOD-923'.
+Info: Processing symbol 'D120:Diode_SMD:D_SOD-923'.
+Info: Processing symbol 'D121:Diode_SMD:D_SOD-923'.
+Info: Processing symbol 'D122:Diode_SMD:D_SOD-923'.
+Info: Processing symbol 'D123:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D124:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D105:Diode_SMD:D_SOD-323'.
+Info: Processing symbol 'D104:Package_TO_SOT_SMD:SOT-23'.
+Info: Processing symbol 'D103:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D102:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D101:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D100:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D99:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D98:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D97:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D96:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D95:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D94:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D93:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D92:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D91:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'J3:footprints:HARWIN_S8411-45R'.
+Info: Processing symbol 'A1:footprints:LattePanda_Module_H4.0mm_Horizontal'.
+Info: Processing symbol 'MOSFET2(Q4)1:POWERPAK_1212-8'.
+Info: Processing symbol 'M3:footprints:DQK0006C'.
+Info: Processing symbol 'M2:footprints:DQK0006C'.
+Info: Processing symbol 'M1:footprints:JST_B4B-PH-SM4-TBT_LF__SN_'.
+Info: Processing symbol 'L4:Inductor_SMD:L_Vishay_IHLP-2525'.
+Info: Processing symbol 'L3:Inductor_SMD:L_Vishay_IHLP-2525'.
+Info: Processing symbol 'L2:Inductor_SMD:L_Vishay_IHLP-2525'.
+Info: Processing symbol 'L1:Inductor_SMD:L_Vishay_IHLP-2525'.
+Info: Processing symbol 'J16:footprints:AMPHENOL_MDT420E03001'.
+Info: Processing symbol 'J8:footprints:AMPHENOL_MUSBRM1C130'.
+Info: Processing symbol 'J7:SF72S006VBDR2500_JAE'.
+Info: Processing symbol 'J6:footprints:AMPHENOL_MHDRA111M0'.
+Info: Processing symbol 'J5:footprints:CONN8_MUSBC_1211x569_AMP'.
 Info: Processing symbol 'J4:footprints:AMPHENOL_MDT420B03001'.
-Info: Processing symbol 'J3:Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical'.
+Info: Processing symbol 'D28:Diode_SMD:D_SOD-882'.
 Info: Processing symbol 'J2:Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical'.
 Info: Processing symbol 'J1:Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical'.
 Info: Processing symbol 'H8:MountingHole:MountingHole_2.2mm_M2_Pad_TopBottom'.
@@ -428,238 +461,93 @@ Info: Processing symbol 'F1:Fuse:Fuse_0805_2012Metric'.
 Info: Processing symbol 'D131:Diode_SMD:D_SOD-882'.
 Info: Processing symbol 'D130:Diode_SMD:D_SOD-323'.
 Info: Processing symbol 'D129:Diode_SMD:D_SOD-882'.
-Info: Processing symbol 'C3:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'D128:Diode_SMD:D_SOD-882'.
 Info: Processing symbol 'D127:Diode_SMD:D_SOD-882'.
 Info: Processing symbol 'D126:Diode_SMD:D_SOD-882'.
-Info: Processing symbol 'D124:Diode_SMD:D_SOD-882'.
-Info: Processing symbol 'D123:Diode_SMD:D_SOD-882'.
-Info: Processing symbol 'D122:Diode_SMD:D_SOD-923'.
-Info: Processing symbol 'D121:Diode_SMD:D_SOD-923'.
-Info: Processing symbol 'D120:Diode_SMD:D_SOD-923'.
-Info: Processing symbol 'D119:Diode_SMD:D_SOD-923'.
-Info: Processing symbol 'D118:Diode_SMD:D_SOD-882'.
-Info: Processing symbol 'D116:LED_SMD:LED_0603_1608Metric'.
-Info: Processing symbol 'D114:Diode_SMD:D_1206_3216Metric'.
-Info: Processing symbol 'D113:Diode_SMD:D_1206_3216Metric'.
-Info: Processing symbol 'D112:Diode_SMD:D_1206_3216Metric'.
-Info: Processing symbol 'BT10:footprints:BAT_BK-18650-CLIP'.
-Info: Processing symbol 'L1:Inductor_SMD:L_Vishay_IHLP-2525'.
-Info: Processing symbol 'A1:footprints:LattePanda_Module_H4.0mm_Horizontal'.
-Info: Processing symbol 'ACFET2:POWERPAK_1212-8_VIS'.
-Info: Processing symbol 'BATFET1:POWERPAK_1212-8_VIS'.
-Info: Processing symbol 'BT1:footprints:BAT_BK-18650-CLIP'.
-Info: Processing symbol 'BT2:footprints:BAT_BK-18650-CLIP'.
-Info: Processing symbol 'BT3:footprints:BAT_BK-18650-CLIP'.
-Info: Processing symbol 'BT4:footprints:BAT_BK-18650-CLIP'.
-Info: Processing symbol 'BT5:footprints:BAT_BK-18650-CLIP'.
-Info: Processing symbol 'BT6:footprints:BAT_BK-18650-CLIP'.
-Info: Processing symbol 'BT7:footprints:BAT_BK-18650-CLIP'.
-Info: Processing symbol 'BT8:footprints:BAT_BK-18650-CLIP'.
-Info: Processing symbol 'BT9:footprints:BAT_BK-18650-CLIP'.
 Info: Processing symbol 'D125:Diode_SMD:D_SOD-882'.
-Info: Processing symbol 'BT11:footprints:BAT_BK-18650-CLIP'.
-Info: Processing symbol 'BT12:footprints:BAT_BK-18650-CLIP'.
-Info: Processing symbol 'BT13:footprints:BAT_BK-18650-CLIP'.
-Info: Processing symbol 'BT14:footprints:BAT_BK-18650-CLIP'.
-Info: Processing symbol 'J18:footprints:AMPHENOL_MUSBRM1C130'.
-Info: Processing symbol 'BT15:footprints:BAT_BK-18650-CLIP'.
-Info: Processing symbol 'BT16:footprints:BAT_BK-18650-CLIP'.
-Info: Processing symbol 'J16:footprints:AMPHENOL_MDT420E03001'.
-Info: Processing symbol 'BT17:footprints:HARWIN_S8411-45R'.
-Info: Processing symbol 'C1:Capacitor_SMD:C_0402_1005Metric'.
-Info: Processing symbol 'J6:footprints:AMPHENOL_MHDRA111M0'.
-Info: Processing symbol 'J5:footprints:CONN8_MUSBC_1211x569_AMP'.
-Info: Processing symbol 'C2:Capacitor_SMD:C_0402_1005Metric'.
-Info: Processing symbol 'D66:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'D80:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'D79:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'D78:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'D77:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'D76:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'D75:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'D74:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'D73:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'D72:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'D71:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'D70:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'D111:Diode_SMD:D_SOD-323F'.
-Info: Processing symbol 'D68:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'D67:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'D69:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'D65:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'D64:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'D63:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'D62:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'D61:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'D60:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'D59:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'D58:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'D57:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'D56:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'D55:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'D54:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'D53:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'D82:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'D110:Diode_SMD:D_SOD-882'.
-Info: Processing symbol 'D109:Diode_SMD:D_SOD-323'.
-Info: Processing symbol 'D106:Diode_SMD:D_SOD-323'.
-Info: Processing symbol 'D105:Diode_SMD:D_SOD-323'.
-Info: Processing symbol 'D103:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'D102:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'D101:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'D100:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'D99:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'D98:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'D97:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'D96:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'D95:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'D86:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'D81:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'D83:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'D84:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'D85:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'D94:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'D87:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'D88:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'D89:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'D90:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'D93:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'D91:Diode_SMD:D_MiniMELF'.
-Info: Processing symbol 'D92:Diode_SMD:D_MiniMELF'.
-Updated U7 fields.
-Reconnected TP13 pin 1 from /Keyboard/USB_DM to /Keyboard/KB_USB_D-.
-Removed unused footprint D104.
-Removed unused footprint S104.
-Updated X1 fields.
-Changed X1 footprint from 'footprints:ABM8-272-T3_ABR' to 'ABM8-272-T3_ABR'.
+Info: Processing symbol 'D43:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D58:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D57:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D56:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D55:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D54:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D53:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D52:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D51:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D50:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D49:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D48:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D47:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D46:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D45:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D44:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D89:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D42:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D41:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D40:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D39:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D38:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D37:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D36:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D35:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D34:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D33:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D32:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D31:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D30:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D29:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D27:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D60:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D90:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D88:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D87:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D86:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D85:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D84:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D83:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D82:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D81:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D80:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D79:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D78:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D77:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D76:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D75:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D73:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D59:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D61:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D62:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D63:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D64:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D65:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D66:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D67:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D68:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D69:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D70:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D71:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D72:Diode_SMD:D_SOD-882'.
+Info: Processing symbol 'D74:Diode_SMD:D_SOD-882'.
 Changed ACFET1 footprint from 'footprints:POWERPAK_1212-8_VIS' to 'POWERPAK_1212-8_VIS'.
 Updated ACFET1 fields.
-Removed unused net Net-(D104-A).
+Updated X1 fields.
 Changed ACFET2 footprint from 'footprints:POWERPAK_1212-8_VIS' to 'POWERPAK_1212-8_VIS'.
 Updated ACFET2 fields.
-Reconnected TP17 pin 1 from /Keyboard/USB_DP to /Keyboard/KB_USB_D+.
-Changed BATFET1 footprint from 'footprints:POWERPAK_1212-8_VIS' to 'POWERPAK_1212-8_VIS'.
-Updated U2 fields.
+Updated U7 fields.
+Changed X1 footprint from 'footprints:ABM8-272-T3_ABR' to 'ABM8-272-T3_ABR'.
 Changed U7 footprint from 'footprints:DRC0010J' to 'DRC0010J'.
+Updated MOSFET2(Q4)1 fields.
+Changed BATFET1 footprint from 'footprints:POWERPAK_1212-8_VIS' to 'POWERPAK_1212-8_VIS'.
 Updated BATFET1 fields.
-Updated U6 fields.
-Changed U6 footprint from 'footprints:RGE24_2P45X2P45' to 'RGE24_2P45X2P45'.
-Added U4 'Do not place' fabrication attribute.
-Updated U4 fields.
-Changed U4 footprint from 'footprints:PW14_TEX' to 'PW14_TEX'.
 Updated U3 fields.
 Changed U3 footprint from 'footprints:PW24_TEX' to 'PW24_TEX'.
+Updated U2 fields.
 Changed U2 footprint from 'footprints:QFN56_7X7_RPI' to 'QFN56_7X7_RPI'.
-Reconnected S78 pin 1 from /Keyboard/Col_12 to Net-(S13-Pad1).
-Changed MOSFET2(Q4)1 footprint from 'footprints:POWERPAK_1212-8' to 'POWERPAK_1212-8'.
-Updated MOSFET2(Q4)1 fields.
-Changed MOSFET4(Q5)1 footprint from 'footprints:POWERPAK_1212-8' to 'POWERPAK_1212-8'.
+Changed J7 footprint from 'footprints:SF72S006VBDR2500_JAE' to 'SF72S006VBDR2500_JAE'.
+Updated J7 fields.
 Updated MOSFET4(Q5)1 fields.
-Reconnected S91 pin 1 from /Keyboard/Col_12 to Net-(S13-Pad1).
-Add net Net-(S13-Pad1).
-Reconnected S26 pin 1 from /Keyboard/Col_12 to Net-(S13-Pad1).
-Reconnected S13 pin 1 from /Keyboard/Col_12 to Net-(S13-Pad1).
-Reconnected S39 pin 1 from /Keyboard/Col_12 to Net-(S13-Pad1).
-Reconnected S52 pin 1 from /Keyboard/Col_12 to Net-(S13-Pad1).
-Reconnected S65 pin 1 from /Keyboard/Col_12 to Net-(S13-Pad1).
-Warning: No net found for component J18 pad G5 (no pin G5 in symbol).
-Warning: No net found for component U6 pad V (no pin V in symbol).
-Warning: No net found for component U6 pad V (no pin V in symbol).
-Warning: No net found for component U6 pad V (no pin V in symbol).
-Warning: No net found for component U6 pad V (no pin V in symbol).
-Warning: No net found for component U6 pad V (no pin V in symbol).
-Warning: No net found for component U6 pad V (no pin V in symbol).
-Warning: No net found for component U6 pad V (no pin V in symbol).
-Warning: No net found for component U6 pad V (no pin V in symbol).
-Warning: No net found for component U6 pad V (no pin V in symbol).
-Warning: No net found for component Q3 pad 5 (no pin 5 in symbol).
-Warning: No net found for component J18 pad B3 (no pin B3 in symbol).
-Warning: No net found for component J18 pad S2 (no pin S2 in symbol).
-Warning: No net found for component Q3 pad 4 (no pin 4 in symbol).
-Warning: No net found for component J18 pad G6 (no pin G6 in symbol).
-Warning: No net found for component U10 pad 11 (no pin 11 in symbol).
-Warning: No net found for component J18 pad B2 (no pin B2 in symbol).
-Warning: No net found for component J18 pad A3 (no pin A3 in symbol).
-Warning: No net found for component M1 pad SH1 (no pin SH1 in symbol).
-Warning: No net found for component M1 pad SH2 (no pin SH2 in symbol).
-Warning: No net found for component J18 pad G4 (no pin G4 in symbol).
-Warning: No net found for component M2 pad 7 (no pin 7 in symbol).
-Warning: No net found for component M2 pad 7 (no pin 7 in symbol).
-Warning: No net found for component M2 pad 7 (no pin 7 in symbol).
-Warning: No net found for component M2 pad 7 (no pin 7 in symbol).
-Warning: No net found for component M3 pad 7 (no pin 7 in symbol).
-Warning: No net found for component J18 pad B10 (no pin B10 in symbol).
-Warning: No net found for component M3 pad 7 (no pin 7 in symbol).
-Warning: No net found for component M3 pad 7 (no pin 7 in symbol).
-Warning: No net found for component U7 pad V (no pin V in symbol).
-Warning: No net found for component U7 pad V (no pin V in symbol).
-Warning: No net found for component U7 pad V (no pin V in symbol).
-Warning: No net found for component U7 pad V (no pin V in symbol).
-Warning: No net found for component M3 pad 7 (no pin 7 in symbol).
-Warning: No net found for component R_{SR}1 pad V1 (no pin V1 in symbol).
-Warning: No net found for component BT17 pad N (no pin N in symbol).
-Warning: No net found for component BT17 pad P (no pin P in symbol).
-Warning: No net found for component J6 pad SH2 (no pin SH2 in symbol).
-Warning: No net found for component J4 pad P1 (no pin P1 in symbol).
-Warning: No net found for component J4 pad P2 (no pin P2 in symbol).
-Warning: No net found for component R_{AC}1 pad V2 (no pin V2 in symbol).
-Warning: No net found for component R_{AC}1 pad V1 (no pin V1 in symbol).
-Warning: No net found for component R_{AC}2 pad V1 (no pin V1 in symbol).
-Warning: No net found for component R_{AC}2 pad V2 (no pin V2 in symbol).
-Warning: No net found for component SW2 pad D (no pin D in symbol).
-Warning: No net found for component SW2 pad C (no pin C in symbol).
-Warning: No net found for component SW2 pad A (no pin A in symbol).
-Warning: No net found for component Q3 pad 5 (no pin 5 in symbol).
-Warning: No net found for component SW2 pad B (no pin B in symbol).
-Warning: No net found for component R_{SR}1 pad V2 (no pin V2 in symbol).
-Warning: No net found for component SW1 pad B (no pin B in symbol).
-Warning: No net found for component SW1 pad A (no pin A in symbol).
-Warning: No net found for component SW1 pad D (no pin D in symbol).
-Warning: No net found for component SW1 pad C (no pin C in symbol).
-Warning: No net found for component J16 pad S2 (no pin S2 in symbol).
-Warning: No net found for component Q3 pad 5 (no pin 5 in symbol).
-Warning: No net found for component Q3 pad 5 (no pin 5 in symbol).
-Warning: No net found for component Q3 pad 5 (no pin 5 in symbol).
-Warning: No net found for component J18 pad G1 (no pin G1 in symbol).
-Warning: No net found for component J18 pad G3 (no pin G3 in symbol).
-Warning: No net found for component J18 pad A11 (no pin A11 in symbol).
-Warning: No net found for component J18 pad G2 (no pin G2 in symbol).
-Warning: No net found for component J18 pad A2 (no pin A2 in symbol).
-Warning: No net found for component J18 pad A10 (no pin A10 in symbol).
-Warning: No net found for component Q9 pad 5 (no pin 5 in symbol).
-Warning: No net found for component J6 pad SH1 (no pin SH1 in symbol).
-Warning: No net found for component J16 pad S1 (no pin S1 in symbol).
-Warning: No net found for component J18 pad B11 (no pin B11 in symbol).
-Warning: No net found for component Q9 pad 4 (no pin 4 in symbol).
-Warning: No net found for component Q9 pad 5 (no pin 5 in symbol).
-Warning: No net found for component Q9 pad 5 (no pin 5 in symbol).
-Warning: No net found for component Q9 pad 5 (no pin 5 in symbol).
-Warning: No net found for component Q9 pad 5 (no pin 5 in symbol).
-Error: SW1 pad 2 not found in footprints:SW_TS-1187A-B-A-B.
-Error: U14 pad 8 not found in Package_TO_SOT_SMD:SOT-563.
-Error: U14 pad 9 not found in Package_TO_SOT_SMD:SOT-563.
-Error: U14 pad 10 not found in Package_TO_SOT_SMD:SOT-563.
-Error: U14 pad 7 not found in Package_TO_SOT_SMD:SOT-563.
-Error: U13 pad 8 not found in Package_TO_SOT_SMD:SOT-563.
-Error: U13 pad 9 not found in Package_TO_SOT_SMD:SOT-563.
-Error: U13 pad 10 not found in Package_TO_SOT_SMD:SOT-563.
-Error: U13 pad 7 not found in Package_TO_SOT_SMD:SOT-563.
-Error: U10 pad 0 not found in footprints:ESSOP-10_L4.9-W3.9-P1.0-LS6.0-TL-EP.
-Error: SW2 pad 1 not found in footprints:SW_TS-1187A-B-A-B.
-Error: SW2 pad 2 not found in footprints:SW_TS-1187A-B-A-B.
-Error: SW1 pad 1 not found in footprints:SW_TS-1187A-B-A-B.
-Error: J16 pad MP2 not found in footprints:AMPHENOL_MDT420E03001.
-Error: J16 pad MP1 not found in footprints:AMPHENOL_MDT420E03001.
-Error: J6 pad SH not found in footprints:AMPHENOL_MHDRA111M0.
-Error: J5 pad 9 not found in footprints:CONN8_MUSBC_1211x569_AMP.
-Error: J3 pad 6 not found in Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical.
-Error: J3 pad 5 not found in Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical.
-Error: Symbol J3 has pins with no number.  These pins can not be matched to pads in Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical.
-Error: Symbol J3 has pins with no number.  These pins can not be matched to pads in Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical.
-Error: J3 pad 7 not found in Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical.
-Error: J3 pad 3 not found in Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical.
-Error: BT17 pad 1 not found in footprints:HARWIN_S8411-45R.
-Error: BT17 pad 2 not found in footprints:HARWIN_S8411-45R.
+Changed MOSFET4(Q5)1 footprint from 'footprints:POWERPAK_1212-8' to 'POWERPAK_1212-8'.
+Changed MOSFET2(Q4)1 footprint from 'footprints:POWERPAK_1212-8' to 'POWERPAK_1212-8'.
 
 
-Info: Total warnings: 73, errors: 25.
+Info: Total warnings: 0, errors: 0.

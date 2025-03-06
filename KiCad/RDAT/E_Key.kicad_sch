@@ -21,7 +21,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "Bus_M.2_Socket_E"
+			(property "Value" "MDT420E03001"
 				(at 2.1941 48.26 0)
 				(effects
 					(font
@@ -30,7 +30,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "A_HDJ_Library:PCIe_M.2_Connectors_P=0.5mm_H=4.2mm_KeyE"
+			(property "Footprint" "footprints:AMPHENOL_MDT420E03001"
 				(at 0 26.67 0)
 				(effects
 					(font
@@ -39,7 +39,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://read.pudn.com/downloads794/doc/project/3133918/PCIe_M.2_Electromechanical_Spec_Rev1.0_Final_11012013_RS_Clean.pdf#page=150"
+			(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/ssio/ssio_pcie_m2.pdf"
 				(at 0 26.67 0)
 				(effects
 					(font
@@ -57,24 +57,6 @@
 					(hide yes)
 				)
 			)
-			(property "Buy_Link" "https://item.szlcsc.com/8568583.html"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "DF_Comment" "M.2连接器KEY-E_H4.2mm-67P_APCI0108-P001A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
 			(property "SCH_Show_Footprint" ""
 				(at 0 0 0)
 				(effects
@@ -84,7 +66,34 @@
 					(hide yes)
 				)
 			)
-			(property "Field-1" ""
+			(property "Sim.Device" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Type" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/AmphenolIcc-MDT420E03001/C599397"
 				(at 0 0 0)
 				(effects
 					(font
@@ -916,14 +925,14 @@
 					(at 0 -48.26 90)
 					(length 2.54)
 					(hide yes)
-					(name "MP1"
+					(name "Sheild"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "MP1"
+					(number "S1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -935,14 +944,14 @@
 					(at 0 -48.26 90)
 					(length 2.54)
 					(hide yes)
-					(name "MP2"
+					(name "Sheild"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "MP2"
+					(number "S2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2688,6 +2697,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 166.37) (xy 137.16 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc7b0355-d736-4f4a-8d29-480b959aab1c")
+	)
+	(wire
+		(pts
 			(xy 71.12 87.63) (xy 74.93 87.63)
 		)
 		(stroke
@@ -3780,11 +3799,11 @@
 		(pin "75"
 			(uuid "a838f115-140a-47bc-9488-536b11683174")
 		)
-		(pin "MP1"
-			(uuid "7f92a3f7-d30d-4124-be12-4ddbc7a7a3cf")
+		(pin "S1"
+			(uuid "74b4fe85-6ad5-417f-a7a3-0414d38dcd74")
 		)
-		(pin "MP2"
-			(uuid "95304adb-2e1d-4450-a5b4-a1c0a8935300")
+		(pin "S2"
+			(uuid "c3dc4717-90ed-4ea1-ad41-219c80c48a2e")
 		)
 		(instances
 			(project "RDAT"
@@ -4616,7 +4635,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 137.16 166.37 0)
+		(at 137.16 171.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4625,7 +4644,7 @@
 		(fields_autoplaced yes)
 		(uuid "e934c1b7-3285-47fa-9fa2-a9afb5d17732")
 		(property "Reference" "#PWR087"
-			(at 137.16 172.72 0)
+			(at 137.16 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4634,7 +4653,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 137.16 171.45 0)
+			(at 137.16 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4642,7 +4661,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 166.37 0)
+			(at 137.16 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4651,7 +4670,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 166.37 0)
+			(at 137.16 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4660,7 +4679,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 137.16 166.37 0)
+			(at 137.16 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)

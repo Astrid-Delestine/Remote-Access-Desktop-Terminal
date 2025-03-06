@@ -532,8 +532,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "M"
-				(at 2.54 5.08 0)
+			(property "Reference" "M1"
+				(at 5.08 1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -542,15 +542,15 @@
 				)
 			)
 			(property "Value" "Fan_4pin"
-				(at 2.54 -2.54 0)
+				(at 5.08 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "footprints:JST_B4B-PH-SM4-TBT_LF__SN_"
 				(at 0 0.254 0)
 				(effects
 					(font
@@ -568,7 +568,52 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Fan, tacho output, PWM input, 4-pin connector"
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "SCH_Show_Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Type" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/Jst-B4B_PH_K_K_LF_SN/C5305780"
 				(at 0 0 0)
 				(effects
 					(font
@@ -790,6 +835,18 @@
 						(type none)
 					)
 				)
+				(bezier
+					(pts
+						(xy 5.08 5.08) (xy 2.54 5.08) (xy 2.0384 3.6819) (xy 2.0526 3.5823)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 			)
 			(symbol "Fan_4pin_1_1"
 				(pin passive line
@@ -857,6 +914,42 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 5.08 180)
+					(length 2.54)
+					(name "Sheild"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SH1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 5.08 180)
+					(length 2.54)
+					(name "Sheild"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SH2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1273,6 +1366,12 @@
 		(uuid "ad741755-2eec-4cbd-a3fb-7b3cd90e2112")
 	)
 	(junction
+		(at 198.12 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae09ddaf-6d4e-43e7-9849-ef5d46a056c6")
+	)
+	(junction
 		(at 172.72 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1347,6 +1446,16 @@
 			(type default)
 		)
 		(uuid "28f5444e-7f18-469d-ba1c-6c0e51e95c7b")
+	)
+	(wire
+		(pts
+			(xy 212.09 86.36) (xy 212.09 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3728f60a-1fff-49fa-aa89-bc9d48696e64")
 	)
 	(wire
 		(pts
@@ -1450,6 +1559,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 86.36) (xy 212.09 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c95505d8-d81a-489b-a8e7-2018281c380c")
+	)
+	(wire
+		(pts
 			(xy 143.51 93.98) (xy 190.5 93.98)
 		)
 		(stroke
@@ -1457,6 +1576,16 @@
 			(type default)
 		)
 		(uuid "cb8e9258-5a0a-4864-882a-769a45b89608")
+	)
+	(wire
+		(pts
+			(xy 198.12 96.52) (xy 212.09 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da8efcf1-8654-40d0-93d6-59625b6a4184")
 	)
 	(wire
 		(pts
@@ -2482,6 +2611,12 @@
 		)
 		(pin "4"
 			(uuid "65ed07b2-cfb2-4e9c-a301-a3d7a2ba1dc0")
+		)
+		(pin "SH1"
+			(uuid "5fd1a6ef-16bd-4938-b197-46e8d4615696")
+		)
+		(pin "SH2"
+			(uuid "fbd28376-967a-44aa-9cf0-6a8df659196a")
 		)
 		(instances
 			(project "RDAT"

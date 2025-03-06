@@ -15,8 +15,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at 0 15.875 0)
+			(property "Reference" "J5"
+				(at 0 16.51 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -31,7 +31,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "footprints:CONN8_MUSBC_1211x569_AMP"
 				(at 3.81 -13.97 0)
 				(effects
 					(font
@@ -41,7 +41,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" "https://www.amphenol-icc.com/media/wysiwyg/files/drawing/musbc111xx.pdf"
 				(at 5.08 1.27 0)
 				(effects
 					(font
@@ -50,7 +50,52 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "USB Type A connector, stacked"
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "SCH_Show_Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Type" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB_LINK" "https://www.digikey.com/en/products/detail/amphenol-cs-commercial-products/MUSBC111M0/4889538"
 				(at 0 0 0)
 				(effects
 					(font
@@ -302,24 +347,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(pin passive line
-					(at -2.54 -15.24 90)
-					(length 2.54)
-					(name "Shield"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
 					)
 				)
 				(pin power_in line
@@ -1774,16 +1801,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 66.04) (xy 166.37 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4eb5f19d-4a2c-4cf4-b4ad-a99600765bef")
-	)
-	(wire
-		(pts
 			(xy 52.07 48.26) (xy 153.67 48.26)
 		)
 		(stroke
@@ -2915,9 +2932,6 @@
 		)
 		(pin "2"
 			(uuid "257086ba-7685-4444-9f80-ee5b033e75e2")
-		)
-		(pin "9"
-			(uuid "4f93526b-48ff-40f7-b4a3-3ab93ae6da22")
 		)
 		(instances
 			(project "RDAT"

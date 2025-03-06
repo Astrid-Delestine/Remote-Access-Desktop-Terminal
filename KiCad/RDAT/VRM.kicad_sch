@@ -1596,6 +1596,367 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PMOS_2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q9"
+				(at 8.89 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SI7135DP-T1-GE3"
+				(at 6.35 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_SO:PowerPAK_SO-8_Single"
+				(at 5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "P-MOSFET transistor, drain/source/gate"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "PMOS"
+				(at 0 -17.145 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Type" "VDMOS"
+				(at 0 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=D 2=G 3=S"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/VishayIntertech-SI7135DP_T1GE3/C3279532"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "transistor PMOS P-MOS P-MOSFET simulation"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PMOS_2_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "PMOS_2_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 7.62 270)
+					(length 5.08)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Power_Management:LTC4412xS6"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1969,322 +2330,6 @@
 						)
 					)
 					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Simulation_SPICE:PMOS"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "PMOS"
-				(at 5.08 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "P-MOSFET transistor, drain/source/gate"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "PMOS"
-				(at 0 -17.145 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Type" "VDMOS"
-				(at 0 -19.05 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=D 2=G 3=S"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "transistor PMOS P-MOS P-MOSFET simulation"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PMOS_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "PMOS_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3713,6 +3758,12 @@
 		(uuid "30ee80d3-fa44-400a-b840-eb4364e96894")
 	)
 	(junction
+		(at 163.83 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "31f00859-99da-4c0d-b000-4f40196064ad")
+	)
+	(junction
 		(at 111.76 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3723,12 +3774,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3a976eea-8698-4b4c-b3c2-04ba7623f052")
-	)
-	(junction
-		(at 195.58 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "44e241ac-783f-4232-8d36-002e660e10c0")
 	)
 	(junction
 		(at 113.03 128.27)
@@ -3809,6 +3854,12 @@
 		(uuid "7e5fc3f3-1eea-457b-90fc-689a4274cbce")
 	)
 	(junction
+		(at 139.7 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8126eacb-e84c-4359-a330-f7d577fb5848")
+	)
+	(junction
 		(at 91.44 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3837,6 +3888,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8a238f81-a28d-4168-90b9-35fe9dac8b0b")
+	)
+	(junction
+		(at 180.34 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8be84e70-b824-417b-95b2-a078012a3e19")
 	)
 	(junction
 		(at 125.73 67.31)
@@ -3887,6 +3944,12 @@
 		(uuid "a8751c04-6bc6-453d-a7e6-ec4bbe0e6d6c")
 	)
 	(junction
+		(at 134.62 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a94498c4-80d7-4492-b2df-91cefae3ed88")
+	)
+	(junction
 		(at 113.03 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3923,6 +3986,12 @@
 		(uuid "c2341b23-0aa2-48d7-8e86-6de6efc430ab")
 	)
 	(junction
+		(at 195.58 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cbca5152-2d8f-4bd2-a38f-d56ffb37c3f9")
+	)
+	(junction
 		(at 163.83 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3933,6 +4002,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d1693de5-7d78-4fdd-a47e-253e8b1dc9f5")
+	)
+	(junction
+		(at 134.62 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d5a081ca-5943-4dd4-8ca0-3a7990870a1c")
 	)
 	(junction
 		(at 185.42 132.08)
@@ -3970,6 +4045,12 @@
 		(color 0 0 0 0)
 		(uuid "f7065338-d95e-4720-93a6-58d24b803dab")
 	)
+	(junction
+		(at 118.11 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f76e8980-af18-4159-9570-b165d1f0363e")
+	)
 	(no_connect
 		(at 58.42 100.33)
 		(uuid "357ff6c9-a8b8-4e14-aaf8-b9453cb3598a")
@@ -3977,36 +4058,6 @@
 	(no_connect
 		(at 58.42 128.27)
 		(uuid "53d23b77-a596-47c1-8537-59123ae5ac68")
-	)
-	(no_connect
-		(at 140.97 60.96)
-		(uuid "60764331-95f1-4b35-98f9-3518371041a0")
-	)
-	(no_connect
-		(at 134.62 57.15)
-		(uuid "aee77c3e-d270-47f6-9c46-a539e1ce7b2f")
-	)
-	(no_connect
-		(at 134.62 62.23)
-		(uuid "b4517272-2299-46e5-9d18-3e5190ca4f19")
-	)
-	(no_connect
-		(at 139.7 26.67)
-		(uuid "f08d2ff6-8929-459d-801d-769a02e20dff")
-	)
-	(no_connect
-		(at 139.7 31.75)
-		(uuid "fd25d36b-be4d-42ef-8714-ad835e4397ce")
-	)
-	(wire
-		(pts
-			(xy 33.02 153.67) (xy 71.12 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00205c69-5095-4935-af09-3a24d8c76f2f")
 	)
 	(wire
 		(pts
@@ -4040,7 +4091,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 157.48) (xy 39.37 175.26)
+			(xy 39.37 154.94) (xy 39.37 175.26)
 		)
 		(stroke
 			(width 0)
@@ -4087,6 +4138,16 @@
 			(type default)
 		)
 		(uuid "0d160411-578d-4c39-82a1-5b61db3e2ffd")
+	)
+	(wire
+		(pts
+			(xy 118.11 22.86) (xy 139.7 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dd8eadc-9694-4af2-b209-83fef0a5fb5d")
 	)
 	(wire
 		(pts
@@ -4170,7 +4231,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 41.91) (xy 146.05 41.91)
+			(xy 104.14 41.91) (xy 134.62 41.91)
 		)
 		(stroke
 			(width 0)
@@ -4357,6 +4418,16 @@
 			(type default)
 		)
 		(uuid "28defa96-b38d-4a8e-9b80-36e1c2613e25")
+	)
+	(wire
+		(pts
+			(xy 33.02 153.67) (xy 68.58 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29837630-6b99-4ae6-ad7c-d84d14cac881")
 	)
 	(wire
 		(pts
@@ -4730,6 +4801,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 26.67) (xy 195.58 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6492ad87-2e54-493a-99fe-61b65dcc6a61")
+	)
+	(wire
+		(pts
 			(xy 48.26 123.19) (xy 48.26 125.73)
 		)
 		(stroke
@@ -4747,6 +4828,16 @@
 			(type default)
 		)
 		(uuid "6b6c2927-f50f-4751-987d-eb009e7d943c")
+	)
+	(wire
+		(pts
+			(xy 134.62 41.91) (xy 134.62 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d5849a1-9ac8-4d31-9305-f51cda2b145c")
 	)
 	(wire
 		(pts
@@ -4920,7 +5011,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 157.48) (xy 39.37 157.48)
+			(xy 59.69 154.94) (xy 39.37 154.94)
 		)
 		(stroke
 			(width 0)
@@ -4937,6 +5028,16 @@
 			(type default)
 		)
 		(uuid "8e984f18-d199-4cfe-9098-69ab58086833")
+	)
+	(wire
+		(pts
+			(xy 134.62 41.91) (xy 146.05 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fed9415-b539-4a80-8a71-c15f0babc8dd")
 	)
 	(wire
 		(pts
@@ -5037,6 +5138,16 @@
 			(type default)
 		)
 		(uuid "9cb3beb3-a034-435c-9bac-fe01d299e4f0")
+	)
+	(wire
+		(pts
+			(xy 139.7 26.67) (xy 139.7 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ce56e42-f6b6-47c8-b9b9-08a1956bb3ed")
 	)
 	(wire
 		(pts
@@ -5150,6 +5261,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 57.15) (xy 134.62 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab7555f2-1b94-4ce7-89cd-8b1abc29b6c6")
+	)
+	(wire
+		(pts
 			(xy 30.48 33.02) (xy 30.48 31.75)
 		)
 		(stroke
@@ -5190,7 +5311,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 39.37) (xy 180.34 41.91)
+			(xy 180.34 30.48) (xy 180.34 41.91)
 		)
 		(stroke
 			(width 0)
@@ -5270,7 +5391,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 39.37) (xy 195.58 39.37)
+			(xy 180.34 30.48) (xy 195.58 30.48)
 		)
 		(stroke
 			(width 0)
@@ -5440,6 +5561,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 25.4) (xy 118.11 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce9ff4c7-b5ee-497d-a25f-ff374d55cbf9")
+	)
+	(wire
+		(pts
 			(xy 53.34 36.83) (xy 58.42 36.83)
 		)
 		(stroke
@@ -5467,6 +5598,16 @@
 			(type default)
 		)
 		(uuid "d1e9fe71-ca36-4a4a-86db-e7d375a3adba")
+	)
+	(wire
+		(pts
+			(xy 139.7 22.86) (xy 139.7 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d351af95-d5bb-49b1-aa64-762ca24e7d5c")
 	)
 	(wire
 		(pts
@@ -5550,16 +5691,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 39.37) (xy 195.58 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "def2389e-bf91-4e8f-a0a1-aac47b86d329")
-	)
-	(wire
-		(pts
 			(xy 104.14 118.11) (xy 104.14 113.03)
 		)
 		(stroke
@@ -5567,6 +5698,16 @@
 			(type default)
 		)
 		(uuid "e029841b-815e-4429-a1fa-557e9eac5e96")
+	)
+	(wire
+		(pts
+			(xy 195.58 30.48) (xy 195.58 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e02fb357-2131-42f9-9987-f0f9890e4cd5")
 	)
 	(wire
 		(pts
@@ -5597,6 +5738,16 @@
 			(type default)
 		)
 		(uuid "e65ce42d-3bb8-475b-97b8-5378a506679f")
+	)
+	(wire
+		(pts
+			(xy 163.83 30.48) (xy 180.34 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e81a47f9-f223-449f-9959-a75ef6a024b9")
 	)
 	(wire
 		(pts
@@ -5697,16 +5848,6 @@
 			(type default)
 		)
 		(uuid "f9b25446-2284-4410-8108-8783c508bb36")
-	)
-	(wire
-		(pts
-			(xy 195.58 36.83) (xy 195.58 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb29d16f-0ae8-487e-a852-bdf7b096537b")
 	)
 	(wire
 		(pts
@@ -6626,7 +6767,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm_ThermalVias"
+		(property "Footprint" "footprints:DQK0006C"
 			(at 143.51 62.23 0)
 			(effects
 				(font
@@ -6692,6 +6833,7 @@
 		)
 	)
 	(symbol
+		(lib_name "PMOS_2")
 		(lib_id "Simulation_SPICE:PMOS")
 		(at 76.2 156.21 90)
 		(unit 1)
@@ -6726,7 +6868,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2404031055_Vishay-Intertech-SI7135DP-T1-GE3_C3279532.pdf"
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
 			(at 88.9 156.21 0)
 			(effects
 				(font
@@ -6788,6 +6930,12 @@
 		)
 		(pin "3"
 			(uuid "873e0e46-1819-411c-bd1a-ce8eda154e2c")
+		)
+		(pin "4"
+			(uuid "2b88b60b-2cee-42b5-929a-5b953c476090")
+		)
+		(pin "5"
+			(uuid "a153d35b-b075-4775-8c8b-1a5f63702aab")
 		)
 		(instances
 			(project "RDAT"
@@ -7655,7 +7803,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm_ThermalVias"
+		(property "Footprint" "footprints:DQK0006C"
 			(at 129.54 31.75 0)
 			(effects
 				(font
@@ -8212,7 +8360,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 195.58 36.83 0)
+		(at 195.58 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8221,7 +8369,7 @@
 		(fields_autoplaced yes)
 		(uuid "67d37aab-8273-48bb-86bc-c140f747b268")
 		(property "Reference" "#PWR071"
-			(at 195.58 40.64 0)
+			(at 195.58 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8230,7 +8378,7 @@
 			)
 		)
 		(property "Value" "+10V"
-			(at 195.58 31.75 0)
+			(at 195.58 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8238,7 +8386,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 195.58 36.83 0)
+			(at 195.58 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8247,7 +8395,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 195.58 36.83 0)
+			(at 195.58 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8256,7 +8404,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 195.58 36.83 0)
+			(at 195.58 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8451,115 +8599,6 @@
 			(project "RDAT"
 				(path "/0db9370a-8a21-4fd2-83a9-f207c3725dc9/5f0e9cd9-64da-46d2-87be-d1281cc3d7f6"
 					(reference "R58")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:PMOS")
-		(at 57.15 162.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6c1d2370-ebd1-4bef-8afc-92bc61a91150")
-		(property "Reference" "Q3"
-			(at 63.5 161.2899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SI7135DP-T1-GE3"
-			(at 63.5 163.8299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:PowerPAK_SO-8_Single"
-			(at 62.23 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2404031055_Vishay-Intertech-SI7135DP-T1-GE3_C3279532.pdf"
-			(at 57.15 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 57.15 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "PMOS"
-			(at 57.15 179.705 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 57.15 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 57.15 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/VishayIntertech-SI7135DP_T1GE3/C3279532"
-			(at 57.15 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3390150f-530e-4977-b4b0-faa022dad514")
-		)
-		(pin "2"
-			(uuid "6fe94171-ddfe-45fb-92a8-f01c5ed532dc")
-		)
-		(pin "3"
-			(uuid "3186c8a0-1c99-4282-a543-2831c8c38a7d")
-		)
-		(instances
-			(project "RDAT"
-				(path "/0db9370a-8a21-4fd2-83a9-f207c3725dc9/5f0e9cd9-64da-46d2-87be-d1281cc3d7f6"
-					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -9332,6 +9371,122 @@
 			(project "RDAT"
 				(path "/0db9370a-8a21-4fd2-83a9-f207c3725dc9/5f0e9cd9-64da-46d2-87be-d1281cc3d7f6"
 					(reference "R56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "PMOS_2")
+		(lib_id "Simulation_SPICE:PMOS")
+		(at 57.15 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8645c995-5376-4b5d-9fe7-9a833291c52a")
+		(property "Reference" "Q10"
+			(at 63.5 161.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SI7135DP-T1-GE3"
+			(at 63.5 163.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:PowerPAK_SO-8_Single"
+			(at 62.23 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 57.15 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "P-MOSFET transistor, drain/source/gate"
+			(at 57.15 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "PMOS"
+			(at 57.15 179.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 57.15 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 57.15 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/VishayIntertech-SI7135DP_T1GE3/C3279532"
+			(at 57.15 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e13acd2b-7f46-44ee-96f4-16e0d33a8514")
+		)
+		(pin "2"
+			(uuid "ea541d13-8c15-4634-93ed-f37e0e42b0e6")
+		)
+		(pin "3"
+			(uuid "e8c004ae-7083-47cb-a3f1-a5b0130e2e64")
+		)
+		(pin "4"
+			(uuid "2c28d031-d7a3-4286-9815-048a0f53887f")
+		)
+		(pin "5"
+			(uuid "ae8cf824-9e2a-4962-84d9-41885fa91851")
+		)
+		(instances
+			(project "RDAT"
+				(path "/0db9370a-8a21-4fd2-83a9-f207c3725dc9/5f0e9cd9-64da-46d2-87be-d1281cc3d7f6"
+					(reference "Q10")
 					(unit 1)
 				)
 			)
@@ -10568,16 +10723,16 @@
 			)
 		)
 		(pin "C"
-			(uuid "2c13d430-fce9-42dc-8e93-f66e80d5d699")
+			(uuid "2c13d430-fce9-42dc-8e93-f66e80d5d69a")
 		)
 		(pin "D"
-			(uuid "6d9ad1fd-33e4-4359-9f1d-db12386f6fc7")
+			(uuid "6d9ad1fd-33e4-4359-9f1d-db12386f6fc8")
 		)
 		(pin "B"
-			(uuid "aa330506-e60c-4ef7-ac89-9ee72a22cab3")
+			(uuid "aa330506-e60c-4ef7-ac89-9ee72a22cab4")
 		)
 		(pin "A"
-			(uuid "11b99b82-3b18-4886-89e8-c5af81e4b7c3")
+			(uuid "11b99b82-3b18-4886-89e8-c5af81e4b7c4")
 		)
 		(instances
 			(project ""
