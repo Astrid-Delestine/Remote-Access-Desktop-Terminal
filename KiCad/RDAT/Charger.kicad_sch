@@ -12808,7 +12808,7 @@
 				)
 			)
 		)
-		(property "Footprint" "POWERPAK_1212-8"
+		(property "Footprint" "footprints:POWERPAK_1212-8_VIS"
 			(at 90.17 109.22 0)
 			(effects
 				(font

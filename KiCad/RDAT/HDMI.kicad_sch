@@ -10396,13 +10396,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "dd547ffd-28cb-46f9-bd38-0f20159ccd2a")
+			(uuid "dd547ffd-28cb-46f9-bd38-0f20159ccd2b")
 		)
 		(pin "2"
-			(uuid "c8ade3eb-a40f-4283-b6ab-45be0489ecc7")
+			(uuid "c8ade3eb-a40f-4283-b6ab-45be0489ecc8")
 		)
 		(pin "3"
-			(uuid "c1530629-303a-402d-9b06-6f3e16c61ae2")
+			(uuid "c1530629-303a-402d-9b06-6f3e16c61ae3")
 		)
 		(instances
 			(project ""
