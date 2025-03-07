@@ -7845,7 +7845,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 17.78 43.18 0)
 			(effects
 				(font
@@ -7922,7 +7922,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 58.42 107.95 0)
 			(effects
 				(font
@@ -8096,7 +8096,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 99.06 107.95 0)
 			(effects
 				(font
@@ -8326,7 +8326,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 17.78 151.13 0)
 			(effects
 				(font
@@ -8677,7 +8677,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 68.58 129.54 0)
 			(effects
 				(font
@@ -8851,7 +8851,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 119.38 64.77 0)
 			(effects
 				(font
@@ -8928,7 +8928,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 78.74 151.13 0)
 			(effects
 				(font
@@ -9102,7 +9102,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 119.38 151.13 0)
 			(effects
 				(font
@@ -9276,7 +9276,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 48.26 21.59 0)
 			(effects
 				(font
@@ -9644,7 +9644,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 139.7 129.54 0)
 			(effects
 				(font
@@ -9915,7 +9915,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 27.94 86.36 0)
 			(effects
 				(font
@@ -10166,7 +10166,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 99.06 129.54 0)
 			(effects
 				(font
@@ -10503,7 +10503,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 119.38 175.26 0)
 			(effects
 				(font
@@ -10580,7 +10580,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 99.06 86.36 0)
 			(effects
 				(font
@@ -10997,7 +10997,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 109.22 175.26 0)
 			(effects
 				(font
@@ -11074,7 +11074,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 129.54 107.95 0)
 			(effects
 				(font
@@ -11151,7 +11151,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 88.9 43.18 0)
 			(effects
 				(font
@@ -11325,7 +11325,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 78.74 21.59 0)
 			(effects
 				(font
@@ -11596,7 +11596,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 48.26 175.26 0)
 			(effects
 				(font
@@ -11673,7 +11673,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 109.22 151.13 0)
 			(effects
 				(font
@@ -11750,7 +11750,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 17.78 86.36 0)
 			(effects
 				(font
@@ -11892,7 +11892,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 58.42 129.54 0)
 			(effects
 				(font
@@ -12142,7 +12142,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 88.9 21.59 0)
 			(effects
 				(font
@@ -12510,7 +12510,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 129.54 129.54 0)
 			(effects
 				(font
@@ -12587,7 +12587,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 27.94 151.13 0)
 			(effects
 				(font
@@ -13177,7 +13177,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 58.42 175.26 0)
 			(effects
 				(font
@@ -13429,7 +13429,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 68.58 175.26 0)
 			(effects
 				(font
@@ -13506,7 +13506,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 68.58 107.95 0)
 			(effects
 				(font
@@ -13583,7 +13583,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 68.58 86.36 0)
 			(effects
 				(font
@@ -13660,7 +13660,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 58.42 64.77 0)
 			(effects
 				(font
@@ -13931,7 +13931,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 38.1 129.54 0)
 			(effects
 				(font
@@ -14008,7 +14008,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 99.06 175.26 0)
 			(effects
 				(font
@@ -14085,7 +14085,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 139.7 86.36 0)
 			(effects
 				(font
@@ -14162,7 +14162,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 78.74 64.77 0)
 			(effects
 				(font
@@ -14336,7 +14336,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 88.9 129.54 0)
 			(effects
 				(font
@@ -14510,7 +14510,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 88.9 151.13 0)
 			(effects
 				(font
@@ -14587,7 +14587,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 78.74 129.54 0)
 			(effects
 				(font
@@ -14664,7 +14664,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 27.94 175.26 0)
 			(effects
 				(font
@@ -15032,7 +15032,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 129.54 86.36 0)
 			(effects
 				(font
@@ -15303,7 +15303,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 139.7 151.13 0)
 			(effects
 				(font
@@ -15477,7 +15477,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 27.94 64.77 0)
 			(effects
 				(font
@@ -15619,7 +15619,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 78.74 175.26 0)
 			(effects
 				(font
@@ -15890,7 +15890,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 68.58 43.18 0)
 			(effects
 				(font
@@ -16149,7 +16149,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 119.38 43.18 0)
 			(effects
 				(font
@@ -16226,7 +16226,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 68.58 21.59 0)
 			(effects
 				(font
@@ -16303,7 +16303,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 58.42 21.59 0)
 			(effects
 				(font
@@ -16380,7 +16380,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 78.74 86.36 0)
 			(effects
 				(font
@@ -16457,7 +16457,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 109.22 64.77 0)
 			(effects
 				(font
@@ -16534,7 +16534,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 119.38 107.95 0)
 			(effects
 				(font
@@ -16611,7 +16611,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 88.9 64.77 0)
 			(effects
 				(font
@@ -17637,7 +17637,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 38.1 64.77 0)
 			(effects
 				(font
@@ -17975,7 +17975,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 17.78 21.59 0)
 			(effects
 				(font
@@ -18119,7 +18119,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 38.1 21.59 0)
 			(effects
 				(font
@@ -18196,7 +18196,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 27.94 107.95 0)
 			(effects
 				(font
@@ -18273,7 +18273,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 99.06 151.13 0)
 			(effects
 				(font
@@ -18350,7 +18350,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 109.22 21.59 0)
 			(effects
 				(font
@@ -18990,7 +18990,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 129.54 175.26 0)
 			(effects
 				(font
@@ -19067,7 +19067,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 27.94 129.54 0)
 			(effects
 				(font
@@ -19500,7 +19500,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 139.7 43.18 0)
 			(effects
 				(font
@@ -19577,7 +19577,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 88.9 107.95 0)
 			(effects
 				(font
@@ -19862,7 +19862,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 99.06 64.77 0)
 			(effects
 				(font
@@ -20599,7 +20599,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 129.54 21.59 0)
 			(effects
 				(font
@@ -20676,7 +20676,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 38.1 107.95 0)
 			(effects
 				(font
@@ -20947,7 +20947,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 38.1 86.36 0)
 			(effects
 				(font
@@ -21121,7 +21121,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 27.94 43.18 0)
 			(effects
 				(font
@@ -21392,7 +21392,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 58.42 43.18 0)
 			(effects
 				(font
@@ -21469,7 +21469,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 48.26 86.36 0)
 			(effects
 				(font
@@ -21546,7 +21546,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 58.42 151.13 0)
 			(effects
 				(font
@@ -21914,7 +21914,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 129.54 43.18 0)
 			(effects
 				(font
@@ -22282,7 +22282,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 17.78 107.95 0)
 			(effects
 				(font
@@ -22436,7 +22436,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 139.7 107.95 0)
 			(effects
 				(font
@@ -22644,7 +22644,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 119.38 129.54 0)
 			(effects
 				(font
@@ -22895,7 +22895,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 99.06 43.18 0)
 			(effects
 				(font
@@ -22972,7 +22972,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 109.22 129.54 0)
 			(effects
 				(font
@@ -23340,7 +23340,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 48.26 129.54 0)
 			(effects
 				(font
@@ -23514,7 +23514,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 48.26 151.13 0)
 			(effects
 				(font
@@ -23591,7 +23591,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 17.78 64.77 0)
 			(effects
 				(font
@@ -23748,7 +23748,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 58.42 86.36 0)
 			(effects
 				(font
@@ -23890,7 +23890,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 78.74 107.95 0)
 			(effects
 				(font
@@ -24161,7 +24161,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 68.58 151.13 0)
 			(effects
 				(font
@@ -24238,7 +24238,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 17.78 129.54 0)
 			(effects
 				(font
@@ -24412,7 +24412,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 27.94 21.59 0)
 			(effects
 				(font
@@ -24780,7 +24780,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 119.38 21.59 0)
 			(effects
 				(font
@@ -24857,7 +24857,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 88.9 175.26 0)
 			(effects
 				(font
@@ -24934,7 +24934,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 17.78 175.26 0)
 			(effects
 				(font
@@ -25011,7 +25011,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 38.1 151.13 0)
 			(effects
 				(font
@@ -25379,7 +25379,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 109.22 43.18 0)
 			(effects
 				(font
@@ -25456,7 +25456,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 129.54 64.77 0)
 			(effects
 				(font
@@ -26058,7 +26058,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 38.1 43.18 0)
 			(effects
 				(font
@@ -26375,7 +26375,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 48.26 43.18 0)
 			(effects
 				(font
@@ -26549,7 +26549,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 88.9 86.36 0)
 			(effects
 				(font
@@ -26626,7 +26626,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 48.26 64.77 0)
 			(effects
 				(font
@@ -26956,7 +26956,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 38.1 175.26 0)
 			(effects
 				(font
@@ -27033,7 +27033,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 68.58 64.77 0)
 			(effects
 				(font
@@ -27110,7 +27110,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 48.26 107.95 0)
 			(effects
 				(font
@@ -27284,7 +27284,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 99.06 21.59 0)
 			(effects
 				(font
@@ -27361,7 +27361,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 78.74 43.18 0)
 			(effects
 				(font
@@ -27632,7 +27632,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 139.7 21.59 0)
 			(effects
 				(font
@@ -28079,7 +28079,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 119.38 86.36 0)
 			(effects
 				(font
@@ -28156,7 +28156,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 129.54 151.13 0)
 			(effects
 				(font
@@ -28233,7 +28233,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 139.7 64.77 0)
 			(effects
 				(font
@@ -28310,7 +28310,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 109.22 107.95 0)
 			(effects
 				(font
@@ -28387,7 +28387,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_PG151101S11"
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_optional"
 			(at 109.22 86.36 0)
 			(effects
 				(font
