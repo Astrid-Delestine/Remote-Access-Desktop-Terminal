@@ -1174,6 +1174,10 @@
 		(color 0 0 0 0)
 		(uuid "fa5c54ef-448e-40a7-bb3e-69d6a0edad9c")
 	)
+	(no_connect
+		(at 60.96 87.63)
+		(uuid "3e5b396f-86fe-42b7-b246-70f735dc80b2")
+	)
 	(wire
 		(pts
 			(xy 142.24 137.16) (xy 142.24 138.43)
@@ -2505,7 +2509,7 @@
 		(uuid "fe4b5e96-47ab-41f9-86d4-94b833b85f0c")
 	)
 	(label "~{PWR_LED}{slash}~{PSON}"
-		(at 46.0403 84.8146 0)
+		(at 45.72 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)

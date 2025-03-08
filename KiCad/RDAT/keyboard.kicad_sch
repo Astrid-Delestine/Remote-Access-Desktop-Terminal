@@ -6955,6 +6955,16 @@
 		)
 		(uuid "0abb2327-bcba-47d9-9e08-0ae27b75f5ba")
 	)
+	(label "Col_0"
+		(at 15.24 165.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0d15fc98-c0da-485a-9f6d-6aa62989ea6d")
+	)
 	(label "Row_0"
 		(at 12.7 193.04 0)
 		(effects
@@ -6964,27 +6974,6 @@
 			(justify left bottom)
 		)
 		(uuid "0dabdbcc-e6db-4738-b022-dfc48f78458d")
-	)
-	(label "Col_0"
-		(at 15.24 165.1 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1576a9ce-53bf-4e29-b996-8c77177595e1")
-		(property "Netclass" ""
-			(at 15.24 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
 	)
 	(label "Col_8"
 		(at 96.52 165.1 0)
@@ -7105,27 +7094,6 @@
 			(justify left bottom)
 		)
 		(uuid "3cbdff2c-60ce-44ba-b7ea-af90d0ce6b47")
-	)
-	(label "Col_0"
-		(at 12.7 215.9 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3fb00515-1506-45f2-980c-aa8ca611ee3d")
-		(property "Netclass" ""
-			(at 12.7 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
 	)
 	(label "QSPI_SS"
 		(at 81.28 193.04 0)
@@ -7636,6 +7604,16 @@
 			(justify left bottom)
 		)
 		(uuid "b73667e9-8fc3-4eb0-9e2c-96dc013c7268")
+	)
+	(label "Col_0"
+		(at 12.7 215.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c3820e1f-55dd-40e0-8789-b326a51743dd")
 	)
 	(label "Row_7"
 		(at 133.35 185.42 0)

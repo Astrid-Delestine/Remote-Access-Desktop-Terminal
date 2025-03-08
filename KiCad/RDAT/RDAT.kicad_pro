@@ -81,7 +81,7 @@
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
         "hole_near_hole": "error",
-        "hole_to_hole": "warning",
+        "hole_to_hole": "error",
         "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
@@ -191,7 +191,10 @@
         0.127,
         0.254,
         0.508,
-        0.762
+        0.762,
+        2.765,
+        6.0,
+        12.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -523,7 +526,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "../../RDAT_GEN_BOM.csv",
+    "bom_export_filename": "../../RDAT_BOM_NEW.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
