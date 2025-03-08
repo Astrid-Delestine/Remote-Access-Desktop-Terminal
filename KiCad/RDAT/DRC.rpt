@@ -1,0 +1,880 @@
+** Drc report for RDAT.kicad_pcb **
+** Created on 2025-03-07T18:40:24-0800 **
+
+** Found 218 DRC violations **
+[starved_thermal]: Thermal relief connection to zone incomplete (layer B.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(51.6500 mm, 141.0500 mm): Zone [GND] on B.Cu
+    @(60.0000 mm, 188.3000 mm): PTH pad G1
+[starved_thermal]: Thermal relief connection to zone incomplete (layer B.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(51.6500 mm, 141.0500 mm): Zone [GND] on B.Cu
+    @(60.0000 mm, 198.2000 mm): PTH pad G6
+[starved_thermal]: Thermal relief connection to zone incomplete (layer B.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(51.6500 mm, 141.0500 mm): Zone [GND] on B.Cu
+    @(149.7000 mm, 204.5500 mm): PTH pad 11
+[starved_thermal]: Thermal relief connection to zone incomplete (layer B.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(51.6500 mm, 141.0500 mm): Zone [GND] on B.Cu
+    @(149.0750 mm, 203.5500 mm): PTH pad 11
+[starved_thermal]: Thermal relief connection to zone incomplete (layer B.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(51.6500 mm, 141.0500 mm): Zone [GND] on B.Cu
+    @(61.1625 mm, 224.8507 mm): PTH pad 2
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(267.4500 mm, 195.1000 mm): Footprint H5
+    @(235.6250 mm, 252.1000 mm): Footprint A1
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(407.9000 mm, 235.4750 mm): Footprint C85
+    @(408.8000 mm, 235.4750 mm): Footprint C84
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(235.6250 mm, 252.1000 mm): Footprint A1
+    @(203.8000 mm, 195.1500 mm): Footprint H6
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(165.6624 mm, 304.5500 mm): Track [/Keyboard/Row_2] on F.Cu, length 4.8083 mm
+    @(167.8881 mm, 303.9254 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(290.2127 mm, 270.4000 mm): Track [/LattePanda_mu/~{PWR_LED}/~{PSON}] on F.Cu, length 9.7581 mm
+    @(295.2956 mm, 266.9461 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(157.7637 mm, 365.9279 mm): Track [/Keyboard/Row_5] on F.Cu, length 19.0524 mm
+    @(160.8640 mm, 366.1778 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(93.7945 mm, 363.5925 mm): Track [/Keyboard/Row_5] on F.Cu, length 16.2001 mm
+    @(94.5405 mm, 365.3935 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(302.4725 mm, 262.6275 mm): Track [/LattePanda_mu/~{PWR_LED}/~{PSON}] on F.Cu, length 13.3500 mm
+    @(315.7709 mm, 263.7794 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(377.4258 mm, 365.0000 mm): Track [/Keyboard/Row_5] on F.Cu, length 1.9906 mm
+    @(379.5793 mm, 365.3935 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(118.5795 mm, 365.0000 mm): Track [/Keyboard/Row_5] on F.Cu, length 1.9906 mm
+    @(120.7330 mm, 365.3935 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(270.4984 mm, 318.2516 mm): Track [/Keyboard/Row_2] on F.Cu, length 10.5500 mm
+    @(273.3525 mm, 320.0526 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2022 mm)
+    Rule: board setup constraints hole; error
+    @(315.8225 mm, 262.6275 mm): Track [/LattePanda_mu/~{PWR_LED}/~{PSON}] on F.Cu, length 2.7258 mm
+    @(315.7709 mm, 263.7794 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(288.6472 mm, 311.0028 mm): Track [/Keyboard/Row_2] on F.Cu, length 11.9000 mm
+    @(292.0006 mm, 312.8038 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(232.1995 mm, 280.5591 mm): Track [/Keyboard/Col_6] on B.Cu, length 7.5319 mm
+    @(229.8902 mm, 281.2393 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2487 mm)
+    Rule: board setup constraints hole; error
+    @(259.9607 mm, 327.3500 mm): Track [/Keyboard/Row_2] on F.Cu, length 10.5359 mm
+    @(260.9391 mm, 328.9185 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(378.8333 mm, 363.5925 mm): Track [/Keyboard/Row_5] on F.Cu, length 18.4091 mm
+    @(379.5793 mm, 365.3935 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(264.1539 mm, 319.4773 mm): Track [/Keyboard/Col_6] on B.Cu, length 7.5806 mm
+    @(263.0020 mm, 321.0829 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2487 mm)
+    Rule: board setup constraints hole; error
+    @(253.7000 mm, 327.3500 mm): Track [/Keyboard/Row_2] on F.Cu, length 6.2607 mm
+    @(260.9391 mm, 328.9185 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2065 mm)
+    Rule: board setup constraints hole; error
+    @(111.6500 mm, 365.0000 mm): Track [/Keyboard/Row_5] on F.Cu, length 6.9295 mm
+    @(115.7330 mm, 363.1935 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(92.2870 mm, 365.1000 mm): Track [/Keyboard/Row_5] on F.Cu, length 2.1320 mm
+    @(94.5405 mm, 365.3935 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2065 mm)
+    Rule: board setup constraints hole; error
+    @(370.4000 mm, 365.0000 mm): Track [/Keyboard/Row_5] on F.Cu, length 7.0258 mm
+    @(374.5793 mm, 363.1935 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2172 mm)
+    Rule: board setup constraints hole; error
+    @(110.5000 mm, 323.9003 mm): Track [/Keyboard/Col_0] on B.Cu, length 6.5512 mm
+    @(109.3319 mm, 321.3435 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(72.6278 mm, 349.5106 mm): Track [/Keyboard/Col_4] on F.Cu, length 92.2329 mm
+    @(152.6168 mm, 347.7096 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(327.3038 mm, 304.3962 mm): Track [/Keyboard/Row_2] on F.Cu, length 15.7500 mm
+    @(331.4827 mm, 306.1972 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(501.4519 mm, 306.7394 mm): Track [/Keyboard/Col_9] on B.Cu, length 6.5837 mm
+    @(500.3000 mm, 310.7500 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(437.8215 mm, 278.3979 mm): Track [Net-(D92-A)] on B.Cu, length 10.6773 mm
+    @(432.8185 mm, 285.9479 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(307.4321 mm, 282.6027 mm): Track [/Keyboard/Col_9] on B.Cu, length 7.1940 mm
+    @(306.2802 mm, 285.7322 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(456.7723 mm, 278.4310 mm): Track [Net-(D93-A)] on B.Cu, length 10.6773 mm
+    @(451.7693 mm, 285.9810 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2165 mm)
+    Rule: board setup constraints hole; error
+    @(346.4500 mm, 304.1000 mm): Track [/Keyboard/Row_2] on F.Cu, length 8.4000 mm
+    @(350.7668 mm, 305.9165 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(367.1813 mm, 285.5626 mm): Track [/Keyboard/Col_12] on B.Cu, length 6.5837 mm
+    @(366.0294 mm, 282.9895 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(119.9870 mm, 363.5925 mm): Track [/Keyboard/Row_5] on F.Cu, length 26.1054 mm
+    @(120.7330 mm, 365.3935 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(475.7153 mm, 278.3979 mm): Track [Net-(D94-A)] on B.Cu, length 10.6773 mm
+    @(470.2862 mm, 282.1979 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2259 mm)
+    Rule: board setup constraints hole; error
+    @(251.4500 mm, 329.6000 mm): Track [/Keyboard/Row_2] on F.Cu, length 3.1820 mm
+    @(253.2896 mm, 326.2471 mm): NPTH pad
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1270 mm; actual 0.1172 mm)
+    Rule: netclass 'Default'; error
+    @(150.1700 mm, 205.8500 mm): Via [GND] on F.Cu - B.Cu
+    @(151.6500 mm, 207.6500 mm): Track [/VRM/voltIn] on F.Cu, length 2.7000 mm
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(150.5221 mm, 365.9279 mm): Track [/Keyboard/Row_5] on F.Cu, length 7.2417 mm
+    @(154.8095 mm, 367.7289 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(494.6660 mm, 278.3979 mm): Track [Net-(D95-A)] on B.Cu, length 10.6773 mm
+    @(489.2370 mm, 282.1979 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(456.8306 mm, 259.3479 mm): Track [Net-(D96-A)] on B.Cu, length 10.6773 mm
+    @(451.4016 mm, 263.1479 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(386.1922 mm, 260.0663 mm): Track [/Keyboard/Col_9] on B.Cu, length 6.5837 mm
+    @(385.0403 mm, 264.0769 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(300.4101 mm, 330.6757 mm): Track [/Keyboard/Col_7] on F.Cu, length 11.2443 mm
+    @(296.4631 mm, 332.0757 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(307.8805 mm, 306.6195 mm): Track [/Keyboard/Row_2] on F.Cu, length 11.8000 mm
+    @(311.6301 mm, 308.4205 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(437.7806 mm, 259.3149 mm): Track [Net-(D97-A)] on B.Cu, length 10.6773 mm
+    @(432.3516 mm, 263.1149 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2377 mm)
+    Rule: board setup constraints hole; error
+    @(436.1201 mm, 318.9807 mm): Track [/Keyboard/Col_7] on F.Cu, length 6.2507 mm
+    @(437.8185 mm, 320.1326 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(307.2454 mm, 261.7177 mm): Track [/Keyboard/Col_9] on B.Cu, length 7.1940 mm
+    @(306.0935 mm, 264.8472 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(214.7691 mm, 361.7350 mm): Track [/Keyboard/Col_4] on F.Cu, length 10.6561 mm
+    @(211.7177 mm, 361.5339 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(398.6323 mm, 298.4935 mm): Track [Net-(D98-A)] on B.Cu, length 12.1715 mm
+    @(393.6293 mm, 306.0435 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(475.6728 mm, 259.4244 mm): Track [Net-(D99-A)] on B.Cu, length 10.6773 mm
+    @(470.6698 mm, 266.9744 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(440.8547 mm, 314.2461 mm): Track [/Keyboard/Col_7] on F.Cu, length 6.6957 mm
+    @(437.8185 mm, 320.1326 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(494.6580 mm, 259.3937 mm): Track [Net-(D100-A)] on B.Cu, length 10.6773 mm
+    @(489.2290 mm, 263.1937 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(379.4693 mm, 260.2769 mm): Track [Net-(D101-A)] on B.Cu, length 10.6773 mm
+    @(374.0403 mm, 264.0769 mm): NPTH pad
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1270 mm; actual 0.0268 mm)
+    Rule: netclass 'Default'; error
+    @(120.8000 mm, 324.0000 mm): Pad 2 on F.Cu
+    @(120.1127 mm, 323.9873 mm): Track [/Keyboard/Row_3] on F.Cu, length 0.8886 mm
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2054 mm)
+    Rule: board setup constraints hole; error
+    @(95.2761 mm, 322.6739 mm): Track [/Keyboard/Row_3] on F.Cu, length 7.0358 mm
+    @(103.8319 mm, 321.3435 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(102.3119 mm, 322.6739 mm): Track [/Keyboard/Row_3] on F.Cu, length 1.8575 mm
+    @(103.8319 mm, 321.3435 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(398.2896 mm, 260.3461 mm): Track [Net-(D102-A)] on B.Cu, length 10.6773 mm
+    @(392.8606 mm, 264.1461 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(332.4555 mm, 367.1945 mm): Track [/Keyboard/Col_6] on F.Cu, length 57.1000 mm
+    @(379.5793 mm, 365.3935 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(127.1698 mm, 298.4935 mm): Track [Net-(D28-A)] on B.Cu, length 10.6773 mm
+    @(122.1668 mm, 306.0435 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2065 mm)
+    Rule: board setup constraints hole; error
+    @(389.7500 mm, 367.2000 mm): Track [/Keyboard/Col_6] on F.Cu, length 35.6500 mm
+    @(408.1544 mm, 365.3935 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(284.2653 mm, 378.5241 mm): Track [Net-(D75-A)] on B.Cu, length 2.7099 mm
+    @(283.1134 mm, 380.3952 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(389.0189 mm, 279.4435 mm): Track [Net-(D103-A)] on B.Cu, length 10.6773 mm
+    @(383.5899 mm, 283.2435 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(147.2189 mm, 298.3349 mm): Track [Net-(D29-A)] on B.Cu, length 10.3480 mm
+    @(141.9737 mm, 301.9511 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(166.3724 mm, 300.8582 mm): Track [Net-(D30-A)] on B.Cu, length 5.8574 mm
+    @(162.4417 mm, 303.1599 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(270.2256 mm, 356.9744 mm): Track [/Keyboard/Col_10] on F.Cu, length 8.3988 mm
+    @(276.1887 mm, 358.1263 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(184.3509 mm, 309.2634 mm): Track [Net-(D31-A)] on B.Cu, length 4.8139 mm
+    @(181.7868 mm, 311.0644 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(308.4656 mm, 368.4998 mm): Track [Net-(D76-A)] on B.Cu, length 2.7099 mm
+    @(307.3137 mm, 370.3709 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(187.0511 mm, 306.5633 mm): Track [Net-(D31-A)] on B.Cu, length 3.8186 mm
+    @(187.6268 mm, 308.8379 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(379.5823 mm, 355.6435 mm): Track [Net-(D77-A)] on B.Cu, length 10.6773 mm
+    @(374.5793 mm, 363.1935 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2001 mm)
+    Rule: board setup constraints hole; error
+    @(204.1049 mm, 312.7954 mm): Track [Net-(D32-A)] on B.Cu, length 3.3424 mm
+    @(201.9685 mm, 313.3040 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(136.6762 mm, 317.3318 mm): Track [/Keyboard/Col_1] on B.Cu, length 6.5837 mm
+    @(135.5243 mm, 321.3424 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(482.5019 mm, 354.0896 mm): Track [/Keyboard/Col_1] on B.Cu, length 6.5837 mm
+    @(481.3500 mm, 358.1002 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(201.7414 mm, 315.1589 mm): Track [Net-(D32-A)] on B.Cu, length 3.2240 mm
+    @(200.9954 mm, 316.9599 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(408.0834 mm, 355.6435 mm): Track [Net-(D78-A)] on B.Cu, length 10.6773 mm
+    @(402.6544 mm, 359.4435 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(254.7456 mm, 327.5224 mm): Track [Net-(D33-A)] on B.Cu, length 3.0344 mm
+    @(255.4916 mm, 329.3234 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(267.8055 mm, 295.7605 mm): Track [/Keyboard/Col_7] on B.Cu, length 7.5525 mm
+    @(266.6536 mm, 297.7369 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(447.3631 mm, 354.5377 mm): Track [Net-(D79-A)] on B.Cu, length 10.6773 mm
+    @(442.3601 mm, 362.0877 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(133.8187 mm, 298.2828 mm): Track [/Keyboard/Col_1] on B.Cu, length 6.5837 mm
+    @(132.6668 mm, 302.2935 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(277.3117 mm, 309.3063 mm): Track [Net-(D34-A)] on B.Cu, length 9.8935 mm
+    @(271.4841 mm, 316.7630 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2173 mm)
+    Rule: board setup constraints hole; error
+    @(270.3159 mm, 316.3021 mm): Track [Net-(D34-A)] on B.Cu, length 4.9773 mm
+    @(271.4841 mm, 316.7630 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(447.0933 mm, 287.7820 mm): Track [/Keyboard/Col_4] on B.Cu, length 5.4220 mm
+    @(451.7693 mm, 285.9810 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(297.9682 mm, 302.8826 mm): Track [Net-(D35-A)] on B.Cu, length 8.8919 mm
+    @(295.8338 mm, 307.8673 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(452.5474 mm, 322.0951 mm): Track [/Keyboard/Row_6] on F.Cu, length 3.1924 mm
+    @(451.8014 mm, 323.8961 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2177 mm)
+    Rule: board setup constraints hole; error
+    @(291.6807 mm, 309.8193 mm): Track [Net-(D35-A)] on B.Cu, length 4.0150 mm
+    @(290.5288 mm, 309.3186 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(468.1692 mm, 303.1308 mm): Track [/Keyboard/Row_6] on F.Cu, length 6.4616 mm
+    @(470.7862 mm, 304.9318 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(291.6807 mm, 309.1701 mm): Track [Net-(D35-A)] on B.Cu, length 0.6492 mm
+    @(290.5288 mm, 309.3186 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(317.5206 mm, 299.4753 mm): Track [Net-(D36-A)] on B.Cu, length 12.9111 mm
+    @(310.5813 mm, 304.7856 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2385 mm)
+    Rule: board setup constraints hole; error
+    @(455.6202 mm, 302.8500 mm): Track [/Keyboard/Row_6] on F.Cu, length 2.9698 mm
+    @(456.7693 mm, 301.1487 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(482.3217 mm, 259.2138 mm): Track [/Keyboard/Col_7] on B.Cu, length 6.5837 mm
+    @(481.1698 mm, 263.2244 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(336.7449 mm, 298.3881 mm): Track [Net-(D37-A)] on B.Cu, length 11.1651 mm
+    @(331.4827 mm, 306.1972 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2046 mm)
+    Rule: board setup constraints hole; error
+    @(477.6500 mm, 314.4000 mm): Track [/Keyboard/Row_6] on F.Cu, length 12.3744 mm
+    @(470.2753 mm, 320.1406 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2385 mm)
+    Rule: board setup constraints hole; error
+    @(448.5500 mm, 302.8500 mm): Track [/Keyboard/Row_6] on F.Cu, length 7.0702 mm
+    @(456.7693 mm, 301.1487 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(355.7698 mm, 298.3665 mm): Track [Net-(D38-A)] on B.Cu, length 10.6773 mm
+    @(350.7668 mm, 305.9165 mm): NPTH pad
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1270 mm; actual 0.1070 mm)
+    Rule: netclass 'Default'; error
+    @(151.6500 mm, 207.6500 mm): Track [/VRM/voltIn] on F.Cu, length 2.7000 mm
+    @(153.4000 mm, 207.2750 mm): Via [Net-(M3-G)] on F.Cu - B.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(324.7563 mm, 283.1467 mm): Track [/Keyboard/Col_10] on B.Cu, length 3.0910 mm
+    @(326.4543 mm, 283.0778 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(374.8198 mm, 298.4935 mm): Track [Net-(D39-A)] on B.Cu, length 10.6773 mm
+    @(369.8168 mm, 306.0435 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2035 mm)
+    Rule: board setup constraints hole; error
+    @(258.6074 mm, 347.1426 mm): Track [/Keyboard/Row_3] on F.Cu, length 6.2211 mm
+    @(266.1692 mm, 348.3489 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(167.6054 mm, 324.6500 mm): Track [/Keyboard/Row_3] on F.Cu, length 5.6569 mm
+    @(170.3341 mm, 324.5284 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2013 mm)
+    Rule: board setup constraints hole; error
+    @(140.5500 mm, 323.0000 mm): Track [/Keyboard/Row_3] on F.Cu, length 7.8803 mm
+    @(149.8820 mm, 321.6013 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(430.3773 mm, 303.1227 mm): Track [/Keyboard/Row_6] on F.Cu, length 6.5388 mm
+    @(432.8174 mm, 304.9237 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(453.6023 mm, 323.1500 mm): Track [/Keyboard/Row_6] on F.Cu, length 1.4919 mm
+    @(451.8014 mm, 323.8961 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(296.3525 mm, 346.7525 mm): Track [/Keyboard/Col_7] on B.Cu, length 8.3829 mm
+    @(295.2006 mm, 349.7174 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(463.5535 mm, 259.1373 mm): Track [/Keyboard/Col_4] on B.Cu, length 6.5837 mm
+    @(462.4016 mm, 263.1479 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2137 mm)
+    Rule: board setup constraints hole; error
+    @(282.8477 mm, 310.4955 mm): Track [/Keyboard/Col_7] on B.Cu, length 7.4985 mm
+    @(281.6831 mm, 312.6423 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(339.8124 mm, 302.6131 mm): Track [/Keyboard/Col_10] on B.Cu, length 3.9403 mm
+    @(341.8809 mm, 302.1737 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(405.0125 mm, 260.1355 mm): Track [/Keyboard/Col_10] on B.Cu, length 6.5837 mm
+    @(403.8606 mm, 264.1461 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(183.6275 mm, 328.6500 mm): Track [/Keyboard/Row_3] on F.Cu, length 7.2252 mm
+    @(184.7501 mm, 328.1435 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(129.1895 mm, 323.3579 mm): Track [/Keyboard/Row_3] on F.Cu, length 10.6526 mm
+    @(130.0243 mm, 321.3424 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(479.0612 mm, 282.7939 mm): Track [/Keyboard/Col_2] on B.Cu, length 4.3020 mm
+    @(481.2862 mm, 282.1979 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(156.5263 mm, 317.6580 mm): Track [/Keyboard/Col_2] on B.Cu, length 6.3713 mm
+    @(155.3744 mm, 321.8891 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2394 mm)
+    Rule: board setup constraints hole; error
+    @(331.8500 mm, 323.5500 mm): Track [/Keyboard/Row_3] on F.Cu, length 18.8500 mm
+    @(335.9811 mm, 325.3894 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(354.5522 mm, 320.1916 mm): Track [/Keyboard/Col_11] on F.Cu, length 0.7562 mm
+    @(355.0294 mm, 321.3435 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(335.4057 mm, 319.4943 mm): Track [/Keyboard/Col_11] on F.Cu, length 10.1386 mm
+    @(340.8812 mm, 321.5098 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(161.5197 mm, 265.4500 mm): Track [/Keyboard/Row_0] on F.Cu, length 2.5456 mm
+    @(163.1708 mm, 264.2508 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(218.2687 mm, 277.2000 mm): Track [/Keyboard/Row_0] on F.Cu, length 1.3884 mm
+    @(219.7276 mm, 277.0298 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(293.2253 mm, 330.2747 mm): Track [/Keyboard/Row_3] on F.Cu, length 13.9522 mm
+    @(296.4631 mm, 332.0757 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(148.4303 mm, 323.0000 mm): Track [/Keyboard/Row_3] on F.Cu, length 2.0506 mm
+    @(149.8820 mm, 321.6013 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2069 mm)
+    Rule: board setup constraints hole; error
+    @(254.2500 mm, 283.6500 mm): Track [/Keyboard/Row_0] on F.Cu, length 4.5036 mm
+    @(255.5755 mm, 280.6871 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(257.4345 mm, 280.4655 mm): Track [/Keyboard/Row_0] on F.Cu, length 10.2500 mm
+    @(260.6000 mm, 278.4500 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(264.8285 mm, 347.1426 mm): Track [/Keyboard/Row_3] on F.Cu, length 10.3841 mm
+    @(266.1692 mm, 348.3489 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2343 mm)
+    Rule: board setup constraints hole; error
+    @(332.9500 mm, 265.8000 mm): Track [/Keyboard/Row_0] on F.Cu, length 7.5222 mm
+    @(336.4068 mm, 267.6343 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(277.7720 mm, 336.4448 mm): Track [/Keyboard/Row_3] on F.Cu, length 8.9332 mm
+    @(281.0722 mm, 334.4293 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(501.3945 mm, 344.5394 mm): Track [/Keyboard/Col_2] on B.Cu, length 6.5837 mm
+    @(500.2426 mm, 348.5500 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2262 mm)
+    Rule: board setup constraints hole; error
+    @(153.9000 mm, 265.4500 mm): Track [/Keyboard/Row_0] on F.Cu, length 7.6197 mm
+    @(163.1708 mm, 264.2508 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(198.8004 mm, 272.1000 mm): Track [/Keyboard/Row_0] on F.Cu, length 6.8720 mm
+    @(199.7312 mm, 271.4018 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(299.3822 mm, 324.2678 mm): Track [/Keyboard/Col_11] on F.Cu, length 13.0000 mm
+    @(305.4079 mm, 325.4197 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(359.6945 mm, 323.3590 mm): Track [/Keyboard/Row_3] on F.Cu, length 22.5465 mm
+    @(360.5294 mm, 321.3435 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2127 mm)
+    Rule: board setup constraints hole; error
+    @(195.3500 mm, 272.1000 mm): Track [/Keyboard/Row_0] on F.Cu, length 3.4504 mm
+    @(199.7312 mm, 271.4018 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(274.4168 mm, 339.8000 mm): Track [/Keyboard/Row_3] on F.Cu, length 4.7450 mm
+    @(276.0095 mm, 336.5783 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(265.5939 mm, 341.1805 mm): Track [/Keyboard/Col_11] on F.Cu, length 15.3657 mm
+    @(267.9574 mm, 340.4460 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(274.2121 mm, 275.3500 mm): Track [/Keyboard/Row_0] on F.Cu, length 3.5751 mm
+    @(275.4269 mm, 272.5061 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(346.2639 mm, 320.2139 mm): Track [/Keyboard/Col_11] on F.Cu, length 0.5925 mm
+    @(346.3793 mm, 321.3658 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(312.3138 mm, 325.3862 mm): Track [/Keyboard/Row_3] on F.Cu, length 17.4522 mm
+    @(316.1647 mm, 327.1872 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2068 mm)
+    Rule: board setup constraints hole; error
+    @(345.5443 mm, 319.4943 mm): Track [/Keyboard/Col_11] on F.Cu, length 1.0177 mm
+    @(346.3793 mm, 321.3658 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(291.5800 mm, 330.3153 mm): Track [/Keyboard/Col_11] on F.Cu, length 7.8706 mm
+    @(294.8885 mm, 328.6358 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(313.6295 mm, 265.6705 mm): Track [/Keyboard/Row_0] on F.Cu, length 19.1910 mm
+    @(316.5959 mm, 267.4715 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2343 mm)
+    Rule: board setup constraints hole; error
+    @(355.3084 mm, 320.1916 mm): Track [/Keyboard/Col_11] on F.Cu, length 1.8973 mm
+    @(355.0294 mm, 321.3435 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2456 mm)
+    Rule: board setup constraints hole; error
+    @(354.4438 mm, 320.3000 mm): Track [/Keyboard/Col_11] on F.Cu, length 0.1534 mm
+    @(355.0294 mm, 321.3435 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(287.0404 mm, 274.0239 mm): Track [/Keyboard/Col_8] on B.Cu, length 7.4373 mm
+    @(285.8885 mm, 269.1069 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2237 mm)
+    Rule: board setup constraints hole; error
+    @(180.9500 mm, 267.4500 mm): Track [/Keyboard/Row_0] on F.Cu, length 6.5761 mm
+    @(183.7419 mm, 267.3594 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2030 mm)
+    Rule: board setup constraints hole; error
+    @(294.3500 mm, 268.1000 mm): Track [/Keyboard/Row_0] on F.Cu, length 16.6022 mm
+    @(295.2956 mm, 266.9461 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2456 mm)
+    Rule: board setup constraints hole; error
+    @(346.9425 mm, 320.3000 mm): Track [/Keyboard/Col_11] on F.Cu, length 7.5013 mm
+    @(355.0294 mm, 321.3435 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(223.9741 mm, 277.1191 mm): Track [/Keyboard/Row_0] on F.Cu, length 4.6277 mm
+    @(224.8089 mm, 279.1346 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(276.7400 mm, 272.8220 mm): Track [/Keyboard/Row_0] on F.Cu, length 12.6402 mm
+    @(280.6577 mm, 270.8065 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(258.2195 mm, 341.1805 mm): Track [/Keyboard/Col_11] on F.Cu, length 7.3744 mm
+    @(263.1942 mm, 343.1960 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(219.2504 mm, 278.1817 mm): Track [/Keyboard/Row_0] on F.Cu, length 3.6610 mm
+    @(219.7276 mm, 277.0298 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(222.9114 mm, 278.1817 mm): Track [/Keyboard/Row_0] on F.Cu, length 1.5028 mm
+    @(224.8089 mm, 279.1346 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(130.0273 mm, 317.5424 mm): Track [Net-(D41-A)] on B.Cu, length 10.6773 mm
+    @(125.0243 mm, 325.0924 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(475.8530 mm, 354.3002 mm): Track [Net-(D80-A)] on B.Cu, length 10.6773 mm
+    @(470.8500 mm, 361.8502 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(150.5648 mm, 318.0682 mm): Track [Net-(D42-A)] on B.Cu, length 7.3755 mm
+    @(149.8820 mm, 321.6013 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(494.6716 mm, 344.7500 mm): Track [Net-(D81-A)] on B.Cu, length 10.6773 mm
+    @(489.2426 mm, 348.5500 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(475.7434 mm, 335.3131 mm): Track [Net-(D82-A)] on B.Cu, length 10.6773 mm
+    @(470.7404 mm, 342.8631 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(444.4704 mm, 341.7225 mm): Track [/Keyboard/Col_5] on B.Cu, length 6.5837 mm
+    @(443.3185 mm, 339.1494 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(145.3495 mm, 323.2835 mm): Track [Net-(D42-A)] on B.Cu, length 2.2978 mm
+    @(144.6926 mm, 325.0845 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(457.7203 mm, 335.3625 mm): Track [Net-(D83-A)] on B.Cu, length 7.8232 mm
+    @(456.7706 mm, 339.1625 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(165.7523 mm, 325.3559 mm): Track [Net-(D43-A)] on B.Cu, length 3.1719 mm
+    @(164.6637 mm, 327.1569 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(348.0587 mm, 259.8736 mm): Track [/Keyboard/Col_11] on B.Cu, length 6.5837 mm
+    @(346.9068 mm, 263.8843 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(122.2655 mm, 260.3622 mm): Track [Net-(D2-A)] on B.Cu, length 10.6773 mm
+    @(116.8365 mm, 264.1622 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(395.7418 mm, 279.2329 mm): Track [/Keyboard/Col_11] on B.Cu, length 6.5837 mm
+    @(394.5899 mm, 283.2435 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(187.5696 mm, 326.9530 mm): Track [Net-(D44-A)] on B.Cu, length 3.9739 mm
+    @(184.7501 mm, 328.1435 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(388.2789 mm, 337.9540 mm): Track [/Keyboard/Col_11] on B.Cu, length 4.3020 mm
+    @(387.4619 mm, 340.4000 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(316.0359 mm, 348.0567 mm): Track [/Keyboard/Col_8] on B.Cu, length 7.3302 mm
+    @(314.8840 mm, 343.5554 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(287.4708 mm, 295.3635 mm): Track [/Keyboard/Col_8] on B.Cu, length 7.4373 mm
+    @(286.3189 mm, 290.4465 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(213.9559 mm, 368.3222 mm): Track [/Keyboard/Col_5] on B.Cu, length 7.4373 mm
+    @(216.6182 mm, 364.0309 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(141.5801 mm, 259.5685 mm): Track [Net-(D3-A)] on B.Cu, length 10.6773 mm
+    @(136.1511 mm, 263.3685 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(386.2312 mm, 355.4328 mm): Track [/Keyboard/Col_11] on B.Cu, length 6.5837 mm
+    @(385.0793 mm, 359.4435 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(437.8215 mm, 335.3494 mm): Track [Net-(D84-A)] on B.Cu, length 10.6773 mm
+    @(432.8185 mm, 342.8994 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(444.5035 mm, 259.1042 mm): Track [/Keyboard/Col_5] on B.Cu, length 6.5837 mm
+    @(443.3516 mm, 263.1149 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(205.3796 mm, 335.5336 mm): Track [Net-(D45-A)] on B.Cu, length 2.2870 mm
+    @(203.9220 mm, 335.3622 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(437.8215 mm, 316.3326 mm): Track [Net-(D85-A)] on B.Cu, length 10.6773 mm
+    @(432.8185 mm, 323.8826 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(163.6702 mm, 260.9010 mm): Track [Net-(D4-A)] on B.Cu, length 6.8571 mm
+    @(163.1708 mm, 264.2508 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(456.8044 mm, 316.3461 mm): Track [Net-(D86-A)] on B.Cu, length 10.6773 mm
+    @(451.8014 mm, 323.8961 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(203.7624 mm, 337.1508 mm): Track [Net-(D45-A)] on B.Cu, length 3.6131 mm
+    @(202.7275 mm, 338.9518 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(158.8215 mm, 265.7497 mm): Track [Net-(D4-A)] on B.Cu, length 2.7055 mm
+    @(157.8630 mm, 267.5507 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(101.1924 mm, 355.4328 mm): Track [/Keyboard/Col_5] on B.Cu, length 6.5837 mm
+    @(100.0405 mm, 359.4435 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(475.7783 mm, 316.3406 mm): Track [Net-(D87-A)] on B.Cu, length 10.6773 mm
+    @(470.7753 mm, 323.8906 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(211.0653 mm, 344.5567 mm): Track [/Keyboard/Col_5] on B.Cu, length 7.4626 mm
+    @(213.8088 mm, 340.1842 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(178.5625 mm, 268.0875 mm): Track [Net-(D5-A)] on B.Cu, length 2.6628 mm
+    @(178.0265 mm, 269.8885 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(261.1787 mm, 345.9570 mm): Track [Net-(D46-A)] on B.Cu, length 4.6328 mm
+    @(260.7391 mm, 348.9436 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(494.8030 mm, 306.9500 mm): Track [Net-(D88-A)] on B.Cu, length 10.6773 mm
+    @(489.8000 mm, 314.5000 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(261.1787 mm, 341.8508 mm): Track [Net-(D46-A)] on B.Cu, length 4.1062 mm
+    @(263.1942 mm, 343.1960 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(367.1813 mm, 317.3328 mm): Track [/Keyboard/Col_11] on B.Cu, length 6.5837 mm
+    @(366.0294 mm, 321.3435 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(501.3809 mm, 259.1831 mm): Track [/Keyboard/Col_8] on B.Cu, length 6.5837 mm
+    @(500.2290 mm, 263.1937 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(475.7153 mm, 297.3818 mm): Track [Net-(D89-A)] on B.Cu, length 10.6773 mm
+    @(470.2862 mm, 301.1818 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(204.1806 mm, 271.0325 mm): Track [Net-(D6-A)] on B.Cu, length 3.2376 mm
+    @(204.9621 mm, 273.1014 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(277.1614 mm, 333.7974 mm): Track [Net-(D47-A)] on B.Cu, length 4.2641 mm
+    @(276.0095 mm, 336.5783 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(277.1614 mm, 338.0614 mm): Track [Net-(D47-A)] on B.Cu, length 3.1693 mm
+    @(277.9350 mm, 339.8349 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(362.4187 mm, 298.1558 mm): Track [/Keyboard/Col_11] on B.Cu, length 6.5837 mm
+    @(361.2668 mm, 302.1665 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(456.7723 mm, 297.3487 mm): Track [Net-(D90-A)] on B.Cu, length 10.6773 mm
+    @(451.7693 mm, 304.8987 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(201.8913 mm, 273.3218 mm): Track [Net-(D6-A)] on B.Cu, length 5.1691 mm
+    @(199.0480 mm, 275.1228 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(221.8652 mm, 276.5213 mm): Track [Net-(D7-A)] on B.Cu, length 2.7099 mm
+    @(219.7276 mm, 277.0298 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(437.7465 mm, 297.3737 mm): Track [Net-(D91-A)] on B.Cu, length 10.6773 mm
+    @(432.3174 mm, 301.1737 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2093 mm)
+    Rule: board setup constraints hole; error
+    @(302.3819 mm, 321.9319 mm): Track [Net-(D48-A)] on B.Cu, length 8.9682 mm
+    @(300.1482 mm, 327.0277 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(348.0043 mm, 278.9789 mm): Track [/Keyboard/Col_11] on B.Cu, length 6.5837 mm
+    @(346.8524 mm, 282.9895 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(296.0404 mm, 329.9514 mm): Track [Net-(D48-A)] on B.Cu, length 3.8315 mm
+    @(296.4631 mm, 332.0757 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(296.0404 mm, 328.2734 mm): Track [Net-(D48-A)] on B.Cu, length 1.6780 mm
+    @(294.8885 mm, 328.6358 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(321.9466 mm, 318.3965 mm): Track [Net-(D49-A)] on B.Cu, length 12.7687 mm
+    @(315.1795 mm, 323.5346 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(276.5788 mm, 273.8535 mm): Track [Net-(D9-A)] on B.Cu, length 3.7226 mm
+    @(277.0613 mm, 275.9181 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(302.2908 mm, 311.0142 mm): Track [/Keyboard/Col_8] on B.Cu, length 7.3572 mm
+    @(301.1389 mm, 306.4160 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(276.5788 mm, 272.0290 mm): Track [Net-(D9-A)] on B.Cu, length 1.8245 mm
+    @(275.4269 mm, 272.5061 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2053 mm)
+    Rule: board setup constraints hole; error
+    @(282.9604 mm, 265.6474 mm): Track [Net-(D9-A)] on B.Cu, length 9.0249 mm
+    @(280.6577 mm, 270.8065 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(341.9604 mm, 317.5802 mm): Track [Net-(D50-A)] on B.Cu, length 7.7222 mm
+    @(340.8812 mm, 321.5098 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2314 mm)
+    Rule: board setup constraints hole; error
+    @(296.4475 mm, 267.9963 mm): Track [Net-(D10-A)] on B.Cu, length 4.4695 mm
+    @(296.5020 mm, 270.5318 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(302.5285 mm, 261.2124 mm): Track [Net-(D10-A)] on B.Cu, length 8.5997 mm
+    @(300.6946 mm, 265.8966 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(360.4584 mm, 317.5435 mm): Track [Net-(D51-A)] on B.Cu, length 10.6773 mm
+    @(355.0294 mm, 321.3435 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(322.4417 mm, 259.0787 mm): Track [Net-(D11-A)] on B.Cu, length 12.2729 mm
+    @(316.5959 mm, 267.4715 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(391.4014 mm, 317.5435 mm): Track [Net-(D52-A)] on B.Cu, length 10.6773 mm
+    @(385.9724 mm, 321.3435 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(341.4098 mm, 260.0843 mm): Track [Net-(D12-A)] on B.Cu, length 10.6773 mm
+    @(336.4068 mm, 267.6343 mm): NPTH pad
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2010 mm)
+    Rule: board setup constraints hole; error
+    @(306.5598 mm, 330.2202 mm): Track [/Keyboard/Col_8] on B.Cu, length 7.4097 mm
+    @(305.4079 mm, 325.4197 mm): NPTH pad
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1270 mm; actual 0.1072 mm)
+    Rule: netclass 'Default'; error
+    @(150.1700 mm, 205.8500 mm): Pad 2 on F.Cu
+    @(151.6500 mm, 207.6500 mm): Track [/VRM/voltIn] on F.Cu, length 2.7000 mm
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1270 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; error
+    @(150.3250 mm, 203.5500 mm): PTH pad 11
+    @(148.9250 mm, 204.8000 mm): Polygon [<no net>] on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1270 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; error
+    @(149.7000 mm, 204.5500 mm): PTH pad 11
+    @(148.9250 mm, 204.8000 mm): Polygon [<no net>] on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1270 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; error
+    @(149.0750 mm, 203.5500 mm): PTH pad 11
+    @(148.9250 mm, 204.8000 mm): Polygon [<no net>] on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1270 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; error
+    @(149.7000 mm, 202.5500 mm): PTH pad 11
+    @(148.9250 mm, 204.8000 mm): Polygon [<no net>] on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1270 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; error
+    @(149.7000 mm, 203.5500 mm): Pad 11 on F.Cu
+    @(148.9250 mm, 204.8000 mm): Polygon [<no net>] on F.Cu
+[items_not_allowed]: Items not allowed (keepout area)
+    Rule: keepout area; error
+    @(60.0000 mm, 184.3500 mm): PTH pad S1
+[items_not_allowed]: Items not allowed (keepout area)
+    Rule: keepout area; error
+    @(60.0000 mm, 202.1500 mm): PTH pad S2
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **
