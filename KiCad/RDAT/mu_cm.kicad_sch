@@ -8957,7 +8957,7 @@
 				)
 			)
 		)
-		(property "Value" "100K/1%"
+		(property "Value" "100K"
 			(at 91.948 255.27 90)
 			(effects
 				(font
@@ -9035,6 +9035,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB_PART_NUMBER" "C25741"
+			(at 91.44 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -9135,7 +9143,7 @@
 				)
 			)
 		)
-		(property "Value" "100K/1%"
+		(property "Value" "100K"
 			(at 91.948 293.37 90)
 			(effects
 				(font
@@ -9213,6 +9221,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB_PART_NUMBER" "C25741"
+			(at 91.44 290.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -9313,6 +9329,14 @@
 			)
 		)
 		(property "JLCPCB_LINK" ""
+			(at 212.09 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB_PART_NUMBER" ""
 			(at 212.09 307.34 0)
 			(effects
 				(font
@@ -9488,6 +9512,14 @@
 				)
 			)
 		)
+		(property "JLCPCB_PART_NUMBER" ""
+			(at 181.61 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "845efb52-9de8-48e3-ad9c-c623250115bc")
 		)
@@ -9518,7 +9550,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K/1%"
+		(property "Value" "10K"
 			(at 191.262 267.208 90)
 			(effects
 				(font
@@ -9597,6 +9629,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB_PART_NUMBER" ""
+			(at 187.96 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -9787,6 +9827,14 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB_PART_NUMBER" ""
+			(at 177.8 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "N"
 			(uuid "8ac68ee4-99f7-4b28-b88b-ee9d619b7a25")
 		)
@@ -9873,6 +9921,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB_PART_NUMBER" ""
+			(at 135.89 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "68"
@@ -10685,7 +10741,7 @@
 				)
 			)
 		)
-		(property "Value" "1K/1%"
+		(property "Value" "1K"
 			(at 161.29 45.72 90)
 			(effects
 				(font
@@ -10727,6 +10783,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB_PART_NUMBER" ""
+			(at 161.29 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -10827,6 +10891,14 @@
 			)
 		)
 		(property "JLCPCB_LINK" ""
+			(at 237.49 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB_PART_NUMBER" ""
 			(at 237.49 307.34 0)
 			(effects
 				(font

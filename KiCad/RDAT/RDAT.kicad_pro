@@ -139,7 +139,7 @@
         "min_track_width": 0.0889,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.45,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -526,7 +526,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "../../RDAT_BOM_NEW.csv",
+    "bom_export_filename": "../../RDAT_BOM_NEW_NEW.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -737,6 +737,12 @@
           "group_by": false,
           "label": "DigiKey_Part_Number",
           "name": "DigiKey_Part_Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "JLCPCB_PART_NUMBER",
+          "name": "JLCPCB_PART_NUMBER",
           "show": false
         }
       ],

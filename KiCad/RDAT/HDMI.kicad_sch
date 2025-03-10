@@ -5285,6 +5285,14 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB_PART_NUMBER" ""
+			(at 59.69 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "dd547ffd-28cb-46f9-bd38-0f20159ccd2a")
 		)
@@ -5387,7 +5395,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2K/1%"
+		(property "Value" "2.2K"
 			(at 45.72 172.72 0)
 			(effects
 				(font
@@ -5468,6 +5476,14 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB_PART_NUMBER" ""
+			(at 44.45 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "70c6b9aa-5bf5-45eb-935c-ce40678b8b9b")
 		)
@@ -5501,7 +5517,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1M/1%"
+		(property "Value" "1M"
 			(at 45.72 231.14 0)
 			(effects
 				(font
@@ -5582,6 +5598,14 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB_PART_NUMBER" "C26083"
+			(at 44.45 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3734faa2-a506-4c6f-a03b-aeba84d47e54")
 		)
@@ -5615,7 +5639,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470R/1%"
+		(property "Value" "470R"
 			(at 67.31 62.23 90)
 			(effects
 				(font
@@ -5687,13 +5711,21 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/TexasInstruments-CSD85302L/C701748"
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/26487-0402WGF1002TCE/C25744"
 			(at 68.58 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB_PART_NUMBER" "C25744"
+			(at 68.58 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -5795,7 +5827,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF/50V"
+		(property "Value" "100nF"
 			(at 40.64 36.83 90)
 			(effects
 				(font
@@ -5875,6 +5907,14 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB_PART_NUMBER" ""
+			(at 34.29 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d642a966-b275-4bc0-b4a2-ac5555d68b93")
 		)
@@ -5907,7 +5947,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF/50V"
+		(property "Value" "100nF"
 			(at 40.64 27.94 90)
 			(effects
 				(font
@@ -5987,6 +6027,14 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB_PART_NUMBER" ""
+			(at 34.29 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c207295c-26a5-425f-a7ae-7df28399c37d")
 		)
@@ -6020,7 +6068,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2K/1%"
+		(property "Value" "2.2K"
 			(at 81.28 172.72 0)
 			(effects
 				(font
@@ -6099,6 +6147,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB_PART_NUMBER" ""
+			(at 80.01 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -6279,6 +6335,14 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB_PART_NUMBER" ""
+			(at 109.22 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1fbfd24e-12c8-4e4e-bf20-33e383d29e4d")
 		)
@@ -6312,7 +6376,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1K/1%"
+		(property "Value" "1K"
 			(at 85.09 233.68 90)
 			(effects
 				(font
@@ -6393,6 +6457,14 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB_PART_NUMBER" ""
+			(at 82.55 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b5c4786d-7529-486a-b130-4f5e2ac5ba03")
 		)
@@ -6425,7 +6497,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF/50V"
+		(property "Value" "100nF"
 			(at 40.64 13.97 90)
 			(effects
 				(font
@@ -6503,6 +6575,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB_PART_NUMBER" ""
+			(at 34.29 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -6687,6 +6767,14 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB_PART_NUMBER" ""
+			(at 179.07 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ca9e1482-baea-4280-8b38-beb7e03b7f5f")
 		)
@@ -6785,7 +6873,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF/50V"
+		(property "Value" "100nF"
 			(at 190.5 30.48 90)
 			(effects
 				(font
@@ -6865,6 +6953,14 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB_PART_NUMBER" ""
+			(at 184.15 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "99531c06-3ff4-49c7-b79f-6710d0f499bb")
 		)
@@ -6942,6 +7038,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB_PART_NUMBER" ""
+			(at 124.46 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -7127,6 +7231,14 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB_PART_NUMBER" ""
+			(at 90.17 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "37b8a849-ba5b-45d5-97a0-2f42fb4e3b94")
 		)
@@ -7242,6 +7354,14 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB_PART_NUMBER" ""
+			(at 179.07 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "8"
 			(uuid "275fe8b1-29fe-46cf-b2ad-8bd18867f834")
 		)
@@ -7331,7 +7451,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF/50V"
+		(property "Value" "100nF"
 			(at 40.64 39.37 90)
 			(effects
 				(font
@@ -7409,6 +7529,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB_PART_NUMBER" ""
+			(at 34.29 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -7589,6 +7717,14 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB_PART_NUMBER" ""
+			(at 74.93 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "cb1c41c5-d759-47f6-b998-b1e70df88aa7")
 		)
@@ -7687,7 +7823,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470R/1%"
+		(property "Value" "470R"
 			(at 64.77 62.23 90)
 			(effects
 				(font
@@ -7759,13 +7895,21 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/TexasInstruments-CSD85302L/C701748"
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/26487-0402WGF1002TCE/C25744"
 			(at 66.04 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB_PART_NUMBER" "C25744"
+			(at 66.04 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -7801,7 +7945,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470R/1%"
+		(property "Value" "470R"
 			(at 45.72 62.23 90)
 			(effects
 				(font
@@ -7873,13 +8017,21 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/TexasInstruments-CSD85302L/C701748"
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/26487-0402WGF1002TCE/C25744"
 			(at 46.99 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB_PART_NUMBER" "C25744"
+			(at 46.99 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -7915,7 +8067,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2K/1%"
+		(property "Value" "2.2K"
 			(at 86.36 86.36 90)
 			(effects
 				(font
@@ -7994,6 +8146,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB_PART_NUMBER" ""
+			(at 82.55 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -8110,6 +8270,14 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB_PART_NUMBER" ""
+			(at 80.01 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "70c2f3fc-008b-4b5a-87dd-5a475f379a42")
 		)
@@ -8142,7 +8310,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF/50V"
+		(property "Value" "100nF"
 			(at 40.64 16.51 90)
 			(effects
 				(font
@@ -8220,6 +8388,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB_PART_NUMBER" ""
+			(at 34.29 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -8405,6 +8581,14 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB_PART_NUMBER" ""
+			(at 63.5 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ef17a51c-e2e7-47f5-a1bd-ccd070af942d")
 		)
@@ -8441,7 +8625,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470R/1%"
+		(property "Value" "470R"
 			(at 58.42 62.23 90)
 			(effects
 				(font
@@ -8513,13 +8697,21 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/TexasInstruments-CSD85302L/C701748"
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/26487-0402WGF1002TCE/C25744"
 			(at 59.69 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB_PART_NUMBER" "C25744"
+			(at 59.69 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -8688,7 +8880,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470R/1%"
+		(property "Value" "470R"
 			(at 52.07 62.23 90)
 			(effects
 				(font
@@ -8760,13 +8952,21 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/TexasInstruments-CSD85302L/C701748"
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/26487-0402WGF1002TCE/C25744"
 			(at 53.34 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB_PART_NUMBER" "C25744"
+			(at 53.34 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -8886,6 +9086,14 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB_PART_NUMBER" ""
+			(at 62.23 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "01f773a2-098c-4a92-b977-884d172f7e85")
 		)
@@ -8921,7 +9129,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF/50V"
+		(property "Value" "100nF"
 			(at 40.64 25.4 90)
 			(effects
 				(font
@@ -8999,6 +9207,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB_PART_NUMBER" ""
+			(at 34.29 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -9186,6 +9402,14 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB_PART_NUMBER" ""
+			(at 71.12 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d9e372c5-9ed6-4434-825a-56fa8dddfde1")
 		)
@@ -9301,6 +9525,14 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB_PART_NUMBER" ""
+			(at 74.93 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "60f7624e-bd7b-4445-a487-afe24c876b2e")
 		)
@@ -9334,7 +9566,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2K/1%"
+		(property "Value" "2.2K"
 			(at 91.44 172.72 0)
 			(effects
 				(font
@@ -9413,6 +9645,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB_PART_NUMBER" ""
+			(at 90.17 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -9494,6 +9734,14 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB_PART_NUMBER" ""
+			(at 100.33 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "aa8594c8-4579-40f4-a471-85c096a2615b")
 		)
@@ -9530,7 +9778,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2K/1%"
+		(property "Value" "2.2K"
 			(at 35.56 172.72 0)
 			(effects
 				(font
@@ -9611,6 +9859,14 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB_PART_NUMBER" ""
+			(at 34.29 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7a923b02-667e-4f43-899f-d52b4a2b131c")
 		)
@@ -9643,7 +9899,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF/50V"
+		(property "Value" "100nF"
 			(at 40.64 50.8 90)
 			(effects
 				(font
@@ -9723,6 +9979,14 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB_PART_NUMBER" ""
+			(at 34.29 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8e4d1a9f-f6e5-48f4-8ea9-1e49fbfc2979")
 		)
@@ -9756,7 +10020,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470R/1%"
+		(property "Value" "470R"
 			(at 54.61 62.23 90)
 			(effects
 				(font
@@ -9828,13 +10092,21 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/TexasInstruments-CSD85302L/C701748"
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/26487-0402WGF1002TCE/C25744"
 			(at 55.88 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB_PART_NUMBER" "C25744"
+			(at 55.88 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -9935,7 +10207,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF/50V"
+		(property "Value" "100nF"
 			(at 40.64 48.26 90)
 			(effects
 				(font
@@ -10013,6 +10285,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB_PART_NUMBER" ""
+			(at 34.29 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -10133,6 +10413,14 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB_PART_NUMBER" ""
+			(at 63.5 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "dce509c8-0d89-4341-980a-9edb7fffbc6f")
 		)
@@ -10235,7 +10523,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470R/1%"
+		(property "Value" "470R"
 			(at 48.26 62.23 90)
 			(effects
 				(font
@@ -10307,13 +10595,21 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/TexasInstruments-CSD85302L/C701748"
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/26487-0402WGF1002TCE/C25744"
 			(at 49.53 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB_PART_NUMBER" "C25744"
+			(at 49.53 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -10393,6 +10689,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB_PART_NUMBER" ""
+			(at 34.29 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -10512,6 +10816,14 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB_PART_NUMBER" ""
+			(at 90.17 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "297b716b-7e70-4f89-8ee0-ac0751d4251f")
 		)
@@ -10610,7 +10922,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470R/1%"
+		(property "Value" "470R"
 			(at 60.96 62.23 90)
 			(effects
 				(font
@@ -10682,13 +10994,21 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/TexasInstruments-CSD85302L/C701748"
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/26487-0402WGF1002TCE/C25744"
 			(at 62.23 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB_PART_NUMBER" "C25744"
+			(at 62.23 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
