@@ -1,4 +1,4 @@
-24923577190932483
+24925318818843218
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -99779,6 +99779,13 @@ BAT_BK-18650-CLIP
 3
 footprints
 CAP-SMD_BD4.0-L4.3-W4.3-FD
+
+
+0
+2
+2
+footprints
+CAP-SMD_BD5.0-L5.3-W5.3-FD
 
 
 0

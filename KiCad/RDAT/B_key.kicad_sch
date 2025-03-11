@@ -6135,7 +6135,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 115.57 57.15 0)
 			(effects
 				(font
@@ -6162,7 +6162,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/4414076-GRM158R61A226ME15D/C3845593"
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/46786-CL21A226MAQNNNE/C45783"
 			(at 115.57 57.15 0)
 			(effects
 				(font
@@ -6249,7 +6249,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/16204-CL05A106MQ5NUNC/C15525"
+		(property "JLCPCB_LINK" "https://jlcpcb.com/partdetail/97651-CL10A106MA8NRNC/C96446"
 			(at 130.81 57.15 0)
 			(effects
 				(font
