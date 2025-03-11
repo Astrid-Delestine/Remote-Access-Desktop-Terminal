@@ -1,0 +1,3 @@
+# Unfortunate events have occured
+
+on 02/18/2025 I may have popped both 7a fuses on the latte panda mu dev board, this will make determining power draw much more diffucult... 

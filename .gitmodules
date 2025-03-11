@@ -1,0 +1,7 @@
+[submodule "KiCad/Libs/keyswitches.pretty"]
+	path = KiCad/Libs/keyswitches.pretty
+	url = https://github.com/daprice/keyswitches.pretty.git
+[submodule "Submodules"]
+	path = Submodules
+	url = https://github.com/sethhillbrand/kicad_templates.git
+	branch = master
