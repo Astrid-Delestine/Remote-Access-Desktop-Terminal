@@ -1,5 +1,5 @@
 # R-DAT
-
+Alpha Release: **THIS IS FOR LEGACY PROOF ONLY**
 
 ### Notes:
 The R-DAT will use a Latte pana MU 8gb [here](https://www.lattepanda.com/lattepanda-mu) & sold [here](https://www.dfrobot.com/kit-004.html?tracking=LATTEPANDAMU) with their github linked [here](https://github.com/LattePandaTeam/LattePanda-Mu).
